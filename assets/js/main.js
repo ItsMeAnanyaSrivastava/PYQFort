@@ -78,40 +78,8 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
   }
-  
-  // PDF viewer functionality
-  const fullscreenBtn = document.getElementById('fullscreen-btn');
-  const pdfViewer = document.getElementById('pdf-viewer');
-  const pdfIframe = document.getElementById('pdf-iframe');
-  
-  if (fullscreenBtn && pdfViewer) {
-    fullscreenBtn.addEventListener('click', function() {
-      if (pdfViewer.requestFullscreen) {
-        pdfViewer.requestFullscreen();
-      } else if (pdfViewer.mozRequestFullScreen) {
-        pdfViewer.mozRequestFullScreen();
-      } else if (pdfViewer.webkitRequestFullscreen) {
-        pdfViewer.webkitRequestFullscreen();
-      } else if (pdfViewer.msRequestFullscreen) {
-        pdfViewer.msRequestFullscreen();
-      }
-    });
-  }
-  
-  const printBtn = document.getElementById('print-btn');
-  
-  if (printBtn && pdfIframe) {
-    printBtn.addEventListener('click', function() {
-      try {
-        pdfIframe.contentWindow.focus();
-        pdfIframe.contentWindow.print();
-      } catch (e) {
-        console.warn('PDF print functionality not available:', e);
-      }
-    });
-  }
 
-  // ===== [Search] [Animation] =====
+  // ===== [Search] [Animation] [PDF Viewer] =====
   
   // Initialize enhanced search functionality
   initializeEnhancedSearch();
@@ -121,7 +89,419 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Initialize advanced filtering
   initializeAdvancedFiltering();
+  
+  // Initialize PDF viewer if on a PDF viewer page
+  if (document.querySelector('.pdf-viewer-container')) {
+    initializePDFViewer();
+  }
 });
+
+// ===== PDF VIEWER FUNCTIONALITY =====
+
+let currentViewer = 'iframe';
+let pdfDoc = null;
+let pageNum = 1;
+let pageIsRendering = false;
+let pageNumIsPending = null;
+let scale = 5.0; // Set to 500% by default for PDF.js
+let rotation = 0;
+
+// PDF Viewer initialization
+function initializePDFViewer() {
+  // Set up iframe error handling
+  const iframe = document.getElementById('pdf-iframe');
+  if (iframe) {
+    iframe.addEventListener('error', function() {
+      showIframeFallback();
+    });
+    
+    // Check if iframe loaded successfully
+    iframe.addEventListener('load', function() {
+      hideLoading();
+    });
+  }
+  
+  // Set up PDF.js viewer
+  initializePDFJS();
+  
+  // Set up viewer switching
+  setupViewerSwitching();
+  
+  // Set up fullscreen functionality
+  setupFullscreen();
+  
+  // Set up print functionality
+  setupPrint();
+  
+  // Hide loading after a delay
+  setTimeout(hideLoading, 2000);
+}
+
+function switchViewer(viewerType) {
+  currentViewer = viewerType;
+  
+  // Update tabs
+  document.querySelectorAll('.viewer-tab').forEach(tab => {
+    tab.classList.remove('active');
+  });
+  const targetTab = document.querySelector(`[data-viewer="${viewerType}"]`);
+  if (targetTab) {
+    targetTab.classList.add('active');
+  }
+  
+  // Update viewer content
+  document.querySelectorAll('.viewer-content').forEach(content => {
+    content.classList.remove('active');
+  });
+  const targetViewer = document.getElementById(`${viewerType}-viewer`);
+  if (targetViewer) {
+    targetViewer.classList.add('active');
+  }
+  
+  // Update description
+  const descriptions = {
+    iframe: 'Default browser PDF viewer with standard controls',
+    pdfjs: 'Advanced PDF.js viewer with enhanced features and better mobile support'
+  };
+  
+  const descElement = document.getElementById('viewer-description');
+  if (descElement) {
+    descElement.innerHTML = 
+      `<i class="fas fa-info-circle"></i> ${descriptions[viewerType]}`;
+  }
+  
+  // If switching to PDF.js, load the PDF with 500% zoom
+  if (viewerType === 'pdfjs' && !pdfDoc) {
+    scale = 5.0; // Set to 500% zoom
+    loadPDFJS();
+  } else if (viewerType === 'pdfjs' && pdfDoc) {
+    // If PDF already loaded, just update zoom to 500%
+    scale = 5.0;
+    updateZoomSelect();
+    queueRenderPage(pageNum);
+  }
+}
+
+function setupViewerSwitching() {
+  // Keep iframe as default for all devices
+  // No auto-switching behavior
+}
+
+function showIframeFallback() {
+  const fallback = document.querySelector('.iframe-fallback');
+  if (fallback) {
+    fallback.style.display = 'flex';
+  }
+}
+
+function hideLoading() {
+  const loading = document.getElementById('pdf-loading');
+  if (loading) {
+    loading.style.display = 'none';
+  }
+}
+
+function showError(message) {
+  const errorDiv = document.getElementById('pdf-error');
+  if (errorDiv) {
+    const errorP = errorDiv.querySelector('p');
+    if (errorP) {
+      errorP.textContent = message;
+    }
+    errorDiv.style.display = 'flex';
+  }
+}
+
+// PDF.js functionality
+function initializePDFJS() {
+  // Set up PDF.js controls
+  const prevBtn = document.getElementById('prev-page');
+  const nextBtn = document.getElementById('next-page');
+  const pageNumInput = document.getElementById('page-num');
+  const zoomSelect = document.getElementById('zoom-select');
+  const zoomInBtn = document.getElementById('zoom-in');
+  const zoomOutBtn = document.getElementById('zoom-out');
+  const rotateLeftBtn = document.getElementById('rotate-left');
+  const rotateRightBtn = document.getElementById('rotate-right');
+  
+  if (prevBtn) prevBtn.addEventListener('click', onPrevPage);
+  if (nextBtn) nextBtn.addEventListener('click', onNextPage);
+  if (pageNumInput) {
+    pageNumInput.addEventListener('change', function() {
+      const pageNumber = parseInt(this.value);
+      if (pageNumber > 0 && pageNumber <= (pdfDoc ? pdfDoc.numPages : 1)) {
+        pageNum = pageNumber;
+        queueRenderPage(pageNum);
+      }
+    });
+  }
+  
+  if (zoomSelect) {
+    zoomSelect.addEventListener('change', function() {
+      handleZoomChange(this.value);
+    });
+  }
+  
+  if (zoomInBtn) zoomInBtn.addEventListener('click', () => changeZoom(1.25));
+  if (zoomOutBtn) zoomOutBtn.addEventListener('click', () => changeZoom(0.8));
+  if (rotateLeftBtn) rotateLeftBtn.addEventListener('click', () => rotatePages(-90));
+  if (rotateRightBtn) rotateRightBtn.addEventListener('click', () => rotatePages(90));
+}
+
+function loadPDFJS() {
+  const loading = document.querySelector('.pdfjs-loading');
+  if (loading) loading.style.display = 'block';
+  
+  // Get PDF URL from the page
+  const iframe = document.getElementById('pdf-iframe');
+  if (!iframe) return;
+  
+  const pdfUrl = iframe.src.split('#')[0];
+  
+  // Check if PDF.js is available
+  if (typeof pdfjsLib === 'undefined') {
+    console.warn('PDF.js library not loaded');
+    if (loading) loading.style.display = 'none';
+    return;
+  }
+  
+  // Set default zoom to 500%
+  scale = 5.0;
+  
+  pdfjsLib.getDocument(pdfUrl).promise.then(pdfDoc_ => {
+    pdfDoc = pdfDoc_;
+    const pageCount = document.getElementById('page-count');
+    if (pageCount) {
+      pageCount.textContent = pdfDoc.numPages;
+    }
+    
+    // Set max value for page input
+    const pageNumInput = document.getElementById('page-num');
+    if (pageNumInput) {
+      pageNumInput.max = pdfDoc.numPages;
+    }
+    
+    // Set zoom select to 500%
+    updateZoomSelect();
+    
+    // Render first page
+    renderPage(pageNum);
+    
+    if (loading) loading.style.display = 'none';
+  }).catch(err => {
+    console.error('Error loading PDF:', err);
+    showError('Failed to load PDF with PDF.js viewer');
+    if (loading) loading.style.display = 'none';
+  });
+}
+
+function updateZoomSelect() {
+  const zoomSelect = document.getElementById('zoom-select');
+  if (zoomSelect) {
+    // Check if 500% option exists, if not create it
+    let option500 = zoomSelect.querySelector('option[value="5"]');
+    if (!option500) {
+      option500 = document.createElement('option');
+      option500.value = '5';
+      option500.textContent = '500%';
+      zoomSelect.appendChild(option500);
+    }
+    
+    // Set to 500%
+    zoomSelect.value = '5';
+  }
+}
+
+function renderPage(num) {
+  if (!pdfDoc) return;
+  
+  pageIsRendering = true;
+  
+  pdfDoc.getPage(num).then(page => {
+    const canvas = document.getElementById('pdf-canvas');
+    if (!canvas) return;
+    
+    const ctx = canvas.getContext('2d');
+    
+    // Calculate scale based on container width
+    const container = document.querySelector('.pdfjs-content');
+    if (!container) return;
+    
+    const containerWidth = container.clientWidth - 40; // Account for padding
+    const viewport = page.getViewport({ scale: 1, rotation: rotation });
+    
+    let calculatedScale = scale;
+    const zoomSelect = document.getElementById('zoom-select');
+    if (zoomSelect) {
+      if (zoomSelect.value === 'auto') {
+        calculatedScale = containerWidth / viewport.width;
+      } else if (zoomSelect.value === 'page-width') {
+        calculatedScale = containerWidth / viewport.width;
+      }
+    }
+    
+    const scaledViewport = page.getViewport({ scale: calculatedScale, rotation: rotation });
+    
+    canvas.height = scaledViewport.height;
+    canvas.width = scaledViewport.width;
+    
+    const renderContext = {
+      canvasContext: ctx,
+      viewport: scaledViewport
+    };
+    
+    page.render(renderContext).promise.then(() => {
+      pageIsRendering = false;
+      
+      if (pageNumIsPending !== null) {
+        renderPage(pageNumIsPending);
+        pageNumIsPending = null;
+      }
+      
+      // Update page number in input
+      const pageNumInput = document.getElementById('page-num');
+      if (pageNumInput) {
+        pageNumInput.value = num;
+      }
+      
+      // Update navigation buttons
+      updateNavigationButtons();
+    });
+  });
+}
+
+function queueRenderPage(num) {
+  if (pageIsRendering) {
+    pageNumIsPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+function onPrevPage() {
+  if (pageNum <= 1) return;
+  pageNum--;
+  queueRenderPage(pageNum);
+}
+
+function onNextPage() {
+  if (!pdfDoc || pageNum >= pdfDoc.numPages) return;
+  pageNum++;
+  queueRenderPage(pageNum);
+}
+
+function updateNavigationButtons() {
+  const prevBtn = document.getElementById('prev-page');
+  const nextBtn = document.getElementById('next-page');
+  
+  if (prevBtn) prevBtn.disabled = pageNum <= 1;
+  if (nextBtn) nextBtn.disabled = !pdfDoc || pageNum >= pdfDoc.numPages;
+}
+
+function handleZoomChange(zoomValue) {
+  switch(zoomValue) {
+    case 'auto':
+    case 'page-width':
+      // These are calculated in renderPage
+      break;
+    case 'page-actual':
+      scale = 1;
+      break;
+    default:
+      scale = parseFloat(zoomValue);
+  }
+  
+  if (pdfDoc) {
+    queueRenderPage(pageNum);
+  }
+}
+
+function changeZoom(factor) {
+  scale *= factor;
+  scale = Math.max(0.25, Math.min(5, scale)); // Limit zoom between 25% and 500%
+  
+  // Update select to show custom zoom
+  const zoomSelect = document.getElementById('zoom-select');
+  if (zoomSelect) {
+    const percentage = Math.round(scale * 100) + '%';
+    zoomSelect.value = scale.toString();
+    
+    // If this isn't a standard zoom level, we might need to handle it differently
+    if (!zoomSelect.value) {
+      // Create a temporary option for custom zoom
+      const existingCustom = zoomSelect.querySelector('[data-custom]');
+      if (existingCustom) existingCustom.remove();
+      
+      const customOption = document.createElement('option');
+      customOption.value = scale.toString();
+      customOption.textContent = percentage;
+      customOption.setAttribute('data-custom', 'true');
+      customOption.selected = true;
+      zoomSelect.appendChild(customOption);
+    }
+  }
+  
+  if (pdfDoc) {
+    queueRenderPage(pageNum);
+  }
+}
+
+function rotatePages(degrees) {
+  rotation += degrees;
+  rotation = rotation % 360;
+  
+  if (pdfDoc) {
+    queueRenderPage(pageNum);
+  }
+}
+
+function setupFullscreen() {
+  const fullscreenBtn = document.getElementById('fullscreen-btn');
+  const pdfContainer = document.querySelector('.pdf-viewer-container');
+  
+  if (fullscreenBtn && pdfContainer) {
+    fullscreenBtn.addEventListener('click', function() {
+      if (document.fullscreenElement) {
+        document.exitFullscreen();
+      } else {
+        const targetContainer = currentViewer === 'iframe' ? pdfContainer : document.querySelector('.pdfjs-container');
+        if (targetContainer) {
+          targetContainer.requestFullscreen().catch(err => {
+            console.log('Error attempting to enable fullscreen:', err);
+          });
+        }
+      }
+    });
+  }
+}
+
+function setupPrint() {
+  const printBtn = document.getElementById('print-btn');
+  
+  if (printBtn) {
+    printBtn.addEventListener('click', function() {
+      if (currentViewer === 'iframe') {
+        const iframe = document.getElementById('pdf-iframe');
+        if (iframe) {
+          try {
+            iframe.contentWindow.focus();
+            iframe.contentWindow.print();
+          } catch (e) {
+            // Fallback: open PDF in new window for printing
+            window.open(iframe.src, '_blank');
+          }
+        }
+      } else {
+        // For PDF.js viewer, open PDF in new window for printing
+        const iframe = document.getElementById('pdf-iframe');
+        if (iframe) {
+          const pdfUrl = iframe.src.split('#')[0];
+          window.open(pdfUrl, '_blank');
+        }
+      }
+    });
+  }
+}
 
 // ===== ENHANCED SEARCH FUNCTIONALITY =====
 
@@ -155,14 +535,14 @@ function initializeEnhancedSearch() {
   }
 }
 
-// SOLUTION 3: Use pre-loaded global data from college-data.js
+// Use pre-loaded global data from college-data.js
 function loadPYQData() {
   allPYQs = [];
   
   try {
     // Use the globally available data from window.COLLEGE_DATA
     const collegeData = window.COLLEGE_DATA;
-    // Get the baseurl passed from Jekyll, or default to an empty string
+    // Get the baseurl from a global variable or default to empty string
     const baseUrl = '';
     
     if (!collegeData || !collegeData.colleges) {
@@ -184,22 +564,28 @@ function loadPYQData() {
             if (!subject.pyqs || !Array.isArray(subject.pyqs)) return;
             
             subject.pyqs.forEach(pyq => {
+              // Ensure slugs are properly defined
+              const collegeSlug = escapeJavaScript(college.slug || college.id || '');
+              const branchSlug = escapeJavaScript(branch.slug || branch.id || '');
+              const semesterSlug = escapeJavaScript(semester.slug || semester.id || '');
+              const subjectSlug = escapeJavaScript(subject.slug || subject.id || '');
+              
               // Process each PYQ and add to searchable array
               allPYQs.push({
                 title: escapeJavaScript(subject.name || ''),
                 college: escapeJavaScript(college.name || ''),
                 collegeId: escapeJavaScript(college.id || ''),
-                collegeSlug: escapeJavaScript(college.slug || ''),
+                collegeSlug: collegeSlug,
                 branch: escapeJavaScript(branch.name || ''),
                 branchId: escapeJavaScript(branch.id || ''),
-                branchSlug: escapeJavaScript(branch.slug || ''),
+                branchSlug: branchSlug,
                 branchIcon: escapeJavaScript(branch.icon || 'book'),
                 semester: semester.number || '',
                 semesterId: escapeJavaScript(semester.id || ''),
-                semesterSlug: escapeJavaScript(semester.slug || ''),
+                semesterSlug: semesterSlug,
                 subject: escapeJavaScript(subject.name || ''),
                 subjectId: escapeJavaScript(subject.id || ''),
-                subjectSlug: escapeJavaScript(subject.slug || ''),
+                subjectSlug: subjectSlug,
                 subjectDescription: escapeJavaScript(subject.description || ''),
                 subjectIcon: escapeJavaScript(subject.icon || 'book'),
                 year: parseInt(pyq.year) || 0,
@@ -209,10 +595,9 @@ function loadPYQData() {
                 pyqTitle: escapeJavaScript(pyq.title || ''),
                 difficulty: escapeJavaScript(pyq.difficulty || ''),
                 examType: escapeJavaScript(pyq.exam_type || ''),
-                // Build URLs for navigation
-                // FIXED: Prepend the baseUrl to all generated URLs
-                url: `/colleges/${college.slug}/${branch.slug}/${semester.slug}/${subject.slug}/`,
-                pdfUrl: `/pdf-viewer/${college.slug}/${branch.slug}/${semester.slug}/${subject.slug}/${pyq.id}/`,
+                // Build URLs for navigation with trailing slash
+                url: `/colleges/${collegeSlug}/${branchSlug}/${semesterSlug}/${subjectSlug}/`,
+                pdfUrl: `/pdf-viewer/${collegeSlug}/${branchSlug}/${semesterSlug}/${subjectSlug}/${pyq.id}/`,
                 downloadUrl: `/assets/pdfs/${pyq.file}`
               });
             });
@@ -226,6 +611,8 @@ function loadPYQData() {
     // Log some sample data for debugging
     if (allPYQs.length > 0) {
       console.log('📄 Sample PYQ data:', allPYQs[0]);
+      console.log('🌐 Generated subject URL:', allPYQs[0].url);
+      // console.log('🌐 Base URL:', baseUrl);
     }
     
   } catch (error) {
@@ -315,7 +702,7 @@ function sortSearchResults(sortBy) {
         case 'branch':
           return (a.branch || '').localeCompare(b.branch || '');
         case 'semester':
-          return (a.semester || 0) - (b.semester || 0);
+          return (a.semester || 0) - (a.semester || 0);
         case 'relevance':
         default:
           return 0; // Keep original order for relevance
@@ -748,12 +1135,23 @@ function checkURLParameters() {
 
 // ===== GLOBAL HELPER FUNCTIONS =====
 
-// Make some functions globally available for onclick handlers
+// Make functions globally available for onclick handlers
 window.quickSearch = quickSearch;
 window.changeResultsView = changeResultsView;
 window.clearFilters = clearFilters;
 window.clearAllSearchFilters = clearAllSearchFilters;
 window.toggleFilters = toggleFilters;
+window.switchViewer = switchViewer;
+
+// Handle window resize for responsive behavior
+window.addEventListener('resize', function() {
+  if (pdfDoc && currentViewer === 'pdfjs') {
+    // Re-render current page with new scale
+    setTimeout(() => {
+      queueRenderPage(pageNum);
+    }, 100);
+  }
+});
 
 // Debug function to check if data is loaded correctly
 window.debugPYQData = function() {
@@ -764,4 +1162,8 @@ window.debugPYQData = function() {
   console.log('📅 Years available:', [...new Set(allPYQs.map(p => p.year))].sort());
   console.log('📚 Sample PYQ:', allPYQs[0]);
   console.log('🌐 Global data source:', window.COLLEGE_DATA ? 'Available' : 'Missing');
+  console.log('📱 Current PDF viewer:', currentViewer);
+  console.log('📄 PDF document loaded:', pdfDoc ? 'Yes' : 'No');
+  console.log('🔍 Current zoom scale:', scale);
+  console.log('🌐 Sample URLs:', allPYQs.slice(0, 5).map(p => ({ subject: p.subject, url: p.url })));
 };
