@@ -1434,7 +1434,621 @@ window.COLLEGE_DATA = {
               ]
             }
           ]
+        },
+        {
+          name: "mechanical-engineering",
+          slug: "mechanical-engineering",
+          id: "mechanical-engineering",
+          description: "Mechanical Engineering Branch",
+          icon: "cog",
+          semesters: [
+            {
+              number: 3,
+              slug: "sem3",
+              id: "sem3",
+              description: "Subjects for Semester 3",
+              subjects: [
+                {
+                  name: "Basic Electronic Engineering",
+                  slug: "bee",
+                  id: "bee",
+                  description: "Introduction to basic electronic concepts",
+                  icon: "microchip",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-bee-2019.pdf",
+                      id: "ymca-bee-2019",
+                      pages: 3,
+                      title: "Basic Electronic Engineering 2019"
+                    },
+                    {
+                      year: 2022,
+                      file: "ymca-bee-2022.pdf",
+                      id: "ymca-bee-2022",
+                      pages: 3,
+                      title: "Basic Electronic Engineering 2022"
+                    }
+                  ]
+                },
+                {
+                  name: "Biology",
+                  slug: "biology",
+                  id: "biology",
+                  description: "Study of biological systems",
+                  icon: "leaf",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-biology-set-1-2023.pdf",
+                      id: "ymca-biology-set-1-2023",
+                      pages: 3,
+                      title: "Biology Set 1 2023"
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-biology-set-2-2023.pdf",
+                      id: "ymca-biology-set-2-2023",
+                      pages: 3,
+                      title: "Biology Set 2 2023"
+                    }
+                  ]
+                },
+                {
+                  name: "Engineering Mechanics",
+                  slug: "e-mechanics",
+                  id: "e-mechanics",
+                  description: "Fundamentals of engineering mechanics",
+                  icon: "wrench",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-e-mechanics-2019.pdf",
+                      id: "ymca-e-mechanics-2019",
+                      pages: 3,
+                      title: "Engineering Mechanics 2019"
+                    },
+                    {
+                      year: 2022,
+                      file: "ymca-e-mechanics-2022.pdf",
+                      id: "ymca-e-mechanics-2022",
+                      pages: 3,
+                      title: "Engineering Mechanics 2022"
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-e-mechanics-2023.pdf",
+                      id: "ymca-e-mechanics-2023",
+                      pages: 3,
+                      title: "Engineering Mechanics 2023"
+                    }
+                  ]
+                },
+                {
+                  name: "Fluid Mechanics and Machines",
+                  slug: "fmm",
+                  id: "fmm",
+                  description: "Study of fluid mechanics and machines",
+                  icon: "water",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-fmm-2019.pdf",
+                      id: "ymca-fmm-2019",
+                      pages: 3,
+                      title: "Fluid Mechanics and Machines 2019"
+                    },
+                    {
+                      year: 2022,
+                      file: "ymca-fmm-2022.pdf",
+                      id: "ymca-fmm-2022",
+                      pages: 3,
+                      title: "Fluid Mechanics and Machines 2022"
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-fmm-2023.pdf",
+                      id: "ymca-fmm-2023",
+                      pages: 3,
+                      title: "Fluid Mechanics and Machines 2023"
+                    },
+                    {
+                      year: 2018,
+                      file: "ymca-fmm-2018.pdf",
+                      id: "ymca-fmm-2018",
+                      pages: 3,
+                      title: "Fluid Mechanics and Machines 2018"
+                    }
+                  ]
+                },
+                {
+                  name: "Maths-3",
+                  slug: "maths-3",
+                  id: "maths-3",
+                  description: "Advanced mathematics for engineering",
+                  icon: "calculator",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-maths-3-2023.pdf",
+                      id: "ymca-maths-3-2023",
+                      pages: 3,
+                      title: "Mathematics 3 2023"
+                    },
+                    {
+                      year: 2018,
+                      file: "ymca-maths-3-2018.pdf",
+                      id: "ymca-maths-3-2018",
+                      pages: 3,
+                      title: "Mathematics 3 2018"
+                    }
+                  ]
+                },
+                {
+                  name: "Strength of Material 1",
+                  slug: "som-1",
+                  id: "som-1",
+                  description: "Fundamentals of strength of materials",
+                  icon: "hammer",
+                  pyqs: [
+                    {
+                      year: 2020,
+                      file: "ymca-som-1-2020.pdf",
+                      id: "ymca-som-1-2020",
+                      pages: 3,
+                      title: "Strength of Material 1 2020"
+                    },
+                    {
+                      year: 2021,
+                      file: "ymca-som-1-2021.pdf",
+                      id: "ymca-som-1-2021",
+                      pages: 3,
+                      title: "Strength of Material 1 2021"
+                    },
+                    {
+                      year: 2022,
+                      file: "ymca-som-1-set-1-2022.pdf",
+                      id: "ymca-som-1-set-1-2022",
+                      pages: 3,
+                      title: "Strength of Material 1 Set 1 2022"
+                    },
+                    {
+                      year: 2022,
+                      file: "ymca-som-1-set-2-2022.pdf",
+                      id: "ymca-som-1-set-2-2022",
+                      pages: 3,
+                      title: "Strength of Material 1 Set 2 2022"
+                    }
+                  ]
+                },
+                {
+                  name: "Thermodynamics",
+                  slug: "thermodynamics",
+                  id: "thermodynamics",
+                  description: "Principles of thermodynamics",
+                  icon: "fire",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-thermodynamics-2023.pdf",
+                      id: "ymca-thermodynamics-2023",
+                      pages: 3,
+                      title: "Thermodynamics 2023"
+                    },
+                    {
+                      year: 2022,
+                      file: "ymca-thermodynamics-2022.pdf",
+                      id: "ymca-thermodynamics-2022",
+                      pages: 3,
+                      title: "Thermodynamics 2022"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              number: 4,
+              slug: "sem4",
+              id: "sem4",
+              description: "Subjects for Semester 4",
+              subjects: [
+                {
+                  name: "Applied Thermodynamics",
+                  slug: "applied-thermo",
+                  id: "applied-thermo",
+                  description: "Advanced concepts in thermodynamics",
+                  icon: "fire",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "ymca-applied-thermo-2018.pdf",
+                      id: "ymca-applied-thermo-2018",
+                      pages: 3,
+                      title: "Applied Thermodynamics 2018"
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-applied-thermo-2024.pdf",
+                      id: "ymca-applied-thermo-2024",
+                      pages: 3,
+                      title: "Applied Thermodynamics 2024"
+                    },
+                    {
+                      year: 2022,
+                      file: "ymca-applied-thermo-set-1-2022.pdf",
+                      id: "ymca-applied-thermo-set-1-2022",
+                      pages: 3,
+                      title: "Applied Thermodynamics Set 1 2022"
+                    },
+                    {
+                      year: 2022,
+                      file: "ymca-applied-thermo-set-2-2022.pdf",
+                      id: "ymca-applied-thermo-set-2-2022",
+                      pages: 3,
+                      title: "Applied Thermodynamics Set 2 2022"
+                    }
+                  ]
+                },
+                {
+                  name: "Kinematics of Machines",
+                  slug: "kom",
+                  id: "kom",
+                  description: "Study of kinematics in machines",
+                  icon: "gear",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "ymca-kom-2024.pdf",
+                      id: "ymca-kom-2024",
+                      pages: 3,
+                      title: "Kinematics of Machines 2024"
+                    },
+                    {
+                      year: 2022,
+                      file: "ymca-kom-2022.pdf",
+                      id: "ymca-kom-2022",
+                      pages: 3,
+                      title: "Kinematics of Machines 2022"
+                    },
+                    {
+                      year: 2019,
+                      file: "ymca-kom-set-1-2019.pdf",
+                      id: "ymca-kom-set-1-2019",
+                      pages: 3,
+                      title: "Kinematics of Machines Set 1 2019"
+                    },
+                    {
+                      year: 2019,
+                      file: "ymca-kom-set-2-2019.pdf",
+                      id: "ymca-kom-set-2-2019",
+                      pages: 3,
+                      title: "Kinematics of Machines Set 2 2019"
+                    }
+                  ]
+                },
+                {
+                  name: "Manufacturing",
+                  slug: "manufacturing",
+                  id: "manufacturing",
+                  description: "Principles of manufacturing processes",
+                  icon: "industry",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-manufacturing-2019.pdf",
+                      id: "ymca-manufacturing-2019",
+                      pages: 3,
+                      title: "Manufacturing 2019"
+                    },
+                    {
+                      year: 2018,
+                      file: "ymca-manufacturing-2018.pdf",
+                      id: "ymca-manufacturing-2018",
+                      pages: 3,
+                      title: "Manufacturing 2018"
+                    },
+                    {
+                      year: 2022,
+                      file: "ymca-manufacturing-2022.pdf",
+                      id: "ymca-manufacturing-2022",
+                      pages: 3,
+                      title: "Manufacturing 2022"
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-manufacturing-2024.pdf",
+                      id: "ymca-manufacturing-2024",
+                      pages: 3,
+                      title: "Manufacturing 2024"
+                    }
+                  ]
+                },
+                {
+                  name: "Material Engineering",
+                  slug: "material",
+                  id: "material",
+                  description: "Study of material properties and applications",
+                  icon: "cube",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-material-2019.pdf",
+                      id: "ymca-material-2019",
+                      pages: 3,
+                      title: "Material Engineering 2019"
+                    },
+                    {
+                      year: 2022,
+                      file: "ymca-material-2022.pdf",
+                      id: "ymca-material-2022",
+                      pages: 3,
+                      title: "Material Engineering 2022"
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-material-2024.pdf",
+                      id: "ymca-material-2024",
+                      pages: 3,
+                      title: "Material Engineering 2024"
+                    }
+                  ]
+                },
+                {
+                  name: "Strength of Material 2",
+                  slug: "som-2",
+                  id: "som-2",
+                  description: "Advanced concepts in strength of materials",
+                  icon: "hammer",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-som-2-2019.pdf",
+                      id: "ymca-som-2-2019",
+                      pages: 3,
+                      title: "Strength of Material 2 2019"
+                    },
+                    {
+                      year: 2022,
+                      file: "ymca-som-2-2022.pdf",
+                      id: "ymca-som-2-2022",
+                      pages: 3,
+                      title: "Strength of Material 2 2022"
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-som-2-2023.pdf",
+                      id: "ymca-som-2-2023",
+                      pages: 3,
+                      title: "Strength of Material 2 2023"
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-som-2-2024.pdf",
+                      id: "ymca-som-2-2024",
+                      pages: 3,
+                      title: "Strength of Material 2 2024"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              number: 5,
+              slug: "sem5",
+              id: "sem5",
+              description: "Subjects for Semester 5",
+              subjects: [
+                {
+                  name: "Dynamics of Machines",
+                  slug: "dom",
+                  id: "dom",
+                  description: "Study of dynamics in machines",
+                  icon: "gear",
+                  pyqs: [
+                    {
+                      year: 2016,
+                      file: "ymca-dom-2016.pdf",
+                      id: "ymca-dom-2016",
+                      pages: 3,
+                      title: "Dynamics of Machines 2016"
+                    },
+                    {
+                      year: 2018,
+                      file: "ymca-dom-2018.pdf",
+                      id: "ymca-dom-2018",
+                      pages: 3,
+                      title: "Dynamics of Machines 2018"
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-dom-2023.pdf",
+                      id: "ymca-dom-2023",
+                      pages: 3,
+                      title: "Dynamics of Machines 2023"
+                    }
+                  ]
+                },
+                {
+                  name: "Heat and Mass Transfer",
+                  slug: "hmt",
+                  id: "hmt",
+                  description: "Principles of heat and mass transfer",
+                  icon: "thermometer-half",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-hmt-2023.pdf",
+                      id: "ymca-hmt-2023",
+                      pages: 3,
+                      title: "Heat and Mass Transfer 2023"
+                    }
+                  ]
+                },
+                {
+                  name: "IC Engines",
+                  slug: "ic-engines",
+                  id: "ic-engines",
+                  description: "Study of internal combustion engines",
+                  icon: "car",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "ymca-ic-engines-2018.pdf",
+                      id: "ymca-ic-engines-2018",
+                      pages: 3,
+                      title: "IC Engines 2018"
+                    }
+                  ]
+                },
+                {
+                  name: "Industrial Engineering",
+                  slug: "industrial-engineering",
+                  id: "industrial-engineering",
+                  description: "Principles of industrial engineering",
+                  icon: "factory",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "ymca-industrial-engineering-2018.pdf",
+                      id: "ymca-industrial-engineering-2018",
+                      pages: 3,
+                      title: "Industrial Engineering 2018"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              number: 6,
+              slug: "sem6",
+              id: "sem6",
+              description: "Subjects for Semester 6",
+              subjects: [
+                {
+                  name: "Automation",
+                  slug: "automation",
+                  id: "automation",
+                  description: "Principles of automation in engineering",
+                  icon: "robot",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-automation-2023.pdf",
+                      id: "ymca-automation-2023",
+                      pages: 3,
+                      title: "Automation 2023"
+                    }
+                  ]
+                },
+                {
+                  name: "Machine Design 2",
+                  slug: "machine-design-2",
+                  id: "machine-design-2",
+                  description: "Advanced concepts in machine design",
+                  icon: "wrench",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "ymca-machine-design-2-2018.pdf",
+                      id: "ymca-machine-design-2-2018",
+                      pages: 3,
+                      title: "Machine Design 2 2018"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              number: 7,
+              slug: "sem7",
+              id: "sem7",
+              description: "Subjects for Semester 7",
+              subjects: [
+                {
+                  name: "HR Management",
+                  slug: "hr-management",
+                  id: "hr-management",
+                  description: "Principles of human resource management",
+                  icon: "users-cog",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "ymca-hr-management-2018.pdf",
+                      id: "ymca-hr-management-2018",
+                      pages: 3,
+                      title: "HR Management 2018"
+                    }
+                  ]
+                },
+                {
+                  name: "Marketing Management",
+                  slug: "marketing-management",
+                  id: "marketing-management",
+                  description: "Principles of marketing management",
+                  icon: "chart-line",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "ymca-marketing-management-2018.pdf",
+                      id: "ymca-marketing-management-2018",
+                      pages: 3,
+                      title: "Marketing Management 2018"
+                    }
+                  ]
+                },
+                {
+                  name: "Metrology",
+                  slug: "metrology",
+                  id: "metrology",
+                  description: "Principles of measurement and metrology",
+                  icon: "ruler-combined",
+                  pyqs: [
+                    {
+                      year: 2016,
+                      file: "ymca-metrology-2016.pdf",
+                      id: "ymca-metrology-2016",
+                      pages: 3,
+                      title: "Metrology 2016"
+                    }
+                  ]
+                },
+                {
+                  name: "Principles of Management",
+                  slug: "principles-of-management",
+                  id: "principles-of-management",
+                  description: "Fundamentals of management principles",
+                  icon: "briefcase",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "ymca-principles-of-management-2018.pdf",
+                      id: "ymca-principles-of-management-2018",
+                      pages: 3,
+                      title: "Principles of Management 2018"
+                    }
+                  ]
+                },
+                {
+                  name: "Soft Skills",
+                  slug: "soft-skills",
+                  id: "soft-skills",
+                  description: "Development of soft skills for professionals",
+                  icon: "comments",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "ymca-soft-skills-2018.pdf",
+                      id: "ymca-soft-skills-2018",
+                      pages: 3,
+                      title: "Soft Skills 2018"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
+
       ]
     },
     {
