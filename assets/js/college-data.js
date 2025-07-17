@@ -268,6 +268,13 @@ window.COLLEGE_DATA = {
                       id: "ymca-discrete-mathematics-2024",
                       pages: 3,
                       title: "Discrete Mathematics 2024"
+                    },
+                    {
+                      year: 2025,
+                      file: "ymca-discrete-mathematics-praxian-analysis-2025.pdf",
+                      id: "ymca-discrete-mathematics-praxian-analysis-2025",
+                      pages: 3,
+                      title: "Discrete Mathematics Praxian Analysis 2025"
                     }
                   ]
                 },
@@ -342,6 +349,13 @@ window.COLLEGE_DATA = {
                       id: "ymca-environmental-science-2022",
                       pages: 3,
                       title: "Environmental Science 2022"
+                    },
+                    {
+                      year: 2025,
+                      file: "ymca-env-praxian-analysis-2025.pdf",
+                      id: "ymca-env-praxian-analysis-2025",
+                      pages: 3,
+                      title: "Environmental Science Praxian Analysis 2025"
                     }
                   ]
                 },
@@ -358,6 +372,12 @@ window.COLLEGE_DATA = {
                       id: "ymca-os-2019",
                       pages: 3,
                       title: "Operating System 2019"
+                    },
+                    {
+                      year: 2025,
+                      file: "ymca-os-praxian-analysis-2025.pdf",
+                      pages: 3,
+                      title: "Operating System Praxian Analysis 2025"
                     }
                   ]
                 }
