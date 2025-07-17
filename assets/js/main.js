@@ -799,10 +799,7 @@ function createPYQResultHTML(pyq) {
             <span class="result-year" title="Year">
               <i class="fas fa-calendar-alt"></i> ${year}
             </span>
-            <span class="result-pages" title="Pages">
-              <i class="fas fa-file-alt"></i> ${pages} pages
-            </span>
-            ${difficulty ? `<span class="result-difficulty" title="Difficulty"><i class="fas fa-signal"></i> ${difficulty}</span>` : ''}
+            
             ${examType ? `<span class="result-exam-type" title="Exam Type"><i class="fas fa-clipboard-check"></i> ${examType}</span>` : ''}
           </div>
           ${description ? `<div class="result-description">${description}</div>` : ''}
@@ -1194,4 +1191,43 @@ Code to placed after is given as:
 <a href="${downloadUrl}" class="btn btn-secondary btn-small" title="Download PDF" download>
             <i class="fas fa-download"></i> Download
           </a>
+*/
+
+
+
+
+
+
+
+
+// 'Pages' and 'Difficulty' information in search query results removed 
+// Present in range [774, 821]
+// Line 802
+
+// After this code
+
+/* 
+<span class="result-year" title="Year">
+              <i class="fas fa-calendar-alt"></i> ${year}
+            </span>
+*/
+
+// Before this code
+
+/* 
+${examType ? `<span class="result-exam-type" title="Exam Type"><i class="fas fa-clipboard-check"></i> ${examType}</span>` : ''}
+          </div>
+          ${description ? `<div class="result-description">${description}</div>` : ''}
+*/
+
+
+///////////// [[[[[[[[[[[[[[[[[[[   Pages + Difficulty code    ]]]]]]]]]]]]]]]]]]]
+
+/*
+
+<span class="result-pages" title="Pages">
+              <i class="fas fa-file-alt"></i> ${pages} pages
+            </span>
+            ${difficulty ? `<span class="result-difficulty" title="Difficulty"><i class="fas fa-signal"></i> ${difficulty}</span>` : ''}
+
 */
