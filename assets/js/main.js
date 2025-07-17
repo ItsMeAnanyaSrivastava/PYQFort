@@ -814,9 +814,6 @@ function createPYQResultHTML(pyq) {
           <a href="${pdfUrl}" class="btn btn-outline btn-small" title="View PDF file">
             <i class="fas fa-file-pdf"></i> View PDF
           </a>
-          <a href="${downloadUrl}" class="btn btn-secondary btn-small" title="Download PDF" download>
-            <i class="fas fa-download"></i> Download
-          </a>
         </div>
       </div>
     </div>
@@ -1167,3 +1164,34 @@ window.debugPYQData = function() {
   console.log('🔍 Current zoom scale:', scale);
   console.log('🌐 Sample URLs:', allPYQs.slice(0, 5).map(p => ({ subject: p.subject, url: p.url })));
 };
+
+
+
+
+
+
+
+// Removed download button from search query results
+// Need to placed after search query results to enable the download option in the search query results
+
+// Present in range [774, 821]
+
+/*
+Code to placed after is given as:
+
+<div class="result-actions">
+          <a href="${url}" class="btn btn-primary btn-small" title="View subject page">
+            <i class="fas fa-eye"></i> View Subject
+          </a>
+          <a href="${pdfUrl}" class="btn btn-outline btn-small" title="View PDF file">
+            <i class="fas fa-file-pdf"></i> View PDF
+          </a>
+        </div>
+*/
+
+
+/*
+<a href="${downloadUrl}" class="btn btn-secondary btn-small" title="Download PDF" download>
+            <i class="fas fa-download"></i> Download
+          </a>
+*/
