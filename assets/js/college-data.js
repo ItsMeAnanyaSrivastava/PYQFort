@@ -2120,6 +2120,152 @@ window.COLLEGE_DATA = {
           ]
         }
       ]
+    },
+    {
+      name: "IGDTUW - Delhi",
+      slug: "igdtuw",
+      id: "igdtuw",
+      description: "Explore branches and Previous Year Question Papers",
+      ranking: {
+        overall: 3,
+        established: 1998,
+        location: "Delhi",
+        nirf_rank: 50,
+        category: "Public",
+        total_students: 5000,
+        accreditation: "NAAC A+"
+      },
+      branches: [
+        {
+          name: "computer-engineering",
+          slug: "computer-engineering",
+          id: "computer-engineering",
+          description: "Computer Engineering Branch",
+          icon: "microchip",
+          semesters: [
+            {
+              number: 3,
+              slug: "sem3",
+              id: "sem3",
+              description: "Subjects for Semester 3",
+              subjects: [
+                {
+                  name: "Artificial Intelligence",
+                  slug: "ai",
+                  id: "ai",
+                  description: "Introduction to Artificial Intelligence",
+                  icon: "brain",
+                  pyqs: [
+                    {
+                      year: 2022,
+                      file: "igdtuw-ai-2022.pdf",
+                      id: "igdtuw-ai-2022",
+                      pages: 10,
+                      title: "Artificial Intelligence 2022"
+                    }
+                  ]
+                },
+                {
+                  name: "Data Structures",
+                  slug: "data-structures",
+                  id: "data-structures",
+                  description: "Fundamentals of data structures",
+                  icon: "code-branch",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "igdtuw-data-structures-2024.pdf",
+                      id: "igdtuw-data-structures-2024",
+                      pages: 10,
+                      title: "Data Structures 2024"
+                    }
+                  ]
+                },
+                {
+                  name: "Discrete Structures",
+                  slug: "discrete-structures",
+                  id: "discrete-structures",
+                  description: "Study of discrete mathematical structures",
+                  icon: "square-root",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "igdtuw-discrete-structures-2024.pdf",
+                      id: "igdtuw-discrete-structures-2024",
+                      pages: 10,
+                      title: "Discrete Structures 2024"
+                    }
+                  ]
+                },
+                {
+                  name: "Material Science",
+                  slug: "material",
+                  id: "material",
+                  description: "Study of materials and their properties",
+                  icon: "flask",
+                  pyqs: [
+                    {
+                      year: 2022,
+                      file: "igdtuw-material-2022.pdf",
+                      id: "igdtuw-material-2022",
+                      pages: 10,
+                      title: "Material Science 2022"
+                    }
+                  ]
+                },
+                // {
+                //   name: "Numerical Methods",
+                //   slug: "numerical-methods",
+                //   id: "numerical-methods",
+                //   description: "Techniques for numerical problem solving",
+                //   icon: "calculator",
+                //   pyqs: [
+                //     {
+                //       year: 2024,
+                //       file: "igdtuw-numerical-methods-2024.pdf",
+                //       id: "igdtuw-numerical-methods-2024",
+                //       pages: 10,
+                //       title: "Numerical Methods 2024"
+                //     }
+                //   ]
+                // },
+                {
+                  name: "Software Engineering",
+                  slug: "software",
+                  id: "software",
+                  description: "Principles of software development",
+                  icon: "laptop-code",
+                  pyqs: [
+                    {
+                      year: 2022,
+                      file: "igdtuw-software-2022.pdf",
+                      id: "igdtuw-software-2022",
+                      pages: 10,
+                      title: "Software Engineering 2022"
+                    }
+                  ]
+                },
+                {
+                  name: "Database Management System",
+                  slug: "dbms",
+                  id: "dbms",
+                  description: "Fundamentals of database management systems",
+                  icon: "database",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "igdtuw-dbms-2024.pdf",
+                      id: "igdtuw-dbms-2024",
+                      pages: 10,
+                      title: "Database Management System 2024"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 };
