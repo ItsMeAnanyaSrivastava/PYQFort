@@ -2262,6 +2262,95 @@ window.COLLEGE_DATA = {
                   ]
                 }
               ]
+            },
+            {
+
+              number: 4,
+              slug: "sem4",
+              id: "sem4",
+              description: "Subjects for Semester 4",
+              subjects: [
+                {
+                  name: "Computer Organization and Architecture",
+                  slug: "coa",
+                  id: "coa",
+                  description: "Fundamentals of computer organization and architecture",
+                  icon: "desktop",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "igdtuw-coa-2023.pdf",
+                      id: "igdtuw-coa-2023",
+                      pages: 10,
+                      title: "Computer Organization and Architecture 2023"
+                    }
+                  ]
+                },
+                {
+                  name: "Computer Networks",
+                  slug: "computer-networks",
+                  id: "computer-networks",
+                  description: "Principles of computer networking",
+                  icon: "network-wired",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "igdtuw-computer-networks-2024.pdf",
+                      id: "igdtuw-computer-networks-2024",
+                      pages: 10,
+                      title: "Computer Networks 2024"
+                    }
+                  ]
+                },
+                {
+                  name: "Disaster Management",
+                  slug: "disaster-management",
+                  id: "disaster-management",
+                  description: "Principles of disaster management",
+                  icon: "shield-alt",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "igdtuw-disaster-management-2024.pdf",
+                      id: "igdtuw-disaster-management-2024",
+                      pages: 10,
+                      title: "Disaster Management 2024"
+                    }
+                  ]
+                },
+                {
+                  name: "Operating System",
+                  slug: "os",
+                  id: "os",
+                  description: "Fundamentals of operating systems",
+                  icon: "desktop",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "igdtuw-os-2024.pdf",
+                      id: "igdtuw-os-2024",
+                      pages: 10,
+                      title: "Operating Systems 2024"
+                    }
+                  ]
+                },
+                {
+                  name: "Optimization Techniques & Decision Making",
+                  slug: "otdm",
+                  id: "otdm",
+                  description: "Techniques for optimization and decision making",
+                  icon: "lightbulb",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "igdtuw-otdm-2024.pdf",
+                      id: "igdtuw-otdm-2024",
+                      pages: 10,
+                      title: "Optimization Techniques & Decision Making 2024"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
