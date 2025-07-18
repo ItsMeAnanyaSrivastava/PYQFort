@@ -1748,3 +1748,106 @@
                   id: igdtuw-otdm-2024
                   pages: 10
                   title: "Optimization Techniques & Decision Making 2024"
+    - name: Mechanical and Automation Engineering
+      slug: mae
+      id: mae
+      description: Principles of mechanical and automation engineering
+      keywords: ["mechanical", "automation", "engineering"]
+      icon: cog
+      semesters:
+        - number: 3
+          slug: sem3
+          id: sem3
+          keywords: ["mechanical", "automation", "engineering", "semester 3"]
+          description: Subjects for Semester 3
+          subjects:
+            - name: Production 1
+              slug: production-1
+              id: production-1
+              description: Fundamentals of production processes
+              keywords: ["production", "processes", "fundamentals"]
+              icon: industry
+              pyqs:
+                - year: 2023
+                  file: igdtuw-production-1-2023.pdf
+                  id: igdtuw-production-1-2023
+                  pages: 10
+                  title: "Production 1 2023"
+            - name: Strength of Material
+              slug: som
+              id: som
+              description: Fundamentals of strength of materials
+              keywords: ["strength", "materials", "fundamentals"]
+              icon: hammer
+              pyqs:
+                - year: 2022
+                  file: igdtuw-som-2022.pdf
+                  id: igdtuw-som-2022
+                  pages: 10
+                  title: "Strength of Material 2022"
+            - name: Thermal 1
+              slug: thermal-1
+              id: thermal-1
+              description: Fundamentals of thermal engineering
+              keywords: ["thermal", "engineering", "fundamentals"]
+              icon: fire
+              pyqs:
+                - year: 2022
+                  file: igdtuw-thermal-1-2022.pdf
+                  id: igdtuw-thermal-1-2022
+                  pages: 10
+                  title: "Thermal 1 2022"
+        - number: 4
+          slug: sem4
+          id: sem4
+          keywords: ["mechanical", "automation", "engineering", "semester 4"]
+          description: Subjects for Semester 4
+          subjects:
+            - name: Production 2
+              slug: production-2
+              id: production-2
+              description: Advanced concepts in production processes
+              keywords: ["production", "processes", "advanced"]
+              icon: industry
+              pyqs:
+                - year: 2024
+                  file: igdtuw-production-2-2024.pdf
+                  id: igdtuw-production-2-2024
+                  pages: 10
+                  title: "Production 2 2024"
+            - name: Thermal 2
+              slug: thermal-2
+              id: thermal-2
+              description: Advanced concepts in thermal engineering
+              keywords: ["thermal", "engineering", "advanced"]
+              icon: fire
+              pyqs:
+                - year: 2024
+                  file: igdtuw-thermal-2-2024.pdf
+                  id: igdtuw-thermal-2-2024
+                  pages: 10
+                  title: "Thermal 2 2024"
+            - name: Theory of Machines
+              slug: tom
+              id: tom
+              description: Fundamentals of machine theory
+              keywords: ["theory", "machines", "fundamentals"]
+              icon: gear
+              pyqs:
+                - year: 2024
+                  file: igdtuw-tom-2024.pdf
+                  id: igdtuw-tom-2024
+                  pages: 10
+                  title: "Theory of Machines 2024"
+            - name: Disaster Management
+              slug: disaster-management
+              id: disaster-management
+              description: Principles of disaster management
+              keywords: ["disaster", "management", "principles"]
+              icon: shield-alt
+              pyqs:
+                - year: 2024
+                  file: igdtuw-disaster-management-2024.pdf
+                  id: igdtuw-disaster-management-2024
+                  pages: 10
+                  title: "Disaster Management 2024"
