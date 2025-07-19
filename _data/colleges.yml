@@ -1938,6 +1938,514 @@
                   id: ymca-software-2024  # Add this unique identifier
                   pages: 3
                   title: "Software Engineering 2024"
+    - name: BBA
+      slug: bba
+      id: bba
+      description: Bachelor of Business Administration
+      keywords: ["BBA", "business", "administration"]
+      icon: briefcase
+      semesters:
+        - number: 3
+          slug: sem3
+          id: sem3
+          description: Subjects for Semester 3
+          keywords: ["semester 3", "bba", "business"]
+          subjects:
+            - name: Business Communication
+              slug: business-communication
+              id: business-communication
+              description: Fundamentals of business communication
+              keywords: ["business", "communication", "fundamentals"]
+              icon: comment-alt
+              pyqs:
+                - year: 2023
+                  file: ymca-business-communication-2023.pdf
+                  id: ymca-business-communication-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Business Communication 2023"
+            - name: Capital Market
+              slug: capital-market
+              id: capital-market
+              description: Introduction to capital markets and investments
+              keywords: ["capital", "market", "investments"]
+              icon: chart-bar
+              pyqs:
+                - year: 2023
+                  file: ymca-capital-market-2023.pdf
+                  id: ymca-capital-market-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Capital Market 2023"
+                - year: 2022
+                  file: ymca-capital-market-set-1-2022.pdf
+                  id: ymca-capital-market-set-1-2022  # Add this unique
+                  pages: 3
+                  title: "Capital Market Set 1 2022"
+                - year: 2022
+                  file: ymca-capital-market-set-2-2022.pdf
+                  id: ymca-capital-market-set-2-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Capital Market Set 2 2022"
+            - name: Cost and Management Accounting
+              slug: cma
+              id: cma
+              description: Principles of cost and management accounting
+              keywords: ["cost", "management", "accounting"]
+              icon: calculator
+              pyqs:
+                - year: 2023
+                  file: ymca-cma-2023.pdf
+                  id: ymca-cma-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Cost and Management Accounting 2023"
+            - name: Financial Management
+              slug: financial-management
+              id: financial-management
+              description: Fundamentals of financial management
+              keywords: ["financial", "management", "fundamentals"]
+              icon: money-bill-wave
+              pyqs:
+                - year: 2023
+                  file: ymca-financial-management-2023.pdf
+                  id: ymca-financial-management-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Financial Management 2023"
+            - name: Indian Business Environment
+              slug: ibe
+              id: ibe
+              description: Overview of the Indian business environment
+              keywords: ["Indian", "business", "environment"]
+              icon: globe-asia
+              pyqs:
+                - year: 2019
+                  file: ymca-ibe-2019.pdf
+                  id: ymca-ibe-2019  # Add this unique identifier
+                  pages: 3
+                  title: "Indian Business Environment 2019"
+                - year: 2022
+                  file: ymca-ibe-2022.pdf
+                  id: ymca-ibe-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Indian Business Environment 2022"
+                - year: 2023
+                  file: ymca-ibe-2023.pdf
+                  id: ymca-ibe-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Indian Business Environment 2023"
+            - name: Introduction to IT
+              slug: intro-to-it
+              id: intro-to-it
+              description: Basics of Information Technology
+              keywords: ["IT", "information", "technology", "basics"]
+              icon: laptop
+              pyqs:
+                - year: 2019
+                  file: ymca-intro-to-it-2019.pdf
+                  id: ymca-intro-to-it-2019  # Add this unique identifier
+                  pages: 3
+                  title: "Introduction to IT 2019"
+                - year: 2022
+                  file: ymca-intro-to-it-2022.pdf
+                  id: ymca-intro-to-it-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Introduction to IT 2022"
+                - year: 2023
+                  file: ymca-intro-to-it-2023.pdf
+                  id: ymca-intro-to-it-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Introduction to IT 2023"
+            - name: Marketing Management
+              slug: marketing
+              id: marketing
+              description: Principles of marketing management
+              keywords: ["marketing", "management", "principles"]
+              icon: chart-line
+              pyqs:
+                - year: 2023
+                  file: ymca-marketing-2023.pdf
+                  id: ymca-marketing-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Marketing Management 2023"
+                - year: 2022
+                  file: ymca-marketing-set-1-2022.pdf
+                  id: ymca-marketing-set-1-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Marketing Management Set 1 2022"
+                - year: 2022
+                  file: ymca-marketing-set-2-2022.pdf
+                  id: ymca-marketing-set-2-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Marketing Management Set 2 2022"
+            - name: Moral Values
+              slug: moral
+              id: moral
+              description: Study of moral values and ethics
+              keywords: ["moral", "values", "ethics"]
+              icon: balance-scale
+              pyqs:
+                - year: 2023
+                  file: ymca-moral-2023.pdf
+                  id: ymca-moral-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Moral Values 2023"
+                - year: 2022
+                  file: ymca-moral-set-1-2022.pdf
+                  id: ymca-moral-set-1-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Moral Values Set 1 2022"
+                - year: 2022
+                  file: ymca-moral-set-2-2022.pdf
+                  id: ymca-moral-set-2-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Moral Values Set 2 2022"
+            - name: Operations Management
+              slug: operations-management
+              id: operations-management
+              description: Principles of operations management
+              keywords: ["operations", "management", "principles"]
+              icon: cog
+              pyqs:
+                - year: 2023
+                  file: ymca-operations-management-2023.pdf
+                  id: ymca-operations-management-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Operations Management 2023"
+        - number: 4
+          slug: sem4
+          id: sem4
+          description: Subjects for Semester 4
+          keywords: ["semester 4", "bba", "business"]
+          subjects:
+            - name: Business Ethics
+              slug: business-ethics
+              id: business-ethics
+              description: Study of business ethics and corporate responsibility
+              keywords: ["business", "ethics", "corporate", "responsibility"]
+              icon: gavel
+              pyqs:
+                - year: 2024
+                  file: ymca-business-ethics-2024.pdf
+                  id: ymca-business-ethics-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Business Ethics 2024"
+            - name: Business Law
+              slug: business-law
+              id: business-law
+              description: Study of business law and regulations
+              keywords: ["business", "law", "regulations"]
+              icon: gavel
+              pyqs:
+                - year: 2022
+                  file: ymca-business-law-2022.pdf
+                  id: ymca-business-law-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Business Law 2022"
+            - name: Business Research
+              slug: business-research
+              id: business-research
+              description: Fundamentals of business research methods
+              keywords: ["business", "research", "methods"]
+              icon: search
+              pyqs:
+                - year: 2022
+                  file: ymca-business-research-2022.pdf
+                  id: ymca-business-research-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Business Research 2022"
+                - year: 2024
+                  file: ymca-business-research-set-1-2024.pdf
+                  id: ymca-business-research-set-1-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Business Research Set 1 2024"
+                - year: 2024
+                  file: ymca-business-research-set-2-2024.pdf
+                  id: ymca-business-research-set-2-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Business Research Set 2 2024"
+            - name: Database Management System
+              slug: dbms
+              id: dbms
+              description: Fundamentals of database management systems
+              keywords: ["database", "management", "systems"]
+              icon: database
+              pyqs:
+                - year: 2019
+                  file: ymca-dbms-2019.pdf
+                  id: ymca-dbms-2019  # Add this unique identifier
+                  pages: 3
+                  title: "Database Management System 2019"
+                - year: 2022
+                  file: ymca-dbms-2022.pdf
+                  id: ymca-dbms-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Database Management System 2022"
+            - name: Financial Management
+              slug: financial-management
+              id: financial-management
+              description: Fundamentals of financial management
+              keywords: ["financial", "management", "fundamentals"]
+              icon: money-bill-wave
+              pyqs:
+                - year: 2019
+                  file: ymca-financial-management-2019.pdf
+                  id: ymca-financial-management-2019  # Add this unique identifier
+                  pages: 3
+                  title: "Financial Management 2019"
+                - year: 2022
+                  file: ymca-financial-management-2022.pdf
+                  id: ymca-financial-management-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Financial Management 2022"
+            - name: HR Management
+              slug: hr-management
+              id: hr-management
+              description: Principles of human resource management
+              keywords: ["HR", "management", "principles"]
+              icon: users
+              pyqs:
+                - year: 2022
+                  file: ymca-hr-management-2022.pdf
+                  id: ymca-hr-management-2022  # Add this unique identifier
+                  pages: 3
+                  title: "HR Management 2022"
+            - name: Human Rights
+              slug: human-rights
+              id: human-rights
+              description: Study of human rights and social justice
+              keywords: ["human", "rights", "social", "justice"]
+              icon: hand-holding-heart
+              pyqs:
+                - year: 2022
+                  file: ymca-human-rights-2022.pdf
+                  id: ymca-human-rights-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Human Rights 2022"
+                - year: 2024
+                  file: ymca-human-rights-2024.pdf
+                  id: ymca-human-rights-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Human Rights 2024"
+            - name: Investment Banking
+              slug: investment-banking
+              id: investment-banking
+              description: Principles of investment banking
+              keywords: ["investment", "banking", "finance"]
+              icon: money-check-alt
+              pyqs:
+                - year: 2019
+                  file: ymca-investment-banking-2019.pdf
+                  id: ymca-investment-banking-2019  # Add this unique identifier
+                  pages: 3
+                  title: "Investment Banking 2019"
+            - name: Management and Cost Accounting
+              slug: mca
+              id: mca
+              description: Principles of management and cost accounting
+              keywords: ["management", "cost", "accounting"]
+              icon: calculator
+              pyqs:
+                - year: 2019
+                  file: ymca-mca-2019.pdf
+                  id: ymca-mca-2019  # Add this unique identifier
+                  pages: 3
+                  title: "Management and Cost Accounting 2019"
+            - name: Organization Behaviour
+              slug: organization-behaviour
+              id: organization-behaviour
+              description: Study of organizational behavior and culture
+              keywords: ["organization", "behaviour", "culture"]
+              icon: users-cog
+              pyqs:
+                - year: 2019
+                  file: ymca-organization-behaviour-2019.pdf
+                  id: ymca-organization-behaviour-2019  # Add this unique identifier
+                  pages: 3
+                  title: "Organization Behaviour 2019"
+        - number: 5
+          slug: sem5
+          id: sem5 
+          description: Subjects for Semester 5
+          keywords: ["semester 5", "bba", "business"]
+          subjects:
+            - name: Company Law
+              slug: company-law
+              id: company-law
+              description: Study of company law and regulations
+              keywords: ["company", "law", "regulations"]
+              icon: gavel
+              pyqs:
+                - year: 2022
+                  file: ymca-company-law-2022.pdf
+                  id: ymca-company-law-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Company Law 2022"
+                - year: 2023
+                  file: ymca-company-law-2023.pdf
+                  id: ymca-company-law-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Company Law 2023"
+            - name: Computer Networking
+              slug: computer-networking
+              id: computer-networking
+              description: Study of computer networking concepts and protocols
+              keywords: ["computer", "networking", "protocols"]
+              icon: network-wired
+              pyqs:
+                - year: 2022
+                  file: ymca-computer-networking-2022.pdf
+                  id: ymca-computer-networking-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Computer Networking 2022"
+                - year: 2023
+                  file: ymca-computer-networking-2023.pdf
+                  id: ymca-computer-networking-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Computer Networking 2023"
+            - name: Consumer Behaviour
+              slug: consumer-behaviour
+              id: consumer-behaviour
+              description: Study of consumer behavior and marketing strategies
+              keywords: ["consumer", "behaviour", "marketing"]
+              icon: shopping-cart
+              pyqs:
+                - year: 2022
+                  file: ymca-consumer-behaviour-2022.pdf
+                  id: ymca-consumer-behaviour-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Consumer Behaviour 2022"
+                - year: 2023
+                  file: ymca-consumer-behaviour-2023.pdf
+                  id: ymca-consumer-behaviour-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Consumer Behaviour 2023"
+            - name: Cyber Security
+              slug: cyber-security
+              id: cyber-security
+              description: Fundamentals of cybersecurity and data protection
+              keywords: ["cyber", "security", "data", "protection"]
+              icon: shield-alt
+              pyqs:
+                - year: 2022
+                  file: ymca-cyber-security-2022.pdf
+                  id: ymca-cyber-security-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Cyber Security 2022"
+                - year: 2023
+                  file: ymca-cyber-security-2023.pdf
+                  id: ymca-cyber-security-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Cyber Security 2023"
+            - name: Enterprenuership
+              slug: entrepreneurship
+              id: entrepreneurship
+              description: Principles of entrepreneurship and business development
+              keywords: ["entrepreneurship", "business", "development"]
+              icon: lightbulb
+              pyqs:
+                - year: 2023
+                  file: ymca-entrepreneurship-2023.pdf
+                  id: ymca-entrepreneurship-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Entrepreneurship 2023"
+            - name: Production and Material Management
+              slug: production
+              id: production
+              description: Principles of production and material management
+              keywords: ["production", "material", "management"]
+              icon: industry
+              pyqs:
+                - year: 2023
+                  file: ymca-production-2023.pdf
+                  id: ymca-production-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Production and Material Management 2023"
+        - number: 6
+          slug: sem6
+          id: sem6
+          keywords: ["semester 6", "bba", "business"]
+          description: Subjects for Semester 6
+          subjects:
+            - name: Consumer Protecton
+              slug: consumer-protection
+              id: consumer-protection
+              description: Study of consumer protection laws and rights
+              keywords: ["consumer", "protection", "laws", "rights"]
+              icon: shield-alt
+              pyqs:
+                - year: 2024
+                  file: ymca-consumer-protection-2024.pdf
+                  id: ymca-consumer-protection-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Consumer Protection 2024"
+            - name: E-Commerce
+              slug: e-commerce
+              id: e-commerce
+              description: Fundamentals of e-commerce and online business
+              keywords: ["e-commerce", "online", "business"]
+              icon: shopping-cart
+              pyqs:
+                - year: 2024
+                  file: ymca-e-commerce-2024.pdf
+                  id: ymca-e-commerce-2024  # Add this unique identifier
+                  pages: 3
+                  title: "E-Commerce 2024"
+            - name: Financial Services
+              slug: financial-services
+              id: financial-services
+              description: Overview of financial services and products
+              keywords: ["financial", "services", "products"]
+              icon: money-bill-wave
+              pyqs:
+                - year: 2023
+                  file: ymca-financial-services-2023.pdf
+                  id: ymca-financial-services-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Financial Services 2023"
+            - name: Income Tax
+              slug: income-tax
+              id: income-tax
+              description: Study of income tax laws and regulations
+              keywords: ["income", "tax", "laws", "regulations"]
+              icon: file-invoice-dollar
+              pyqs:
+                - year: 2024
+                  file: ymca-income-tax-2024.pdf
+                  id: ymca-income-tax-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Income Tax 2024"
+            - name: International Business
+              slug: int-business
+              id: int-business
+              description: Overview of international business practices
+              keywords: ["international", "business", "practices"]
+              icon: globe
+              pyqs:
+                - year: 2023
+                  file: ymca-int-business-2023.pdf
+                  id: ymca-int-business-2023  # Add this unique identifier
+                  pages: 3
+                  title: "International Business 2023"
+                - year: 2024
+                  file: ymca-int-business-2024.pdf
+                  id: ymca-int-business-2024  # Add this unique identifier
+                  pages: 3
+                  title: "International Business 2024"
+            - name: System Analysis
+              slug: system-analysis
+              id: system-analysis
+              description: Principles of system analysis and design
+              keywords: ["system", "analysis", "design"]
+              icon: project-diagram
+              pyqs:
+                - year: 2023
+                  file: ymca-system-analysis-2023.pdf
+                  id: ymca-system-analysis-2023  # Add this unique identifier
+                  pages: 3
+                  title: "System Analysis 2023"
+                - year: 2024
+                  file: ymca-system-analysis-2024.pdf
+                  id: ymca-system-analysis-2024  # Add this unique identifier
+                  pages: 3
+                  title: "System Analysis 2024"
 - name: VIT Bhopal
   slug: vit-bhopal
   id: vit-bhopal
