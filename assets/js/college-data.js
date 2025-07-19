@@ -498,11 +498,11 @@ window.COLLEGE_DATA = {
                       title: "Signal and Systems 2023",
                     },
                     {
-                      year: 2019,
-                      file: "ymca-sns-2019.pdf",
-                      id: "ymca-sns-2019",
+                      year: 2022,
+                      file: "ymca-sns-2022.pdf",
+                      id: "ymca-sns-2022",
                       pages: 3,
-                      title: "Signal and Systems 2019",
+                      title: "Signal and Systems 2022",
                     },
                   ],
                 },
@@ -1215,15 +1215,15 @@ window.COLLEGE_DATA = {
               subjects: [
                 {
                   name: "Digital Signal Processing",
-                  id: "digital-signal-processing",
+                  id: "dsp",
                   description: "Principles of digital signal processing",
                   icon: "signal",
-                  slug: "digital-signal-processing",
+                  slug: "dsp",
                   pyqs: [
                     {
                       year: 2018,
-                      file: "ymca-digital-signal-processing-2018.pdf",
-                      id: "ymca-digital-signal-processing-2018",
+                      file: "ymca-dsp-2018.pdf",
+                      id: "ymca-dsp-2018",
                       pages: 3,
                       title: "Digital Signal Processing 2018",
                     },
