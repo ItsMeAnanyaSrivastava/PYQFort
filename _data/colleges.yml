@@ -100,6 +100,11 @@
                   id: ymca-dsa-2024  # Add this unique identifier
                   pages: 3
                   title: "Data Structures and Algorithms 2024"
+                - year: 2023
+                  file: ymca-dsa-2023.pdf
+                  id: ymca-dsa-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Data Structures and Algorithms 2023"
                 - year: 2018
                   file: ymca-dsa-2018.pdf
                   id: ymca-dsa-2018  # Add this unique identifier
@@ -214,9 +219,9 @@
                   id: ymca-discrete-mathematics-praxian-analysis-2025  # Add this unique identifier
                   pages: 3
                   title: "Discrete Mathematics Praxian Analysis 2025"
-            - name: Economicss
+            - name: Economics
               id: economics
-              description: Economicss principles in engineering
+              description: Economics principles in engineering
               keywords: ["economics", "engineering", "principles"]
               icon: chart-line
               slug: economics
@@ -985,11 +990,6 @@
                   id: ymca-distributed-os-2018  # Add this unique identifier
                   pages: 3
                   title: "Distributed Operating Systems 2018"
-                - year: 2023
-                  file: ymca-dsa-2023.pdf
-                  id: ymca-dsa-2023  # Add this unique identifier
-                  pages: 3
-                  title: "Data Structures and Algorithms 2023"
                 - year: 2023
                   file: ymca-foundation-engineering-2023.pdf
                   id: ymca-foundation-engineering-2023  # Add this unique identifier
