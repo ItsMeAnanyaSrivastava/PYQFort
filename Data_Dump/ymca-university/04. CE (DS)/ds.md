@@ -1,7 +1,7 @@
 └── 📁ceds
     └── 📁sem3
         └── 📁maths-for-ds ("BSC-DS-301") [*] => ce/sem8/miscellaneous
-        └── 📁statistics-1 ("BSC-DS-302")
+        └── 📁statistics-1 ("BSC-DS-302") [*] => ce/sem8/miscellaneous
         └── 📁dsa (PCC-CS-301) [*] => ce/sem3
         └── 📁etc (HSMC-01) [*] => ce/sem3
         └── 📁fundamentals-of-db-systems (PCC-DS-301) [*] => ce/sem8/miscellaneous

@@ -1428,6 +1428,13 @@ window.COLLEGE_DATA = {
                       title: "Soft Computing Set 2 2023",
                     },
                     {
+                      year: 2024,
+                      file: "ymca-soft-computing-2024.pdf",
+                      id: "ymca-soft-computing-2024",
+                      pages: 3,
+                      title: "Soft Computing 2024",
+                    },
+                    {
                       year: 2019,
                       file: "ymca-software-engineering-2019.pdf",
                       id: "ymca-software-engineering-2019",
