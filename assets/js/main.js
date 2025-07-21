@@ -25,23 +25,25 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Toggle dark mode
   const themeToggle = document.querySelector('.theme-toggle');
-  const body = document.body;
+  const html = document.documentElement; // Use <html> for dark-theme class
   
-  // Check for saved theme preference
-  const currentTheme = localStorage.getItem('theme');
-  if (currentTheme === 'dark') {
-    body.classList.add('dark-theme');
+  // Update toggle icon based on current theme
+  if (html.classList.contains('dark-theme')) {
     if (themeToggle) {
       themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+    }
+  } else {
+    if (themeToggle) {
+      themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
     }
   }
   
   if (themeToggle) {
     themeToggle.addEventListener('click', function() {
-      body.classList.toggle('dark-theme');
+      html.classList.toggle('dark-theme');
       
       let theme = 'light';
-      if (body.classList.contains('dark-theme')) {
+      if (html.classList.contains('dark-theme')) {
         theme = 'dark';
         themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
       } else {
