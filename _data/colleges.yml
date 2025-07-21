@@ -214,38 +214,38 @@
                   id: ymca-discrete-mathematics-praxian-analysis-2025  # Add this unique identifier
                   pages: 3
                   title: "Discrete Mathematics Praxian Analysis 2025"
-            - name: Economic
-              id: economic
-              description: Economic principles in engineering
-              keywords: ["economic", "engineering", "principles"]
+            - name: Economicss
+              id: economics
+              description: Economicss principles in engineering
+              keywords: ["economics", "engineering", "principles"]
               icon: chart-line
-              slug: economic
+              slug: economics
               pyqs:
                 - year: 2023
-                  file: ymca-economic-2023.pdf
-                  id: ymca-economic-2023  # Add this unique identifier
+                  file: ymca-economics-2023.pdf
+                  id: ymca-economics-2023  # Add this unique identifier
                   pages: 3
-                  title: "Economic 2023"
+                  title: "Economics 2023"
                 - year: 2024
-                  file: ymca-economic-2024.pdf
-                  id: ymca-economic-2024  # Add this unique identifier
+                  file: ymca-economics-2024.pdf
+                  id: ymca-economics-2024  # Add this unique identifier
                   pages: 3
-                  title: "Economic 2024"
+                  title: "Economics 2024"
                 - year: 2019
-                  file: ymca-economic-2019.pdf
-                  id: ymca-economic-2019  # Add this unique identifier
+                  file: ymca-economics-2019.pdf
+                  id: ymca-economics-2019  # Add this unique identifier
                   pages: 3
-                  title: "Economic 2019"
+                  title: "Economics 2019"
                 - year: 2020
-                  file: ymca-economic-2020.pdf
-                  id: ymca-economic-2020  # Add this unique identifier
+                  file: ymca-economics-2020.pdf
+                  id: ymca-economics-2020  # Add this unique identifier
                   pages: 3
-                  title: "Economic 2020"
+                  title: "Economics 2020"
                 - year: 2018
-                  file: ymca-economic-2018.pdf
-                  id: ymca-economic-2018  # Add this unique identifier
+                  file: ymca-economics-2018.pdf
+                  id: ymca-economics-2018  # Add this unique identifier
                   pages: 3
-                  title: "Economic 2018"
+                  title: "Economics 2018"
             - name: Environmental science
               id: environmental-science
               description: Study of environmental issues and solutions
@@ -753,18 +753,18 @@
                   id: ymca-dl-n-image-processing-2023  # Add this unique identifier
                   pages: 3
                   title: "Data Learning and Image Processing 2023"
-            - name: Economic Policies
-              id: economic-policies
-              description: Study of economic policies
-              keywords: ["economic", "policies", "study"]
+            - name: Economics Policies
+              id: economics-policies
+              description: Study of economics policies
+              keywords: ["economics", "policies", "study"]
               icon: chart-bar
-              slug: economic-policies
+              slug: economics-policies
               pyqs:
                 - year: 2023
-                  file: ymca-economic-policies-2023.pdf
-                  id: ymca-economic-policies-2023  # Add this unique identifier
+                  file: ymca-economics-policies-2023.pdf
+                  id: ymca-economics-policies-2023  # Add this unique identifier
                   pages: 3
-                  title: "Economic Policies 2023"
+                  title: "Economics Policies 2023"
             - name: Financial Management
               id: financial-management
               description: Principles of financial management
