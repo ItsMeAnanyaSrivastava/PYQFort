@@ -1100,6 +1100,855 @@
                   id: ymca-wireless-communication-2021  # Add this unique identifier
                   pages: 3
                   title: "Wireless Communication 2021"
+    - name: Data Science
+      slug: data-science
+      id: data-science
+      description: Data Science Branch
+      keywords: ["data", "science", "analytics", "machine learning"]
+      icon: chart-line
+      semesters:
+        - number: 3
+          slug: sem3
+          id: sem3
+          description: Subjects for Semester 3
+          keywords: ["semester 3", "data science", "subjects"]
+          subjects:
+            - name: Mathematics for Data Science
+              slug: maths-for-ds
+              id: maths-for-ds
+              description: Mathematical foundations for data science
+              keywords: ["mathematics", "data science", "statistics"]
+              icon: calculator
+              pyqs:
+                - year: 2022
+                  file: ymca-maths-for-ds-2022.pdf
+                  id: ymca-maths-for-ds-2022
+                  pages: 3
+                  title: "Mathematics for Data Science 2022"
+                - year: 2023
+                  file: ymca-maths-for-ds-2023.pdf
+                  id: ymca-maths-for-ds-2023
+                  pages: 3
+                  title: "Mathematics for Data Science 2023"
+            - name: Statistics
+              slug: statistics
+              id: statistics
+              description: Fundamentals of statistics
+              keywords: ["statistics", "data analysis"]
+              icon: chart-bar
+              pyqs:
+                - year: 2023
+                  file: ymca-statistics-2023.pdf
+                  id: ymca-statistics-2023
+                  pages: 3
+                  title: "Statistics 2023"
+            - name: Data Structures and Algorithms
+              slug: dsa
+              id: dsa
+              description: Core concepts in data organization
+              keywords: ["data", "structures", "algorithms"]
+              icon: code
+              pyqs:
+                - year: 2018
+                  file: ymca-dsa-2018.pdf
+                  id: ymca-dsa-2018
+                  pages: 3
+                  title: "Data Structures and Algorithms 2018"
+                - year: 2023
+                  file: ymca-dsa-2023.pdf
+                  id: ymca-dsa-2023
+                  pages: 3
+                  title: "Data Structures and Algorithms 2023"
+                - year: 2024
+                  file: ymca-dsa-2024.pdf
+                  id: ymca-dsa-2024
+                  pages: 3
+                  title: "Data Structures and Algorithms 2024"
+            - name: Effective Technical Communication
+              slug: etc
+              id: etc
+              description: Skills for effective communication in technical fields
+              keywords: ["communication", "technical", "skills"]
+              icon: comment-dots
+              pyqs:
+                - year: 2023
+                  file: ymca-etc-2023.pdf
+                  id: ymca-etc-2023
+                  pages: 3
+                  title: "Effective Technical Communication 2023"
+                - year: 2024
+                  file: ymca-etc-2024.pdf
+                  id: ymca-etc-2024
+                  pages: 3
+                  title: "Effective Technical Communication 2024"
+            - name: Database Systems
+              slug: database-systems
+              id: database-systems
+              description: Principles of database systems
+              keywords: ["database", "systems", "data management"]
+              icon: database
+              pyqs:
+                - year: 2023
+                  file: ymca-database-systems-2023.pdf
+                  id: ymca-database-systems-2023
+                  pages: 3
+                  title: "Database Systems 2023"
+        - number: 4
+          slug: sem4
+          id: sem4
+          description: Subjects for Semester 4
+          keywords: ["semester 4", "data science", "subjects"]
+          subjects:
+            - name: Computer Networks
+              slug: computer-networks
+              id: computer-networks
+              description: Principles of computer networking
+              keywords: ["computer", "networks", "principles"]
+              icon: network-wired
+              pyqs:
+                - year: 2017
+                  file: ymca-computer-networks-2017.pdf
+                  id: ymca-computer-networks-2017
+                  pages: 3
+                  title: "Computer Networks 2017"
+                - year: 2018
+                  file: ymca-computer-networks-2018.pdf
+                  id: ymca-computer-networks-2018
+                  pages: 3
+                  title: "Computer Networks 2018"
+                - year: 2023
+                  file: ymca-computer-networks-2023.pdf
+                  id: ymca-computer-networks-2023
+                  pages: 3
+                  title: "Computer Networks 2023"
+                - year: 2024
+                  file: ymca-computer-networks-2024.pdf
+                  id: ymca-computer-networks-2024
+                  pages: 3
+                  title: "Computer Networks 2024"
+            - name: Economics
+              slug: economics
+              id: economics
+              description: Economics principles in data science
+              keywords: ["economics", "data science", "principles"]
+              icon: chart-line
+              pyqs:
+                - year: 2018
+                  file: ymca-economics-2018.pdf
+                  id: ymca-economics-2018
+                  pages: 3
+                  title: "Economics 2018"
+                - year: 2019
+                  file: ymca-economics-2019.pdf
+                  id: ymca-economics-2019
+                  pages: 3
+                  title: "Economics 2019"
+                - year: 2020
+                  file: ymca-economics-2020.pdf
+                  id: ymca-economics-2020
+                  pages: 3
+                  title: "Economics 2020"
+                - year: 2023
+                  file: ymca-economics-2023.pdf
+                  id: ymca-economics-2023
+                  pages: 3
+                  title: "Economics 2023"
+                - year: 2024
+                  file: ymca-economics-2024.pdf
+                  id: ymca-economics-2024
+                  pages: 3
+                  title: "Economics 2024"
+            - name: Environmental Science
+              slug: environmental-science
+              id: environmental-science
+              description: Study of environmental issues and solutions
+              keywords: ["environment", " dobbinscience", "issues", "solutions"]
+              icon: leaf
+              pyqs:
+                - year: 2022
+                  file: ymca-environmental-science-2022.pdf
+                  id: ymca-environmental-science-2022
+                  pages: 3
+                  title: "Environmental Science 2022"
+                - year: 2023
+                  file: ymca-environmental-science-2023.pdf
+                  id: ymca-environmental-science-2023
+                  pages: 3
+                  title: "Environmental Science 2023"
+                - year: 2024
+                  file: ymca-environmental-science-2024.pdf
+                  id: ymca-environmental-science-2024
+                  pages: 3
+                  title: "Environmental Science 2024"
+                - year: 2025
+                  file: ymca-env-praxian-analysis-2025.pdf
+                  id: ymca-env-praxian-analysis-2025
+                  pages: 3
+                  title: "Environmental Science Praxian Analysis 2025"
+            - name: Data Mining
+              slug: data-mining
+              id: data-mining
+              description: Techniques and applications of data mining
+              keywords: ["data", "mining", "techniques", "applications"]
+              icon: database
+              pyqs:
+                - year: 2018
+                  file: ymca-data-mining-2018.pdf
+                  id: ymca-data-mining-2018
+                  pages: 3
+                  title: "Data Mining 2018"
+                - year: 2024
+                  file: ymca-data-mining-2024.pdf
+                  id: ymca-data-mining-2024
+                  pages: 3
+                  title: "Data Mining 2024"
+        - number: 5
+          slug: sem5
+          id: sem5
+          description: Subjects for Semester 5
+          keywords: ["semester 5", "data science", "subjects"]
+          subjects:
+            - name: Biology
+              slug: biology
+              id: biology
+              description: Biological concepts in data science
+              keywords: ["biology", "data science", "concepts"]
+              icon: flask
+              pyqs:
+                - year: 2023
+                  file: ymca-biology-2023.pdf
+                  id: ymca-biology-2023
+                  pages: 3
+                  title: "Biology 2023"
+                - year: 2024
+                  file: ymca-biology-2024.pdf
+                  id: ymca-biology-2024
+                  pages: 3
+                  title: "Biology 2024"
+            - name: Design and Analysis of Algorithms
+              slug: daa
+              id: daa
+              description: Techniques for algorithm design and analysis
+              keywords: ["design", "analysis", "algorithms"]
+              icon: project-diagram
+              pyqs:
+                - year: 2015
+                  file: ymca-daa-2015.pdf
+                  id: ymca-daa-2015
+                  pages: 3
+                  title: "Design and Analysis of Algorithms 2015"
+                - year: 2016
+                  file: ymca-daa-2016.pdf
+                  id: ymca-daa-2016
+                  pages: 3
+                  title: "Design and Analysis of Algorithms 2016"
+                - year: 2019
+                  file: ymca-daa-2019.pdf
+                  id: ymca-daa-2019
+                  pages: 3
+                  title: "Design and Analysis of Algorithms 2019"
+                - year: 2022
+                  file: ymca-daa-2022.pdf
+                  id: ymca-daa-2022
+                  pages: 3
+                  title: "Design and Analysis of Algorithms 2022"
+                - year: 2023
+                  file: ymca-daa-2023.pdf
+                  id: ymca-daa-2023
+                  pages: 3
+                  title: "Design and Analysis of Algorithms 2023"
+                - year: 2024
+                  file: ymca-daa-2024.pdf
+                  id: ymca-daa-2024
+                  pages: 3
+                  title: "Design and Analysis of Algorithms 2024"
+                - year: 2025
+                  file: ymca-daa-praxian-analysis-2025.pdf
+                  id: ymca-daa-praxian-analysis-2025
+                  pages: 3
+                  title: "Design and Analysis of Algorithms Praxian Analysis 2025"
+            - name: Operating System
+              slug: os
+              id: os
+              description: Principles of operating systems
+              keywords: ["operating", "system", "principles"]
+              icon: server
+              pyqs:
+                - year: 2019
+                  file: ymca-os-2019.pdf
+                  id: ymca-os-2019
+                  pages: 3
+                  title: "Operating System 2019"
+                - year: 2025
+                  file: ymca-os-praxian-analysis-2025.pdf
+                  id: ymca-os-praxian-analysis-2025
+                  pages: 3
+                  title: "Operating System Praxian Analysis 2025"
+            - name: Constitution
+              slug: constitution
+              id: constitution
+              description: Study of the Indian Constitution
+              keywords: ["constitution", "indian", "study"]
+              icon: gavel
+              pyqs:
+                - year: 2023
+                  file: ymca-constitution-2023-set-1.pdf
+                  id: ymca-constitution-2023-set-1
+                  pages: 3
+                  title: "Constitution 2023 Set 1"
+                - year: 2023
+                  file: ymca-constitution-2023-set-2.pdf
+                  id: ymca-constitution-2023-set-2
+                  pages: 3
+                  title: "Constitution 2023 Set 2"
+            - name: Soft Computing
+              slug: soft-computing
+              id: soft-computing
+              description: Principles of soft computing
+              keywords: ["soft", "computing", "principles"]
+              icon: brain
+              pyqs:
+                - year: 2023
+                  file: ymca-soft-computing-set-1-2023.pdf
+                  id: ymca-soft-computing-set-1-2023
+                  pages: 3
+                  title: "Soft Computing Set 1 2023"
+                - year: 2023
+                  file: ymca-soft-computing-set-2-2023.pdf
+                  id: ymca-soft-computing-set-2-2023
+                  pages: 3
+                  title: "Soft Computing Set 2 2023"
+                - year: 2024
+                  file: ymca-soft-computing-2024.pdf
+                  id: ymca-soft-computing-2024
+                  pages: 3
+                  title: "Soft Computing 2024"
+            - name: Computer Architecture
+              slug: computer-architecture
+              id: computer-architecture
+              description: Fundamentals of computer architecture
+              keywords: ["computer", "architecture", "fundamentals"]
+              icon: desktop
+              pyqs:
+                - year: 2018
+                  file: ymca-computer-architecture-2018.pdf
+                  id: ymca-computer-architecture-2018
+                  pages: 3
+                  title: "Computer Architecture 2018"
+                - year: 2023
+                  file: ymca-computer-architecture-2023.pdf
+                  id: ymca-computer-architecture-2023
+                  pages: 3
+                  title: "Computer Architecture 2023"
+        - number: 6
+          slug: sem6
+          id: sem6
+          description: Subjects for Semester 6
+          keywords: ["semester 6", "data science", "subjects"]
+          subjects:
+            - name: Bhagavad Gita
+              slug: bhagavad-gita
+              id: bhagavad-gita
+              description: Study of the Bhagavad Gita
+              keywords: ["bhagavad", "gita", "study"]
+              icon: book-open
+              pyqs:
+                - year: 2024
+                  file: ymca-bhagavad-gita-2024.pdf
+                  id: ymca-bhagavad-gita-2024
+                  pages: 3
+                  title: "Bhagavad Gita 2024"
+            - name: Big Data
+              slug: big-data
+              id: big-data
+              description: Concepts and technologies in big data
+              keywords: ["big", "data", "technologies"]
+              icon: database
+              pyqs:
+                - year: 2024
+                  file: ymca-big-data-2024.pdf
+                  id: ymca-big-data-2024
+                  pages: 3
+                  title: "Big Data 2024"
+            - name: Machine Learning
+              slug: ml
+              id: ml
+              description: Principles of machine learning
+              keywords: ["machine", "learning", "principles"]
+              icon: brain
+              pyqs:
+                - year: 2022
+                  file: ymca-ml-2022.pdf
+                  id: ymca-ml-2022
+                  pages: 3
+                  title: "Machine Learning 2022"
+                - year: 2023
+                  file: ymca-ml-2023.pdf
+                  id: ymca-ml-2023
+                  pages: 3
+                  title: "Machine Learning 2023"
+            - name: Internet and Web Technologies
+              slug: int-n-web-technologies
+              id: int-n-web-technologies
+              description: Principles of internet and web technologies
+              keywords: ["internet", "web", "technologies"]
+              icon: globe
+              pyqs:
+                - year: 2024
+                  file: ymca-int-n-web-technologies-2024.pdf
+                  id: ymca-int-n-web-technologies-2024
+                  pages: 3
+                  title: "Internet and Web Technologies 2024"
+        - number: 7
+          slug: sem7
+          id: sem7
+          description: Subjects for Semester 7
+          keywords: ["semester 7", "data science", "subjects"]
+          subjects:
+            - name: Cloud Computing
+              slug: cloud-computing
+              id: cloud-computing
+              description: Concepts and technologies in cloud computing
+              keywords: ["cloud", "computing", "technologies"]
+              icon: cloud
+              pyqs:
+                - year: 2019
+                  file: ymca-cloud-computing-2019.pdf
+                  id: ymca-cloud-computing-2019
+                  pages: 3
+                  title: "Cloud Computing 2019"
+            - name: Speech and Natural Language Processing
+              slug: speech-n-nlp
+              id: speech-n-nlp
+              description: Concepts in speech and natural language processing
+              keywords: ["speech", "natural", "language", "processing"]
+              icon: comment-dots
+              pyqs:
+                - year: 2023
+                  file: ymca-speech-n-nlp-2023.pdf
+                  id: ymca-speech-n-nlp-2023
+                  pages: 3
+                  title: "Speech and Natural Language Processing 2023"
+            - name: Data Learning and Image Processing
+              slug: dl-n-image-processing
+              id: dl-n-image-processing
+              description: Concepts in data learning and image processing
+              keywords: ["data", "learning", "image", "processing"]
+              icon: image
+              pyqs:
+                - year: 2023
+                  file: ymca-dl-n-image-processing-2023.pdf
+                  id: ymca-dl-n-image-processing-2023
+                  pages: 3
+                  title: "Data Learning and Image Processing 2023"
+            - name: Business Intelligence
+              slug: business-intelligence
+              id: business-intelligence
+              description: Concepts in business intelligence
+              keywords: ["business", "intelligence", "concepts"]
+              icon: chart-pie
+              pyqs:
+                - year: 2023
+                  file: ymca-business-intelligence-2023.pdf
+                  id: ymca-business-intelligence-2023
+                  pages: 3
+                  title: "Business Intelligence 2023"
+    - name: Electronics and Computer Engineering
+      slug: enc
+      id: enc
+      description: Electronics and Computer Engineering Branch
+      keywords: ["electronics", "computer", "engineering"]
+      icon: microchip
+      semesters:
+        - number: 3
+          slug: sem3
+          id: sem3
+          description: Subjects for Semester 3
+          subjects:
+            - name: Analog Communication
+              slug: analog-communication
+              id: analog-communication
+              description: Fundamentals of analog communication systems
+              keywords: ["analog", "communication", "systems"]
+              icon: radio
+              pyqs:
+                - year: 2023
+                  file: ymca-analog-communication-2023.pdf
+                  id: ymca-analog-communication-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Analog Communication 2023"
+            - name: Circuit Analysis
+              slug: circuit-analysis
+              id: circuit-analysis
+              description: Fundamentals of circuit analysis techniques
+              keywords: ["circuit", "analysis", "techniques"]
+              icon: plug
+              pyqs:
+                - year: 2023
+                  file: ymca-circuit-analysis-2023.pdf
+                  id: ymca-circuit-analysis-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Circuit Analysis 2023"
+            - name: Constitution
+              slug: constitution
+              id: constitution
+              description: Study of the Indian Constitution
+              keywords: ["constitution", "Indian", "study"]
+              icon: gavel
+              pyqs:
+                - year: 2023
+                  file: ymca-constitution-2023-set-1.pdf
+                  id: ymca-constitution-2023-set-1  # Add this unique identifier
+                  pages: 3
+                  title: "Constitution 2023-set-1"
+                - year: 2023
+                  file: ymca-constitution-2023-set-2.pdf
+                  id: ymca-constitution-2023-set-2 # Add this unique identifier
+                  pages: 3
+                  title: "Constitution 2023-set-2"
+            - name: Digital Electronics
+              slug: digital-electronics
+              id: digital-electronics
+              description: Fundamentals of digital electronics
+              keywords: ["digital", "electronics", "fundamentals"]
+              icon: circuit-board
+              pyqs:
+                - year: 2023
+                  file: ymca-digital-electronics-2023.pdf
+                  id: ymca-digital-electronics-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Digital Electronics 2023"
+            - name: Maths 3
+              slug: maths-3
+              id: maths-3
+              description: Advanced mathematics for engineering
+              keywords: ["maths", "advanced", "engineering"]
+              icon: calculator
+              pyqs:
+                - year: 2023
+                  file: ymca-maths-3-2023.pdf
+                  id: ymca-maths-3-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Mathematics 3 2023"
+            - name: Semiconductor Devices
+              slug: semiconductor
+              id: semiconductor
+              description: Study of semiconductor devices and applications
+              keywords: ["semiconductor", "devices", "applications"]
+              icon: microchip
+              pyqs:
+                - year: 2023
+                  file: ymca-semiconductor-2023.pdf
+                  id: ymca-semiconductor-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Semiconductor Devices 2023"
+        - number: 4  
+          slug: sem4
+          id: sem4
+          description: Subjects for Semester 4
+          subjects:
+            - name: Analog Electronic Circuit
+              slug: aec
+              id: aec
+              description: Design and analysis of analog electronic circuits
+              keywords: ["analog", "electronic", "circuit", "design"]
+              icon: circuit
+              pyqs:
+                - year: 2022
+                  file: ymca-aec-2022.pdf
+                  id: ymca-aec-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Analog Electronic Circuit 2022"
+                - year: 2023
+                  file: ymca-aec-2023.pdf
+                  id: ymca-aec-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Analog Electronic Circuit 2023"
+                - year: 2024
+                  file: ymca-aec-2024.pdf
+                  id: ymca-aec-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Analog Electronic Circuit 2024"
+            - name: Digital Communication
+              slug: digital-communication
+              id: digital-communication
+              description: Fundamentals of digital communication systems
+              keywords: ["digital", "communication", "systems"]
+              icon: satellite-dish
+              pyqs:
+                - year: 2022
+                  file: ymca-digital-communication-2022.pdf
+                  id: ymca-digital-communication-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Digital Communication 2022"
+                - year: 2023
+                  file: ymca-digital-communication-2023.pdf
+                  id: ymca-digital-communication-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Digital Communication 2023"
+                - year: 2024
+                  file: ymca-digital-communication-2024.pdf
+                  id: ymca-digital-communication-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Digital Communication 2024"
+            - name: Digital System Design
+              slug: digital-system-design
+              id: digital-system-design
+              description: Design and analysis of digital systems
+              keywords: ["digital", "system", "design", "analysis"]
+              icon: microchip
+              pyqs:
+                - year: 2022
+                  file: ymca-digital-system-design-2022.pdf
+                  id: ymca-digital-system-design-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Digital System Design 2022"
+                - year: 2024
+                  file: ymca-digital-system-design-2024.pdf
+                  id: ymca-digital-system-design-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Digital System Design 2024"
+            - name: Microprocessor
+              slug: microprocessor
+              id: microprocessor
+              description: Fundamentals of microprocessor architecture and programming
+              keywords: ["microprocessor", "architecture", "programming"]
+              icon: microchip
+              pyqs:
+                - year: 2022
+                  file: ymca-microprocessor-2022.pdf
+                  id: ymca-microprocessor-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Microprocessor 2022"
+                - year: 2024
+                  file: ymca-microprocessor-2024.pdf
+                  id: ymca-microprocessor-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Microprocessor 2024"
+            - name: Python
+              slug: python
+              id: python
+              description: Introduction to Python programming
+              keywords: ["python", "programming", "introduction"]
+              icon: python
+              pyqs:
+                - year: 2022
+                  file: ymca-python-2022.pdf
+                  id: ymca-python-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Python Programming 2022"
+                - year: 2023
+                  file: ymca-python-2023.pdf
+                  id: ymca-python-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Python Programming 2023"
+                - year: 2024
+                  file: ymca-python-2024.pdf
+                  id: ymca-python-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Python Programming 2024"
+            - name: Signals and Systems
+              slug: signals-and-systems
+              id: signals-and-systems
+              description: Fundamentals of signals and systems analysis
+              keywords: ["signals", "systems", "analysis"]
+              icon: signal
+              pyqs:
+                - year: 2022
+                  file: ymca-signals-and-systems-2022.pdf
+                  id: ymca-signals-and-systems-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Signals and Systems 2022"
+                - year: 2024
+                  file: ymca-signals-and-systems-2024.pdf
+                  id: ymca-signals-and-systems-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Signals and Systems 2024"
+        - number: 5
+          slug: sem5
+          id: sem5
+          description: Subjects for Semester 5
+          keywords: ["semester 5", "electronics", "computer", "engineering"]
+          subjects:
+            - name: Database Management System
+              slug: dbms
+              id: dbms
+              description: Fundamentals of database management systems
+              keywords: ["database", "management", "systems"]
+              icon: database
+              pyqs:
+                - year: 2018
+                  file: ymca-dbms-2018.pdf
+                  id: ymca-dbms-2018  # Add this unique identifier
+                  pages: 3
+                  title: "Database Management System 2018"
+                - year: 2019
+                  file: ymca-dbms-2019.pdf
+                  id: ymca-dbms-2019  # Add this unique identifier
+                  pages: 3
+                  title: "Database Management System 2019"
+                - year: 2023
+                  file: ymca-dbms-2023.pdf
+                  id: ymca-dbms-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Database Management System 2023"
+            - name: Environmental science
+              id: environmental-science
+              description: Study of environmental issues and solutions
+              keywords: ["environment", "science", "issues", "solutions", "env"]
+              icon: leaf
+              slug: environmental-science
+              pyqs:
+                - year: 2023
+                  file: ymca-environmental-science-2023.pdf
+                  id: ymca-environmental-science-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Environmental Science 2023"
+                - year: 2024
+                  file: ymca-environmental-science-2024.pdf
+                  id: ymca-environmental-science-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Environmental Science 2024"
+                - year: 2022
+                  file: ymca-environmental-science-2022.pdf
+                  id: ymca-environmental-science-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Environmental Science 2022"
+                - year: 2025
+                  file: ymca-env-praxian-analysis-2025.pdf
+                  id: ymca-env-praxian-analysis-2025  # Add this unique identifier
+                  pages: 3
+                  title: "Environmental Science Praxian Analysis 2025"
+            - name: Operating System
+              id: os
+              description: Principles of operating systems
+              keywords: ["operating", "system", "principles", "os"]
+              icon: server
+              slug: os
+              pyqs:
+                - year: 2019
+                  file: ymca-os-2019.pdf
+                  id: ymca-os-2019  # Add this unique identifier
+                  pages: 3
+                  title: "Operating System 2019"
+                - year: 2025
+                  file: ymca-os-praxian-analysis-2025.pdf
+                  id: ymca-os-praxian-analysis-2025  # Add this unique identifier
+                  pages: 3
+                  title: "Operating System Praxian Analysis 2025"
+        - number: 6
+          slug: sem6
+          id: sem6
+          keywords: ["signals", "systems", "semester 6"]
+          description: Subjects for Semester 6
+          subjects:
+            - name: Data Mining
+              slug: data-mining
+              id: data-mining
+              description: Techniques for data mining and analysis
+              keywords: ["data", "mining", "analysis"]
+              icon: database
+              pyqs:
+                - year: 2018
+                  file: ymca-data-mining-2018.pdf
+                  id: ymca-data-mining-2018  # Add this unique identifier
+                  pages: 3
+                  title: "Data Mining 2018"
+                - year: 2024
+                  file: ymca-data-mining-2024.pdf
+                  id: ymca-data-mining-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Data Mining 2024"
+            - name: Digital Signal Processing
+              slug: dsp
+              id: dsp
+              description: Fundamentals of digital signal processing
+              keywords: ["digital", "signal", "processing"]
+              icon: waveform
+              pyqs:
+                - year: 2022
+                  file: ymca-dsp-2022.pdf
+                  id: ymca-dsp-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Digital Signal Processing 2022"
+                - year: 2023
+                  file: ymca-dsp-2023.pdf
+                  id: ymca-dsp-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Digital Signal Processing 2023"
+                - year: 2024
+                  file: ymca-dsp-2024.pdf
+                  id: ymca-dsp-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Digital Signal Processing 2024"
+            - name: Internet of Things
+              slug: iot
+              id: iot
+              description: Introduction to Internet of Things concepts
+              keywords: ["IoT", "Internet", "things", "concepts"]
+              icon: network-wired
+              pyqs:
+                - year: 2022
+                  file: ymca-iot-2022.pdf
+                  id: ymca-iot-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Internet of Things 2022"
+                - year: 2023
+                  file: ymca-iot-2023.pdf
+                  id: ymca-iot-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Internet of Things 2023"
+                - year: 2024
+                  file: ymca-iot-2024.pdf
+                  id: ymca-iot-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Internet of Things 2024"
+            - name: Mobile Communication
+              slug: mobile
+              id: mobile
+              description: Fundamentals of mobile communication systems
+              keywords: ["mobile", "communication", "systems"]
+              icon: mobile-alt
+              pyqs:
+                - year: 2023
+                  file: ymca-mobile-2023.pdf
+                  id: ymca-mobile-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Mobile Communication 2023"
+                - year: 2024
+                  file: ymca-mobile-2024.pdf
+                  id: ymca-mobile-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Mobile Communication 2024"
+            - name: Soft Skills
+              slug: soft-skills
+              id: soft-skills
+              description: Development of soft skills for professionals
+              keywords: ["soft", "skills", "development"]
+              icon: comments
+              pyqs:
+                - year: 2024
+                  file: ymca-soft-skills-2024.pdf
+                  id: ymca-soft-skills-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Soft Skills 2024"
+            - name: Software Engineering
+              slug: software
+              id: software
+              description: Principles of software development
+              keywords: ["software", "engineering", "development"]
+              icon: laptop-code
+              pyqs:
+                - year: 2023
+                  file: ymca-software-2023.pdf
+                  id: ymca-software-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Software Engineering 2023"
+                - year: 2024
+                  file: ymca-software-2024.pdf
+                  id: ymca-software-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Software Engineering 2024"
     - name: Mechanical Engineering
       slug: mechanical-engineering
       id: mechanical-engineering
@@ -1553,402 +2402,6 @@
                   id: ymca-soft-skills-2018  # Add this unique identifier
                   pages: 3
                   title: "Soft Skills 2018"
-    - name: Electronics and Computer Engineering
-      slug: enc
-      id: enc
-      description: Electronics and Computer Engineering Branch
-      keywords: ["electronics", "computer", "engineering"]
-      icon: microchip
-      semesters:
-        - number: 3
-          slug: sem3
-          id: sem3
-          description: Subjects for Semester 3
-          subjects:
-            - name: Analog Communication
-              slug: analog-communication
-              id: analog-communication
-              description: Fundamentals of analog communication systems
-              keywords: ["analog", "communication", "systems"]
-              icon: radio
-              pyqs:
-                - year: 2023
-                  file: ymca-analog-communication-2023.pdf
-                  id: ymca-analog-communication-2023  # Add this unique identifier
-                  pages: 3
-                  title: "Analog Communication 2023"
-            - name: Circuit Analysis
-              slug: circuit-analysis
-              id: circuit-analysis
-              description: Fundamentals of circuit analysis techniques
-              keywords: ["circuit", "analysis", "techniques"]
-              icon: plug
-              pyqs:
-                - year: 2023
-                  file: ymca-circuit-analysis-2023.pdf
-                  id: ymca-circuit-analysis-2023  # Add this unique identifier
-                  pages: 3
-                  title: "Circuit Analysis 2023"
-            - name: Constitution
-              slug: constitution
-              id: constitution
-              description: Study of the Indian Constitution
-              keywords: ["constitution", "Indian", "study"]
-              icon: gavel
-              pyqs:
-                - year: 2023
-                  file: ymca-constitution-2023-set-1.pdf
-                  id: ymca-constitution-2023-set-1  # Add this unique identifier
-                  pages: 3
-                  title: "Constitution 2023-set-1"
-                - year: 2023
-                  file: ymca-constitution-2023-set-2.pdf
-                  id: ymca-constitution-2023-set-2 # Add this unique identifier
-                  pages: 3
-                  title: "Constitution 2023-set-2"
-            - name: Digital Electronics
-              slug: digital-electronics
-              id: digital-electronics
-              description: Fundamentals of digital electronics
-              keywords: ["digital", "electronics", "fundamentals"]
-              icon: circuit-board
-              pyqs:
-                - year: 2023
-                  file: ymca-digital-electronics-2023.pdf
-                  id: ymca-digital-electronics-2023  # Add this unique identifier
-                  pages: 3
-                  title: "Digital Electronics 2023"
-            - name: Maths 3
-              slug: maths-3
-              id: maths-3
-              description: Advanced mathematics for engineering
-              keywords: ["maths", "advanced", "engineering"]
-              icon: calculator
-              pyqs:
-                - year: 2023
-                  file: ymca-maths-3-2023.pdf
-                  id: ymca-maths-3-2023  # Add this unique identifier
-                  pages: 3
-                  title: "Mathematics 3 2023"
-            - name: Semiconductor Devices
-              slug: semiconductor
-              id: semiconductor
-              description: Study of semiconductor devices and applications
-              keywords: ["semiconductor", "devices", "applications"]
-              icon: microchip
-              pyqs:
-                - year: 2023
-                  file: ymca-semiconductor-2023.pdf
-                  id: ymca-semiconductor-2023  # Add this unique identifier
-                  pages: 3
-                  title: "Semiconductor Devices 2023"
-        - number: 4  
-          slug: sem4
-          id: sem4
-          description: Subjects for Semester 4
-          subjects:
-            - name: Analog Electronic Circuit
-              slug: aec
-              id: aec
-              description: Design and analysis of analog electronic circuits
-              keywords: ["analog", "electronic", "circuit", "design"]
-              icon: circuit
-              pyqs:
-                - year: 2022
-                  file: ymca-aec-2022.pdf
-                  id: ymca-aec-2022  # Add this unique identifier
-                  pages: 3
-                  title: "Analog Electronic Circuit 2022"
-                - year: 2023
-                  file: ymca-aec-2023.pdf
-                  id: ymca-aec-2023  # Add this unique identifier
-                  pages: 3
-                  title: "Analog Electronic Circuit 2023"
-                - year: 2024
-                  file: ymca-aec-2024.pdf
-                  id: ymca-aec-2024  # Add this unique identifier
-                  pages: 3
-                  title: "Analog Electronic Circuit 2024"
-            - name: Digital Communication
-              slug: digital-communication
-              id: digital-communication
-              description: Fundamentals of digital communication systems
-              keywords: ["digital", "communication", "systems"]
-              icon: satellite-dish
-              pyqs:
-                - year: 2022
-                  file: ymca-digital-communication-2022.pdf
-                  id: ymca-digital-communication-2022  # Add this unique identifier
-                  pages: 3
-                  title: "Digital Communication 2022"
-                - year: 2023
-                  file: ymca-digital-communication-2023.pdf
-                  id: ymca-digital-communication-2023  # Add this unique identifier
-                  pages: 3
-                  title: "Digital Communication 2023"
-                - year: 2024
-                  file: ymca-digital-communication-2024.pdf
-                  id: ymca-digital-communication-2024  # Add this unique identifier
-                  pages: 3
-                  title: "Digital Communication 2024"
-            - name: Digital System Design
-              slug: digital-system-design
-              id: digital-system-design
-              description: Design and analysis of digital systems
-              keywords: ["digital", "system", "design", "analysis"]
-              icon: microchip
-              pyqs:
-                - year: 2022
-                  file: ymca-digital-system-design-2022.pdf
-                  id: ymca-digital-system-design-2022  # Add this unique identifier
-                  pages: 3
-                  title: "Digital System Design 2022"
-                - year: 2024
-                  file: ymca-digital-system-design-2024.pdf
-                  id: ymca-digital-system-design-2024  # Add this unique identifier
-                  pages: 3
-                  title: "Digital System Design 2024"
-            - name: Microprocessor
-              slug: microprocessor
-              id: microprocessor
-              description: Fundamentals of microprocessor architecture and programming
-              keywords: ["microprocessor", "architecture", "programming"]
-              icon: microchip
-              pyqs:
-                - year: 2022
-                  file: ymca-microprocessor-2022.pdf
-                  id: ymca-microprocessor-2022  # Add this unique identifier
-                  pages: 3
-                  title: "Microprocessor 2022"
-                - year: 2024
-                  file: ymca-microprocessor-2024.pdf
-                  id: ymca-microprocessor-2024  # Add this unique identifier
-                  pages: 3
-                  title: "Microprocessor 2024"
-            - name: Python
-              slug: python
-              id: python
-              description: Introduction to Python programming
-              keywords: ["python", "programming", "introduction"]
-              icon: python
-              pyqs:
-                - year: 2022
-                  file: ymca-python-2022.pdf
-                  id: ymca-python-2022  # Add this unique identifier
-                  pages: 3
-                  title: "Python Programming 2022"
-                - year: 2023
-                  file: ymca-python-2023.pdf
-                  id: ymca-python-2023  # Add this unique identifier
-                  pages: 3
-                  title: "Python Programming 2023"
-                - year: 2024
-                  file: ymca-python-2024.pdf
-                  id: ymca-python-2024  # Add this unique identifier
-                  pages: 3
-                  title: "Python Programming 2024"
-            - name: Signals and Systems
-              slug: signals-and-systems
-              id: signals-and-systems
-              description: Fundamentals of signals and systems analysis
-              keywords: ["signals", "systems", "analysis"]
-              icon: signal
-              pyqs:
-                - year: 2022
-                  file: ymca-signals-and-systems-2022.pdf
-                  id: ymca-signals-and-systems-2022  # Add this unique identifier
-                  pages: 3
-                  title: "Signals and Systems 2022"
-                - year: 2024
-                  file: ymca-signals-and-systems-2024.pdf
-                  id: ymca-signals-and-systems-2024  # Add this unique identifier
-                  pages: 3
-                  title: "Signals and Systems 2024"
-        - number: 5
-          slug: sem5
-          id: sem5
-          description: Subjects for Semester 5
-          keywords: ["semester 5", "electronics", "computer", "engineering"]
-          subjects:
-            - name: Database Management System
-              slug: dbms
-              id: dbms
-              description: Fundamentals of database management systems
-              keywords: ["database", "management", "systems"]
-              icon: database
-              pyqs:
-                - year: 2018
-                  file: ymca-dbms-2018.pdf
-                  id: ymca-dbms-2018  # Add this unique identifier
-                  pages: 3
-                  title: "Database Management System 2018"
-                - year: 2019
-                  file: ymca-dbms-2019.pdf
-                  id: ymca-dbms-2019  # Add this unique identifier
-                  pages: 3
-                  title: "Database Management System 2019"
-                - year: 2023
-                  file: ymca-dbms-2023.pdf
-                  id: ymca-dbms-2023  # Add this unique identifier
-                  pages: 3
-                  title: "Database Management System 2023"
-            - name: Environmental science
-              id: environmental-science
-              description: Study of environmental issues and solutions
-              keywords: ["environment", "science", "issues", "solutions", "env"]
-              icon: leaf
-              slug: environmental-science
-              pyqs:
-                - year: 2023
-                  file: ymca-environmental-science-2023.pdf
-                  id: ymca-environmental-science-2023  # Add this unique identifier
-                  pages: 3
-                  title: "Environmental Science 2023"
-                - year: 2024
-                  file: ymca-environmental-science-2024.pdf
-                  id: ymca-environmental-science-2024  # Add this unique identifier
-                  pages: 3
-                  title: "Environmental Science 2024"
-                - year: 2022
-                  file: ymca-environmental-science-2022.pdf
-                  id: ymca-environmental-science-2022  # Add this unique identifier
-                  pages: 3
-                  title: "Environmental Science 2022"
-                - year: 2025
-                  file: ymca-env-praxian-analysis-2025.pdf
-                  id: ymca-env-praxian-analysis-2025  # Add this unique identifier
-                  pages: 3
-                  title: "Environmental Science Praxian Analysis 2025"
-            - name: Operating System
-              id: os
-              description: Principles of operating systems
-              keywords: ["operating", "system", "principles", "os"]
-              icon: server
-              slug: os
-              pyqs:
-                - year: 2019
-                  file: ymca-os-2019.pdf
-                  id: ymca-os-2019  # Add this unique identifier
-                  pages: 3
-                  title: "Operating System 2019"
-                - year: 2025
-                  file: ymca-os-praxian-analysis-2025.pdf
-                  id: ymca-os-praxian-analysis-2025  # Add this unique identifier
-                  pages: 3
-                  title: "Operating System Praxian Analysis 2025"
-        - number: 6
-          slug: sem6
-          id: sem6
-          keywords: ["signals", "systems", "semester 6"]
-          description: Subjects for Semester 6
-          subjects:
-            - name: Data Mining
-              slug: data-mining
-              id: data-mining
-              description: Techniques for data mining and analysis
-              keywords: ["data", "mining", "analysis"]
-              icon: database
-              pyqs:
-                - year: 2018
-                  file: ymca-data-mining-2018.pdf
-                  id: ymca-data-mining-2018  # Add this unique identifier
-                  pages: 3
-                  title: "Data Mining 2018"
-                - year: 2024
-                  file: ymca-data-mining-2024.pdf
-                  id: ymca-data-mining-2024  # Add this unique identifier
-                  pages: 3
-                  title: "Data Mining 2024"
-            - name: Digital Signal Processing
-              slug: dsp
-              id: dsp
-              description: Fundamentals of digital signal processing
-              keywords: ["digital", "signal", "processing"]
-              icon: waveform
-              pyqs:
-                - year: 2022
-                  file: ymca-dsp-2022.pdf
-                  id: ymca-dsp-2022  # Add this unique identifier
-                  pages: 3
-                  title: "Digital Signal Processing 2022"
-                - year: 2023
-                  file: ymca-dsp-2023.pdf
-                  id: ymca-dsp-2023  # Add this unique identifier
-                  pages: 3
-                  title: "Digital Signal Processing 2023"
-                - year: 2024
-                  file: ymca-dsp-2024.pdf
-                  id: ymca-dsp-2024  # Add this unique identifier
-                  pages: 3
-                  title: "Digital Signal Processing 2024"
-            - name: Internet of Things
-              slug: iot
-              id: iot
-              description: Introduction to Internet of Things concepts
-              keywords: ["IoT", "Internet", "things", "concepts"]
-              icon: network-wired
-              pyqs:
-                - year: 2022
-                  file: ymca-iot-2022.pdf
-                  id: ymca-iot-2022  # Add this unique identifier
-                  pages: 3
-                  title: "Internet of Things 2022"
-                - year: 2023
-                  file: ymca-iot-2023.pdf
-                  id: ymca-iot-2023  # Add this unique identifier
-                  pages: 3
-                  title: "Internet of Things 2023"
-                - year: 2024
-                  file: ymca-iot-2024.pdf
-                  id: ymca-iot-2024  # Add this unique identifier
-                  pages: 3
-                  title: "Internet of Things 2024"
-            - name: Mobile Communication
-              slug: mobile
-              id: mobile
-              description: Fundamentals of mobile communication systems
-              keywords: ["mobile", "communication", "systems"]
-              icon: mobile-alt
-              pyqs:
-                - year: 2023
-                  file: ymca-mobile-2023.pdf
-                  id: ymca-mobile-2023  # Add this unique identifier
-                  pages: 3
-                  title: "Mobile Communication 2023"
-                - year: 2024
-                  file: ymca-mobile-2024.pdf
-                  id: ymca-mobile-2024  # Add this unique identifier
-                  pages: 3
-                  title: "Mobile Communication 2024"
-            - name: Soft Skills
-              slug: soft-skills
-              id: soft-skills
-              description: Development of soft skills for professionals
-              keywords: ["soft", "skills", "development"]
-              icon: comments
-              pyqs:
-                - year: 2024
-                  file: ymca-soft-skills-2024.pdf
-                  id: ymca-soft-skills-2024  # Add this unique identifier
-                  pages: 3
-                  title: "Soft Skills 2024"
-            - name: Software Engineering
-              slug: software
-              id: software
-              description: Principles of software development
-              keywords: ["software", "engineering", "development"]
-              icon: laptop-code
-              pyqs:
-                - year: 2023
-                  file: ymca-software-2023.pdf
-                  id: ymca-software-2023  # Add this unique identifier
-                  pages: 3
-                  title: "Software Engineering 2023"
-                - year: 2024
-                  file: ymca-software-2024.pdf
-                  id: ymca-software-2024  # Add this unique identifier
-                  pages: 3
-                  title: "Software Engineering 2024"
     - name: BBA
       slug: bba
       id: bba
@@ -2457,459 +2910,6 @@
                   id: ymca-system-analysis-2024  # Add this unique identifier
                   pages: 3
                   title: "System Analysis 2024"
-    - name: Data Science
-      slug: data-science
-      id: data-science
-      description: Data Science Branch
-      keywords: ["data", "science", "analytics", "machine learning"]
-      icon: chart-line
-      semesters:
-        - number: 3
-          slug: sem3
-          id: sem3
-          description: Subjects for Semester 3
-          keywords: ["semester 3", "data science", "subjects"]
-          subjects:
-            - name: Mathematics for Data Science
-              slug: maths-for-ds
-              id: maths-for-ds
-              description: Mathematical foundations for data science
-              keywords: ["mathematics", "data science", "statistics"]
-              icon: calculator
-              pyqs:
-                - year: 2022
-                  file: ymca-maths-for-ds-2022.pdf
-                  id: ymca-maths-for-ds-2022
-                  pages: 3
-                  title: "Mathematics for Data Science 2022"
-                - year: 2023
-                  file: ymca-maths-for-ds-2023.pdf
-                  id: ymca-maths-for-ds-2023
-                  pages: 3
-                  title: "Mathematics for Data Science 2023"
-            - name: Statistics
-              slug: statistics
-              id: statistics
-              description: Fundamentals of statistics
-              keywords: ["statistics", "data analysis"]
-              icon: chart-bar
-              pyqs:
-                - year: 2023
-                  file: ymca-statistics-2023.pdf
-                  id: ymca-statistics-2023
-                  pages: 3
-                  title: "Statistics 2023"
-            - name: Data Structures and Algorithms
-              slug: dsa
-              id: dsa
-              description: Core concepts in data organization
-              keywords: ["data", "structures", "algorithms"]
-              icon: code
-              pyqs:
-                - year: 2018
-                  file: ymca-dsa-2018.pdf
-                  id: ymca-dsa-2018
-                  pages: 3
-                  title: "Data Structures and Algorithms 2018"
-                - year: 2023
-                  file: ymca-dsa-2023.pdf
-                  id: ymca-dsa-2023
-                  pages: 3
-                  title: "Data Structures and Algorithms 2023"
-                - year: 2024
-                  file: ymca-dsa-2024.pdf
-                  id: ymca-dsa-2024
-                  pages: 3
-                  title: "Data Structures and Algorithms 2024"
-            - name: Effective Technical Communication
-              slug: etc
-              id: etc
-              description: Skills for effective communication in technical fields
-              keywords: ["communication", "technical", "skills"]
-              icon: comment-dots
-              pyqs:
-                - year: 2023
-                  file: ymca-etc-2023.pdf
-                  id: ymca-etc-2023
-                  pages: 3
-                  title: "Effective Technical Communication 2023"
-                - year: 2024
-                  file: ymca-etc-2024.pdf
-                  id: ymca-etc-2024
-                  pages: 3
-                  title: "Effective Technical Communication 2024"
-            - name: Database Systems
-              slug: database-systems
-              id: database-systems
-              description: Principles of database systems
-              keywords: ["database", "systems", "data management"]
-              icon: database
-              pyqs:
-                - year: 2023
-                  file: ymca-database-systems-2023.pdf
-                  id: ymca-database-systems-2023
-                  pages: 3
-                  title: "Database Systems 2023"
-        - number: 4
-          slug: sem4
-          id: sem4
-          description: Subjects for Semester 4
-          keywords: ["semester 4", "data science", "subjects"]
-          subjects:
-            - name: Computer Networks
-              slug: computer-networks
-              id: computer-networks
-              description: Principles of computer networking
-              keywords: ["computer", "networks", "principles"]
-              icon: network-wired
-              pyqs:
-                - year: 2017
-                  file: ymca-computer-networks-2017.pdf
-                  id: ymca-computer-networks-2017
-                  pages: 3
-                  title: "Computer Networks 2017"
-                - year: 2018
-                  file: ymca-computer-networks-2018.pdf
-                  id: ymca-computer-networks-2018
-                  pages: 3
-                  title: "Computer Networks 2018"
-                - year: 2023
-                  file: ymca-computer-networks-2023.pdf
-                  id: ymca-computer-networks-2023
-                  pages: 3
-                  title: "Computer Networks 2023"
-                - year: 2024
-                  file: ymca-computer-networks-2024.pdf
-                  id: ymca-computer-networks-2024
-                  pages: 3
-                  title: "Computer Networks 2024"
-            - name: Economics
-              slug: economics
-              id: economics
-              description: Economics principles in data science
-              keywords: ["economics", "data science", "principles"]
-              icon: chart-line
-              pyqs:
-                - year: 2018
-                  file: ymca-economics-2018.pdf
-                  id: ymca-economics-2018
-                  pages: 3
-                  title: "Economics 2018"
-                - year: 2019
-                  file: ymca-economics-2019.pdf
-                  id: ymca-economics-2019
-                  pages: 3
-                  title: "Economics 2019"
-                - year: 2020
-                  file: ymca-economics-2020.pdf
-                  id: ymca-economics-2020
-                  pages: 3
-                  title: "Economics 2020"
-                - year: 2023
-                  file: ymca-economics-2023.pdf
-                  id: ymca-economics-2023
-                  pages: 3
-                  title: "Economics 2023"
-                - year: 2024
-                  file: ymca-economics-2024.pdf
-                  id: ymca-economics-2024
-                  pages: 3
-                  title: "Economics 2024"
-            - name: Environmental Science
-              slug: environmental-science
-              id: environmental-science
-              description: Study of environmental issues and solutions
-              keywords: ["environment", " dobbinscience", "issues", "solutions"]
-              icon: leaf
-              pyqs:
-                - year: 2022
-                  file: ymca-environmental-science-2022.pdf
-                  id: ymca-environmental-science-2022
-                  pages: 3
-                  title: "Environmental Science 2022"
-                - year: 2023
-                  file: ymca-environmental-science-2023.pdf
-                  id: ymca-environmental-science-2023
-                  pages: 3
-                  title: "Environmental Science 2023"
-                - year: 2024
-                  file: ymca-environmental-science-2024.pdf
-                  id: ymca-environmental-science-2024
-                  pages: 3
-                  title: "Environmental Science 2024"
-                - year: 2025
-                  file: ymca-env-praxian-analysis-2025.pdf
-                  id: ymca-env-praxian-analysis-2025
-                  pages: 3
-                  title: "Environmental Science Praxian Analysis 2025"
-            - name: Data Mining
-              slug: data-mining
-              id: data-mining
-              description: Techniques and applications of data mining
-              keywords: ["data", "mining", "techniques", "applications"]
-              icon: database
-              pyqs:
-                - year: 2018
-                  file: ymca-data-mining-2018.pdf
-                  id: ymca-data-mining-2018
-                  pages: 3
-                  title: "Data Mining 2018"
-                - year: 2024
-                  file: ymca-data-mining-2024.pdf
-                  id: ymca-data-mining-2024
-                  pages: 3
-                  title: "Data Mining 2024"
-        - number: 5
-          slug: sem5
-          id: sem5
-          description: Subjects for Semester 5
-          keywords: ["semester 5", "data science", "subjects"]
-          subjects:
-            - name: Biology
-              slug: biology
-              id: biology
-              description: Biological concepts in data science
-              keywords: ["biology", "data science", "concepts"]
-              icon: flask
-              pyqs:
-                - year: 2023
-                  file: ymca-biology-2023.pdf
-                  id: ymca-biology-2023
-                  pages: 3
-                  title: "Biology 2023"
-                - year: 2024
-                  file: ymca-biology-2024.pdf
-                  id: ymca-biology-2024
-                  pages: 3
-                  title: "Biology 2024"
-            - name: Design and Analysis of Algorithms
-              slug: daa
-              id: daa
-              description: Techniques for algorithm design and analysis
-              keywords: ["design", "analysis", "algorithms"]
-              icon: project-diagram
-              pyqs:
-                - year: 2015
-                  file: ymca-daa-2015.pdf
-                  id: ymca-daa-2015
-                  pages: 3
-                  title: "Design and Analysis of Algorithms 2015"
-                - year: 2016
-                  file: ymca-daa-2016.pdf
-                  id: ymca-daa-2016
-                  pages: 3
-                  title: "Design and Analysis of Algorithms 2016"
-                - year: 2019
-                  file: ymca-daa-2019.pdf
-                  id: ymca-daa-2019
-                  pages: 3
-                  title: "Design and Analysis of Algorithms 2019"
-                - year: 2022
-                  file: ymca-daa-2022.pdf
-                  id: ymca-daa-2022
-                  pages: 3
-                  title: "Design and Analysis of Algorithms 2022"
-                - year: 2023
-                  file: ymca-daa-2023.pdf
-                  id: ymca-daa-2023
-                  pages: 3
-                  title: "Design and Analysis of Algorithms 2023"
-                - year: 2024
-                  file: ymca-daa-2024.pdf
-                  id: ymca-daa-2024
-                  pages: 3
-                  title: "Design and Analysis of Algorithms 2024"
-                - year: 2025
-                  file: ymca-daa-praxian-analysis-2025.pdf
-                  id: ymca-daa-praxian-analysis-2025
-                  pages: 3
-                  title: "Design and Analysis of Algorithms Praxian Analysis 2025"
-            - name: Operating System
-              slug: os
-              id: os
-              description: Principles of operating systems
-              keywords: ["operating", "system", "principles"]
-              icon: server
-              pyqs:
-                - year: 2019
-                  file: ymca-os-2019.pdf
-                  id: ymca-os-2019
-                  pages: 3
-                  title: "Operating System 2019"
-                - year: 2025
-                  file: ymca-os-praxian-analysis-2025.pdf
-                  id: ymca-os-praxian-analysis-2025
-                  pages: 3
-                  title: "Operating System Praxian Analysis 2025"
-            - name: Constitution
-              slug: constitution
-              id: constitution
-              description: Study of the Indian Constitution
-              keywords: ["constitution", "indian", "study"]
-              icon: gavel
-              pyqs:
-                - year: 2023
-                  file: ymca-constitution-2023-set-1.pdf
-                  id: ymca-constitution-2023-set-1
-                  pages: 3
-                  title: "Constitution 2023 Set 1"
-                - year: 2023
-                  file: ymca-constitution-2023-set-2.pdf
-                  id: ymca-constitution-2023-set-2
-                  pages: 3
-                  title: "Constitution 2023 Set 2"
-            - name: Soft Computing
-              slug: soft-computing
-              id: soft-computing
-              description: Principles of soft computing
-              keywords: ["soft", "computing", "principles"]
-              icon: brain
-              pyqs:
-                - year: 2023
-                  file: ymca-soft-computing-set-1-2023.pdf
-                  id: ymca-soft-computing-set-1-2023
-                  pages: 3
-                  title: "Soft Computing Set 1 2023"
-                - year: 2023
-                  file: ymca-soft-computing-set-2-2023.pdf
-                  id: ymca-soft-computing-set-2-2023
-                  pages: 3
-                  title: "Soft Computing Set 2 2023"
-                - year: 2024
-                  file: ymca-soft-computing-2024.pdf
-                  id: ymca-soft-computing-2024
-                  pages: 3
-                  title: "Soft Computing 2024"
-            - name: Computer Architecture
-              slug: computer-architecture
-              id: computer-architecture
-              description: Fundamentals of computer architecture
-              keywords: ["computer", "architecture", "fundamentals"]
-              icon: desktop
-              pyqs:
-                - year: 2018
-                  file: ymca-computer-architecture-2018.pdf
-                  id: ymca-computer-architecture-2018
-                  pages: 3
-                  title: "Computer Architecture 2018"
-                - year: 2023
-                  file: ymca-computer-architecture-2023.pdf
-                  id: ymca-computer-architecture-2023
-                  pages: 3
-                  title: "Computer Architecture 2023"
-        - number: 6
-          slug: sem6
-          id: sem6
-          description: Subjects for Semester 6
-          keywords: ["semester 6", "data science", "subjects"]
-          subjects:
-            - name: Bhagavad Gita
-              slug: bhagavad-gita
-              id: bhagavad-gita
-              description: Study of the Bhagavad Gita
-              keywords: ["bhagavad", "gita", "study"]
-              icon: book-open
-              pyqs:
-                - year: 2024
-                  file: ymca-bhagavad-gita-2024.pdf
-                  id: ymca-bhagavad-gita-2024
-                  pages: 3
-                  title: "Bhagavad Gita 2024"
-            - name: Big Data
-              slug: big-data
-              id: big-data
-              description: Concepts and technologies in big data
-              keywords: ["big", "data", "technologies"]
-              icon: database
-              pyqs:
-                - year: 2024
-                  file: ymca-big-data-2024.pdf
-                  id: ymca-big-data-2024
-                  pages: 3
-                  title: "Big Data 2024"
-            - name: Machine Learning
-              slug: ml
-              id: ml
-              description: Principles of machine learning
-              keywords: ["machine", "learning", "principles"]
-              icon: brain
-              pyqs:
-                - year: 2022
-                  file: ymca-ml-2022.pdf
-                  id: ymca-ml-2022
-                  pages: 3
-                  title: "Machine Learning 2022"
-                - year: 2023
-                  file: ymca-ml-2023.pdf
-                  id: ymca-ml-2023
-                  pages: 3
-                  title: "Machine Learning 2023"
-            - name: Internet and Web Technologies
-              slug: int-n-web-technologies
-              id: int-n-web-technologies
-              description: Principles of internet and web technologies
-              keywords: ["internet", "web", "technologies"]
-              icon: globe
-              pyqs:
-                - year: 2024
-                  file: ymca-int-n-web-technologies-2024.pdf
-                  id: ymca-int-n-web-technologies-2024
-                  pages: 3
-                  title: "Internet and Web Technologies 2024"
-        - number: 7
-          slug: sem7
-          id: sem7
-          description: Subjects for Semester 7
-          keywords: ["semester 7", "data science", "subjects"]
-          subjects:
-            - name: Cloud Computing
-              slug: cloud-computing
-              id: cloud-computing
-              description: Concepts and technologies in cloud computing
-              keywords: ["cloud", "computing", "technologies"]
-              icon: cloud
-              pyqs:
-                - year: 2019
-                  file: ymca-cloud-computing-2019.pdf
-                  id: ymca-cloud-computing-2019
-                  pages: 3
-                  title: "Cloud Computing 2019"
-            - name: Speech and Natural Language Processing
-              slug: speech-n-nlp
-              id: speech-n-nlp
-              description: Concepts in speech and natural language processing
-              keywords: ["speech", "natural", "language", "processing"]
-              icon: comment-dots
-              pyqs:
-                - year: 2023
-                  file: ymca-speech-n-nlp-2023.pdf
-                  id: ymca-speech-n-nlp-2023
-                  pages: 3
-                  title: "Speech and Natural Language Processing 2023"
-            - name: Data Learning and Image Processing
-              slug: dl-n-image-processing
-              id: dl-n-image-processing
-              description: Concepts in data learning and image processing
-              keywords: ["data", "learning", "image", "processing"]
-              icon: image
-              pyqs:
-                - year: 2023
-                  file: ymca-dl-n-image-processing-2023.pdf
-                  id: ymca-dl-n-image-processing-2023
-                  pages: 3
-                  title: "Data Learning and Image Processing 2023"
-            - name: Business Intelligence
-              slug: business-intelligence
-              id: business-intelligence
-              description: Concepts in business intelligence
-              keywords: ["business", "intelligence", "concepts"]
-              icon: chart-pie
-              pyqs:
-                - year: 2023
-                  file: ymca-business-intelligence-2023.pdf
-                  id: ymca-business-intelligence-2023
-                  pages: 3
-                  title: "Business Intelligence 2023"
 - name: VIT Bhopal
   slug: vit-bhopal
   id: vit-bhopal
