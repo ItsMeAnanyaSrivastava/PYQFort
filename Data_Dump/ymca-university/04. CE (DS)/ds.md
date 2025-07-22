@@ -4,7 +4,7 @@
         └── 📁statistics-1 ("BSC-DS-302") [*] => ce/sem8/miscellaneous
         └── 📁dsa (PCC-CS-301) [*] => ce/sem3
         └── 📁etc (HSMC-01) [*] => ce/sem3
-        └── 📁fundamentals-of-db-systems (PCC-DS-301) [*] => ce/sem8/miscellaneous
+        └── 📁database-systems (PCC-DS-301) [*] => ce/sem8/miscellaneous
     └── 📁sem4
         └── 📁computer-networks ("PCC-CS-602") [rm*] => ce/sem6
         └── 📁economics (HSMC-02) [*] => ce/sem4
