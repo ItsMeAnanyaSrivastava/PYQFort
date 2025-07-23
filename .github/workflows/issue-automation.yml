@@ -20,7 +20,7 @@ jobs:
             const title = issue.title.toLowerCase();
             const body = issue.body ? issue.body.toLowerCase() : '';
             
-            let labels = ['enhancement']; // Default label
+            let labels = ['SSoC25']; // Default label
             
             // Add additional labels based on content
             if (title.includes('bug') || body.includes('bug')) {
