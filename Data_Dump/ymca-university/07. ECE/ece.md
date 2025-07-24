@@ -1,0 +1,24 @@
+└── 📁ece
+    └── 📁sem3
+        └── 📁electronic-devices
+        └── 📁dsd
+        └── 📁network-theory
+        └── 📁e-mechanics
+        └── 📁mathematics-3
+        └── 📁constitution
+    └── 📁sem4
+        └── 📁analog-digital-communication
+        └── 📁analog-circuits
+        └── 📁microprocessors
+        └── 📁computer-architecture
+        └── 📁sns
+        └── 📁biology
+    └── 📁sem5
+        └── 📁em-wave
+        └── 📁probability-theory
+        └── 📁dsp
+        └── 📁environmental-science
+    └── 📁sem6
+        └── 📁control-system
+        └── 📁computer-networks
+        
