@@ -5,20 +5,20 @@
         └── 📁network-theory
         └── 📁e-mechanics
         └── 📁mathematics-3
-        └── 📁constitution
+        └── 📁[c]-constitution
     └── 📁sem4
         └── 📁analog-digital-communication
         └── 📁analog-circuits
-        └── 📁microprocessors
-        └── 📁computer-architecture
-        └── 📁sns
-        └── 📁biology
+        └── 📁[*enc]microprocessors
+        └── 📁[c]-computer-architecture
+        └── 📁[*enc]-sns
+        └── 📁[c]-biology
     └── 📁sem5
         └── 📁em-wave
         └── 📁probability-theory
         └── 📁dsp
-        └── 📁environmental-science
+        └── 📁[c]-environmental-science
     └── 📁sem6
         └── 📁control-system
-        └── 📁computer-networks
+        └── 📁[c]-computer-networks
         
