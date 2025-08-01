@@ -1949,6 +1949,223 @@
                   id: ymca-software-2024  # Add this unique identifier
                   pages: 3
                   title: "Software Engineering 2024"
+    - name: Electronics and Communication Engineering
+      slug: ece
+      id: ece
+      description: Electronics and Communication Engineering Branch
+      keywords: ["electronics", "communication", "engineering", "circuits"]
+      icon: microchip
+      semesters:
+        - number: 3
+          slug: sem3
+          id: sem3
+          description: Subjects for Semester 3
+          keywords: ["semester 3", "electronics", "communication", "subjects"]
+          subjects:
+            - name: Digital System Design
+              slug: dsd
+              id: dsd
+              description: Principles of digital system design
+              keywords: ["digital", "system", "design"]
+              icon: circuit-board
+              pyqs:
+                - year: 2023
+                  file: ymca-dsd-2023.pdf
+                  id: ymca-dsd-2023
+                  pages: 3
+                  title: "Digital System Design 2023"
+            - name: Engineering Mechanics
+              slug: e-mechanics
+              id: e-mechanics
+              description: Fundamentals of engineering mechanics
+              keywords: ["engineering", "mechanics", "fundamentals"]
+              icon: wrench
+              pyqs:
+                - year: 2019
+                  file: ymca-e-mechanics-set-1-2019.pdf
+                  id: ymca-e-mechanics-set-1-2019
+                  pages: 3
+                  title: "Engineering Mechanics Set 1 2019"
+                - year: 2019
+                  file: ymca-e-mechanics-set-2-2019.pdf
+                  id: ymca-e-mechanics-set-2-2019
+                  pages: 3
+                  title: "Engineering Mechanics Set 2 2019"
+            - name: Electronic Devices
+              slug: electronic-devices
+              id: electronic-devices
+              description: Study of electronic devices and circuits
+              keywords: ["electronic", "devices", "circuits"]
+              icon: microchip
+              pyqs:
+                - year: 2019
+                  file: ymca-electronic-devices-2019.pdf
+                  id: ymca-electronic-devices-2019
+                  pages: 3
+                  title: "Electronic Devices 2019"
+                - year: 2023
+                  file: ymca-electronic-devices-set-1-2023.pdf
+                  id: ymca-electronic-devices-set-1-2023
+                  pages: 3
+                  title: "Electronic Devices Set 1 2023"
+                - year: 2023
+                  file: ymca-electronic-devices-set-2-2023.pdf
+                  id: ymca-electronic-devices-set-2-2023
+                  pages: 3
+                  title: "Electronic Devices Set 2 2023"
+            - name: Network Theory
+              slug: network-theory
+              id: network-theory
+              description: Fundamentals of network theory
+              keywords: ["network", "theory", "circuits"]
+              icon: network-wired
+              pyqs:
+                - year: 2019
+                  file: ymca-network-theory-2019.pdf
+                  id: ymca-network-theory-2019
+                  pages: 3
+                  title: "Network Theory 2019"
+                - year: 2023
+                  file: ymca-network-theory-set-1-2023.pdf
+                  id: ymca-network-theory-set-1-2023
+                  pages: 3
+                  title: "Network Theory Set 1 2023"
+                - year: 2023
+                  file: ymca-network-theory-set-2-2023.pdf
+                  id: ymca-network-theory-set-2-2023
+                  pages: 3
+                  title: "Network Theory Set 2 2023"
+        - number: 4
+          slug: sem4
+          id: sem4
+          description: Subjects for Semester 4
+          keywords: ["semester 4", "electronics", "communication", "subjects"]
+          subjects:
+            - name: Analog Circuits
+              slug: analog-circuits
+              id: analog-circuits
+              description: Study of analog circuits
+              keywords: ["analog", "circuits", "electronics"]
+              icon: microchip
+              pyqs:
+                - year: 2023
+                  file: ymca-analog-circuits-2023.pdf
+                  id: ymca-analog-circuits-2023
+                  pages: 3
+                  title: "Analog Circuits 2023"
+                - year: 2024
+                  file: ymca-analog-circuits-2024.pdf
+                  id: ymca-analog-circuits-2024
+                  pages: 3
+                  title: "Analog Circuits 2024"
+            - name: Analog and Digital Communication
+              slug: analog-digital-communication
+              id: analog-digital-communication
+              description: Principles of analog and digital communication
+              keywords: ["analog", "digital", "communication"]
+              icon: signal
+              pyqs:
+                - year: 2019
+                  file: ymca-analog-digital-communication-2019.pdf
+                  id: ymca-analog-digital-communication-2019
+                  pages: 3
+                  title: "Analog and Digital Communication 2019"
+                - year: 2023
+                  file: ymca-analog-digital-communication-2023.pdf
+                  id: ymca-analog-digital-communication-2023
+                  pages: 3
+                  title: "Analog and Digital Communication 2023"
+                - year: 2024
+                  file: ymca-analog-digital-communication-2024.pdf
+                  id: ymca-analog-digital-communication-2024
+                  pages: 3
+                  title: "Analog and Digital Communication 2024"
+            - name: Computer Architecture
+              slug: computer-architecture
+              id: computer-architecture
+              description: Fundamentals of computer architecture
+              keywords: ["computer", "architecture", "fundamentals"]
+              icon: desktop
+              pyqs:
+                - year: 2023
+                  file: ymca-computer-architecture-2023.pdf
+                  id: ymca-computer-architecture-2023
+                  pages: 3
+                  title: "Computer Architecture 2023"
+                - year: 2024
+                  file: ymca-computer-architecture-2024.pdf
+                  id: ymca-computer-architecture-2024
+                  pages: 3
+                  title: "Computer Architecture 2024"
+            - name: Microprocessor
+              slug: microprocessor
+              id: microprocessor
+              description: Principles of microprocessor systems
+              keywords: ["microprocessor", "systems", "electronics"]
+              icon: microchip
+              pyqs:
+                - year: 2019
+                  file: ymca-microprocessor-2019.pdf
+                  id: ymca-microprocessor-2019
+                  pages: 3
+                  title: "Microprocessor 2019"
+                - year: 2023
+                  file: ymca-microprocessor-2023.pdf
+                  id: ymca-microprocessor-2023
+                  pages: 3
+                  title: "Microprocessor 2023"
+                - year: 2024
+                  file: ymca-microprocessor-2024.pdf
+                  id: ymca-microprocessor-2024
+                  pages: 3
+                  title: "Microprocessor 2024"
+        - number: 5
+          slug: sem5
+          id: sem5
+          description: Subjects for Semester 5
+          keywords: ["semester 5", "electronics", "communication", "subjects"]
+          subjects:
+            - name: Digital Signal Processing
+              slug: dsp
+              id: dsp
+              description: Principles of digital signal processing
+              keywords: ["digital", "signal", "processing"]
+              icon: signal
+              pyqs:
+                - year: 2019
+                  file: ymca-dsp-2019.pdf
+                  id: ymca-dsp-2019
+                  pages: 3
+                  title: "Digital Signal Processing 2019"
+            - name: Electromagnetic Waves
+              slug: em-wave
+              id: em-wave
+              description: Study of electromagnetic waves
+              keywords: ["electromagnetic", "waves", "physics"]
+              icon: wave-square
+              pyqs:
+                - year: 2019
+                  file: ymca-em-wave-2019.pdf
+                  id: ymca-em-wave-2019
+                  pages: 3
+                  title: "Electromagnetic Waves 2019"
+            - name: Probability Theory
+              slug: probability-theory
+              id: probability-theory
+              description: Fundamentals of probability theory
+              keywords: ["probability", "theory", "mathematics"]
+              icon: calculator
+              pyqs:
+                - year: 2019
+                  file: ymca-probability-theory-2019.pdf
+                  id: ymca-probability-theory-2019
+                  pages: 3
+                  title: "Probability Theory 2019"
+                - year: 2023
+                  file: ymca-probability-theory-2023.PDF
+                  id: ymca-probability-theory-2023
+                  pages: 3
+                  title: "Probability Theory 2023"
     - name: Information Technology
       slug: it
       id: it
