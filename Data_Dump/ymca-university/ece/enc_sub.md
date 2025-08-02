@@ -1,0 +1,26 @@
+└── 📁enc
+    └── 📁[c]-sem-5
+        └── 📁[c]-dbms
+        └── 📁[c]-environmental-science
+        └── 📁[c]-os
+    └── 📁sem3
+        └── 📁[c]-constitution
+        └── 📁analog-communication
+        └── 📁circuit-analysis
+        └── 📁digital-electronics
+        └── 📁maths-3
+        └── 📁semiconductor
+    └── 📁sem4
+        └── 📁aec
+        └── 📁digital-communication
+        └── 📁digital-system-design
+        └── 📁microprocessor
+        └── 📁python
+        └── 📁sns
+    └── 📁sem6
+        └── 📁[c]-data-mining
+        └── 📁[c]-soft-skills
+        └── 📁dsp
+        └── 📁iot
+        └── 📁mobile
+        └── 📁software

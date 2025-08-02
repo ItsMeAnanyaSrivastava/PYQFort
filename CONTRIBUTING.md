@@ -11,7 +11,7 @@ We appreciate your interest in contributing! To ensure a smooth and collaborativ
 
 ## 🧠 Important Note
 
-* **VS Code EntelligenceAI Extension:** Points will only be counted for contributions made by individuals who have installed the VS Code EntelligenceAI extension, as per the guidelines provided by the SSOC team.
+* **For new contributors:** You need to add the PYQs in the [Data_Dump](https://github.com/Saumy1905/PYQFort/tree/main/Data_Dump) directory (as per the directory structure) which is present in the main GitHub page of PYQFort repository.
 
 ---
 

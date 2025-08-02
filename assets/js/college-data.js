@@ -13,7 +13,7 @@ window.COLLEGE_DATA = {
         nirf_rank: 101,
         category: "Government",
         total_students: 8000,
-        accreditation: "NAAC A+"
+        accreditation: "NAAC A+",
       },
       branches: [
         {
@@ -42,23 +42,23 @@ window.COLLEGE_DATA = {
                       difficulty: "intermediate",
                       exam_type: "semester",
                       pages: 3,
-                      title: "Applied Electronic Circuit 2024"
+                      title: "Applied Electronic Circuit 2024",
                     },
                     {
                       year: 2023,
                       file: "ymca-aec-2023.pdf",
                       id: "ymca-aec-2023",
                       pages: 3,
-                      title: "Applied Electronic Circuit 2023"
+                      title: "Applied Electronic Circuit 2023",
                     },
                     {
                       year: 2019,
                       file: "ymca-aec-2019.pdf",
                       id: "ymca-aec-2019",
                       pages: 3,
-                      title: "Applied Electronic Circuit 2019"
-                    }
-                  ]
+                      title: "Applied Electronic Circuit 2019",
+                    },
+                  ],
                 },
                 {
                   name: "Calculus and Ordinary Differential Equations",
@@ -72,9 +72,10 @@ window.COLLEGE_DATA = {
                       file: "ymca-cde-2023.pdf",
                       id: "ymca-cde-2023",
                       pages: 3,
-                      title: "Calculus and Ordinary Differential Equations 2023"
-                    }
-                  ]
+                      title:
+                        "Calculus and Ordinary Differential Equations 2023",
+                    },
+                  ],
                 },
                 {
                   name: "Digital electronics",
@@ -88,30 +89,30 @@ window.COLLEGE_DATA = {
                       file: "ymca-digital-electronics-2018.pdf",
                       id: "ymca-digital-electronics-2018",
                       pages: 3,
-                      title: "Digital Electronics 2018"
+                      title: "Digital Electronics 2018",
                     },
                     {
                       year: 2019,
                       file: "ymca-digital-electronics-2019.pdf",
                       id: "ymca-digital-electronics-2019",
                       pages: 3,
-                      title: "Digital Electronics 2019"
+                      title: "Digital Electronics 2019",
                     },
                     {
                       year: 2023,
                       file: "ymca-digital-electronics-2023.pdf",
                       id: "ymca-digital-electronics-2023",
                       pages: 3,
-                      title: "Digital Electronics 2023"
+                      title: "Digital Electronics 2023",
                     },
                     {
                       year: 2024,
                       file: "ymca-digital-electronics-2024.pdf",
                       id: "ymca-digital-electronics-2024",
                       pages: 3,
-                      title: "Digital Electronics 2024"
-                    }
-                  ]
+                      title: "Digital Electronics 2024",
+                    },
+                  ],
                 },
                 {
                   name: "Data Structures and Algorithms",
@@ -125,20 +126,28 @@ window.COLLEGE_DATA = {
                       file: "ymca-dsa-2024.pdf",
                       id: "ymca-dsa-2024",
                       pages: 3,
-                      title: "Data Structures and Algorithms 2024"
+                      title: "Data Structures and Algorithms 2024",
                     },
                     {
                       year: 2018,
                       file: "ymca-dsa-2018.pdf",
                       id: "ymca-dsa-2018",
                       pages: 3,
-                      title: "Data Structures and Algorithms 2018"
-                    }
-                  ]
+                      title: "Data Structures and Algorithms 2018",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-dsa-2023.pdf",
+                      id: "ymca-dsa-2023",
+                      pages: 3,
+                      title: "Data Structures and Algorithms 2023",
+                    },
+                  ],
                 },
                 {
                   name: "Effective Technical Communication",
-                  description: "Skills for effective communication in technical fields",
+                  description:
+                    "Skills for effective communication in technical fields",
                   icon: "comment-dots",
                   slug: "etc",
                   id: "etc",
@@ -148,18 +157,18 @@ window.COLLEGE_DATA = {
                       file: "ymca-etc-2023.pdf",
                       id: "ymca-etc-2023",
                       pages: 3,
-                      title: "Effective Technical Communication 2023"
+                      title: "Effective Technical Communication 2023",
                     },
                     {
                       year: 2024,
                       file: "ymca-etc-2024.pdf",
                       id: "ymca-etc-2024",
                       pages: 3,
-                      title: "Effective Technical Communication 2024"
-                    }
-                  ]
-                }
-              ]
+                      title: "Effective Technical Communication 2024",
+                    },
+                  ],
+                },
+              ],
             },
             {
               number: 4,
@@ -179,16 +188,16 @@ window.COLLEGE_DATA = {
                       file: "ymca-coa-2024.pdf",
                       id: "ymca-coa-2024",
                       pages: 3,
-                      title: "Computer Organization and Architecture 2024"
+                      title: "Computer Organization and Architecture 2024",
                     },
                     {
                       year: 2019,
                       file: "ymca-coa-2019.pdf",
                       id: "ymca-coa-2019",
                       pages: 3,
-                      title: "Computer Organization and Architecture 2019"
-                    }
-                  ]
+                      title: "Computer Organization and Architecture 2019",
+                    },
+                  ],
                 },
                 {
                   name: "Design and Analysis of Algorithms",
@@ -202,44 +211,52 @@ window.COLLEGE_DATA = {
                       file: "ymca-daa-2015.pdf",
                       id: "ymca-daa-2015",
                       pages: 3,
-                      title: "Design and Analysis of Algorithms 2015"
+                      title: "Design and Analysis of Algorithms 2015",
                     },
                     {
                       year: 2016,
                       file: "ymca-daa-2016.pdf",
                       id: "ymca-daa-2016",
                       pages: 3,
-                      title: "Design and Analysis of Algorithms 2016"
+                      title: "Design and Analysis of Algorithms 2016",
                     },
                     {
                       year: 2019,
                       file: "ymca-daa-2019.pdf",
                       id: "ymca-daa-2019",
                       pages: 3,
-                      title: "Design and Analysis of Algorithms 2019"
+                      title: "Design and Analysis of Algorithms 2019",
                     },
                     {
                       year: 2022,
                       file: "ymca-daa-2022.pdf",
                       id: "ymca-daa-2022",
                       pages: 3,
-                      title: "Design and Analysis of Algorithms 2022"
+                      title: "Design and Analysis of Algorithms 2022",
                     },
                     {
                       year: 2023,
                       file: "ymca-daa-2023.pdf",
                       id: "ymca-daa-2023",
                       pages: 3,
-                      title: "Design and Analysis of Algorithms 2023"
+                      title: "Design and Analysis of Algorithms 2023",
                     },
                     {
                       year: 2024,
                       file: "ymca-daa-2024.pdf",
                       id: "ymca-daa-2024",
                       pages: 3,
-                      title: "Design and Analysis of Algorithms 2024"
-                    }
-                  ]
+                      title: "Design and Analysis of Algorithms 2024",
+                    },
+                    {
+                      year: 2025,
+                      file: "ymca-daa-praxian-analysis-2025.pdf",
+                      id: "ymca-daa-praxian-analysis-2025",
+                      pages: 3,
+                      title:
+                        "Design and Analysis of Algorithms Praxian Analysis 2025",
+                    },
+                  ],
                 },
                 {
                   name: "Discrete Mathematics",
@@ -253,74 +270,74 @@ window.COLLEGE_DATA = {
                       file: "ymca-discrete-mathematics-2019.pdf",
                       id: "ymca-discrete-mathematics-2019",
                       pages: 3,
-                      title: "Discrete Mathematics 2019"
+                      title: "Discrete Mathematics 2019",
                     },
                     {
                       year: 2020,
                       file: "ymca-discrete-mathematics-2020.pdf",
                       id: "ymca-discrete-mathematics-2020",
                       pages: 3,
-                      title: "Discrete Mathematics 2020"
+                      title: "Discrete Mathematics 2020",
                     },
                     {
                       year: 2024,
                       file: "ymca-discrete-mathematics-2024.pdf",
                       id: "ymca-discrete-mathematics-2024",
                       pages: 3,
-                      title: "Discrete Mathematics 2024"
+                      title: "Discrete Mathematics 2024",
                     },
                     {
                       year: 2025,
                       file: "ymca-discrete-mathematics-praxian-analysis-2025.pdf",
                       id: "ymca-discrete-mathematics-praxian-analysis-2025",
                       pages: 3,
-                      title: "Discrete Mathematics Praxian Analysis 2025"
-                    }
-                  ]
+                      title: "Discrete Mathematics Praxian Analysis 2025",
+                    },
+                  ],
                 },
                 {
-                  name: "Economic",
-                  id: "economic",
-                  description: "Economic principles in engineering",
+                  name: "Economics",
+                  id: "economics",
+                  description: "Economics principles in engineering",
                   icon: "chart-line",
-                  slug: "economic",
+                  slug: "economics",
                   pyqs: [
                     {
                       year: 2023,
-                      file: "ymca-economic-2023.pdf",
-                      id: "ymca-economic-2023",
+                      file: "ymca-economics-2023.pdf",
+                      id: "ymca-economics-2023",
                       pages: 3,
-                      title: "Economic 2023"
+                      title: "Economics 2023",
                     },
                     {
                       year: 2024,
-                      file: "ymca-economic-2024.pdf",
-                      id: "ymca-economic-2024",
+                      file: "ymca-economics-2024.pdf",
+                      id: "ymca-economics-2024",
                       pages: 3,
-                      title: "Economic 2024"
+                      title: "Economics 2024",
                     },
                     {
                       year: 2019,
-                      file: "ymca-economic-2019.pdf",
-                      id: "ymca-economic-2019",
+                      file: "ymca-economics-2019.pdf",
+                      id: "ymca-economics-2019",
                       pages: 3,
-                      title: "Economic 2019"
+                      title: "Economics 2019",
                     },
                     {
                       year: 2020,
-                      file: "ymca-economic-2020.pdf",
-                      id: "ymca-economic-2020",
+                      file: "ymca-economics-2020.pdf",
+                      id: "ymca-economics-2020",
                       pages: 3,
-                      title: "Economic 2020"
+                      title: "Economics 2020",
                     },
                     {
                       year: 2018,
-                      file: "ymca-economic-2018.pdf",
-                      id: "ymca-economic-2018",
+                      file: "ymca-economics-2018.pdf",
+                      id: "ymca-economics-2018",
                       pages: 3,
-                      title: "Economic 2018"
-                    }
-                  ]
+                      title: "Economics 2018",
+                    },
+                  ],
                 },
                 {
                   name: "Environmental science",
@@ -334,30 +351,30 @@ window.COLLEGE_DATA = {
                       file: "ymca-environmental-science-2023.pdf",
                       id: "ymca-environmental-science-2023",
                       pages: 3,
-                      title: "Environmental Science 2023"
+                      title: "Environmental Science 2023",
                     },
                     {
                       year: 2024,
                       file: "ymca-environmental-science-2024.pdf",
                       id: "ymca-environmental-science-2024",
                       pages: 3,
-                      title: "Environmental Science 2024"
+                      title: "Environmental Science 2024",
                     },
                     {
                       year: 2022,
                       file: "ymca-environmental-science-2022.pdf",
                       id: "ymca-environmental-science-2022",
                       pages: 3,
-                      title: "Environmental Science 2022"
+                      title: "Environmental Science 2022",
                     },
                     {
                       year: 2025,
                       file: "ymca-env-praxian-analysis-2025.pdf",
                       id: "ymca-env-praxian-analysis-2025",
                       pages: 3,
-                      title: "Environmental Science Praxian Analysis 2025"
-                    }
-                  ]
+                      title: "Environmental Science Praxian Analysis 2025",
+                    },
+                  ],
                 },
                 {
                   name: "Operating system",
@@ -371,17 +388,17 @@ window.COLLEGE_DATA = {
                       file: "ymca-os-2019.pdf",
                       id: "ymca-os-2019",
                       pages: 3,
-                      title: "Operating System 2019"
+                      title: "Operating System 2019",
                     },
                     {
                       year: 2025,
                       file: "ymca-os-praxian-analysis-2025.pdf",
                       pages: 3,
-                      title: "Operating System Praxian Analysis 2025"
-                    }
-                  ]
-                }
-              ]
+                      title: "Operating System Praxian Analysis 2025",
+                    },
+                  ],
+                },
+              ],
             },
             {
               number: 5,
@@ -401,23 +418,23 @@ window.COLLEGE_DATA = {
                       file: "ymca-dbms-2023.pdf",
                       id: "ymca-dbms-2023",
                       pages: 3,
-                      title: "Database Management Systems 2023"
+                      title: "Database Management Systems 2023",
                     },
                     {
                       year: 2018,
                       file: "ymca-dbms-2018.pdf",
                       id: "ymca-dbms-2018",
                       pages: 3,
-                      title: "Database Management Systems 2018"
+                      title: "Database Management Systems 2018",
                     },
                     {
                       year: 2019,
                       file: "ymca-dbms-2019.pdf",
                       id: "ymca-dbms-2019",
                       pages: 3,
-                      title: "Database Management Systems 2019"
-                    }
-                  ]
+                      title: "Database Management Systems 2019",
+                    },
+                  ],
                 },
                 {
                   name: "Biology",
@@ -431,16 +448,16 @@ window.COLLEGE_DATA = {
                       file: "ymca-biology-2023.pdf",
                       id: "ymca-biology-2023",
                       pages: 3,
-                      title: "Biology 2023"
+                      title: "Biology 2023",
                     },
                     {
                       year: 2024,
                       file: "ymca-biology-2024.pdf",
                       id: "ymca-biology-2024",
                       pages: 3,
-                      title: "Biology 2024"
-                    }
-                  ]
+                      title: "Biology 2024",
+                    },
+                  ],
                 },
                 {
                   name: "Compiler Design",
@@ -454,9 +471,9 @@ window.COLLEGE_DATA = {
                       file: "ymca-compiler-design-2023.pdf",
                       id: "ymca-compiler-design-2023",
                       pages: 3,
-                      title: "Compiler Design 2023"
-                    }
-                  ]
+                      title: "Compiler Design 2023",
+                    },
+                  ],
                 },
                 {
                   name: "Constitution",
@@ -467,12 +484,19 @@ window.COLLEGE_DATA = {
                   pyqs: [
                     {
                       year: 2023,
-                      file: "ymca-constitution-2023.pdf",
-                      id: "ymca-constitution-2023",
+                      file: "ymca-constitution-2023-set-1.pdf",
+                      id: "ymca-constitution-2023-set-1",
                       pages: 3,
-                      title: "Constitution 2023"
-                    }
-                  ]
+                      title: "Constitution 2023-set-1",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-constitution-2023-set-2.pdf",
+                      id: "ymca-constitution-2023-set-2",
+                      pages: 3,
+                      title: "Constitution 2023-set-2",
+                    },
+                  ],
                 },
                 {
                   name: "Signal and Systems",
@@ -486,16 +510,16 @@ window.COLLEGE_DATA = {
                       file: "ymca-sns-2023.pdf",
                       id: "ymca-sns-2023",
                       pages: 3,
-                      title: "Signal and Systems 2023"
+                      title: "Signal and Systems 2023",
                     },
                     {
-                      year: 2019,
-                      file: "ymca-sns-2019.pdf",
-                      id: "ymca-sns-2019",
+                      year: 2022,
+                      file: "ymca-sns-2022.pdf",
+                      id: "ymca-sns-2022",
                       pages: 3,
-                      title: "Signal and Systems 2019"
-                    }
-                  ]
+                      title: "Signal and Systems 2022",
+                    },
+                  ],
                 },
                 {
                   name: "Universal Human Values",
@@ -509,11 +533,11 @@ window.COLLEGE_DATA = {
                       file: "ymca-universal-human-values-2023.pdf",
                       id: "ymca-universal-human-values-2023",
                       pages: 3,
-                      title: "Universal Human Values 2023"
-                    }
-                  ]
-                }
-              ]
+                      title: "Universal Human Values 2023",
+                    },
+                  ],
+                },
+              ],
             },
             {
               number: 6,
@@ -533,30 +557,30 @@ window.COLLEGE_DATA = {
                       file: "ymca-computer-networks-2017.pdf",
                       id: "ymca-computer-networks-2017",
                       pages: 3,
-                      title: "Computer Networks 2017"
+                      title: "Computer Networks 2017",
                     },
                     {
                       year: 2018,
                       file: "ymca-computer-networks-2018.pdf",
                       id: "ymca-computer-networks-2018",
                       pages: 3,
-                      title: "Computer Networks 2018"
+                      title: "Computer Networks 2018",
                     },
                     {
                       year: 2023,
                       file: "ymca-computer-networks-2023.pdf",
                       id: "ymca-computer-networks-2023",
                       pages: 3,
-                      title: "Computer Networks 2023"
+                      title: "Computer Networks 2023",
                     },
                     {
                       year: 2024,
                       file: "ymca-computer-networks-2024.pdf",
                       id: "ymca-computer-networks-2024",
                       pages: 3,
-                      title: "Computer Networks 2024"
-                    }
-                  ]
+                      title: "Computer Networks 2024",
+                    },
+                  ],
                 },
                 {
                   name: "AI Expert System",
@@ -570,9 +594,9 @@ window.COLLEGE_DATA = {
                       file: "ymca-ai-exp-system-2019.pdf",
                       id: "ymca-ai-exp-system-2019",
                       pages: 3,
-                      title: "AI Expert System 2019"
-                    }
-                  ]
+                      title: "AI Expert System 2019",
+                    },
+                  ],
                 },
                 {
                   name: "Bhagavad Gita",
@@ -586,9 +610,9 @@ window.COLLEGE_DATA = {
                       file: "ymca-bhagavad-gita-2024.pdf",
                       id: "ymca-bhagavad-gita-2024",
                       pages: 3,
-                      title: "Bhagavad Gita 2024"
-                    }
-                  ]
+                      title: "Bhagavad Gita 2024",
+                    },
+                  ],
                 },
                 {
                   name: "Big Data",
@@ -602,9 +626,9 @@ window.COLLEGE_DATA = {
                       file: "ymca-big-data-2024.pdf",
                       id: "ymca-big-data-2024",
                       pages: 3,
-                      title: "Big Data 2024"
-                    }
-                  ]
+                      title: "Big Data 2024",
+                    },
+                  ],
                 },
                 {
                   name: "Client Server Technology",
@@ -618,9 +642,9 @@ window.COLLEGE_DATA = {
                       file: "ymca-client-server-technology-2019.pdf",
                       id: "ymca-client-server-technology-2019",
                       pages: 3,
-                      title: "Client Server Technology 2019"
-                    }
-                  ]
+                      title: "Client Server Technology 2019",
+                    },
+                  ],
                 },
                 {
                   name: "Cloud Computing",
@@ -634,9 +658,9 @@ window.COLLEGE_DATA = {
                       file: "ymca-cloud-computing-2019.pdf",
                       id: "ymca-cloud-computing-2019",
                       pages: 3,
-                      title: "Cloud Computing 2019"
-                    }
-                  ]
+                      title: "Cloud Computing 2019",
+                    },
+                  ],
                 },
                 {
                   name: "Data Mining",
@@ -650,9 +674,16 @@ window.COLLEGE_DATA = {
                       file: "ymca-data-mining-2018.pdf",
                       id: "ymca-data-mining-2018",
                       pages: 3,
-                      title: "Data Mining 2018"
-                    }
-                  ]
+                      title: "Data Mining 2018",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-data-mining-2024.pdf",
+                      id: "ymca-data-mining-2024",
+                      pages: 3,
+                      title: "Data Mining 2024",
+                    },
+                  ],
                 },
                 {
                   name: "Digital System Design",
@@ -666,9 +697,9 @@ window.COLLEGE_DATA = {
                       file: "ymca-digital-system-design-2019.pdf",
                       id: "ymca-digital-system-design-2019",
                       pages: 3,
-                      title: "Digital System Design 2019"
-                    }
-                  ]
+                      title: "Digital System Design 2019",
+                    },
+                  ],
                 },
                 {
                   name: "Electronic devices",
@@ -682,9 +713,9 @@ window.COLLEGE_DATA = {
                       file: "ymca-electronic-devices-2024.pdf",
                       id: "ymca-electronic-devices-2024",
                       pages: 3,
-                      title: "Electronic Devices 2024"
-                    }
-                  ]
+                      title: "Electronic Devices 2024",
+                    },
+                  ],
                 },
                 {
                   name: "HR Management",
@@ -698,16 +729,16 @@ window.COLLEGE_DATA = {
                       file: "ymca-hr-management-2023.pdf",
                       id: "ymca-hr-management-2023",
                       pages: 3,
-                      title: "HR Management 2023"
+                      title: "HR Management 2023",
                     },
                     {
                       year: 2024,
                       file: "ymca-hr-management-2024.pdf",
                       id: "ymca-hr-management-2024",
                       pages: 3,
-                      title: "HR Management 2024"
-                    }
-                  ]
+                      title: "HR Management 2024",
+                    },
+                  ],
                 },
                 {
                   name: "Internet and Web Technologies",
@@ -721,9 +752,9 @@ window.COLLEGE_DATA = {
                       file: "ymca-int-n-web-technologies-2024.pdf",
                       id: "ymca-int-n-web-technologies-2024",
                       pages: 3,
-                      title: "Internet and Web Technologies 2024"
-                    }
-                  ]
+                      title: "Internet and Web Technologies 2024",
+                    },
+                  ],
                 },
                 {
                   name: "Intelligent Systems",
@@ -737,23 +768,23 @@ window.COLLEGE_DATA = {
                       file: "ymca-intelligent-systems-2017.pdf",
                       id: "ymca-intelligent-systems-2017",
                       pages: 3,
-                      title: "Intelligent Systems 2017"
+                      title: "Intelligent Systems 2017",
                     },
                     {
                       year: 2018,
                       file: "ymca-intelligent-systems-2018.pdf",
                       id: "ymca-intelligent-systems-2018",
                       pages: 3,
-                      title: "Intelligent Systems 2018"
+                      title: "Intelligent Systems 2018",
                     },
                     {
                       year: 2024,
                       file: "ymca-intelligent-systems-2024.pdf",
                       id: "ymca-intelligent-systems-2024",
                       pages: 3,
-                      title: "Intelligent Systems 2024"
-                    }
-                  ]
+                      title: "Intelligent Systems 2024",
+                    },
+                  ],
                 },
                 {
                   name: "Operations Research",
@@ -767,9 +798,9 @@ window.COLLEGE_DATA = {
                       file: "ymca-operations-research-2024.pdf",
                       id: "ymca-operations-research-2024",
                       pages: 3,
-                      title: "Operations Research 2024"
-                    }
-                  ]
+                      title: "Operations Research 2024",
+                    },
+                  ],
                 },
                 {
                   name: "Real Time Systems",
@@ -783,16 +814,16 @@ window.COLLEGE_DATA = {
                       file: "ymca-real-time-system-2018.pdf",
                       id: "ymca-real-time-system-2018",
                       pages: 3,
-                      title: "Real Time System 2018"
+                      title: "Real Time System 2018",
                     },
                     {
                       year: 2021,
                       file: "ymca-real-time-system-2021.pdf",
                       id: "ymca-real-time-system-2021",
                       pages: 3,
-                      title: "Real Time System 2021"
-                    }
-                  ]
+                      title: "Real Time System 2021",
+                    },
+                  ],
                 },
                 {
                   name: "Soft Skills",
@@ -806,9 +837,9 @@ window.COLLEGE_DATA = {
                       file: "ymca-soft-skills-2024.pdf",
                       id: "ymca-soft-skills-2024",
                       pages: 3,
-                      title: "Soft Skills 2024"
-                    }
-                  ]
+                      title: "Soft Skills 2024",
+                    },
+                  ],
                 },
                 {
                   name: "Software Engineering",
@@ -822,16 +853,16 @@ window.COLLEGE_DATA = {
                       file: "ymca-software-engineering-2024.pdf",
                       id: "ymca-software-engineering-2024",
                       pages: 3,
-                      title: "Software Engineering 2024"
+                      title: "Software Engineering 2024",
                     },
                     {
                       year: 2019,
                       file: "ymca-software-engineering-2019.pdf",
                       id: "ymca-software-engineering-2019",
                       pages: 3,
-                      title: "Software Engineering 2019"
-                    }
-                  ]
+                      title: "Software Engineering 2019",
+                    },
+                  ],
                 },
                 {
                   name: "Unix Shell",
@@ -845,18 +876,18 @@ window.COLLEGE_DATA = {
                       file: "ymca-unix-shell-2019.pdf",
                       id: "ymca-unix-shell-2019",
                       pages: 3,
-                      title: "Unix Shell 2019"
+                      title: "Unix Shell 2019",
                     },
                     {
                       year: 2018,
                       file: "ymca-unix-shell-2018.pdf",
                       id: "ymca-unix-shell-2018",
                       pages: 3,
-                      title: "Unix Shell 2018"
-                    }
-                  ]
-                }
-              ]
+                      title: "Unix Shell 2018",
+                    },
+                  ],
+                },
+              ],
             },
             {
               number: 7,
@@ -876,16 +907,16 @@ window.COLLEGE_DATA = {
                       file: "ymca-adv-os-2023.pdf",
                       id: "ymca-adv-os-2023",
                       pages: 3,
-                      title: "Advance Operating System 2023"
+                      title: "Advance Operating System 2023",
                     },
                     {
                       year: 2021,
                       file: "ymca-adv-os-2021.pdf",
                       id: "ymca-adv-os-2021",
                       pages: 3,
-                      title: "Advance Operating System 2021"
-                    }
-                  ]
+                      title: "Advance Operating System 2021",
+                    },
+                  ],
                 },
                 {
                   name: "Business Intelligence",
@@ -899,9 +930,9 @@ window.COLLEGE_DATA = {
                       file: "ymca-business-intelligence-2023.pdf",
                       id: "ymca-business-intelligence-2023",
                       pages: 3,
-                      title: "Business Intelligence 2023"
-                    }
-                  ]
+                      title: "Business Intelligence 2023",
+                    },
+                  ],
                 },
                 {
                   name: "Cloud Computing",
@@ -915,9 +946,9 @@ window.COLLEGE_DATA = {
                       file: "ymca-cloud-computing-2023.pdf",
                       id: "ymca-cloud-computing-2023",
                       pages: 3,
-                      title: "Cloud Computing 2023"
-                    }
-                  ]
+                      title: "Cloud Computing 2023",
+                    },
+                  ],
                 },
                 {
                   name: "Computer Graphics",
@@ -931,9 +962,9 @@ window.COLLEGE_DATA = {
                       file: "ymca-computer-graphics-2018.pdf",
                       id: "ymca-computer-graphics-2018",
                       pages: 3,
-                      title: "Computer Graphics 2018"
-                    }
-                  ]
+                      title: "Computer Graphics 2018",
+                    },
+                  ],
                 },
                 {
                   name: "Cryptography",
@@ -947,16 +978,16 @@ window.COLLEGE_DATA = {
                       file: "ymca-cryptography-2021.pdf",
                       id: "ymca-cryptography-2021",
                       pages: 3,
-                      title: "Cryptography 2021"
+                      title: "Cryptography 2021",
                     },
                     {
                       year: 2023,
                       file: "ymca-cryptography-2023.pdf",
                       id: "ymca-cryptography-2023",
                       pages: 3,
-                      title: "Cryptography 2023"
-                    }
-                  ]
+                      title: "Cryptography 2023",
+                    },
+                  ],
                 },
                 {
                   name: "Data Analytics",
@@ -970,9 +1001,9 @@ window.COLLEGE_DATA = {
                       file: "ymca-data-analytics-2023.pdf",
                       id: "ymca-data-analytics-2023",
                       pages: 3,
-                      title: "Data Analytics 2023"
-                    }
-                  ]
+                      title: "Data Analytics 2023",
+                    },
+                  ],
                 },
                 {
                   name: "Data Learning and Image Processing",
@@ -986,25 +1017,25 @@ window.COLLEGE_DATA = {
                       file: "ymca-dl-n-image-processing-2023.pdf",
                       id: "ymca-dl-n-image-processing-2023",
                       pages: 3,
-                      title: "Data Learning and Image Processing 2023"
-                    }
-                  ]
+                      title: "Data Learning and Image Processing 2023",
+                    },
+                  ],
                 },
                 {
-                  name: "Economic Policies",
-                  id: "economic-policies",
-                  description: "Study of economic policies",
+                  name: "Economics Policies",
+                  id: "economics-policies",
+                  description: "Study of economics policies",
                   icon: "chart-bar",
-                  slug: "economic-policies",
+                  slug: "economics-policies",
                   pyqs: [
                     {
                       year: 2023,
-                      file: "ymca-economic-policies-2023.pdf",
-                      id: "ymca-economic-policies-2023",
+                      file: "ymca-economics-policies-2023.pdf",
+                      id: "ymca-economics-policies-2023",
                       pages: 3,
-                      title: "Economic Policies 2023"
-                    }
-                  ]
+                      title: "Economics Policies 2023",
+                    },
+                  ],
                 },
                 {
                   name: "Financial Management",
@@ -1018,9 +1049,9 @@ window.COLLEGE_DATA = {
                       file: "ymca-financial-management-2023.pdf",
                       id: "ymca-financial-management-2023",
                       pages: 3,
-                      title: "Financial Management 2023"
-                    }
-                  ]
+                      title: "Financial Management 2023",
+                    },
+                  ],
                 },
                 {
                   name: "Network programming",
@@ -1034,9 +1065,9 @@ window.COLLEGE_DATA = {
                       file: "ymca-network-programming-2018.pdf",
                       id: "ymca-network-programming-2018",
                       pages: 3,
-                      title: "Network Programming 2018"
-                    }
-                  ]
+                      title: "Network Programming 2018",
+                    },
+                  ],
                 },
                 {
                   name: "Neural Network and Deep Learning",
@@ -1050,9 +1081,9 @@ window.COLLEGE_DATA = {
                       file: "ymca-neural-network-n-dl-2023.pdf",
                       id: "ymca-neural-network-n-dl-2023",
                       pages: 3,
-                      title: "Neural Network and Deep Learning 2023"
-                    }
-                  ]
+                      title: "Neural Network and Deep Learning 2023",
+                    },
+                  ],
                 },
                 {
                   name: "Object Oriented System Design",
@@ -1066,14 +1097,15 @@ window.COLLEGE_DATA = {
                       file: "ymca-object-oriented-system-design-2018.pdf",
                       id: "ymca-object-oriented-system-design-2018",
                       pages: 3,
-                      title: "Object Oriented System Design 2018"
-                    }
-                  ]
+                      title: "Object Oriented System Design 2018",
+                    },
+                  ],
                 },
                 {
                   name: "Object Oriented System Development",
                   id: "object-oriented-system-development",
-                  description: "Principles of object-oriented system development",
+                  description:
+                    "Principles of object-oriented system development",
                   icon: "project-diagram",
                   slug: "object-oriented-system-development",
                   pyqs: [
@@ -1082,9 +1114,9 @@ window.COLLEGE_DATA = {
                       file: "ymca-object-oriented-system-development-2018.pdf",
                       id: "ymca-object-oriented-system-development-2018",
                       pages: 3,
-                      title: "Object Oriented System Development 2018"
-                    }
-                  ]
+                      title: "Object Oriented System Development 2018",
+                    },
+                  ],
                 },
                 {
                   name: "Organizational Behaviour",
@@ -1098,16 +1130,16 @@ window.COLLEGE_DATA = {
                       file: "ymca-org-behaviour-2019.pdf",
                       id: "ymca-org-behaviour-2019",
                       pages: 3,
-                      title: "Organizational Behaviour 2019"
+                      title: "Organizational Behaviour 2019",
                     },
                     {
                       year: 2021,
                       file: "ymca-org-behaviour-2021.pdf",
                       id: "ymca-org-behaviour-2021",
                       pages: 3,
-                      title: "Organizational Behaviour 2021"
-                    }
-                  ]
+                      title: "Organizational Behaviour 2021",
+                    },
+                  ],
                 },
                 {
                   name: "Real Time System",
@@ -1121,16 +1153,16 @@ window.COLLEGE_DATA = {
                       file: "ymca-real-time-system-2018.pdf",
                       id: "ymca-real-time-system-2018",
                       pages: 3,
-                      title: "Real Time System 2018"
+                      title: "Real Time System 2018",
                     },
                     {
                       year: 2021,
                       file: "ymca-real-time-system-2021.pdf",
                       id: "ymca-real-time-system-2021",
                       pages: 3,
-                      title: "Real Time System 2021"
-                    }
-                  ]
+                      title: "Real Time System 2021",
+                    },
+                  ],
                 },
                 {
                   name: "Security of Information System",
@@ -1144,9 +1176,9 @@ window.COLLEGE_DATA = {
                       file: "ymca-security-of-information-system-2018.pdf",
                       id: "ymca-security-of-information-system-2018",
                       pages: 3,
-                      title: "Security of Information System 2018"
-                    }
-                  ]
+                      title: "Security of Information System 2018",
+                    },
+                  ],
                 },
                 {
                   name: "Software Testing",
@@ -1160,21 +1192,22 @@ window.COLLEGE_DATA = {
                       file: "ymca-software-testing-2017.pdf",
                       id: "ymca-software-testing-2017",
                       pages: 3,
-                      title: "Software Testing 2017"
+                      title: "Software Testing 2017",
                     },
                     {
                       year: 2018,
                       file: "ymca-software-testing-2018.pdf",
                       id: "ymca-software-testing-2018",
                       pages: 3,
-                      title: "Software Testing 2018"
-                    }
-                  ]
+                      title: "Software Testing 2018",
+                    },
+                  ],
                 },
                 {
                   name: "Speech and Natural Language Processing",
                   id: "speech-n-nlp",
-                  description: "Concepts in speech and natural language processing",
+                  description:
+                    "Concepts in speech and natural language processing",
                   icon: "comment-dots",
                   slug: "speech-n-nlp",
                   pyqs: [
@@ -1183,11 +1216,11 @@ window.COLLEGE_DATA = {
                       file: "ymca-speech-n-nlp-2023.pdf",
                       id: "ymca-speech-n-nlp-2023",
                       pages: 3,
-                      title: "Speech and Natural Language Processing 2023"
-                    }
-                  ]
-                }
-              ]
+                      title: "Speech and Natural Language Processing 2023",
+                    },
+                  ],
+                },
+              ],
             },
             {
               number: 8,
@@ -1197,19 +1230,19 @@ window.COLLEGE_DATA = {
               subjects: [
                 {
                   name: "Digital Signal Processing",
-                  id: "digital-signal-processing",
+                  id: "dsp",
                   description: "Principles of digital signal processing",
                   icon: "signal",
-                  slug: "digital-signal-processing",
+                  slug: "dsp",
                   pyqs: [
                     {
                       year: 2018,
-                      file: "ymca-digital-signal-processing-2018.pdf",
-                      id: "ymca-digital-signal-processing-2018",
+                      file: "ymca-dsp-2018.pdf",
+                      id: "ymca-dsp-2018",
                       pages: 3,
-                      title: "Digital Signal Processing 2018"
-                    }
-                  ]
+                      title: "Digital Signal Processing 2018",
+                    },
+                  ],
                 },
                 {
                   name: "Miscellaneous",
@@ -1223,237 +1256,239 @@ window.COLLEGE_DATA = {
                       file: "ymca-computer-architecture-2018.pdf",
                       id: "ymca-computer-architecture-2018",
                       pages: 3,
-                      title: "Computer Architecture 2018"
+                      title: "Computer Architecture 2018",
                     },
                     {
                       year: 2023,
                       file: "ymca-computer-architecture-2023.pdf",
                       id: "ymca-computer-architecture-2023",
                       pages: 3,
-                      title: "Computer Architecture 2023"
+                      title: "Computer Architecture 2023",
                     },
                     {
                       year: 2018,
                       file: "ymca-computer-graphics-2018.pdf",
                       id: "ymca-computer-graphics-2018",
                       pages: 3,
-                      title: "Computer Graphics 2018"
+                      title: "Computer Graphics 2018",
                     },
                     {
                       year: 2018,
                       file: "ymca-data-structures-2018.pdf",
                       id: "ymca-data-structures-2018",
                       pages: 3,
-                      title: "Data Structures 2018"
+                      title: "Data Structures 2018",
                     },
                     {
                       year: 2023,
                       file: "ymca-database-systems-2023.pdf",
                       id: "ymca-database-systems-2023",
                       pages: 3,
-                      title: "Database Systems 2023"
+                      title: "Database Systems 2023",
                     },
                     {
                       year: 2018,
                       file: "ymca-digital-analog-2018.pdf",
                       id: "ymca-digital-analog-2018",
                       pages: 3,
-                      title: "Digital and Analog Electronics 2018"
+                      title: "Digital and Analog Electronics 2018",
                     },
                     {
                       year: 2017,
                       file: "ymca-digital-electronics-computer-org-2017.pdf",
                       id: "ymca-digital-electronics-computer-org-2017",
                       pages: 3,
-                      title: "Digital Electronics and Computer Organization 2017"
+                      title:
+                        "Digital Electronics and Computer Organization 2017",
                     },
                     {
                       year: 2018,
                       file: "ymca-digital-electronics-computer-org-2018.pdf",
                       id: "ymca-digital-electronics-computer-org-2018",
                       pages: 3,
-                      title: "Digital Electronics and Computer Organization 2018"
+                      title:
+                        "Digital Electronics and Computer Organization 2018",
                     },
                     {
                       year: 2023,
                       file: "ymca-disaster-management-2023.pdf",
                       id: "ymca-disaster-management-2023",
                       pages: 3,
-                      title: "Disaster Management 2023"
+                      title: "Disaster Management 2023",
                     },
                     {
                       year: 2017,
                       file: "ymca-discrete-mathematics-2017.pdf",
                       id: "ymca-discrete-mathematics-2017",
                       pages: 3,
-                      title: "Discrete Mathematics 2017"
+                      title: "Discrete Mathematics 2017",
                     },
                     {
                       year: 2018,
                       file: "ymca-discrete-mathematics-2018.pdf",
                       id: "ymca-discrete-mathematics-2018",
                       pages: 3,
-                      title: "Discrete Mathematics 2018"
+                      title: "Discrete Mathematics 2018",
                     },
                     {
                       year: 2018,
                       file: "ymca-distributed-os-2018.pdf",
                       id: "ymca-distributed-os-2018",
                       pages: 3,
-                      title: "Distributed Operating Systems 2018"
-                    },
-                    {
-                      year: 2023,
-                      file: "ymca-dsa-2023.pdf",
-                      id: "ymca-dsa-2023",
-                      pages: 3,
-                      title: "Data Structures and Algorithms 2023"
+                      title: "Distributed Operating Systems 2018",
                     },
                     {
                       year: 2023,
                       file: "ymca-foundation-engineering-2023.pdf",
                       id: "ymca-foundation-engineering-2023",
                       pages: 3,
-                      title: "Foundation Engineering 2023"
+                      title: "Foundation Engineering 2023",
                     },
                     {
                       year: 2018,
                       file: "ymca-java-2018.pdf",
                       id: "ymca-java-2018",
                       pages: 3,
-                      title: "Java Programming 2018"
+                      title: "Java Programming 2018",
                     },
                     {
                       year: 2023,
                       file: "ymca-maths-3-cde-2023.pdf",
                       id: "ymca-maths-3-cde-2023",
                       pages: 3,
-                      title: "Mathematics 3 (CDE) 2023"
+                      title: "Mathematics 3 (CDE) 2023",
                     },
                     {
                       year: 2024,
                       file: "ymca-maths-3-cde-2024.pdf",
                       id: "ymca-maths-3-cde-2024",
                       pages: 3,
-                      title: "Mathematics 3 (CDE) 2024"
+                      title: "Mathematics 3 (CDE) 2024",
                     },
                     {
                       year: 2022,
                       file: "ymca-maths-for-ds-2022.pdf",
                       id: "ymca-maths-for-ds-2022",
                       pages: 3,
-                      title: "Mathematics for Data Science 2022"
+                      title: "Mathematics for Data Science 2022",
                     },
                     {
                       year: 2023,
                       file: "ymca-maths-for-ds-2023.pdf",
                       id: "ymca-maths-for-ds-2023",
                       pages: 3,
-                      title: "Mathematics for Data Science 2023"
+                      title: "Mathematics for Data Science 2023",
                     },
                     {
                       year: 2018,
                       file: "ymca-microprocessor-interfacing-2018.pdf",
                       id: "ymca-microprocessor-interfacing-2018",
                       pages: 3,
-                      title: "Microprocessor Interfacing 2018"
+                      title: "Microprocessor Interfacing 2018",
                     },
                     {
                       year: 2019,
                       file: "ymca-microprocessor-interfacing-2019.pdf",
                       id: "ymca-microprocessor-interfacing-2019",
                       pages: 3,
-                      title: "Microprocessor Interfacing 2019"
+                      title: "Microprocessor Interfacing 2019",
                     },
                     {
                       year: 2022,
                       file: "ymca-ml-2022.pdf",
                       id: "ymca-ml-2022",
                       pages: 3,
-                      title: "Machine Learning 2022"
+                      title: "Machine Learning 2022",
                     },
                     {
                       year: 2023,
                       file: "ymca-ml-2023.pdf",
                       id: "ymca-ml-2023",
                       pages: 3,
-                      title: "Machine Learning 2023"
+                      title: "Machine Learning 2023",
                     },
                     {
                       year: 2018,
                       file: "ymca-operations-research-2018.pdf",
                       id: "ymca-operations-research-2018",
                       pages: 3,
-                      title: "Operations Research 2018"
+                      title: "Operations Research 2018",
                     },
                     {
                       year: 2024,
                       file: "ymca-operations-research-2024.pdf",
                       id: "ymca-operations-research-2024",
                       pages: 3,
-                      title: "Operations Research 2024"
+                      title: "Operations Research 2024",
                     },
                     {
                       year: 2023,
                       file: "ymca-soft-computing-set-1-2023.pdf",
                       id: "ymca-soft-computing-set-1-2023",
                       pages: 3,
-                      title: "Soft Computing Set 1 2023"
+                      title: "Soft Computing Set 1 2023",
                     },
                     {
                       year: 2023,
                       file: "ymca-soft-computing-set-2-2023.pdf",
                       id: "ymca-soft-computing-set-2-2023",
                       pages: 3,
-                      title: "Soft Computing Set 2 2023"
+                      title: "Soft Computing Set 2 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-soft-computing-2024.pdf",
+                      id: "ymca-soft-computing-2024",
+                      pages: 3,
+                      title: "Soft Computing 2024",
                     },
                     {
                       year: 2019,
                       file: "ymca-software-engineering-2019.pdf",
                       id: "ymca-software-engineering-2019",
                       pages: 3,
-                      title: "Software Engineering 2019"
+                      title: "Software Engineering 2019",
                     },
                     {
                       year: 2023,
                       file: "ymca-statistics-2023.pdf",
                       id: "ymca-statistics-2023",
                       pages: 3,
-                      title: "Statistics 2023"
+                      title: "Statistics 2023",
                     },
                     {
                       year: 2017,
                       file: "ymca-software-design-2017.pdf",
                       id: "ymca-software-design-2017",
                       pages: 3,
-                      title: "Software Design 2017"
+                      title: "Software Design 2017",
                     },
                     {
                       year: 2018,
                       file: "ymca-software-design-2018.pdf",
                       id: "ymca-software-design-2018",
                       pages: 3,
-                      title: "Software Design 2018"
+                      title: "Software Design 2018",
                     },
                     {
                       year: 2018,
                       file: "ymca-wireless-communication-2018.pdf",
                       id: "ymca-wireless-communication-2018",
                       pages: 3,
-                      title: "Wireless Communication 2018"
+                      title: "Wireless Communication 2018",
                     },
                     {
                       year: 2021,
                       file: "ymca-wireless-communication-2021.pdf",
                       id: "ymca-wireless-communication-2021",
                       pages: 3,
-                      title: "Wireless Communication 2021"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+                      title: "Wireless Communication 2021",
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
         },
         {
           name: "mechanical-engineering",
@@ -1480,16 +1515,16 @@ window.COLLEGE_DATA = {
                       file: "ymca-bee-2019.pdf",
                       id: "ymca-bee-2019",
                       pages: 3,
-                      title: "Basic Electronic Engineering 2019"
+                      title: "Basic Electronic Engineering 2019",
                     },
                     {
                       year: 2022,
                       file: "ymca-bee-2022.pdf",
                       id: "ymca-bee-2022",
                       pages: 3,
-                      title: "Basic Electronic Engineering 2022"
-                    }
-                  ]
+                      title: "Basic Electronic Engineering 2022",
+                    },
+                  ],
                 },
                 {
                   name: "Biology",
@@ -1503,16 +1538,16 @@ window.COLLEGE_DATA = {
                       file: "ymca-biology-set-1-2023.pdf",
                       id: "ymca-biology-set-1-2023",
                       pages: 3,
-                      title: "Biology Set 1 2023"
+                      title: "Biology Set 1 2023",
                     },
                     {
                       year: 2023,
                       file: "ymca-biology-set-2-2023.pdf",
                       id: "ymca-biology-set-2-2023",
                       pages: 3,
-                      title: "Biology Set 2 2023"
-                    }
-                  ]
+                      title: "Biology Set 2 2023",
+                    },
+                  ],
                 },
                 {
                   name: "Engineering Mechanics",
@@ -1526,23 +1561,23 @@ window.COLLEGE_DATA = {
                       file: "ymca-e-mechanics-2019.pdf",
                       id: "ymca-e-mechanics-2019",
                       pages: 3,
-                      title: "Engineering Mechanics 2019"
+                      title: "Engineering Mechanics 2019",
                     },
                     {
                       year: 2022,
                       file: "ymca-e-mechanics-2022.pdf",
                       id: "ymca-e-mechanics-2022",
                       pages: 3,
-                      title: "Engineering Mechanics 2022"
+                      title: "Engineering Mechanics 2022",
                     },
                     {
                       year: 2023,
                       file: "ymca-e-mechanics-2023.pdf",
                       id: "ymca-e-mechanics-2023",
                       pages: 3,
-                      title: "Engineering Mechanics 2023"
-                    }
-                  ]
+                      title: "Engineering Mechanics 2023",
+                    },
+                  ],
                 },
                 {
                   name: "Fluid Mechanics and Machines",
@@ -1556,30 +1591,30 @@ window.COLLEGE_DATA = {
                       file: "ymca-fmm-2019.pdf",
                       id: "ymca-fmm-2019",
                       pages: 3,
-                      title: "Fluid Mechanics and Machines 2019"
+                      title: "Fluid Mechanics and Machines 2019",
                     },
                     {
                       year: 2022,
                       file: "ymca-fmm-2022.pdf",
                       id: "ymca-fmm-2022",
                       pages: 3,
-                      title: "Fluid Mechanics and Machines 2022"
+                      title: "Fluid Mechanics and Machines 2022",
                     },
                     {
                       year: 2023,
                       file: "ymca-fmm-2023.pdf",
                       id: "ymca-fmm-2023",
                       pages: 3,
-                      title: "Fluid Mechanics and Machines 2023"
+                      title: "Fluid Mechanics and Machines 2023",
                     },
                     {
                       year: 2018,
                       file: "ymca-fmm-2018.pdf",
                       id: "ymca-fmm-2018",
                       pages: 3,
-                      title: "Fluid Mechanics and Machines 2018"
-                    }
-                  ]
+                      title: "Fluid Mechanics and Machines 2018",
+                    },
+                  ],
                 },
                 {
                   name: "Maths-3",
@@ -1593,16 +1628,16 @@ window.COLLEGE_DATA = {
                       file: "ymca-maths-3-2023.pdf",
                       id: "ymca-maths-3-2023",
                       pages: 3,
-                      title: "Mathematics 3 2023"
+                      title: "Mathematics 3 2023",
                     },
                     {
                       year: 2018,
                       file: "ymca-maths-3-2018.pdf",
                       id: "ymca-maths-3-2018",
                       pages: 3,
-                      title: "Mathematics 3 2018"
-                    }
-                  ]
+                      title: "Mathematics 3 2018",
+                    },
+                  ],
                 },
                 {
                   name: "Strength of Material 1",
@@ -1616,30 +1651,30 @@ window.COLLEGE_DATA = {
                       file: "ymca-som-1-2020.pdf",
                       id: "ymca-som-1-2020",
                       pages: 3,
-                      title: "Strength of Material 1 2020"
+                      title: "Strength of Material 1 2020",
                     },
                     {
                       year: 2021,
                       file: "ymca-som-1-2021.pdf",
                       id: "ymca-som-1-2021",
                       pages: 3,
-                      title: "Strength of Material 1 2021"
+                      title: "Strength of Material 1 2021",
                     },
                     {
                       year: 2022,
                       file: "ymca-som-1-set-1-2022.pdf",
                       id: "ymca-som-1-set-1-2022",
                       pages: 3,
-                      title: "Strength of Material 1 Set 1 2022"
+                      title: "Strength of Material 1 Set 1 2022",
                     },
                     {
                       year: 2022,
                       file: "ymca-som-1-set-2-2022.pdf",
                       id: "ymca-som-1-set-2-2022",
                       pages: 3,
-                      title: "Strength of Material 1 Set 2 2022"
-                    }
-                  ]
+                      title: "Strength of Material 1 Set 2 2022",
+                    },
+                  ],
                 },
                 {
                   name: "Thermodynamics",
@@ -1653,18 +1688,18 @@ window.COLLEGE_DATA = {
                       file: "ymca-thermodynamics-2023.pdf",
                       id: "ymca-thermodynamics-2023",
                       pages: 3,
-                      title: "Thermodynamics 2023"
+                      title: "Thermodynamics 2023",
                     },
                     {
                       year: 2022,
                       file: "ymca-thermodynamics-2022.pdf",
                       id: "ymca-thermodynamics-2022",
                       pages: 3,
-                      title: "Thermodynamics 2022"
-                    }
-                  ]
-                }
-              ]
+                      title: "Thermodynamics 2022",
+                    },
+                  ],
+                },
+              ],
             },
             {
               number: 4,
@@ -1684,30 +1719,30 @@ window.COLLEGE_DATA = {
                       file: "ymca-applied-thermo-2018.pdf",
                       id: "ymca-applied-thermo-2018",
                       pages: 3,
-                      title: "Applied Thermodynamics 2018"
+                      title: "Applied Thermodynamics 2018",
                     },
                     {
                       year: 2024,
                       file: "ymca-applied-thermo-2024.pdf",
                       id: "ymca-applied-thermo-2024",
                       pages: 3,
-                      title: "Applied Thermodynamics 2024"
+                      title: "Applied Thermodynamics 2024",
                     },
                     {
                       year: 2022,
                       file: "ymca-applied-thermo-set-1-2022.pdf",
                       id: "ymca-applied-thermo-set-1-2022",
                       pages: 3,
-                      title: "Applied Thermodynamics Set 1 2022"
+                      title: "Applied Thermodynamics Set 1 2022",
                     },
                     {
                       year: 2022,
                       file: "ymca-applied-thermo-set-2-2022.pdf",
                       id: "ymca-applied-thermo-set-2-2022",
                       pages: 3,
-                      title: "Applied Thermodynamics Set 2 2022"
-                    }
-                  ]
+                      title: "Applied Thermodynamics Set 2 2022",
+                    },
+                  ],
                 },
                 {
                   name: "Kinematics of Machines",
@@ -1721,30 +1756,30 @@ window.COLLEGE_DATA = {
                       file: "ymca-kom-2024.pdf",
                       id: "ymca-kom-2024",
                       pages: 3,
-                      title: "Kinematics of Machines 2024"
+                      title: "Kinematics of Machines 2024",
                     },
                     {
                       year: 2022,
                       file: "ymca-kom-2022.pdf",
                       id: "ymca-kom-2022",
                       pages: 3,
-                      title: "Kinematics of Machines 2022"
+                      title: "Kinematics of Machines 2022",
                     },
                     {
                       year: 2019,
                       file: "ymca-kom-set-1-2019.pdf",
                       id: "ymca-kom-set-1-2019",
                       pages: 3,
-                      title: "Kinematics of Machines Set 1 2019"
+                      title: "Kinematics of Machines Set 1 2019",
                     },
                     {
                       year: 2019,
                       file: "ymca-kom-set-2-2019.pdf",
                       id: "ymca-kom-set-2-2019",
                       pages: 3,
-                      title: "Kinematics of Machines Set 2 2019"
-                    }
-                  ]
+                      title: "Kinematics of Machines Set 2 2019",
+                    },
+                  ],
                 },
                 {
                   name: "Manufacturing",
@@ -1758,30 +1793,30 @@ window.COLLEGE_DATA = {
                       file: "ymca-manufacturing-2019.pdf",
                       id: "ymca-manufacturing-2019",
                       pages: 3,
-                      title: "Manufacturing 2019"
+                      title: "Manufacturing 2019",
                     },
                     {
                       year: 2018,
                       file: "ymca-manufacturing-2018.pdf",
                       id: "ymca-manufacturing-2018",
                       pages: 3,
-                      title: "Manufacturing 2018"
+                      title: "Manufacturing 2018",
                     },
                     {
                       year: 2022,
                       file: "ymca-manufacturing-2022.pdf",
                       id: "ymca-manufacturing-2022",
                       pages: 3,
-                      title: "Manufacturing 2022"
+                      title: "Manufacturing 2022",
                     },
                     {
                       year: 2024,
                       file: "ymca-manufacturing-2024.pdf",
                       id: "ymca-manufacturing-2024",
                       pages: 3,
-                      title: "Manufacturing 2024"
-                    }
-                  ]
+                      title: "Manufacturing 2024",
+                    },
+                  ],
                 },
                 {
                   name: "Material Engineering",
@@ -1795,23 +1830,23 @@ window.COLLEGE_DATA = {
                       file: "ymca-material-2019.pdf",
                       id: "ymca-material-2019",
                       pages: 3,
-                      title: "Material Engineering 2019"
+                      title: "Material Engineering 2019",
                     },
                     {
                       year: 2022,
                       file: "ymca-material-2022.pdf",
                       id: "ymca-material-2022",
                       pages: 3,
-                      title: "Material Engineering 2022"
+                      title: "Material Engineering 2022",
                     },
                     {
                       year: 2024,
                       file: "ymca-material-2024.pdf",
                       id: "ymca-material-2024",
                       pages: 3,
-                      title: "Material Engineering 2024"
-                    }
-                  ]
+                      title: "Material Engineering 2024",
+                    },
+                  ],
                 },
                 {
                   name: "Strength of Material 2",
@@ -1825,32 +1860,32 @@ window.COLLEGE_DATA = {
                       file: "ymca-som-2-2019.pdf",
                       id: "ymca-som-2-2019",
                       pages: 3,
-                      title: "Strength of Material 2 2019"
+                      title: "Strength of Material 2 2019",
                     },
                     {
                       year: 2022,
                       file: "ymca-som-2-2022.pdf",
                       id: "ymca-som-2-2022",
                       pages: 3,
-                      title: "Strength of Material 2 2022"
+                      title: "Strength of Material 2 2022",
                     },
                     {
                       year: 2023,
                       file: "ymca-som-2-2023.pdf",
                       id: "ymca-som-2-2023",
                       pages: 3,
-                      title: "Strength of Material 2 2023"
+                      title: "Strength of Material 2 2023",
                     },
                     {
                       year: 2024,
                       file: "ymca-som-2-2024.pdf",
                       id: "ymca-som-2-2024",
                       pages: 3,
-                      title: "Strength of Material 2 2024"
-                    }
-                  ]
-                }
-              ]
+                      title: "Strength of Material 2 2024",
+                    },
+                  ],
+                },
+              ],
             },
             {
               number: 5,
@@ -1870,23 +1905,23 @@ window.COLLEGE_DATA = {
                       file: "ymca-dom-2016.pdf",
                       id: "ymca-dom-2016",
                       pages: 3,
-                      title: "Dynamics of Machines 2016"
+                      title: "Dynamics of Machines 2016",
                     },
                     {
                       year: 2018,
                       file: "ymca-dom-2018.pdf",
                       id: "ymca-dom-2018",
                       pages: 3,
-                      title: "Dynamics of Machines 2018"
+                      title: "Dynamics of Machines 2018",
                     },
                     {
                       year: 2023,
                       file: "ymca-dom-2023.pdf",
                       id: "ymca-dom-2023",
                       pages: 3,
-                      title: "Dynamics of Machines 2023"
-                    }
-                  ]
+                      title: "Dynamics of Machines 2023",
+                    },
+                  ],
                 },
                 {
                   name: "Heat and Mass Transfer",
@@ -1900,9 +1935,9 @@ window.COLLEGE_DATA = {
                       file: "ymca-hmt-2023.pdf",
                       id: "ymca-hmt-2023",
                       pages: 3,
-                      title: "Heat and Mass Transfer 2023"
-                    }
-                  ]
+                      title: "Heat and Mass Transfer 2023",
+                    },
+                  ],
                 },
                 {
                   name: "IC Engines",
@@ -1916,9 +1951,9 @@ window.COLLEGE_DATA = {
                       file: "ymca-ic-engines-2018.pdf",
                       id: "ymca-ic-engines-2018",
                       pages: 3,
-                      title: "IC Engines 2018"
-                    }
-                  ]
+                      title: "IC Engines 2018",
+                    },
+                  ],
                 },
                 {
                   name: "Industrial Engineering",
@@ -1932,11 +1967,11 @@ window.COLLEGE_DATA = {
                       file: "ymca-industrial-engineering-2018.pdf",
                       id: "ymca-industrial-engineering-2018",
                       pages: 3,
-                      title: "Industrial Engineering 2018"
-                    }
-                  ]
-                }
-              ]
+                      title: "Industrial Engineering 2018",
+                    },
+                  ],
+                },
+              ],
             },
             {
               number: 6,
@@ -1956,9 +1991,9 @@ window.COLLEGE_DATA = {
                       file: "ymca-automation-2023.pdf",
                       id: "ymca-automation-2023",
                       pages: 3,
-                      title: "Automation 2023"
-                    }
-                  ]
+                      title: "Automation 2023",
+                    },
+                  ],
                 },
                 {
                   name: "Machine Design 2",
@@ -1972,11 +2007,11 @@ window.COLLEGE_DATA = {
                       file: "ymca-machine-design-2-2018.pdf",
                       id: "ymca-machine-design-2-2018",
                       pages: 3,
-                      title: "Machine Design 2 2018"
-                    }
-                  ]
-                }
-              ]
+                      title: "Machine Design 2 2018",
+                    },
+                  ],
+                },
+              ],
             },
             {
               number: 7,
@@ -1996,9 +2031,9 @@ window.COLLEGE_DATA = {
                       file: "ymca-hr-management-2018.pdf",
                       id: "ymca-hr-management-2018",
                       pages: 3,
-                      title: "HR Management 2018"
-                    }
-                  ]
+                      title: "HR Management 2018",
+                    },
+                  ],
                 },
                 {
                   name: "Marketing Management",
@@ -2012,9 +2047,9 @@ window.COLLEGE_DATA = {
                       file: "ymca-marketing-management-2018.pdf",
                       id: "ymca-marketing-management-2018",
                       pages: 3,
-                      title: "Marketing Management 2018"
-                    }
-                  ]
+                      title: "Marketing Management 2018",
+                    },
+                  ],
                 },
                 {
                   name: "Metrology",
@@ -2028,9 +2063,9 @@ window.COLLEGE_DATA = {
                       file: "ymca-metrology-2016.pdf",
                       id: "ymca-metrology-2016",
                       pages: 3,
-                      title: "Metrology 2016"
-                    }
-                  ]
+                      title: "Metrology 2016",
+                    },
+                  ],
                 },
                 {
                   name: "Principles of Management",
@@ -2044,9 +2079,9 @@ window.COLLEGE_DATA = {
                       file: "ymca-principles-of-management-2018.pdf",
                       id: "ymca-principles-of-management-2018",
                       pages: 3,
-                      title: "Principles of Management 2018"
-                    }
-                  ]
+                      title: "Principles of Management 2018",
+                    },
+                  ],
                 },
                 {
                   name: "Soft Skills",
@@ -2060,16 +2095,2879 @@ window.COLLEGE_DATA = {
                       file: "ymca-soft-skills-2018.pdf",
                       id: "ymca-soft-skills-2018",
                       pages: 3,
-                      title: "Soft Skills 2018"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
+                      title: "Soft Skills 2018",
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
 
-      ]
+        {
+          name: "Electronics and Computer Engineering",
+          slug: "enc",
+          id: "enc",
+          description: "Electronics and Computer Engineering Branch",
+          icon: "microchip",
+          semesters: [
+            {
+              number: 3,
+              slug: "sem3",
+              id: "sem3",
+              description: "Subjects for Semester 3",
+              subjects: [
+                {
+                  name: "Analog Communication",
+                  slug: "analog-communication",
+                  id: "analog-communication",
+                  description: "Fundamentals of analog communication systems",
+                  icon: "radio",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-analog-communication-2023.pdf",
+                      id: "ymca-analog-communication-2023",
+                      pages: 3,
+                      title: "Analog Communication 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Circuit Analysis",
+                  slug: "circuit-analysis",
+                  id: "circuit-analysis",
+                  description: "Fundamentals of circuit analysis techniques",
+                  icon: "plug",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-circuit-analysis-2023.pdf",
+                      id: "ymca-circuit-analysis-2023",
+                      pages: 3,
+                      title: "Circuit Analysis 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Constitution",
+                  slug: "constitution",
+                  id: "constitution",
+                  description: "Study of the Indian Constitution",
+                  icon: "gavel",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-constitution-2023-set-1.pdf",
+                      id: "ymca-constitution-2023-set-1",
+                      pages: 3,
+                      title: "Constitution 2023-set-1",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-constitution-2023-set-2.pdf",
+                      id: "ymca-constitution-2023-set-2",
+                      pages: 3,
+                      title: "Constitution 2023-set-2",
+                    },
+                  ],
+                },
+                {
+                  name: "Digital Electronics",
+                  slug: "digital-electronics",
+                  id: "digital-electronics",
+                  description: "Fundamentals of digital electronics",
+                  icon: "circuit-board",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-digital-electronics-2023.pdf",
+                      id: "ymca-digital-electronics-2023",
+                      pages: 3,
+                      title: "Digital Electronics 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Maths 3",
+                  slug: "maths-3",
+                  id: "maths-3",
+                  description: "Advanced mathematics for engineering",
+                  icon: "calculator",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-maths-3-2023.pdf",
+                      id: "ymca-maths-3-2023",
+                      pages: 3,
+                      title: "Mathematics 3 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Semiconductor Devices",
+                  slug: "semiconductor",
+                  id: "semiconductor",
+                  description:
+                    "Study of semiconductor devices and applications",
+                  icon: "microchip",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-semiconductor-2023.pdf",
+                      id: "ymca-semiconductor-2023",
+                      pages: 3,
+                      title: "Semiconductor Devices 2023",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              number: 4,
+              slug: "sem4",
+              id: "sem4",
+              description: "Subjects for Semester 4",
+              subjects: [
+                {
+                  name: "Analog Electronic Circuit",
+                  slug: "aec",
+                  id: "aec",
+                  description:
+                    "Design and analysis of analog electronic circuits",
+                  icon: "circuit",
+                  pyqs: [
+                    {
+                      year: 2022,
+                      file: "ymca-aec-2022.pdf",
+                      id: "ymca-aec-2022",
+                      pages: 3,
+                      title: "Analog Electronic Circuit 2022",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-aec-2023.pdf",
+                      id: "ymca-aec-2023",
+                      pages: 3,
+                      title: "Analog Electronic Circuit 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-aec-2024.pdf",
+                      id: "ymca-aec-2024",
+                      pages: 3,
+                      title: "Analog Electronic Circuit 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Digital Communication",
+                  slug: "digital-communication",
+                  id: "digital-communication",
+                  description: "Fundamentals of digital communication systems",
+                  icon: "satellite-dish",
+                  pyqs: [
+                    {
+                      year: 2022,
+                      file: "ymca-digital-communication-2022.pdf",
+                      id: "ymca-digital-communication-2022",
+                      pages: 3,
+                      title: "Digital Communication 2022",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-digital-communication-2023.pdf",
+                      id: "ymca-digital-communication-2023",
+                      pages: 3,
+                      title: "Digital Communication 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-digital-communication-2024.pdf",
+                      id: "ymca-digital-communication-2024",
+                      pages: 3,
+                      title: "Digital Communication 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Digital System Design",
+                  slug: "digital-system-design",
+                  id: "digital-system-design",
+                  description: "Design and analysis of digital systems",
+                  icon: "microchip",
+                  pyqs: [
+                    {
+                      year: 2022,
+                      file: "ymca-digital-system-design-2022.pdf",
+                      id: "ymca-digital-system-design-2022",
+                      pages: 3,
+                      title: "Digital System Design 2022",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-digital-system-design-2024.pdf",
+                      id: "ymca-digital-system-design-2024",
+                      pages: 3,
+                      title: "Digital System Design 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Microprocessor",
+                  slug: "microprocessor",
+                  id: "microprocessor",
+                  description:
+                    "Fundamentals of microprocessor architecture and programming",
+                  icon: "microchip",
+                  pyqs: [
+                    {
+                      year: 2022,
+                      file: "ymca-microprocessor-2022.pdf",
+                      id: "ymca-microprocessor-2022",
+                      pages: 3,
+                      title: "Microprocessor 2022",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-microprocessor-2024.pdf",
+                      id: "ymca-microprocessor-2024",
+                      pages: 3,
+                      title: "Microprocessor 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Python",
+                  slug: "python",
+                  id: "python",
+                  description: "Introduction to Python programming",
+                  icon: "python",
+                  pyqs: [
+                    {
+                      year: 2022,
+                      file: "ymca-python-2022.pdf",
+                      id: "ymca-python-2022",
+                      pages: 3,
+                      title: "Python Programming 2022",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-python-2023.pdf",
+                      id: "ymca-python-2023",
+                      pages: 3,
+                      title: "Python Programming 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-python-2024.pdf",
+                      id: "ymca-python-2024",
+                      pages: 3,
+                      title: "Python Programming 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Signals and Systems",
+                  slug: "signals-and-systems",
+                  id: "signals-and-systems",
+                  description: "Fundamentals of signals and systems analysis",
+                  icon: "signal",
+                  pyqs: [
+                    {
+                      year: 2022,
+                      file: "ymca-signals-and-systems-2022.pdf",
+                      id: "ymca-signals-and-systems-2022",
+                      pages: 3,
+                      title: "Signals and Systems 2022",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-signals-and-systems-2024.pdf",
+                      id: "ymca-signals-and-systems-2024",
+                      pages: 3,
+                      title: "Signals and Systems 2024",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              number: 5,
+              slug: "sem5",
+              id: "sem5",
+              description: "Subjects for Semester 5",
+              subjects: [
+                {
+                  name: "Database Management System",
+                  slug: "dbms",
+                  id: "dbms",
+                  description: "Fundamentals of database management systems",
+                  icon: "database",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "ymca-dbms-2018.pdf",
+                      id: "ymca-dbms-2018",
+                      pages: 3,
+                      title: "Database Management System 2018",
+                    },
+                    {
+                      year: 2019,
+                      file: "ymca-dbms-2019.pdf",
+                      id: "ymca-dbms-2019",
+                      pages: 3,
+                      title: "Database Management System 2019",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-dbms-2023.pdf",
+                      id: "ymca-dbms-2023",
+                      pages: 3,
+                      title: "Database Management System 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Environmental science",
+                  slug: "environmental-science",
+                  id: "environmental-science",
+                  description: "Study of environmental issues and solutions",
+                  icon: "leaf",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-environmental-science-2023.pdf",
+                      id: "ymca-environmental-science-2023",
+                      pages: 3,
+                      title: "Environmental Science 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-environmental-science-2024.pdf",
+                      id: "ymca-environmental-science-2024",
+                      pages: 3,
+                      title: "Environmental Science 2024",
+                    },
+                    {
+                      year: 2022,
+                      file: "ymca-environmental-science-2022.pdf",
+                      id: "ymca-environmental-science-2022",
+                      pages: 3,
+                      title: "Environmental Science 2022",
+                    },
+                    {
+                      year: 2025,
+                      file: "ymca-env-praxian-analysis-2025.pdf",
+                      id: "ymca-env-praxian-analysis-2025",
+                      pages: 3,
+                      title: "Environmental Science Praxian Analysis 2025",
+                    },
+                  ],
+                },
+                {
+                  name: "Operating System",
+                  slug: "os",
+                  id: "os",
+                  description: "Principles of operating systems",
+                  icon: "server",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-os-2019.pdf",
+                      id: "ymca-os-2019",
+                      pages: 3,
+                      title: "Operating System 2019",
+                    },
+                    {
+                      year: 2025,
+                      file: "ymca-os-praxian-analysis-2025.pdf",
+                      id: "ymca-os-praxian-analysis-2025",
+                      pages: 3,
+                      title: "Operating System Praxian Analysis 2025",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              number: 6,
+              slug: "sem6",
+              id: "sem6",
+              description: "Subjects for Semester 6",
+              subjects: [
+                {
+                  name: "Data Mining",
+                  slug: "data-mining",
+                  id: "data-mining",
+                  description: "Techniques for data mining and analysis",
+                  icon: "database",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "ymca-data-mining-2018.pdf",
+                      id: "ymca-data-mining-2018",
+                      pages: 3,
+                      title: "Data Mining 2018",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-data-mining-2024.pdf",
+                      id: "ymca-data-mining-2024",
+                      pages: 3,
+                      title: "Data Mining 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Digital Signal Processing",
+                  slug: "dsp",
+                  id: "dsp",
+                  description: "Fundamentals of digital signal processing",
+                  icon: "waveform",
+                  pyqs: [
+                    {
+                      year: 2022,
+                      file: "ymca-dsp-2022.pdf",
+                      id: "ymca-dsp-2022",
+                      pages: 3,
+                      title: "Digital Signal Processing 2022",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-dsp-2023.pdf",
+                      id: "ymca-dsp-2023",
+                      pages: 3,
+                      title: "Digital Signal Processing 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-dsp-2024.pdf",
+                      id: "ymca-dsp-2024",
+                      pages: 3,
+                      title: "Digital Signal Processing 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Internet of Things",
+                  slug: "iot",
+                  id: "iot",
+                  description: "Introduction to Internet of Things concepts",
+                  icon: "network-wired",
+                  pyqs: [
+                    {
+                      year: 2022,
+                      file: "ymca-iot-2022.pdf",
+                      id: "ymca-iot-2022",
+                      pages: 3,
+                      title: "Internet of Things 2022",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-iot-2023.pdf",
+                      id: "ymca-iot-2023",
+                      pages: 3,
+                      title: "Internet of Things 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-iot-2024.pdf",
+                      id: "ymca-iot-2024",
+                      pages: 3,
+                      title: "Internet of Things 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Mobile Communication",
+                  slug: "mobile",
+                  id: "mobile",
+                  description: "Fundamentals of mobile communication systems",
+                  icon: "mobile-alt",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-mobile-2023.pdf",
+                      id: "ymca-mobile-2023",
+                      pages: 3,
+                      title: "Mobile Communication 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-mobile-2024.pdf",
+                      id: "ymca-mobile-2024",
+                      pages: 3,
+                      title: "Mobile Communication 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Soft Skills",
+                  slug: "soft-skills",
+                  id: "soft-skills",
+                  description: "Development of soft skills for professionals",
+                  icon: "comments",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "ymca-soft-skills-2024.pdf",
+                      id: "ymca-soft-skills-2024",
+                      pages: 3,
+                      title: "Soft Skills 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Software Engineering",
+                  slug: "software",
+                  id: "software",
+                  description: "Principles of software development",
+                  icon: "laptop-code",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-software-2023.pdf",
+                      id: "ymca-software-2023",
+                      pages: 3,
+                      title: "Software Engineering 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-software-2024.pdf",
+                      id: "ymca-software-2024",
+                      pages: 3,
+                      title: "Software Engineering 2024",
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+
+        {
+          name: "Information Technology",
+          slug: "it",
+          id: "it",
+          description: "Information Technology Branch",
+          keywords: ["information", "technology", "IT", "software"],
+          icon: "laptop-code",
+          semesters: [
+            {
+              number: 3,
+              slug: "sem3",
+              id: "sem3",
+              description: "Subjects for Semester 3",
+              keywords: ["semester 3", "information technology", "subjects"],
+              subjects: [
+                {
+                  name: "Analog Electronic Circuit",
+                  slug: "aec",
+                  id: "aec",
+                  description: "Study of electronic circuits and devices",
+                  keywords: ["electronics", "circuits", "analog", "devices"],
+                  icon: "microchip",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-aec-2019.pdf",
+                      id: "ymca-aec-2019",
+                      pages: 3,
+                      title: "Analog Electronic Circuit 2019",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-aec-2023.pdf",
+                      id: "ymca-aec-2023",
+                      pages: 3,
+                      title: "Analog Electronic Circuit 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-aec-2024.pdf",
+                      id: "ymca-aec-2024",
+                      pages: 3,
+                      title: "Analog Electronic Circuit 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Data Structures and Algorithms",
+                  slug: "dsa",
+                  id: "dsa",
+                  description: "Core concepts in data organization",
+                  keywords: ["data", "structures", "algorithms"],
+                  icon: "code",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "ymca-dsa-2018.pdf",
+                      id: "ymca-dsa-2018",
+                      pages: 3,
+                      title: "Data Structures and Algorithms 2018",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-dsa-2024.pdf",
+                      id: "ymca-dsa-2024",
+                      pages: 3,
+                      title: "Data Structures and Algorithms 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Digital Electronics",
+                  slug: "digital-electronics",
+                  id: "digital-electronics",
+                  description: "Fundamentals of digital systems",
+                  keywords: ["digital", "electronics", "systems"],
+                  icon: "memory",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "ymca-digital-electronics-2018.pdf",
+                      id: "ymca-digital-electronics-2018",
+                      pages: 3,
+                      title: "Digital Electronics 2018",
+                    },
+                    {
+                      year: 2019,
+                      file: "ymca-digital-electronics-2019.pdf",
+                      id: "ymca-digital-electronics-2019",
+                      pages: 3,
+                      title: "Digital Electronics 2019",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-digital-electronics-2023.pdf",
+                      id: "ymca-digital-electronics-2023",
+                      pages: 3,
+                      title: "Digital Electronics 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-digital-electronics-2024.pdf",
+                      id: "ymca-digital-electronics-2024",
+                      pages: 3,
+                      title: "Digital Electronics 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Calculus and Ordinary Differential Equations",
+                  slug: "cde",
+                  id: "cde",
+                  description: "Mathematical concepts in engineering",
+                  keywords: [
+                    "calculus",
+                    "differential",
+                    "equations",
+                    "mathematics",
+                  ],
+                  icon: "calculator",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-cde-2023.pdf",
+                      id: "ymca-cde-2023",
+                      pages: 3,
+                      title:
+                        "Calculus and Ordinary Differential Equations 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Economics",
+                  slug: "economics",
+                  id: "economics",
+                  description: "Economics principles in information technology",
+                  keywords: [
+                    "economics",
+                    "information technology",
+                    "principles",
+                  ],
+                  icon: "chart-line",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "ymca-economics-2018.pdf",
+                      id: "ymca-economics-2018",
+                      pages: 3,
+                      title: "Economics 2018",
+                    },
+                    {
+                      year: 2019,
+                      file: "ymca-economics-2019.pdf",
+                      id: "ymca-economics-2019",
+                      pages: 3,
+                      title: "Economics 2019",
+                    },
+                    {
+                      year: 2020,
+                      file: "ymca-economics-2020.pdf",
+                      id: "ymca-economics-2020",
+                      pages: 3,
+                      title: "Economics 2020",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-economics-2023.pdf",
+                      id: "ymca-economics-2023",
+                      pages: 3,
+                      title: "Economics 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-economics-2024.pdf",
+                      id: "ymca-economics-2024",
+                      pages: 3,
+                      title: "Economics 2024",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              number: 4,
+              slug: "sem4",
+              id: "sem4",
+              description: "Subjects for Semester 4",
+              keywords: ["semester 4", "information technology", "subjects"],
+              subjects: [
+                {
+                  name: "Discrete Mathematics",
+                  slug: "discrete-mathematics",
+                  id: "discrete-mathematics",
+                  description:
+                    "Mathematical foundations for information technology",
+                  keywords: ["discrete", "mathematics", "foundations"],
+                  icon: "abacus",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-discrete-mathematics-2019.pdf",
+                      id: "ymca-discrete-mathematics-2019",
+                      pages: 3,
+                      title: "Discrete Mathematics 2019",
+                    },
+                    {
+                      year: 2020,
+                      file: "ymca-discrete-mathematics-2020.pdf",
+                      id: "ymca-discrete-mathematics-2020",
+                      pages: 3,
+                      title: "Discrete Mathematics 2020",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-discrete-mathematics-2024.pdf",
+                      id: "ymca-discrete-mathematics-2024",
+                      pages: 3,
+                      title: "Discrete Mathematics 2024",
+                    },
+                    {
+                      year: 2025,
+                      file: "ymca-discrete-mathematics-praxian-analysis-2025.pdf",
+                      id: "ymca-discrete-mathematics-praxian-analysis-2025",
+                      pages: 3,
+                      title: "Discrete Mathematics Praxian Analysis 2025",
+                    },
+                  ],
+                },
+                {
+                  name: "Computer Organization and Architecture",
+                  slug: "coa",
+                  id: "coa",
+                  description: "Fundamentals of computer systems",
+                  keywords: ["computer", "organization", "architecture"],
+                  icon: "desktop",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-coa-2019.pdf",
+                      id: "ymca-coa-2019",
+                      pages: 3,
+                      title: "Computer Organization and Architecture 2019",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-coa-2024.pdf",
+                      id: "ymca-coa-2024",
+                      pages: 3,
+                      title: "Computer Organization and Architecture 2024",
+                    },
+                    {
+                      year: 2025,
+                      file: "ymca-coa-praxian-analysis-2025.pdf",
+                      id: "ymca-coa-praxian-analysis-2025",
+                      pages: 3,
+                      title:
+                        "Computer Organization and Architecture Praxian Analysis 2025",
+                    },
+                  ],
+                },
+                {
+                  name: "Operating System",
+                  slug: "os",
+                  id: "os",
+                  description: "Principles of operating systems",
+                  keywords: ["operating", "system", "principles"],
+                  icon: "server",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-os-2019.pdf",
+                      id: "ymca-os-2019",
+                      pages: 3,
+                      title: "Operating System 2019",
+                    },
+                    {
+                      year: 2025,
+                      file: "ymca-os-praxian-analysis-2025.pdf",
+                      id: "ymca-os-praxian-analysis-2025",
+                      pages: 3,
+                      title: "Operating System Praxian Analysis 2025",
+                    },
+                  ],
+                },
+                {
+                  name: "Design and Analysis of Algorithms",
+                  slug: "daa",
+                  id: "daa",
+                  description: "Techniques for algorithm design and analysis",
+                  keywords: ["design", "analysis", "algorithms"],
+                  icon: "project-diagram",
+                  pyqs: [
+                    {
+                      year: 2015,
+                      file: "ymca-daa-2015.pdf",
+                      id: "ymca-daa-2015",
+                      pages: 3,
+                      title: "Design and Analysis of Algorithms 2015",
+                    },
+                    {
+                      year: 2016,
+                      file: "ymca-daa-2016.pdf",
+                      id: "ymca-daa-2016",
+                      pages: 3,
+                      title: "Design and Analysis of Algorithms 2016",
+                    },
+                    {
+                      year: 2019,
+                      file: "ymca-daa-2019.pdf",
+                      id: "ymca-daa-2019",
+                      pages: 3,
+                      title: "Design and Analysis of Algorithms 2019",
+                    },
+                    {
+                      year: 2022,
+                      file: "ymca-daa-2022.pdf",
+                      id: "ymca-daa-2022",
+                      pages: 3,
+                      title: "Design and Analysis of Algorithms 2022",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-daa-2023.pdf",
+                      id: "ymca-daa-2023",
+                      pages: 3,
+                      title: "Design and Analysis of Algorithms 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-daa-2024.pdf",
+                      id: "ymca-daa-2024",
+                      pages: 3,
+                      title: "Design and Analysis of Algorithms 2024",
+                    },
+                    {
+                      year: 2025,
+                      file: "ymca-daa-praxian-analysis-2025.pdf",
+                      id: "ymca-daa-praxian-analysis-2025",
+                      pages: 3,
+                      title:
+                        "Design and Analysis of Algorithms Praxian Analysis 2025",
+                    },
+                  ],
+                },
+                {
+                  name: "Organizational Behaviour",
+                  slug: "org-behaviour",
+                  id: "org-behaviour",
+                  description: "Study of organizational behaviour",
+                  keywords: ["organizational", "behaviour", "study"],
+                  icon: "users",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-org-behaviour-2019.pdf",
+                      id: "ymca-org-behaviour-2019",
+                      pages: 3,
+                      title: "Organizational Behaviour 2019",
+                    },
+                    {
+                      year: 2021,
+                      file: "ymca-org-behaviour-2021.pdf",
+                      id: "ymca-org-behaviour-2021",
+                      pages: 3,
+                      title: "Organizational Behaviour 2021",
+                    },
+                  ],
+                },
+                {
+                  name: "Biology",
+                  slug: "biology",
+                  id: "biology",
+                  description: "Biological concepts in information technology",
+                  keywords: ["biology", "information technology", "concepts"],
+                  icon: "flask",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-biology-2023.pdf",
+                      id: "ymca-biology-2023",
+                      pages: 3,
+                      title: "Biology 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-biology-2024.pdf",
+                      id: "ymca-biology-2024",
+                      pages: 3,
+                      title: "Biology 2024",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              number: 5,
+              slug: "sem5",
+              id: "sem5",
+              description: "Subjects for Semester 5",
+              keywords: ["semester 5", "information technology", "subjects"],
+              subjects: [
+                {
+                  name: "Database Management Systems",
+                  slug: "dbms",
+                  id: "dbms",
+                  description: "Principles of database systems",
+                  keywords: ["database", "management", "systems"],
+                  icon: "database",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "ymca-dbms-2018.pdf",
+                      id: "ymca-dbms-2018",
+                      pages: 3,
+                      title: "Database Management Systems 2018",
+                    },
+                    {
+                      year: 2019,
+                      file: "ymca-dbms-2019.pdf",
+                      id: "ymca-dbms-2019",
+                      pages: 3,
+                      title: "Database Management Systems 2019",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-dbms-2023.pdf",
+                      id: "ymca-dbms-2023",
+                      pages: 3,
+                      title: "Database Management Systems 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Compiler Design",
+                  slug: "compiler-design",
+                  id: "compiler-design",
+                  description: "Principles of compiler design",
+                  keywords: ["compiler", "design", "principles"],
+                  icon: "file-code",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-compiler-design-2023.pdf",
+                      id: "ymca-compiler-design-2023",
+                      pages: 3,
+                      title: "Compiler Design 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Computer Networks",
+                  slug: "computer-networks",
+                  id: "computer-networks",
+                  description: "Principles of computer networking",
+                  keywords: ["computer", "networks", "principles"],
+                  icon: "network-wired",
+                  pyqs: [
+                    {
+                      year: 2017,
+                      file: "ymca-computer-networks-2017.pdf",
+                      id: "ymca-computer-networks-2017",
+                      pages: 3,
+                      title: "Computer Networks 2017",
+                    },
+                    {
+                      year: 2018,
+                      file: "ymca-computer-networks-2018.pdf",
+                      id: "ymca-computer-networks-2018",
+                      pages: 3,
+                      title: "Computer Networks 2018",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-computer-networks-2023.pdf",
+                      id: "ymca-computer-networks-2023",
+                      pages: 3,
+                      title: "Computer Networks 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-computer-networks-2024.pdf",
+                      id: "ymca-computer-networks-2024",
+                      pages: 3,
+                      title: "Computer Networks 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Effective Technical Communication",
+                  slug: "etc",
+                  id: "etc",
+                  description:
+                    "Skills for effective communication in technical fields",
+                  keywords: ["communication", "technical", "skills"],
+                  icon: "comment-dots",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-etc-2023.pdf",
+                      id: "ymca-etc-2023",
+                      pages: 3,
+                      title: "Effective Technical Communication 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-etc-2024.pdf",
+                      id: "ymca-etc-2024",
+                      pages: 3,
+                      title: "Effective Technical Communication 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Constitution",
+                  slug: "constitution",
+                  id: "constitution",
+                  description: "Study of the Indian Constitution",
+                  keywords: ["constitution", "indian", "study"],
+                  icon: "gavel",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-constitution-2023-set-1.pdf",
+                      id: "ymca-constitution-2023-set-1",
+                      pages: 3,
+                      title: "Constitution 2023 Set 1",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-constitution-2023-set-2.pdf",
+                      id: "ymca-constitution-2023-set-2",
+                      pages: 3,
+                      title: "Constitution 2023 Set 2",
+                    },
+                  ],
+                },
+                {
+                  name: "Universal Human Values",
+                  slug: "universal-human-values",
+                  id: "universal-human-values",
+                  description: "Study of human values and ethics",
+                  keywords: ["human", "values", "ethics"],
+                  icon: "heart",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-universal-human-values-2023.pdf",
+                      id: "ymca-universal-human-values-2023",
+                      pages: 3,
+                      title: "Universal Human Values 2023",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              number: 6,
+              slug: "sem6",
+              id: "sem6",
+              description: "Subjects for Semester 6",
+              keywords: ["semester 6", "information technology", "subjects"],
+              subjects: [
+                {
+                  name: "Intelligent Systems",
+                  slug: "intelligent-systems",
+                  id: "intelligent-systems",
+                  description: "Concepts in intelligent systems",
+                  keywords: ["intelligent", "systems", "concepts"],
+                  icon: "brain",
+                  pyqs: [
+                    {
+                      year: 2017,
+                      file: "ymca-intelligent-systems-2017.pdf",
+                      id: "ymca-intelligent-systems-2017",
+                      pages: 3,
+                      title: "Intelligent Systems 2017",
+                    },
+                    {
+                      year: 2018,
+                      file: "ymca-intelligent-systems-2018.pdf",
+                      id: "ymca-intelligent-systems-2018",
+                      pages: 3,
+                      title: "Intelligent Systems 2018",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-intelligent-systems-2024.pdf",
+                      id: "ymca-intelligent-systems-2024",
+                      pages: 3,
+                      title: "Intelligent Systems 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Bhagavad Gita",
+                  slug: "bhagavad-gita",
+                  id: "bhagavad-gita",
+                  description: "Study of the Bhagavad Gita",
+                  keywords: ["bhagavad", "gita", "study"],
+                  icon: "book-open",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "ymca-bhagavad-gita-2024.pdf",
+                      id: "ymca-bhagavad-gita-2024",
+                      pages: 3,
+                      title: "Bhagavad Gita 2024",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              number: 7,
+              slug: "sem7",
+              id: "sem7",
+              description: "Subjects for Semester 7",
+              keywords: ["semester 7", "information technology", "subjects"],
+              subjects: [
+                {
+                  name: "Environmental Science",
+                  slug: "environmental-science",
+                  id: "environmental-science",
+                  description: "Study of environmental issues and solutions",
+                  keywords: ["environment", "science", "issues", "solutions"],
+                  icon: "leaf",
+                  pyqs: [
+                    {
+                      year: 2022,
+                      file: "ymca-environmental-science-2022.pdf",
+                      id: "ymca-environmental-science-2022",
+                      pages: 3,
+                      title: "Environmental Science 2022",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-environmental-science-2023.pdf",
+                      id: "ymca-environmental-science-2023",
+                      pages: 3,
+                      title: "Environmental Science 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-environmental-science-2024.pdf",
+                      id: "ymca-environmental-science-2024",
+                      pages: 3,
+                      title: "Environmental Science 2024",
+                    },
+                    {
+                      year: 2025,
+                      file: "ymca-env-praxian-analysis-2025.pdf",
+                      id: "ymca-env-praxian-analysis-2025",
+                      pages: 3,
+                      title: "Environmental Science Praxian Analysis 2025",
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          name: "Electronics and Communication Engineering",
+          slug: "ece",
+          id: "ece",
+          description: "Electronics and Communication Engineering Branch",
+          keywords: ["electronics", "communication", "engineering", "circuits"],
+          icon: "microchip",
+          semesters: [
+            {
+              number: 3,
+              slug: "sem3",
+              id: "sem3",
+              description: "Subjects for Semester 3",
+              keywords: [
+                "semester 3",
+                "electronics",
+                "communication",
+                "subjects",
+              ],
+              subjects: [
+                {
+                  name: "Digital System Design",
+                  slug: "dsd",
+                  id: "dsd",
+                  description: "Principles of digital system design",
+                  keywords: ["digital", "system", "design"],
+                  icon: "circuit-board",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-dsd-2023.pdf",
+                      id: "ymca-dsd-2023",
+                      pages: 3,
+                      title: "Digital System Design 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Engineering Mechanics",
+                  slug: "e-mechanics",
+                  id: "e-mechanics",
+                  description: "Fundamentals of engineering mechanics",
+                  keywords: ["engineering", "mechanics", "fundamentals"],
+                  icon: "wrench",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-e-mechanics-set-1-2019.pdf",
+                      id: "ymca-e-mechanics-set-1-2019",
+                      pages: 3,
+                      title: "Engineering Mechanics Set 1 2019",
+                    },
+                    {
+                      year: 2019,
+                      file: "ymca-e-mechanics-set-2-2019.pdf",
+                      id: "ymca-e-mechanics-set-2-2019",
+                      pages: 3,
+                      title: "Engineering Mechanics Set 2 2019",
+                    },
+                  ],
+                },
+                {
+                  name: "Electronic Devices",
+                  slug: "electronic-devices",
+                  id: "electronic-devices",
+                  description: "Study of electronic devices and circuits",
+                  keywords: ["electronic", "devices", "circuits"],
+                  icon: "microchip",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-electronic-devices-2019.pdf",
+                      id: "ymca-electronic-devices-2019",
+                      pages: 3,
+                      title: "Electronic Devices 2019",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-electronic-devices-set-1-2023.pdf",
+                      id: "ymca-electronic-devices-set-1-2023",
+                      pages: 3,
+                      title: "Electronic Devices Set 1 2023",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-electronic-devices-set-2-2023.pdf",
+                      id: "ymca-electronic-devices-set-2-2023",
+                      pages: 3,
+                      title: "Electronic Devices Set 2 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Network Theory",
+                  slug: "network-theory",
+                  id: "network-theory",
+                  description: "Fundamentals of network theory",
+                  keywords: ["network", "theory", "circuits"],
+                  icon: "network-wired",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-network-theory-2019.pdf",
+                      id: "ymca-network-theory-2019",
+                      pages: 3,
+                      title: "Network Theory 2019",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-network-theory-set-1-2023.pdf",
+                      id: "ymca-network-theory-set-1-2023",
+                      pages: 3,
+                      title: "Network Theory Set 1 2023",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-network-theory-set-2-2023.pdf",
+                      id: "ymca-network-theory-set-2-2023",
+                      pages: 3,
+                      title: "Network Theory Set 2 2023",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              number: 4,
+              slug: "sem4",
+              id: "sem4",
+              description: "Subjects for Semester 4",
+              keywords: [
+                "semester 4",
+                "electronics",
+                "communication",
+                "subjects",
+              ],
+              subjects: [
+                {
+                  name: "Analog Circuits",
+                  slug: "analog-circuits",
+                  id: "analog-circuits",
+                  description: "Study of analog circuits",
+                  keywords: ["analog", "circuits", "electronics"],
+                  icon: "microchip",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-analog-circuits-2023.pdf",
+                      id: "ymca-analog-circuits-2023",
+                      pages: 3,
+                      title: "Analog Circuits 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-analog-circuits-2024.pdf",
+                      id: "ymca-analog-circuits-2024",
+                      pages: 3,
+                      title: "Analog Circuits 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Analog and Digital Communication",
+                  slug: "analog-digital-communication",
+                  id: "analog-digital-communication",
+                  description: "Principles of analog and digital communication",
+                  keywords: ["analog", "digital", "communication"],
+                  icon: "signal",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-analog-digital-communication-2019.pdf",
+                      id: "ymca-analog-digital-communication-2019",
+                      pages: 3,
+                      title: "Analog and Digital Communication 2019",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-analog-digital-communication-2023.pdf",
+                      id: "ymca-analog-digital-communication-2023",
+                      pages: 3,
+                      title: "Analog and Digital Communication 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-analog-digital-communication-2024.pdf",
+                      id: "ymca-analog-digital-communication-2024",
+                      pages: 3,
+                      title: "Analog and Digital Communication 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Computer Architecture",
+                  slug: "computer-architecture",
+                  id: "computer-architecture",
+                  description: "Fundamentals of computer architecture",
+                  keywords: ["computer", "architecture", "fundamentals"],
+                  icon: "desktop",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-computer-architecture-2023.pdf",
+                      id: "ymca-computer-architecture-2023",
+                      pages: 3,
+                      title: "Computer Architecture 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-computer-architecture-2024.pdf",
+                      id: "ymca-computer-architecture-2024",
+                      pages: 3,
+                      title: "Computer Architecture 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Microprocessor",
+                  slug: "microprocessor",
+                  id: "microprocessor",
+                  description: "Principles of microprocessor systems",
+                  keywords: ["microprocessor", "systems", "electronics"],
+                  icon: "microchip",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-microprocessor-2019.pdf",
+                      id: "ymca-microprocessor-2019",
+                      pages: 3,
+                      title: "Microprocessor 2019",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-microprocessor-2023.pdf",
+                      id: "ymca-microprocessor-2023",
+                      pages: 3,
+                      title: "Microprocessor 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-microprocessor-2024.pdf",
+                      id: "ymca-microprocessor-2024",
+                      pages: 3,
+                      title: "Microprocessor 2024",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              number: 5,
+              slug: "sem5",
+              id: "sem5",
+              description: "Subjects for Semester 5",
+              keywords: [
+                "semester 5",
+                "electronics",
+                "communication",
+                "subjects",
+              ],
+              subjects: [
+                {
+                  name: "Digital Signal Processing",
+                  slug: "dsp",
+                  id: "dsp",
+                  description: "Principles of digital signal processing",
+                  keywords: ["digital", "signal", "processing"],
+                  icon: "signal",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-dsp-2019.pdf",
+                      id: "ymca-dsp-2019",
+                      pages: 3,
+                      title: "Digital Signal Processing 2019",
+                    },
+                  ],
+                },
+                {
+                  name: "Electromagnetic Waves",
+                  slug: "em-wave",
+                  id: "em-wave",
+                  description: "Study of electromagnetic waves",
+                  keywords: ["electromagnetic", "waves", "physics"],
+                  icon: "wave-square",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-em-wave-2019.pdf",
+                      id: "ymca-em-wave-2019",
+                      pages: 3,
+                      title: "Electromagnetic Waves 2019",
+                    },
+                  ],
+                },
+                {
+                  name: "Probability Theory",
+                  slug: "probability-theory",
+                  id: "probability-theory",
+                  description: "Fundamentals of probability theory",
+                  keywords: ["probability", "theory", "mathematics"],
+                  icon: "calculator",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-probability-theory-2019.pdf",
+                      id: "ymca-probability-theory-2019",
+                      pages: 3,
+                      title: "Probability Theory 2019",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-probability-theory-2023.PDF",
+                      id: "ymca-probability-theory-2023",
+                      pages: 3,
+                      title: "Probability Theory 2023",
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          name: "BBA",
+          slug: "bba",
+          id: "bba",
+          description: "Bachelor of Business Administration",
+          icon: "briefcase",
+          semesters: [
+            {
+              number: 3,
+              slug: "sem3",
+              id: "sem3",
+              description: "Subjects for Semester 3",
+              subjects: [
+                {
+                  name: "Business Communication",
+                  slug: "business-communication",
+                  id: "business-communication",
+                  description: "Fundamentals of business communication",
+                  icon: "comment-alt",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-business-communication-2023.pdf",
+                      id: "ymca-business-communication-2023",
+                      pages: 3,
+                      title: "Business Communication 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Capital Market",
+                  slug: "capital-market",
+                  id: "capital-market",
+                  description:
+                    "Introduction to capital markets and investments",
+                  icon: "chart-bar",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-capital-market-2023.pdf",
+                      id: "ymca-capital-market-2023",
+                      pages: 3,
+                      title: "Capital Market 2023",
+                    },
+                    {
+                      year: 2022,
+                      file: "ymca-capital-market-set-1-2022.pdf",
+                      id: "ymca-capital-market-set-1-2022",
+                      pages: 3,
+                      title: "Capital Market Set 1 2022",
+                    },
+                    {
+                      year: 2022,
+                      file: "ymca-capital-market-set-2-2022.pdf",
+                      id: "ymca-capital-market-set-2-2022",
+                      pages: 3,
+                      title: "Capital Market Set 2 2022",
+                    },
+                  ],
+                },
+                {
+                  name: "Cost and Management Accounting",
+                  slug: "cma",
+                  id: "cma",
+                  description: "Principles of cost and management accounting",
+                  icon: "calculator",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-cma-2023.pdf",
+                      id: "ymca-cma-2023",
+                      pages: 3,
+                      title: "Cost and Management Accounting 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Financial Management",
+                  slug: "financial-management",
+                  id: "financial-management",
+                  description: "Fundamentals of financial management",
+                  icon: "money-bill-wave",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-financial-management-2023.pdf",
+                      id: "ymca-financial-management-2023",
+                      pages: 3,
+                      title: "Financial Management 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Indian Business Environment",
+                  slug: "ibe",
+                  id: "ibe",
+                  description: "Overview of the Indian business environment",
+                  icon: "globe-asia",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-ibe-2019.pdf",
+                      id: "ymca-ibe-2019",
+                      pages: 3,
+                      title: "Indian Business Environment 2019",
+                    },
+                    {
+                      year: 2022,
+                      file: "ymca-ibe-2022.pdf",
+                      id: "ymca-ibe-2022",
+                      pages: 3,
+                      title: "Indian Business Environment 2022",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-ibe-2023.pdf",
+                      id: "ymca-ibe-2023",
+                      pages: 3,
+                      title: "Indian Business Environment 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Introduction to IT",
+                  slug: "intro-to-it",
+                  id: "intro-to-it",
+                  description: "Basics of Information Technology",
+                  icon: "laptop",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-intro-to-it-2019.pdf",
+                      id: "ymca-intro-to-it-2019",
+                      pages: 3,
+                      title: "Introduction to IT 2019",
+                    },
+                    {
+                      year: 2022,
+                      file: "ymca-intro-to-it-2022.pdf",
+                      id: "ymca-intro-to-it-2022",
+                      pages: 3,
+                      title: "Introduction to IT 2022",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-intro-to-it-2023.pdf",
+                      id: "ymca-intro-to-it-2023",
+                      pages: 3,
+                      title: "Introduction to IT 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Marketing Management",
+                  slug: "marketing",
+                  id: "marketing",
+                  description: "Principles of marketing management",
+                  icon: "chart-line",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-marketing-2023.pdf",
+                      id: "ymca-marketing-2023",
+                      pages: 3,
+                      title: "Marketing Management 2023",
+                    },
+                    {
+                      year: 2022,
+                      file: "ymca-marketing-set-1-2022.pdf",
+                      id: "ymca-marketing-set-1-2022",
+                      pages: 3,
+                      title: "Marketing Management Set 1 2022",
+                    },
+                    {
+                      year: 2022,
+                      file: "ymca-marketing-set-2-2022.pdf",
+                      id: "ymca-marketing-set-2-2022",
+                      pages: 3,
+                      title: "Marketing Management Set 2 2022",
+                    },
+                  ],
+                },
+                {
+                  name: "Moral Values",
+                  slug: "moral",
+                  id: "moral",
+                  description: "Study of moral values and ethics",
+                  icon: "balance-scale",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-moral-2023.pdf",
+                      id: "ymca-moral-2023",
+                      pages: 3,
+                      title: "Moral Values 2023",
+                    },
+                    {
+                      year: 2022,
+                      file: "ymca-moral-set-1-2022.pdf",
+                      id: "ymca-moral-set-1-2022",
+                      pages: 3,
+                      title: "Moral Values Set 1 2022",
+                    },
+                    {
+                      year: 2022,
+                      file: "ymca-moral-set-2-2022.pdf",
+                      id: "ymca-moral-set-2-2022",
+                      pages: 3,
+                      title: "Moral Values Set 2 2022",
+                    },
+                  ],
+                },
+                {
+                  name: "Operations Management",
+                  slug: "operations-management",
+                  id: "operations-management",
+                  description: "Principles of operations management",
+                  icon: "cog",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-operations-management-2023.pdf",
+                      id: "ymca-operations-management-2023",
+                      pages: 3,
+                      title: "Operations Management 2023",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              number: 4,
+              slug: "sem4",
+              id: "sem4",
+              description: "Subjects for Semester 4",
+              subjects: [
+                {
+                  name: "Business Ethics",
+                  slug: "business-ethics",
+                  id: "business-ethics",
+                  description:
+                    "Study of business ethics and corporate responsibility",
+                  icon: "gavel",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "ymca-business-ethics-2024.pdf",
+                      id: "ymca-business-ethics-2024",
+                      pages: 3,
+                      title: "Business Ethics 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Business Law",
+                  slug: "business-law",
+                  id: "business-law",
+                  description: "Study of business law and regulations",
+                  icon: "gavel",
+                  pyqs: [
+                    {
+                      year: 2022,
+                      file: "ymca-business-law-2022.pdf",
+                      id: "ymca-business-law-2022",
+                      pages: 3,
+                      title: "Business Law 2022",
+                    },
+                  ],
+                },
+                {
+                  name: "Business Research",
+                  slug: "business-research",
+                  id: "business-research",
+                  description: "Fundamentals of business research methods",
+                  icon: "search",
+                  pyqs: [
+                    {
+                      year: 2022,
+                      file: "ymca-business-research-2022.pdf",
+                      id: "ymca-business-research-2022",
+                      pages: 3,
+                      title: "Business Research 2022",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-business-research-set-1-2024.pdf",
+                      id: "ymca-business-research-set-1-2024",
+                      pages: 3,
+                      title: "Business Research Set 1 2024",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-business-research-set-2-2024.pdf",
+                      id: "ymca-business-research-set-2-2024",
+                      pages: 3,
+                      title: "Business Research Set 2 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Database Management System",
+                  slug: "dbms",
+                  id: "dbms",
+                  description: "Fundamentals of database management systems",
+                  icon: "database",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-dbms-2019.pdf",
+                      id: "ymca-dbms-2019",
+                      pages: 3,
+                      title: "Database Management System 2019",
+                    },
+                    {
+                      year: 2022,
+                      file: "ymca-dbms-2022.pdf",
+                      id: "ymca-dbms-2022",
+                      pages: 3,
+                      title: "Database Management System 2022",
+                    },
+                  ],
+                },
+                {
+                  name: "Financial Management",
+                  slug: "financial-management",
+                  id: "financial-management",
+                  description: "Fundamentals of financial management",
+                  icon: "money-bill-wave",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-financial-management-2019.pdf",
+                      id: "ymca-financial-management-2019",
+                      pages: 3,
+                      title: "Financial Management 2019",
+                    },
+                    {
+                      year: 2022,
+                      file: "ymca-financial-management-2022.pdf",
+                      id: "ymca-financial-management-2022",
+                      pages: 3,
+                      title: "Financial Management 2022",
+                    },
+                  ],
+                },
+                {
+                  name: "HR Management",
+                  slug: "hr-management",
+                  id: "hr-management",
+                  description: "Principles of human resource management",
+                  icon: "users",
+                  pyqs: [
+                    {
+                      year: 2022,
+                      file: "ymca-hr-management-2022.pdf",
+                      id: "ymca-hr-management-2022",
+                      pages: 3,
+                      title: "HR Management 2022",
+                    },
+                  ],
+                },
+                {
+                  name: "Human Rights",
+                  slug: "human-rights",
+                  id: "human-rights",
+                  description: "Study of human rights and social justice",
+                  icon: "hand-holding-heart",
+                  pyqs: [
+                    {
+                      year: 2022,
+                      file: "ymca-human-rights-2022.pdf",
+                      id: "ymca-human-rights-2022",
+                      pages: 3,
+                      title: "Human Rights 2022",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-human-rights-2024.pdf",
+                      id: "ymca-human-rights-2024",
+                      pages: 3,
+                      title: "Human Rights 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Investment Banking",
+                  slug: "investment-banking",
+                  id: "investment-banking",
+                  description: "Principles of investment banking",
+                  icon: "money-check-alt",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-investment-banking-2019.pdf",
+                      id: "ymca-investment-banking-2019",
+                      pages: 3,
+                      title: "Investment Banking 2019",
+                    },
+                  ],
+                },
+                {
+                  name: "Management and Cost Accounting",
+                  slug: "mca",
+                  id: "mca",
+                  description: "Principles of management and cost accounting",
+                  icon: "calculator",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-mca-2019.pdf",
+                      id: "ymca-mca-2019",
+                      pages: 3,
+                      title: "Management and Cost Accounting 2019",
+                    },
+                  ],
+                },
+                {
+                  name: "Organization Behaviour",
+                  slug: "organization-behaviour",
+                  id: "organization-behaviour",
+                  description: "Study of organizational behavior and culture",
+                  icon: "users-cog",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-organization-behaviour-2019.pdf",
+                      id: "ymca-organization-behaviour-2019",
+                      pages: 3,
+                      title: "Organization Behaviour 2019",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              number: 5,
+              slug: "sem5",
+              id: "sem5",
+              description: "Subjects for Semester 5",
+              subjects: [
+                {
+                  name: "Company Law",
+                  slug: "company-law",
+                  id: "company-law",
+                  description: "Study of company law and regulations",
+                  icon: "gavel",
+                  pyqs: [
+                    {
+                      year: 2022,
+                      file: "ymca-company-law-2022.pdf",
+                      id: "ymca-company-law-2022",
+                      pages: 3,
+                      title: "Company Law 2022",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-company-law-2023.pdf",
+                      id: "ymca-company-law-2023",
+                      pages: 3,
+                      title: "Company Law 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Computer Networking",
+                  slug: "computer-networking",
+                  id: "computer-networking",
+                  description:
+                    "Study of computer networking concepts and protocols",
+                  icon: "network-wired",
+                  pyqs: [
+                    {
+                      year: 2022,
+                      file: "ymca-computer-networking-2022.pdf",
+                      id: "ymca-computer-networking-2022",
+                      pages: 3,
+                      title: "Computer Networking 2022",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-computer-networking-2023.pdf",
+                      id: "ymca-computer-networking-2023",
+                      pages: 3,
+                      title: "Computer Networking 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Consumer Behaviour",
+                  slug: "consumer-behaviour",
+                  id: "consumer-behaviour",
+                  description:
+                    "Study of consumer behavior and marketing strategies",
+                  icon: "shopping-cart",
+                  pyqs: [
+                    {
+                      year: 2022,
+                      file: "ymca-consumer-behaviour-2022.pdf",
+                      id: "ymca-consumer-behaviour-2022",
+                      pages: 3,
+                      title: "Consumer Behaviour 2022",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-consumer-behaviour-2023.pdf",
+                      id: "ymca-consumer-behaviour-2023",
+                      pages: 3,
+                      title: "Consumer Behaviour 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Cyber Security",
+                  slug: "cyber-security",
+                  id: "cyber-security",
+                  description:
+                    "Fundamentals of cybersecurity and data protection",
+                  icon: "shield-alt",
+                  pyqs: [
+                    {
+                      year: 2022,
+                      file: "ymca-cyber-security-2022.pdf",
+                      id: "ymca-cyber-security-2022",
+                      pages: 3,
+                      title: "Cyber Security 2022",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-cyber-security-2023.pdf",
+                      id: "ymca-cyber-security-2023",
+                      pages: 3,
+                      title: "Cyber Security 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Enterprenuership",
+                  slug: "entrepreneurship",
+                  id: "entrepreneurship",
+                  description:
+                    "Principles of entrepreneurship and business development",
+                  icon: "lightbulb",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-entrepreneurship-2023.pdf",
+                      id: "ymca-entrepreneurship-2023",
+                      pages: 3,
+                      title: "Entrepreneurship 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Production and Material Management",
+                  slug: "production",
+                  id: "production",
+                  description:
+                    "Principles of production and material management",
+                  icon: "industry",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-production-2023.pdf",
+                      id: "ymca-production-2023",
+                      pages: 3,
+                      title: "Production and Material Management 2023",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              number: 6,
+              slug: "sem6",
+              id: "sem6",
+              description: "Subjects for Semester 6",
+              subjects: [
+                {
+                  name: "Consumer Protecton",
+                  slug: "consumer-protection",
+                  id: "consumer-protection",
+                  description: "Study of consumer protection laws and rights",
+                  icon: "shield-alt",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "ymca-consumer-protection-2024.pdf",
+                      id: "ymca-consumer-protection-2024",
+                      pages: 3,
+                      title: "Consumer Protection 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "E-Commerce",
+                  slug: "e-commerce",
+                  id: "e-commerce",
+                  description: "Fundamentals of e-commerce and online business",
+                  icon: "shopping-cart",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "ymca-e-commerce-2024.pdf",
+                      id: "ymca-e-commerce-2024",
+                      pages: 3,
+                      title: "E-Commerce 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Financial Services",
+                  slug: "financial-services",
+                  id: "financial-services",
+                  description: "Overview of financial services and products",
+                  icon: "money-bill-wave",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-financial-services-2023.pdf",
+                      id: "ymca-financial-services-2023",
+                      pages: 3,
+                      title: "Financial Services 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Income Tax",
+                  slug: "income-tax",
+                  id: "income-tax",
+                  description: "Study of income tax laws and regulations",
+                  icon: "file-invoice-dollar",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "ymca-income-tax-2024.pdf",
+                      id: "ymca-income-tax-2024",
+                      pages: 3,
+                      title: "Income Tax 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "International Business",
+                  slug: "int-business",
+                  id: "int-business",
+                  description: "Overview of international business practices",
+                  icon: "globe",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-int-business-2023.pdf",
+                      id: "ymca-int-business-2023",
+                      pages: 3,
+                      title: "International Business 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-int-business-2024.pdf",
+                      id: "ymca-int-business-2024",
+                      pages: 3,
+                      title: "International Business 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "System Analysis",
+                  slug: "system-analysis",
+                  id: "system-analysis",
+                  description: "Principles of system analysis and design",
+                  icon: "project-diagram",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-system-analysis-2023.pdf",
+                      id: "ymca-system-analysis-2023",
+                      pages: 3,
+                      title: "System Analysis 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-system-analysis-2024.pdf",
+                      id: "ymca-system-analysis-2024",
+                      pages: 3,
+                      title: "System Analysis 2024",
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+
+        {
+          name: "Data Science",
+          slug: "data-science",
+          id: "data-science",
+          description: "Data Science Branch",
+          keywords: ["data", "science", "analytics", "machine learning"],
+          icon: "chart-line",
+          semesters: [
+            {
+              number: 3,
+              slug: "sem3",
+              id: "sem3",
+              description: "Subjects for Semester 3",
+              keywords: ["semester 3", "data science", "subjects"],
+              subjects: [
+                {
+                  name: "Mathematics for Data Science",
+                  slug: "maths-for-ds",
+                  id: "maths-for-ds",
+                  description: "Mathematical foundations for data science",
+                  keywords: ["mathematics", "data science", "statistics"],
+                  icon: "calculator",
+                  pyqs: [
+                    {
+                      year: 2022,
+                      file: "ymca-maths-for-ds-2022.pdf",
+                      id: "ymca-maths-for-ds-2022",
+                      pages: 3,
+                      title: "Mathematics for Data Science 2022",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-maths-for-ds-2023.pdf",
+                      id: "ymca-maths-for-ds-2023",
+                      pages: 3,
+                      title: "Mathematics for Data Science 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Statistics",
+                  slug: "statistics",
+                  id: "statistics",
+                  description: "Fundamentals of statistics",
+                  keywords: ["statistics", "data analysis"],
+                  icon: "chart-bar",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-statistics-2023.pdf",
+                      id: "ymca-statistics-2023",
+                      pages: 3,
+                      title: "Statistics 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Data Structures and Algorithms",
+                  slug: "dsa",
+                  id: "dsa",
+                  description: "Core concepts in data organization",
+                  keywords: ["data", "structures", "algorithms"],
+                  icon: "code",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "ymca-dsa-2018.pdf",
+                      id: "ymca-dsa-2018",
+                      pages: 3,
+                      title: "Data Structures and Algorithms 2018",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-dsa-2023.pdf",
+                      id: "ymca-dsa-2023",
+                      pages: 3,
+                      title: "Data Structures and Algorithms 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-dsa-2024.pdf",
+                      id: "ymca-dsa-2024",
+                      pages: 3,
+                      title: "Data Structures and Algorithms 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Effective Technical Communication",
+                  slug: "etc",
+                  id: "etc",
+                  description:
+                    "Skills for effective communication in technical fields",
+                  keywords: ["communication", "technical", "skills"],
+                  icon: "comment-dots",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-etc-2023.pdf",
+                      id: "ymca-etc-2023",
+                      pages: 3,
+                      title: "Effective Technical Communication 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-etc-2024.pdf",
+                      id: "ymca-etc-2024",
+                      pages: 3,
+                      title: "Effective Technical Communication 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Database Systems",
+                  slug: "database-systems",
+                  id: "database-systems",
+                  description: "Principles of database systems",
+                  keywords: ["database", "systems", "data management"],
+                  icon: "database",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-database-systems-2023.pdf",
+                      id: "ymca-database-systems-2023",
+                      pages: 3,
+                      title: "Database Systems 2023",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              number: 4,
+              slug: "sem4",
+              id: "sem4",
+              description: "Subjects for Semester 4",
+              keywords: ["semester 4", "data science", "subjects"],
+              subjects: [
+                {
+                  name: "Computer Networks",
+                  slug: "computer-networks",
+                  id: "computer-networks",
+                  description: "Principles of computer networking",
+                  keywords: ["computer", "networks", "principles"],
+                  icon: "network-wired",
+                  pyqs: [
+                    {
+                      year: 2017,
+                      file: "ymca-computer-networks-2017.pdf",
+                      id: "ymca-computer-networks-2017",
+                      pages: 3,
+                      title: "Computer Networks 2017",
+                    },
+                    {
+                      year: 2018,
+                      file: "ymca-computer-networks-2018.pdf",
+                      id: "ymca-computer-networks-2018",
+                      pages: 3,
+                      title: "Computer Networks 2018",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-computer-networks-2023.pdf",
+                      id: "ymca-computer-networks-2023",
+                      pages: 3,
+                      title: "Computer Networks 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-computer-networks-2024.pdf",
+                      id: "ymca-computer-networks-2024",
+                      pages: 3,
+                      title: "Computer Networks 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Economics",
+                  slug: "economics",
+                  id: "economics",
+                  description: "Economics principles in data science",
+                  keywords: ["economics", "data science", "principles"],
+                  icon: "chart-line",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "ymca-economics-2018.pdf",
+                      id: "ymca-economics-2018",
+                      pages: 3,
+                      title: "Economics 2018",
+                    },
+                    {
+                      year: 2019,
+                      file: "ymca-economics-2019.pdf",
+                      id: "ymca-economics-2019",
+                      pages: 3,
+                      title: "Economics 2019",
+                    },
+                    {
+                      year: 2020,
+                      file: "ymca-economics-2020.pdf",
+                      id: "ymca-economics-2020",
+                      pages: 3,
+                      title: "Economics 2020",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-economics-2023.pdf",
+                      id: "ymca-economics-2023",
+                      pages: 3,
+                      title: "Economics 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-economics-2024.pdf",
+                      id: "ymca-economics-2024",
+                      pages: 3,
+                      title: "Economics 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Environmental Science",
+                  slug: "environmental-science",
+                  id: "environmental-science",
+                  description: "Study of environmental issues and solutions",
+                  keywords: ["environment", "science", "issues", "solutions"],
+                  icon: "leaf",
+                  pyqs: [
+                    {
+                      year: 2022,
+                      file: "ymca-environmental-science-2022.pdf",
+                      id: "ymca-environmental-science-2022",
+                      pages: 3,
+                      title: "Environmental Science 2022",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-environmental-science-2023.pdf",
+                      id: "ymca-environmental-science-2023",
+                      pages: 3,
+                      title: "Environmental Science 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-environmental-science-2024.pdf",
+                      id: "ymca-environmental-science-2024",
+                      pages: 3,
+                      title: "Environmental Science 2024",
+                    },
+                    {
+                      year: 2025,
+                      file: "ymca-env-praxian-analysis-2025.pdf",
+                      id: "ymca-env-praxian-analysis-2025",
+                      pages: 3,
+                      title: "Environmental Science Praxian Analysis 2025",
+                    },
+                  ],
+                },
+                {
+                  name: "Data Mining",
+                  slug: "data-mining",
+                  id: "data-mining",
+                  description: "Techniques and applications of data mining",
+                  keywords: ["data", "mining", "techniques", "applications"],
+                  icon: "database",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "ymca-data-mining-2018.pdf",
+                      id: "ymca-data-mining-2018",
+                      pages: 3,
+                      title: "Data Mining 2018",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-data-mining-2024.pdf",
+                      id: "ymca-data-mining-2024",
+                      pages: 3,
+                      title: "Data Mining 2024",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              number: 5,
+              slug: "sem5",
+              id: "sem5",
+              description: "Subjects for Semester 5",
+              keywords: ["semester 5", "data science", "subjects"],
+              subjects: [
+                {
+                  name: "Biology",
+                  slug: "biology",
+                  id: "biology",
+                  description: "Biological concepts in data science",
+                  keywords: ["biology", "data science", "concepts"],
+                  icon: "flask",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-biology-2023.pdf",
+                      id: "ymca-biology-2023",
+                      pages: 3,
+                      title: "Biology 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-biology-2024.pdf",
+                      id: "ymca-biology-2024",
+                      pages: 3,
+                      title: "Biology 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Design and Analysis of Algorithms",
+                  slug: "daa",
+                  id: "daa",
+                  description: "Techniques for algorithm design and analysis",
+                  keywords: ["design", "analysis", "algorithms"],
+                  icon: "project-diagram",
+                  pyqs: [
+                    {
+                      year: 2015,
+                      file: "ymca-daa-2015.pdf",
+                      id: "ymca-daa-2015",
+                      pages: 3,
+                      title: "Design and Analysis of Algorithms 2015",
+                    },
+                    {
+                      year: 2016,
+                      file: "ymca-daa-2016.pdf",
+                      id: "ymca-daa-2016",
+                      pages: 3,
+                      title: "Design and Analysis of Algorithms 2016",
+                    },
+                    {
+                      year: 2019,
+                      file: "ymca-daa-2019.pdf",
+                      id: "ymca-daa-2019",
+                      pages: 3,
+                      title: "Design and Analysis of Algorithms 2019",
+                    },
+                    {
+                      year: 2022,
+                      file: "ymca-daa-2022.pdf",
+                      id: "ymca-daa-2022",
+                      pages: 3,
+                      title: "Design and Analysis of Algorithms 2022",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-daa-2023.pdf",
+                      id: "ymca-daa-2023",
+                      pages: 3,
+                      title: "Design and Analysis of Algorithms 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-daa-2024.pdf",
+                      id: "ymca-daa-2024",
+                      pages: 3,
+                      title: "Design and Analysis of Algorithms 2024",
+                    },
+                    {
+                      year: 2025,
+                      file: "ymca-daa-praxian-analysis-2025.pdf",
+                      id: "ymca-daa-praxian-analysis-2025",
+                      pages: 3,
+                      title:
+                        "Design and Analysis of Algorithms Praxian Analysis 2025",
+                    },
+                  ],
+                },
+                {
+                  name: "Operating System",
+                  slug: "os",
+                  id: "os",
+                  description: "Principles of operating systems",
+                  keywords: ["operating", "system", "principles"],
+                  icon: "server",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-os-2019.pdf",
+                      id: "ymca-os-2019",
+                      pages: 3,
+                      title: "Operating System 2019",
+                    },
+                    {
+                      year: 2025,
+                      file: "ymca-os-praxian-analysis-2025.pdf",
+                      id: "ymca-os-praxian-analysis-2025",
+                      pages: 3,
+                      title: "Operating System Praxian Analysis 2025",
+                    },
+                  ],
+                },
+                {
+                  name: "Constitution",
+                  slug: "constitution",
+                  id: "constitution",
+                  description: "Study of the Indian Constitution",
+                  keywords: ["constitution", "indian", "study"],
+                  icon: "gavel",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-constitution-2023-set-1.pdf",
+                      id: "ymca-constitution-2023-set-1",
+                      pages: 3,
+                      title: "Constitution 2023 Set 1",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-constitution-2023-set-2.pdf",
+                      id: "ymca-constitution-2023-set-2",
+                      pages: 3,
+                      title: "Constitution 2023 Set 2",
+                    },
+                  ],
+                },
+                {
+                  name: "Soft Computing",
+                  slug: "soft-computing",
+                  id: "soft-computing",
+                  description: "Principles of soft computing",
+                  keywords: ["soft", "computing", "principles"],
+                  icon: "brain",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-soft-computing-set-1-2023.pdf",
+                      id: "ymca-soft-computing-set-1-2023",
+                      pages: 3,
+                      title: "Soft Computing Set 1 2023",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-soft-computing-set-2-2023.pdf",
+                      id: "ymca-soft-computing-set-2-2023",
+                      pages: 3,
+                      title: "Soft Computing Set 2 2023",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-soft-computing-2024.pdf",
+                      id: "ymca-soft-computing-2024",
+                      pages: 3,
+                      title: "Soft Computing 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Computer Architecture",
+                  slug: "computer-architecture",
+                  id: "computer-architecture",
+                  description: "Fundamentals of computer architecture",
+                  keywords: ["computer", "architecture", "fundamentals"],
+                  icon: "desktop",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "ymca-computer-architecture-2018.pdf",
+                      id: "ymca-computer-architecture-2018",
+                      pages: 3,
+                      title: "Computer Architecture 2018",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-computer-architecture-2023.pdf",
+                      id: "ymca-computer-architecture-2023",
+                      pages: 3,
+                      title: "Computer Architecture 2023",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              number: 6,
+              slug: "sem6",
+              id: "sem6",
+              description: "Subjects for Semester 6",
+              keywords: ["semester 6", "data science", "subjects"],
+              subjects: [
+                {
+                  name: "Bhagavad Gita",
+                  slug: "bhagavad-gita",
+                  id: "bhagavad-gita",
+                  description: "Study of the Bhagavad Gita",
+                  keywords: ["bhagavad", "gita", "study"],
+                  icon: "book-open",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "ymca-bhagavad-gita-2024.pdf",
+                      id: "ymca-bhagavad-gita-2024",
+                      pages: 3,
+                      title: "Bhagavad Gita 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Big Data",
+                  slug: "big-data",
+                  id: "big-data",
+                  description: "Concepts and technologies in big data",
+                  keywords: ["big", "data", "technologies"],
+                  icon: "database",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "ymca-big-data-2024.pdf",
+                      id: "ymca-big-data-2024",
+                      pages: 3,
+                      title: "Big Data 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Machine Learning",
+                  slug: "ml",
+                  id: "ml",
+                  description: "Principles of machine learning",
+                  keywords: ["machine", "learning", "principles"],
+                  icon: "brain",
+                  pyqs: [
+                    {
+                      year: 2022,
+                      file: "ymca-ml-2022.pdf",
+                      id: "ymca-ml-2022",
+                      pages: 3,
+                      title: "Machine Learning 2022",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-ml-2023.pdf",
+                      id: "ymca-ml-2023",
+                      pages: 3,
+                      title: "Machine Learning 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Internet and Web Technologies",
+                  slug: "int-n-web-technologies",
+                  id: "int-n-web-technologies",
+                  description: "Principles of internet and web technologies",
+                  keywords: ["internet", "web", "technologies"],
+                  icon: "globe",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "ymca-int-n-web-technologies-2024.pdf",
+                      id: "ymca-int-n-web-technologies-2024",
+                      pages: 3,
+                      title: "Internet and Web Technologies 2024",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              number: 7,
+              slug: "sem7",
+              id: "sem7",
+              description: "Subjects for Semester 7",
+              keywords: ["semester 7", "data science", "subjects"],
+              subjects: [
+                {
+                  name: "Cloud Computing",
+                  slug: "cloud-computing",
+                  id: "cloud-computing",
+                  description: "Concepts and technologies in cloud computing",
+                  keywords: ["cloud", "computing", "technologies"],
+                  icon: "cloud",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-cloud-computing-2019.pdf",
+                      id: "ymca-cloud-computing-2019",
+                      pages: 3,
+                      title: "Cloud Computing 2019",
+                    },
+                  ],
+                },
+                {
+                  name: "Speech and Natural Language Processing",
+                  slug: "speech-n-nlp",
+                  id: "speech-n-nlp",
+                  description:
+                    "Concepts in speech and natural language processing",
+                  keywords: ["speech", "natural", "language", "processing"],
+                  icon: "comment-dots",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-speech-n-nlp-2023.pdf",
+                      id: "ymca-speech-n-nlp-2023",
+                      pages: 3,
+                      title: "Speech and Natural Language Processing 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Data Learning and Image Processing",
+                  slug: "dl-n-image-processing",
+                  id: "dl-n-image-processing",
+                  description: "Concepts in data learning and image processing",
+                  keywords: ["data", "learning", "image", "processing"],
+                  icon: "image",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-dl-n-image-processing-2023.pdf",
+                      id: "ymca-dl-n-image-processing-2023",
+                      pages: 3,
+                      title: "Data Learning and Image Processing 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Business Intelligence",
+                  slug: "business-intelligence",
+                  id: "business-intelligence",
+                  description: "Concepts in business intelligence",
+                  keywords: ["business", "intelligence", "concepts"],
+                  icon: "chart-pie",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-business-intelligence-2023.pdf",
+                      id: "ymca-business-intelligence-2023",
+                      pages: 3,
+                      title: "Business Intelligence 2023",
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
     },
     {
       name: "VIT Bhopal",
@@ -2083,7 +4981,7 @@ window.COLLEGE_DATA = {
         nirf_rank: 45,
         category: "Private",
         total_students: 12000,
-        accreditation: "NAAC A"
+        accreditation: "NAAC A",
       },
       branches: [
         {
@@ -2111,15 +5009,15 @@ window.COLLEGE_DATA = {
                       file: "vit-bhopal-digital-logic-design-2022.pdf",
                       id: "vit-bhopal-digital-logic-design-2022",
                       pages: 10,
-                      title: "Digital Logic Design"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
+                      title: "Digital Logic Design",
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
     },
     {
       name: "IGDTUW - Delhi",
@@ -2133,7 +5031,7 @@ window.COLLEGE_DATA = {
         nirf_rank: 50,
         category: "Public",
         total_students: 5000,
-        accreditation: "NAAC A+"
+        accreditation: "NAAC A+",
       },
       branches: [
         {
@@ -2161,9 +5059,9 @@ window.COLLEGE_DATA = {
                       file: "igdtuw-ai-2022.pdf",
                       id: "igdtuw-ai-2022",
                       pages: 10,
-                      title: "Artificial Intelligence 2022"
-                    }
-                  ]
+                      title: "Artificial Intelligence 2022",
+                    },
+                  ],
                 },
                 {
                   name: "Data Structures",
@@ -2177,9 +5075,9 @@ window.COLLEGE_DATA = {
                       file: "igdtuw-data-structures-2024.pdf",
                       id: "igdtuw-data-structures-2024",
                       pages: 10,
-                      title: "Data Structures 2024"
-                    }
-                  ]
+                      title: "Data Structures 2024",
+                    },
+                  ],
                 },
                 {
                   name: "Discrete Structures",
@@ -2193,9 +5091,9 @@ window.COLLEGE_DATA = {
                       file: "igdtuw-discrete-structures-2024.pdf",
                       id: "igdtuw-discrete-structures-2024",
                       pages: 10,
-                      title: "Discrete Structures 2024"
-                    }
-                  ]
+                      title: "Discrete Structures 2024",
+                    },
+                  ],
                 },
                 {
                   name: "Material Science",
@@ -2209,9 +5107,9 @@ window.COLLEGE_DATA = {
                       file: "igdtuw-material-2022.pdf",
                       id: "igdtuw-material-2022",
                       pages: 10,
-                      title: "Material Science 2022"
-                    }
-                  ]
+                      title: "Material Science 2022",
+                    },
+                  ],
                 },
                 // {
                 //   name: "Numerical Methods",
@@ -2241,9 +5139,9 @@ window.COLLEGE_DATA = {
                       file: "igdtuw-software-2022.pdf",
                       id: "igdtuw-software-2022",
                       pages: 10,
-                      title: "Software Engineering 2022"
-                    }
-                  ]
+                      title: "Software Engineering 2022",
+                    },
+                  ],
                 },
                 {
                   name: "Database Management System",
@@ -2257,15 +5155,1121 @@ window.COLLEGE_DATA = {
                       file: "igdtuw-dbms-2024.pdf",
                       id: "igdtuw-dbms-2024",
                       pages: 10,
-                      title: "Database Management System 2024"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+                      title: "Database Management System 2024",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              number: 4,
+              slug: "sem4",
+              id: "sem4",
+              description: "Subjects for Semester 4",
+              subjects: [
+                {
+                  name: "Computer Organization and Architecture",
+                  slug: "coa",
+                  id: "coa",
+                  description:
+                    "Fundamentals of computer organization and architecture",
+                  icon: "desktop",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "igdtuw-coa-2023.pdf",
+                      id: "igdtuw-coa-2023",
+                      pages: 10,
+                      title: "Computer Organization and Architecture 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Computer Networks",
+                  slug: "computer-networks",
+                  id: "computer-networks",
+                  description: "Principles of computer networking",
+                  icon: "network-wired",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "igdtuw-computer-networks-2024.pdf",
+                      id: "igdtuw-computer-networks-2024",
+                      pages: 10,
+                      title: "Computer Networks 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Disaster Management",
+                  slug: "disaster-management",
+                  id: "disaster-management",
+                  description: "Principles of disaster management",
+                  icon: "shield-alt",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "igdtuw-disaster-management-2024.pdf",
+                      id: "igdtuw-disaster-management-2024",
+                      pages: 10,
+                      title: "Disaster Management 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Operating System",
+                  slug: "os",
+                  id: "os",
+                  description: "Fundamentals of operating systems",
+                  icon: "desktop",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "igdtuw-os-2024.pdf",
+                      id: "igdtuw-os-2024",
+                      pages: 10,
+                      title: "Operating Systems 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Optimization Techniques & Decision Making",
+                  slug: "otdm",
+                  id: "otdm",
+                  description:
+                    "Techniques for optimization and decision making",
+                  icon: "lightbulb",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "igdtuw-otdm-2024.pdf",
+                      id: "igdtuw-otdm-2024",
+                      pages: 10,
+                      title: "Optimization Techniques & Decision Making 2024",
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+
+        {
+          name: "Mechanical and Automation Engineering",
+          slug: "mae",
+          id: "mae",
+          description: "Principles of mechanical and automation engineering",
+          icon: "cog",
+          semesters: [
+            {
+              number: 3,
+              slug: "sem3",
+              id: "sem3",
+              description: "Subjects for Semester 3",
+              subjects: [
+                {
+                  name: "Production 1",
+                  slug: "production-1",
+                  id: "production-1",
+                  description: "Fundamentals of production processes",
+                  icon: "industry",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "igdtuw-production-1-2023.pdf",
+                      id: "igdtuw-production-1-2023",
+                      pages: 10,
+                      title: "Production 1 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Strength of Material",
+                  slug: "som",
+                  id: "som",
+                  description: "Fundamentals of strength of materials",
+                  icon: "hammer",
+                  pyqs: [
+                    {
+                      year: 2022,
+                      file: "igdtuw-som-2022.pdf",
+                      id: "igdtuw-som-2022",
+                      pages: 10,
+                      title: "Strength of Material 2022",
+                    },
+                  ],
+                },
+                {
+                  name: "Thermal 1",
+                  slug: "thermal-1",
+                  id: "thermal-1",
+                  description: "Fundamentals of thermal engineering",
+                  icon: "fire",
+                  pyqs: [
+                    {
+                      year: 2022,
+                      file: "igdtuw-thermal-1-2022.pdf",
+                      id: "igdtuw-thermal-1-2022",
+                      pages: 10,
+                      title: "Thermal 1 2022",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              number: 4,
+              slug: "sem4",
+              id: "sem4",
+              description: "Subjects for Semester 4",
+              subjects: [
+                {
+                  name: "Production 2",
+                  slug: "production-2",
+                  id: "production-2",
+                  description: "Advanced concepts in production processes",
+                  icon: "industry",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "igdtuw-production-2-2024.pdf",
+                      id: "igdtuw-production-2-2024",
+                      pages: 10,
+                      title: "Production 2 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Thermal 2",
+                  slug: "thermal-2",
+                  id: "thermal-2",
+                  description: "Advanced concepts in thermal engineering",
+                  icon: "fire",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "igdtuw-thermal-2-2024.pdf",
+                      id: "igdtuw-thermal-2-2024",
+                      pages: 10,
+                      title: "Thermal 2 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Theory of Machines",
+                  slug: "tom",
+                  id: "tom",
+                  description: "Fundamentals of machine theory",
+                  icon: "gear",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "igdtuw-tom-2024.pdf",
+                      id: "igdtuw-tom-2024",
+                      pages: 10,
+                      title: "Theory of Machines 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Disaster Management",
+                  slug: "disaster-management",
+                  id: "disaster-management",
+                  description: "Principles of disaster management",
+                  icon: "shield-alt",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "igdtuw-disaster-management-2024.pdf",
+                      id: "igdtuw-disaster-management-2024",
+                      pages: 10,
+                      title: "Disaster Management 2024",
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+
+    {
+      name: "NIT Kurukshetra",
+      slug: "nit-kur",
+      id: "nit-kur",
+      description: "National Institute of Technology Kurukshetra",
+      icon: "university",
+      ranking: {
+        overall: 4,
+        established: 1963,
+        location: "Kurukshetra, Haryana",
+        nirf_rank: 30,
+        category: "Public",
+        total_students: 6000,
+        accreditation: "NAAC A",
+      },
+      branches: [
+        {
+          name: "computer-department",
+          slug: "computer-department",
+          id: "computer-department",
+          description: "Computer Science and Engineering Department",
+          icon: "microchip",
+          semesters: [
+            {
+              number: 2,
+              slug: "sem2",
+              id: "sem2",
+              description: "Subjects for Semester 2",
+              subjects: [
+                {
+                  name: "Data Structures",
+                  slug: "data-structures",
+                  id: "data-structures",
+                  description: "Fundamentals of data structures",
+                  icon: "code-branch",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "nit-kur-data-structures-2018-set-1",
+                      id: "nit-kur-data-structures-2018-set-1",
+                      pages: 10,
+                      title: "Data Structures 2018 Set 1",
+                    },
+                    {
+                      year: 2018,
+                      file: "nit-kur-data-structures-2018-set-2",
+                      id: "nit-kur-data-structures-2018-set-2",
+                      pages: 10,
+                      title: "Data Structures 2018 Set 2",
+                    },
+                    {
+                      year: 2019,
+                      file: "nit-kur-data-structures-2019-set-1",
+                      id: "nit-kur-data-structures-2019-set-1",
+                      pages: 10,
+                      title: "Data Structures 2019 Set 1",
+                    },
+                    {
+                      year: 2019,
+                      file: "nit-kur-data-structures-2019-set-2",
+                      id: "nit-kur-data-structures-2019-set-2",
+                      pages: 10,
+                      title: "Data Structures 2019 Set 2",
+                    },
+                    {
+                      year: 2019,
+                      file: "nit-kur-data-structures-2019-set-3",
+                      id: "nit-kur-data-structures-2019-set-3",
+                      pages: 10,
+                      title: "Data Structures 2019 Set 3",
+                    },
+                    {
+                      year: 2019,
+                      file: "nit-kur-data-structures-2019-set-4",
+                      id: "nit-kur-data-structures-2019-set-4",
+                      pages: 10,
+                      title: "Data Structures 2019 Set 4",
+                    },
+                    {
+                      year: 2021,
+                      file: "nit-kur-data-structures-2021-set-1",
+                      id: "nit-kur-data-structures-2021-set-1",
+                      pages: 10,
+                      title: "Data Structures 2021 Set 1",
+                    },
+                    {
+                      year: 2021,
+                      file: "nit-kur-data-structures-2021-set-2",
+                      id: "nit-kur-data-structures-2021-set-2",
+                      pages: 10,
+                      title: "Data Structures 2021 Set 2",
+                    },
+                    {
+                      year: 2021,
+                      file: "nit-kur-data-structures-2021-set-3",
+                      id: "nit-kur-data-structures-2021-set-3",
+                      pages: 10,
+                      title: "Data Structures 2021 Set 3",
+                    },
+                    {
+                      year: 2022,
+                      file: "nit-kur-data-structures-2022",
+                      id: "nit-kur-data-structures-2022",
+                      pages: 10,
+                      title: "Data Structures 2022",
+                    },
+                    {
+                      year: 2025,
+                      file: "nit-kur-data-structures-2025",
+                      id: "nit-kur-data-structures-2025",
+                      pages: 10,
+                      title: "Data Structures 2025",
+                    },
+                  ],
+                },
+                {
+                  name: "Digital System Design",
+                  slug: "dsd",
+                  id: "dsd",
+                  description: "Fundamentals of digital system design",
+                  icon: "circuit-board",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "nit-kur-dsd-2018-set-1",
+                      id: "nit-kur-dsd-2018-set-1",
+                      pages: 10,
+                      title: "Digital System Design 2018 Set 1",
+                    },
+                    {
+                      year: 2018,
+                      file: "nit-kur-dsd-2018-set-2",
+                      id: "nit-kur-dsd-2018-set-2",
+                      pages: 10,
+                      title: "Digital System Design 2018 Set 2",
+                    },
+                    {
+                      year: 2019,
+                      file: "nit-kur-dsd-2019-set-1",
+                      id: "nit-kur-dsd-2019-set-1",
+                      pages: 10,
+                      title: "Digital System Design 2019 Set 1",
+                    },
+                    {
+                      year: 2019,
+                      file: "nit-kur-dsd-2019-set-2",
+                      id: "nit-kur-dsd-2019-set-2",
+                      pages: 10,
+                      title: "Digital System Design 2019 Set 2",
+                    },
+                    {
+                      year: 2019,
+                      file: "nit-kur-dsd-2019-set-3",
+                      id: "nit-kur-dsd-2019-set-3",
+                      pages: 10,
+                      title: "Digital System Design 2019 Set 3",
+                    },
+                    {
+                      year: 2022,
+                      file: "nit-kur-dsd-2022",
+                      id: "nit-kur-dsd-2022",
+                      pages: 10,
+                      title: "Digital System Design 2022",
+                    },
+                    {
+                      year: 2025,
+                      file: "nit-kur-dsd-2025",
+                      id: "nit-kur-dsd-2025",
+                      pages: 10,
+                      title: "Digital System Design 2025",
+                    },
+                  ],
+                },
+                {
+                  name: "Python",
+                  slug: "python",
+                  id: "python",
+                  description: "Introduction to Python programming",
+                  icon: "python",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "nit-kur-python-2019-set-1",
+                      id: "nit-kur-python-2019-set-1",
+                      pages: 10,
+                      title: "Python Programming 2019 Set 1",
+                    },
+                    {
+                      year: 2019,
+                      file: "nit-kur-python-2019-set-2",
+                      id: "nit-kur-python-2019-set-2",
+                      pages: 10,
+                      title: "Python Programming 2019 Set 2",
+                    },
+                    {
+                      year: 2019,
+                      file: "nit-kur-python-2019-set-3",
+                      id: "nit-kur-python-2019-set-3",
+                      pages: 10,
+                      title: "Python Programming 2019 Set 3",
+                    },
+                    {
+                      year: 2022,
+                      file: "nit-kur-python-2022-set-1",
+                      id: "nit-kur-python-2022-set-1",
+                      pages: 10,
+                      title: "Python Programming 2022 Set 1",
+                    },
+                    {
+                      year: 2022,
+                      file: "nit-kur-python-2022-set-2",
+                      id: "nit-kur-python-2022-set-2",
+                      pages: 10,
+                      title: "Python Programming 2022 Set 2",
+                    },
+                    {
+                      year: 2025,
+                      file: "nit-kur-python-2025",
+                      id: "nit-kur-python-2025",
+                      pages: 10,
+                      title: "Python Programming 2025",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              number: 3,
+              slug: "sem3",
+              id: "sem3",
+              description: "Subjects for Semester 3",
+              subjects: [
+                {
+                  name: "Computer Organization and Architecture",
+                  slug: "coa",
+                  id: "coa",
+                  description:
+                    "Fundamentals of computer organization and architecture",
+                  icon: "desktop",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "nit-kur-coa-2018-set-1",
+                      id: "nit-kur-coa-2018-set-1",
+                      pages: 10,
+                      title:
+                        "Computer Organization and Architecture 2018 Set 1",
+                    },
+                    {
+                      year: 2018,
+                      file: "nit-kur-coa-2018-set-2",
+                      id: "nit-kur-coa-2018-set-2",
+                      pages: 10,
+                      title:
+                        "Computer Organization and Architecture 2018 Set 2",
+                    },
+                    {
+                      year: 2019,
+                      file: "nit-kur-coa-2019-set-1",
+                      id: "nit-kur-coa-2019-set-1",
+                      pages: 10,
+                      title:
+                        "Computer Organization and Architecture 2019 Set 1",
+                    },
+                    {
+                      year: 2019,
+                      file: "nit-kur-coa-2019-set-2",
+                      id: "nit-kur-coa-2019-set-2",
+                      pages: 10,
+                      title:
+                        "Computer Organization and Architecture 2019 Set 2",
+                    },
+                    {
+                      year: 2020,
+                      file: "nit-kur-coa-2020-set-1",
+                      id: "nit-kur-coa-2020-set-1",
+                      pages: 10,
+                      title:
+                        "Computer Organization and Architecture 2020 Set 1",
+                    },
+                    {
+                      year: 2020,
+                      file: "nit-kur-coa-2020-set-2",
+                      id: "nit-kur-coa-2020-set-2",
+                      pages: 10,
+                      title:
+                        "Computer Organization and Architecture 2020 Set 2",
+                    },
+                    {
+                      year: 2021,
+                      file: "nit-kur-coa-2021-set-1",
+                      id: "nit-kur-coa-2021-set-1",
+                      pages: 10,
+                      title:
+                        "Computer Organization and Architecture 2021 Set 1",
+                    },
+                    {
+                      year: 2021,
+                      file: "nit-kur-coa-2021-set-2",
+                      id: "nit-kur-coa-2021-set-2",
+                      pages: 10,
+                      title:
+                        "Computer Organization and Architecture 2021 Set 2",
+                    },
+                    {
+                      year: 2021,
+                      file: "nit-kur-coa-2021-set-3",
+                      id: "nit-kur-coa-2021-set-3",
+                      pages: 10,
+                      title:
+                        "Computer Organization and Architecture 2021 Set 3",
+                    },
+                    {
+                      year: 2021,
+                      file: "nit-kur-coa-2021-set-4",
+                      id: "nit-kur-coa-2021-set-4",
+                      pages: 10,
+                      title:
+                        "Computer Organization and Architecture 2021 Set 4",
+                    },
+                    {
+                      year: 2024,
+                      file: "nit-kur-coa-2024-mid-1",
+                      id: "nit-kur-coa-2024-mid-1",
+                      pages: 10,
+                      title:
+                        "Computer Organization and Architecture 2024 Midterm 1",
+                    },
+                    {
+                      year: 2024,
+                      file: "nit-kur-coa-2024-mid-2",
+                      id: "nit-kur-coa-2024-mid-2",
+                      pages: 10,
+                      title:
+                        "Computer Organization and Architecture 2024 Midterm 2",
+                    },
+                    {
+                      year: 2024,
+                      file: "nit-kur-coa-2024",
+                      id: "nit-kur-coa-2024",
+                      pages: 10,
+                      title: "Computer Organization and Architecture 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Design and Analysis of Algorithm",
+                  slug: "daa",
+                  id: "daa",
+                  description: "Fundamentals of algorithm design and analysis",
+                  icon: "code",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "nit-kur-daa-2018-set-1",
+                      id: "nit-kur-daa-2018-set-1",
+                      pages: 10,
+                      title: "Design and Analysis of Algorithm 2018 Set 1",
+                    },
+                    {
+                      year: 2018,
+                      file: "nit-kur-daa-2018-set-2",
+                      id: "nit-kur-daa-2018-set-2",
+                      pages: 10,
+                      title: "Design and Analysis of Algorithm 2018 Set 2",
+                    },
+                    {
+                      year: 2019,
+                      file: "nit-kur-daa-2019-set-1",
+                      id: "nit-kur-daa-2019-set-1",
+                      pages: 10,
+                      title: "Design and Analysis of Algorithm 2019 Set 1",
+                    },
+                    {
+                      year: 2019,
+                      file: "nit-kur-daa-2019-set-2",
+                      id: "nit-kur-daa-2019-set-2",
+                      pages: 10,
+                      title: "Design and Analysis of Algorithm 2019 Set 2",
+                    },
+                    {
+                      year: 2020,
+                      file: "nit-kur-daa-2020",
+                      id: "nit-kur-daa-2020",
+                      pages: 10,
+                      title: "Design and Analysis of Algorithm 2020",
+                    },
+                    {
+                      year: 2021,
+                      file: "nit-kur-daa-2021-set-1",
+                      id: "nit-kur-daa-2021-set-1",
+                      pages: 10,
+                      title: "Design and Analysis of Algorithm 2021 Set 1",
+                    },
+                    {
+                      year: 2021,
+                      file: "nit-kur-daa-2021-set-2",
+                      id: "nit-kur-daa-2021-set-2",
+                      pages: 10,
+                      title: "Design and Analysis of Algorithm 2021 Set 2",
+                    },
+                    {
+                      year: 2021,
+                      file: "nit-kur-daa-2021-set-3",
+                      id: "nit-kur-daa-2021-set-3",
+                      pages: 10,
+                      title: "Design and Analysis of Algorithm 2021 Set 3",
+                    },
+                    {
+                      year: 2021,
+                      file: "nit-kur-daa-2021-set-4",
+                      id: "nit-kur-daa-2021-set-4",
+                      pages: 10,
+                      title: "Design and Analysis of Algorithm 2021 Set 4",
+                    },
+                  ],
+                },
+                {
+                  name: "Discrete Mathematics",
+                  slug: "discrete-mathematics",
+                  id: "discrete-mathematics",
+                  description: "Study of discrete mathematical structures",
+                  icon: "square-root",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "nit-kur-discrete-mathematics-2024",
+                      id: "nit-kur-discrete-mathematics-2024",
+                      pages: 10,
+                      title: "Discrete Mathematics 2024",
+                    },
+                    {
+                      year: 2024,
+                      file: "nit-kur-discrete-mathematics-2024-mid-1",
+                      id: "nit-kur-discrete-mathematics-2024-mid-1",
+                      pages: 10,
+                      title: "Discrete Mathematics 2024 Midterm 1",
+                    },
+                    {
+                      year: 2024,
+                      file: "nit-kur-discrete-mathematics-2024-mid-2",
+                      id: "nit-kur-discrete-mathematics-2024-mid-2",
+                      pages: 10,
+                      title: "Discrete Mathematics 2024 Midterm 2",
+                    },
+                  ],
+                },
+                {
+                  name: "Object Oriented Programming using Java",
+                  slug: "oop",
+                  id: "oop",
+                  description:
+                    "Introduction to Object Oriented Programming using Java",
+                  icon: "java",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "nit-kur-oop-2024",
+                      id: "nit-kur-oop-2024",
+                      pages: 10,
+                      title: "Object Oriented Programming using Java 2024",
+                    },
+                    {
+                      year: 2024,
+                      file: "nit-kur-oop-2024-mid-1",
+                      id: "nit-kur-oop-2024-mid-1",
+                      pages: 10,
+                      title:
+                        "Object Oriented Programming using Java 2024 Midterm 1",
+                    },
+                    {
+                      year: 2024,
+                      file: "nit-kur-oop-2024-mid-2",
+                      id: "nit-kur-oop-2024-mid-2",
+                      pages: 10,
+                      title:
+                        "Object Oriented Programming using Java 2024 Midterm 2",
+                    },
+                  ],
+                },
+                {
+                  name: "Software Engineering",
+                  slug: "software",
+                  id: "software",
+                  description: "Principles of software development",
+                  icon: "laptop-code",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "nit-kur-software-2018",
+                      id: "nit-kur-software-2018",
+                      pages: 10,
+                      title: "Software Engineering 2018",
+                    },
+                    {
+                      year: 2019,
+                      file: "nit-kur-software-2019",
+                      id: "nit-kur-software-2019",
+                      pages: 10,
+                      title: "Software Engineering 2019",
+                    },
+                    {
+                      year: 2020,
+                      file: "nit-kur-software-2020-set-1",
+                      id: "nit-kur-software-2020-set-1",
+                      pages: 10,
+                      title: "Software Engineering 2020 Set 1",
+                    },
+                    {
+                      year: 2020,
+                      file: "nit-kur-software-2020-set-2",
+                      id: "nit-kur-software-2020-set-2",
+                      pages: 10,
+                      title: "Software Engineering 2020 Set 2",
+                    },
+                    {
+                      year: 2021,
+                      file: "nit-kur-software-2021",
+                      id: "nit-kur-software-2021",
+                      pages: 10,
+                      title: "Software Engineering 2021",
+                    },
+                    {
+                      year: 2024,
+                      file: "nit-kur-software-2024",
+                      id: "nit-kur-software-2024",
+                      pages: 10,
+                      title: "Software Engineering 2024",
+                    },
+                    {
+                      year: 2024,
+                      file: "nit-kur-software-2024-mid-1",
+                      id: "nit-kur-software-2024-mid-1",
+                      pages: 10,
+                      title: "Software Engineering 2024 Midterm 1",
+                    },
+                    {
+                      year: 2024,
+                      file: "nit-kur-software-2024-mid-2",
+                      id: "nit-kur-software-2024-mid-2",
+                      pages: 10,
+                      title: "Software Engineering 2024 Midterm 2",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              number: 4,
+              slug: "sem4",
+              id: "sem4",
+              description: "Subjects for Semester 4",
+              subjects: [
+                {
+                  name: "Computer Networks",
+                  slug: "computer-networks",
+                  id: "computer-networks",
+                  description: "Principles of computer networking",
+                  icon: "network-wired",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "nit-kur-computer-networks-2019-set-1",
+                      id: "nit-kur-computer-networks-2019-set-1",
+                      pages: 10,
+                      title: "Computer Networks 2019 Set 1",
+                    },
+                    {
+                      year: 2019,
+                      file: "nit-kur-computer-networks-2019-set-2",
+                      id: "nit-kur-computer-networks-2019-set-2",
+                      pages: 10,
+                      title: "Computer Networks 2019 Set 2",
+                    },
+                    {
+                      year: 2019,
+                      file: "nit-kur-computer-networks-2019-set-3",
+                      id: "nit-kur-computer-networks-2019-set-3",
+                      pages: 10,
+                      title: "Computer Networks 2019 Set 3",
+                    },
+                    // {
+                    //   year: 2020,
+                    //   file: "nit-kur-computer-networks-2020-set-1",
+                    //   id: "nit-kur-computer-networks-2020-set-1",
+                    //   pages: 10,
+                    //   title: "Computer Networks 2020 Set 1",
+                    // },
+                    {
+                      year: 2022,
+                      file: "nit-kur-computer-networks-2022-mid-1",
+                      id: "nit-kur-computer-networks-2022-mid-1",
+                      pages: 10,
+                      title: "Computer Networks 2022 Midterm 1",
+                    },
+                    {
+                      year: 2022,
+                      file: "nit-kur-computer-networks-2022-mid-2",
+                      id: "nit-kur-computer-networks-2022-mid-2",
+                      pages: 10,
+                      title: "Computer Networks 2022 Midterm 2",
+                    },
+                    {
+                      year: 2022,
+                      file: "nit-kur-computer-networks-2022",
+                      id: "nit-kur-computer-networks-2022",
+                      pages: 10,
+                      title: "Computer Networks 2022",
+                    },
+                    {
+                      year: 2023,
+                      file: "nit-kur-computer-networks-2023-mid-1",
+                      id: "nit-kur-computer-networks-2023-mid-1",
+                      pages: 10,
+                      title: "Computer Networks 2023 Midterm 1",
+                    },
+                    {
+                      year: 2023,
+                      file: "nit-kur-computer-networks-2023-mid-2",
+                      id: "nit-kur-computer-networks-2023-mid-2",
+                      pages: 10,
+                      title: "Computer Networks 2023 Midterm 2",
+                    },
+                    {
+                      year: 2025,
+                      file: "nit-kur-computer-networks-2025-set-1",
+                      id: "nit-kur-computer-networks-2025-set-1",
+                      pages: 10,
+                      title: "Computer Networks 2025 Set 1",
+                    },
+                    {
+                      year: 2025,
+                      file: "nit-kur-computer-networks-2025-set-2",
+                      id: "nit-kur-computer-networks-2025-set-2",
+                      pages: 10,
+                      title: "Computer Networks 2025 Set 2",
+                    },
+                  ],
+                },
+                {
+                  name: "Competitive Programming",
+                  slug: "cp",
+                  id: "cp",
+                  description: "Techniques for competitive programming",
+                  icon: "trophy",
+                  pyqs: [
+                    {
+                      year: 2025,
+                      file: "nit-kur-cp-2025",
+                      id: "nit-kur-cp-2025",
+                      pages: 10,
+                      title: "Competitive Programming 2025",
+                    },
+                    {
+                      year: 2025,
+                      file: "nit-kur-cp-2025-mid-1",
+                      id: "nit-kur-cp-2025-mid-1",
+                      pages: 10,
+                      title: "Competitive Programming 2025 Midterm 1",
+                    },
+                    {
+                      year: 2025,
+                      file: "nit-kur-cp-2025-mid-2",
+                      id: "nit-kur-cp-2025-mid-2",
+                      pages: 10,
+                      title: "Competitive Programming 2025 Midterm 2",
+                    },
+                  ],
+                },
+                {
+                  name: "Database Management System",
+                  slug: "dbms",
+                  id: "dbms",
+                  description: "Fundamentals of database management systems",
+                  icon: "database",
+                  pyqs: [
+                    {
+                      year: 2025,
+                      file: "nit-kur-dbms-2025",
+                      id: "nit-kur-dbms-2025",
+                      pages: 10,
+                      title: "Database Management System 2025",
+                    },
+                    {
+                      year: 2025,
+                      file: "nit-kur-dbms-2025-mid-1",
+                      id: "nit-kur-dbms-2025-mid-1",
+                      pages: 10,
+                      title: "Database Management System 2025 Midterm 1",
+                    },
+                    {
+                      year: 2025,
+                      file: "nit-kur-dbms-2025-mid-2",
+                      id: "nit-kur-dbms-2025-mid-2",
+                      pages: 10,
+                      title: "Database Management System 2025 Midterm 2",
+                    },
+                  ],
+                },
+                {
+                  name: "Operating System",
+                  slug: "operating-system",
+                  id: "operating-system",
+                  description: "Fundamentals of operating systems",
+                  icon: "desktop",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "nit-kur-operating-system-2018",
+                      id: "nit-kur-operating-system-2018",
+                      pages: 10,
+                      title: "Operating System 2018",
+                    },
+                    {
+                      year: 2019,
+                      file: "nit-kur-operating-system-2019-set-1",
+                      id: "nit-kur-operating-system-2019-set-1",
+                      pages: 10,
+                      title: "Operating System 2019 Set 1",
+                    },
+                    {
+                      year: 2019,
+                      file: "nit-kur-operating-system-2019-set-2",
+                      id: "nit-kur-operating-system-2019-set-2",
+                      pages: 10,
+                      title: "Operating System 2019 Set 2",
+                    },
+                    {
+                      year: 2019,
+                      file: "nit-kur-operating-system-2019-set-3",
+                      id: "nit-kur-operating-system-2019-set-3",
+                      pages: 10,
+                      title: "Operating System 2019 Set 3",
+                    },
+                    {
+                      year: 2019,
+                      file: "nit-kur-operating-system-2019-set-4",
+                      id: "nit-kur-operating-system-2019-set-4",
+                      pages: 10,
+                      title: "Operating System 2019 Set 4",
+                    },
+                    {
+                      year: 2021,
+                      file: "nit-kur-operating-system-2021-set-1",
+                      id: "nit-kur-operating-system-2021-set-1",
+                      pages: 10,
+                      title: "Operating System 2021 Set 1",
+                    },
+                    {
+                      year: 2021,
+                      file: "nit-kur-operating-system-2021-set-2",
+                      id: "nit-kur-operating-system-2021-set-2",
+                      pages: 10,
+                      title: "Operating System 2021 Set 2",
+                    },
+                    {
+                      year: 2021,
+                      file: "nit-kur-operating-system-2021-set-3",
+                      id: "nit-kur-operating-system-2021-set-3",
+                      pages: 10,
+                      title: "Operating System 2021 Set 3",
+                    },
+                    {
+                      year: 2021,
+                      file: "nit-kur-operating-system-2021",
+                      id: "nit-kur-operating-system-2021",
+                      pages: 10,
+                      title: "Operating System 2021",
+                    },
+                    {
+                      year: 2022,
+                      file: "nit-kur-operating-system-2022-mid-1",
+                      id: "nit-kur-operating-system-2022-mid-1",
+                      pages: 10,
+                      title: "Operating System 2022 Midterm 1",
+                    },
+                    {
+                      year: 2022,
+                      file: "nit-kur-operating-system-2022-set-1",
+                      id: "nit-kur-operating-system-2022-set-1",
+                      pages: 10,
+                      title: "Operating System 2022 Set 1",
+                    },
+                    {
+                      year: 2022,
+                      file: "nit-kur-operating-system-2022-set-2",
+                      id: "nit-kur-operating-system-2022-set-2",
+                      pages: 10,
+                      title: "Operating System 2022 Set 2",
+                    },
+                    {
+                      year: 2023,
+                      file: "nit-kur-operating-system-2023-mid-1",
+                      id: "nit-kur-operating-system-2023-mid-1",
+                      pages: 10,
+                      title: "Operating System 2023 Midterm 1",
+                    },
+                    {
+                      year: 2023,
+                      file: "nit-kur-operating-system-2023-mid-2",
+                      id: "nit-kur-operating-system-2023-mid-2",
+                      pages: 10,
+                      title: "Operating System 2023 Midterm 2",
+                    },
+                    {
+                      year: 2023,
+                      file: "nit-kur-operating-system-2023",
+                      id: "nit-kur-operating-system-2023",
+                      pages: 10,
+                      title: "Operating System 2023",
+                    },
+                    {
+                      year: 2025,
+                      file: "nit-kur-operating-system-2025-set-1",
+                      id: "nit-kur-operating-system-2025-set-1",
+                      pages: 10,
+                      title: "Operating System 2025 Set 1",
+                    },
+                    {
+                      year: 2025,
+                      file: "nit-kur-operating-system-2025-set-2",
+                      id: "nit-kur-operating-system-2025-set-2",
+                      pages: 10,
+                      title: "Operating System 2025 Set 2",
+                    },
+                    {
+                      year: 2025,
+                      file: "nit-kur-operating-system-2025-set-3",
+                      id: "nit-kur-operating-system-2025-set-3",
+                      pages: 10,
+                      title: "Operating System 2025 Set 3",
+                    },
+                    {
+                      year: 2025,
+                      file: "nit-kur-operating-system-2025-set-4",
+                      id: "nit-kur-operating-system-2025-set-4",
+                      pages: 10,
+                      title: "Operating System 2025 Set 4",
+                    },
+                  ],
+                },
+                {
+                  name: "Soft Computing",
+                  slug: "soft-computing",
+                  id: "soft-computing",
+                  description: "Principles of soft computing techniques",
+                  icon: "brain",
+                  pyqs: [
+                    {
+                      year: 2025,
+                      file: "nit-kur-soft-computing-2025",
+                      id: "nit-kur-soft-computing-2025",
+                      pages: 10,
+                      title: "Soft Computing 2025",
+                    },
+                    {
+                      year: 2025,
+                      file: "nit-kur-soft-computing-2025-mid-1",
+                      id: "nit-kur-soft-computing-2025-mid-1",
+                      pages: 10,
+                      title: "Soft Computing 2025 Midterm 1",
+                    },
+                    {
+                      year: 2025,
+                      file: "nit-kur-soft-computing-2025-mid-2",
+                      id: "nit-kur-soft-computing-2025-mid-2",
+                      pages: 10,
+                      title: "Soft Computing 2025 Midterm 2",
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  ],
 };
