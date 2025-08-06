@@ -3140,18 +3140,24 @@ window.COLLEGE_DATA = {
                 },
                 {
                   name: "Biology",
-                  slug: "biology",
                   id: "biology",
-                  description: "Biological concepts in information technology",
-                  keywords: ["biology", "information technology", "concepts"],
+                  description: "Biological concepts in engineering",
                   icon: "flask",
+                  slug: "biology",
                   pyqs: [
                     {
                       year: 2023,
-                      file: "ymca-biology-2023.pdf",
-                      id: "ymca-biology-2023",
+                      file: "ymca-biology-set-1-2023.pdf",
+                      id: "ymca-biology-set-1-2023",
                       pages: 3,
-                      title: "Biology 2023",
+                      title: "Biology 2023 set 1",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-biology-set-2-2023.pdf",
+                      id: "ymca-biology-set-2-2023",
+                      pages: 3,
+                      title: "Biology 2023 set 2",
                     },
                     {
                       year: 2024,
@@ -4740,18 +4746,24 @@ window.COLLEGE_DATA = {
               subjects: [
                 {
                   name: "Biology",
-                  slug: "biology",
                   id: "biology",
-                  description: "Biological concepts in data science",
-                  keywords: ["biology", "data science", "concepts"],
+                  description: "Biological concepts in engineering",
                   icon: "flask",
+                  slug: "biology",
                   pyqs: [
                     {
                       year: 2023,
-                      file: "ymca-biology-2023.pdf",
-                      id: "ymca-biology-2023",
+                      file: "ymca-biology-set-1-2023.pdf",
+                      id: "ymca-biology-set-1-2023",
                       pages: 3,
-                      title: "Biology 2023",
+                      title: "Biology 2023 set 1",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-biology-set-2-2023.pdf",
+                      id: "ymca-biology-set-2-2023",
+                      pages: 3,
+                      title: "Biology 2023 set 2",
                     },
                     {
                       year: 2024,

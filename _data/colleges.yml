@@ -1316,18 +1316,23 @@
             - name: Biology
               slug: biology
               id: biology
-              description: Biological concepts in data science
-              keywords: ["biology", "data science", "concepts"]
-              icon: flask
+              description: Study of biological systems
+              keywords: ["biology", "study", "systems"]
+              icon: leaf
               pyqs:
                 - year: 2023
-                  file: ymca-biology-2023.pdf
-                  id: ymca-biology-2023
+                  file: ymca-biology-set-1-2023.pdf
+                  id: ymca-biology-set-1-2023  # Add this unique identifier
                   pages: 3
-                  title: "Biology 2023"
+                  title: "Biology 2023 set 1"
+                - year: 2023
+                  file: ymca-biology-set-2-2023.pdf
+                  id: ymca-biology-set-2-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Biology 2023 set 2"
                 - year: 2024
                   file: ymca-biology-2024.pdf
-                  id: ymca-biology-2024
+                  id: ymca-biology-2024  # Add this unique identifier
                   pages: 3
                   title: "Biology 2024"
             - name: Design and Analysis of Algorithms
@@ -2428,18 +2433,23 @@
             - name: Biology
               slug: biology
               id: biology
-              description: Biological concepts in information technology
-              keywords: ["biology", "information technology", "concepts"]
-              icon: flask
+              description: Study of biological systems
+              keywords: ["biology", "study", "systems"]
+              icon: leaf
               pyqs:
                 - year: 2023
-                  file: ymca-biology-2023.pdf
-                  id: ymca-biology-2023
+                  file: ymca-biology-set-1-2023.pdf
+                  id: ymca-biology-set-1-2023  # Add this unique identifier
                   pages: 3
-                  title: "Biology 2023"
+                  title: "Biology 2023 set 1"
+                - year: 2023
+                  file: ymca-biology-set-2-2023.pdf
+                  id: ymca-biology-set-2-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Biology 2023 set 2"
                 - year: 2024
                   file: ymca-biology-2024.pdf
-                  id: ymca-biology-2024
+                  id: ymca-biology-2024  # Add this unique identifier
                   pages: 3
                   title: "Biology 2024"
         - number: 5
