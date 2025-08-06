@@ -1901,20 +1901,6 @@ window.COLLEGE_DATA = {
                   icon: "gear",
                   pyqs: [
                     {
-                      year: 2016,
-                      file: "ymca-dom-2016.pdf",
-                      id: "ymca-dom-2016",
-                      pages: 3,
-                      title: "Dynamics of Machines 2016",
-                    },
-                    {
-                      year: 2018,
-                      file: "ymca-dom-2018.pdf",
-                      id: "ymca-dom-2018",
-                      pages: 3,
-                      title: "Dynamics of Machines 2018",
-                    },
-                    {
                       year: 2023,
                       file: "ymca-dom-2023.pdf",
                       id: "ymca-dom-2023",
@@ -1931,6 +1917,27 @@ window.COLLEGE_DATA = {
                   icon: "thermometer-half",
                   pyqs: [
                     {
+                      year: 2016,
+                      file: "ymca-hmt-2016.pdf",
+                      id: "ymca-hmt-2016",
+                      pages: 3,
+                      title: "Heat and Mass Transfer 2016",
+                    },
+                    {
+                      year: 2022,
+                      file: "ymca-hmt-2022.pdf",
+                      id: "ymca-hmt-2022",
+                      pages: 3,
+                      title: "Heat and Mass Transfer 2022",
+                    },
+                    {
+                      year: 2016,
+                      file: "ymca-hmt-2016.pdf",
+                      id: "ymca-hmt-2016",
+                      pages: 3,
+                      title: "Heat and Mass Transfer 2016",
+                    },
+                    {
                       year: 2023,
                       file: "ymca-hmt-2023.pdf",
                       id: "ymca-hmt-2023",
@@ -1943,7 +1950,8 @@ window.COLLEGE_DATA = {
                   name: "Design of Machine Elements 1",
                   slug: "dme",
                   id: "dme",
-                  description: "Study of machine design principles and applications.",
+                  description:
+                    "Study of machine design principles and applications.",
                   icon: "cog",
                   pyqs: [
                     {
@@ -1971,10 +1979,89 @@ window.COLLEGE_DATA = {
                   pyqs: [
                     {
                       year: 2018,
-                      file: "ymca-industrial-engineering-2018.pdf",
-                      id: "ymca-industrial-engineering-2018",
+                      file: "ymca-industrial-engineering-set-1-2018.pdf",
+                      id: "ymca-industrial-engineering-set-1-2018",
                       pages: 3,
-                      title: "Industrial Engineering 2018",
+                      title: "Industrial Engineering 2018 set 1",
+                    },
+                    {
+                      year: 2018,
+                      file: "ymca-industrial-engineering-set-2-2018.pdf",
+                      id: "ymca-industrial-engineering-set-2-2018",
+                      pages: 3,
+                      title: "Industrial Engineering 2018 set 2",
+                    },
+                    {
+                      year: 2019,
+                      file: "ymca-industrial-engineering-2019.pdf",
+                      id: "ymca-industrial-engineering-2019",
+                      pages: 3,
+                      title: "Industrial Engineering 2019",
+                    },
+                    {
+                      year: 2022,
+                      file: "ymca-industrial-engineering-2022.pdf",
+                      id: "ymca-industrial-engineering-2022",
+                      pages: 3,
+                      title: "Industrial Engineering 2022",
+                    },
+                  ],
+                },
+                {
+                  name: "Essence of Indian Traditional Knowledge",
+                  slug: "eitk",
+                  id: "eitk",
+                  description: "Study of Indian traditional knowledge systems",
+                  keywords: ["Indian", "traditional", "knowledge"],
+                  icon: "book",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-eitk-set-1-2023.pdf",
+                      id: "ymca-eitk-set-1-2023",
+                      pages: 3,
+                      title:
+                        "Essence of Indian Traditional Knowledge 2023 set 1",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-eitk-set-2-2023.pdf",
+                      id: "ymca-eitk-set-2-2023",
+                      pages: 3,
+                      title:
+                        "Essence of Indian Traditional Knowledge 2023 set 2",
+                    },
+                    {
+                      year: 2024,
+                      file: "ymca-eitk-2024.pdf",
+                      id: "ymca-eitk-2024",
+                      pages: 3,
+                      title: "Essence of Indian Traditional Knowledge 2024",
+                    },
+                  ],
+                },
+                {
+                  name: "Refrigeration and Air Conditioning",
+                  slug: "rac",
+                  id: "rac",
+                  description:
+                    "Principles of refrigeration and air conditioning",
+                  keywords: ["refrigeration", "air conditioning", "principles"],
+                  icon: "snowflake",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "ymca-rac-2019.pdf",
+                      id: "ymca-rac-2019",
+                      pages: 3,
+                      title: "Refrigeration and Air Conditioning 2019",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-rac-2023.pdf",
+                      id: "ymca-rac-2023",
+                      pages: 3,
+                      title: "Refrigeration and Air Conditioning 2023",
                     },
                   ],
                 },
