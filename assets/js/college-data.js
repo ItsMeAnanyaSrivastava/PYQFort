@@ -1940,18 +1940,25 @@ window.COLLEGE_DATA = {
                   ],
                 },
                 {
-                  name: "IC Engines",
-                  slug: "ic-engines",
-                  id: "ic-engines",
-                  description: "Study of internal combustion engines",
-                  icon: "car",
+                  name: "Design of Machine Elements 1",
+                  slug: "dme",
+                  id: "dme",
+                  description: "Study of machine design principles and applications.",
+                  icon: "cog",
                   pyqs: [
                     {
-                      year: 2018,
-                      file: "ymca-ic-engines-2018.pdf",
-                      id: "ymca-ic-engines-2018",
+                      year: 2016,
+                      file: "ymca-dme-2016.pdf",
+                      id: "ymca-dme-2016",
                       pages: 3,
-                      title: "IC Engines 2018",
+                      title: "Design of Machine Elements 1 2016",
+                    },
+                    {
+                      year: 2018,
+                      file: "ymca-dme-2018.pdf",
+                      id: "ymca-dme-2018",
+                      pages: 3,
+                      title: "Design of Machine Elements 1 2018",
                     },
                   ],
                 },
@@ -1979,6 +1986,22 @@ window.COLLEGE_DATA = {
               id: "sem6",
               description: "Subjects for Semester 6",
               subjects: [
+                {
+                  name: "IC Engines",
+                  slug: "ic-engines",
+                  id: "ic-engines",
+                  description: "Study of internal combustion engines",
+                  icon: "car",
+                  pyqs: [
+                    {
+                      year: 2018,
+                      file: "ymca-ic-engines-2018.pdf",
+                      id: "ymca-ic-engines-2018",
+                      pages: 3,
+                      title: "IC Engines 2018",
+                    },
+                  ],
+                },
                 {
                   name: "Automation",
                   slug: "automation",

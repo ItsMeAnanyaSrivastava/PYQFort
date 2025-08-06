@@ -2956,18 +2956,23 @@
                   id: ymca-hmt-2023  # Add this unique identifier
                   pages: 3
                   title: "Heat and Mass Transfer 2023"
-            - name: IC Engines
-              slug: ic-engines
-              id: ic-engines
-              description: Study of internal combustion engines
-              keywords: ["IC", "engines", "internal", "combustion"]
-              icon: car
+            - name: Design of Machine Elements 1
+              slug: dme
+              id: dme
+              description: Study of machine design principles and applications.
+              keywords: ["design", "machine", "elements"]
+              icon: cog
               pyqs:
-                - year: 2018
-                  file: ymca-ic-engines-2018.pdf
-                  id: ymca-ic-engines-2018  # Add this unique identifier
+                - year: 2016
+                  file: ymca-dme-2016.pdf
+                  id: ymca-dme-2016  # Add this unique identifier
                   pages: 3
-                  title: "IC Engines 2018"
+                  title: "Design of Machine Elements 1 2016"
+                - year: 2018
+                  file: ymca-dme-2018.pdf
+                  id: ymca-dme-2018  # Add this unique identifier
+                  pages: 3
+                  title: "Design of Machine Elements 1 2018"
             - name: Industrial Engineering
               slug: industrial-engineering
               id: industrial-engineering
@@ -2986,6 +2991,18 @@
           description: Subjects for Semester 6
           keywords: ["semester 6", "mechanical", "engineering"]
           subjects:
+            - name: IC Engines
+              slug: ic-engines
+              id: ic-engines
+              description: Study of internal combustion engines
+              keywords: ["IC", "engines", "internal", "combustion"]
+              icon: car
+              pyqs:
+                - year: 2018
+                  file: ymca-ic-engines-2018.pdf
+                  id: ymca-ic-engines-2018  # Add this unique identifier
+                  pages: 3
+                  title: "IC Engines 2018"
             - name: Automation
               slug: automation
               id: automation
