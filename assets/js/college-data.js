@@ -576,7 +576,7 @@ window.COLLEGE_DATA = {
                   ],
                 },
                 {
-                  name: "Elements of Electronics Engineering",
+                  name: "Environment and Ecology",
                   slug: "ene",
                   id: "ene",
                   description: "Fundamentals of electronics engineering",
@@ -588,28 +588,28 @@ window.COLLEGE_DATA = {
                       file: "ymca-ene-set-1-2022.pdf",
                       id: "ymca-ene-set-1-2022",
                       pages: 3,
-                      title: "Elements of Electronics Engineering Set 1 2022",
+                      title: "Environment and Ecology Set 1 2022",
                     },
                     {
                       year: 2022,
                       file: "ymca-ene-set-2-2022.pdf",
                       id: "ymca-ene-set-2-2022",
                       pages: 3,
-                      title: "Elements of Electronics Engineering Set 2 2022",
+                      title: "Environment and Ecology Set 2 2022",
                     },
                     {
                       year: 2022,
                       file: "ymca-ene-set-3-2022.pdf",
                       id: "ymca-ene-set-3-2022",
                       pages: 3,
-                      title: "Elements of Electronics Engineering Set 3 2022",
+                      title: "Environment and Ecology Set 3 2022",
                     },
                     {
                       year: 2023,
                       file: "ymca-ene-2023.pdf",
                       id: "ymca-ene-2023",
                       pages: 3,
-                      title: "Elements of Electronics Engineering 2023",
+                      title: "Environment and Ecology 2023",
                     },
                     {
                       year: 2024,
@@ -617,7 +617,7 @@ window.COLLEGE_DATA = {
                       id: "ymca-ene-2024-sessional-1",
                       pages: 3,
                       title:
-                        "Elements of Electronics Engineering Sessional 1 2024",
+                        "Environment and Ecology Sessional 1 2024",
                     },
                     {
                       year: 2024,
@@ -625,14 +625,14 @@ window.COLLEGE_DATA = {
                       id: "ymca-ene-2024-sessional-2",
                       pages: 3,
                       title:
-                        "Elements of Electronics Engineering Sessional 2 2024",
+                        "Environment and Ecology Sessional 2 2024",
                     },
                     {
                       year: 2024,
                       file: "ymca-ene-2024.pdf",
                       id: "ymca-ene-2024",
                       pages: 3,
-                      title: "Elements of Electronics Engineering 2024",
+                      title: "Environment and Ecology 2024",
                     },
                   ],
                 },
