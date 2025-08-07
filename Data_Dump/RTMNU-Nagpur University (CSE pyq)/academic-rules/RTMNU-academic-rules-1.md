@@ -16,51 +16,50 @@ Branches under RTMNU’s tech faculty:
 ## 📘 Subject Structure (CSE Example)
 
 ### Semester 1:
-- Essentials of Chemistry (TH + Lab)
-- Applied Algebra
-- Problem Solving using C (TH + Lab)
-- Basics of Electronics Engineering (TH + Lab)
-- Web Design Technology (Lab)
+- Engineering Mathematics-I
+- Applied Physics (TH + Lab)
+- Energy and Environment(Chemistry) (TH + Lab)
 - Communication Skills (TH + Lab)
-- Community-Based Participatory Research
+- Engineering Graphics (TH + Lab)
 
 ### Semester 2:
-- Mathematical Foundations of CS (TH + Python Lab)
-- Essentials of Physics (TH + Lab)
-- Python Programming (TH + Lab)
-- Computer Architecture & Organization
-- Indian Knowledge System (IKS)
-- Communication Skills Lab
-- Linux & Shell Programming
+- Engineering Mathematics-II
+- Advanced Enginnering Materials/(Physics) (TH + Lab)
+- Applied Chemistry (TH + Lab)
+- Engineering Mechanics
+- Basic Electrical Engineering
+- Indian Culture & Consititution (Audit)
+- Computation Skills
+- Workshop Practice
 
 ### Semester 3:
-- Data Structures & Algorithms (TH + Lab)
+- Applied Mathematics-III
+- Operating Systems (TH + Lab)
 - Object-Oriented Programming using Java (TH + Lab)
-- Probability Theory & Statistics
-- Open Elective I (TH + Lab)
-- Entrepreneurship in CS
-- Constitution of India
-- Community Engagement Project
+- Computer Architecture & Organization
+- Universal Human Values
+- Ethics in IT
 
 ### Semester 4:
-- Operating Systems (TH + Lab)
-- Artificial Intelligence (TH + Lab)
-- Quantum Computing
-- Open Elective II
-- Technical Report Writing
-- Universal Human Values
-- Environmental Science
-- Hardware & Networking (Lab)
+- Discrete Mathematics and Graph Theory
+- Data Structures & Algorithms (TH + Lab)
+- DBMS (TH + Lab)
+- Computer Network
+- Therory of Computation
+- System Programimng
 
+  
 ## 🧾 Academic Common Rules
 
 ACR1:
 - Semester 1 and 2: Same syllabus + Same PYQs for CSE, IT, CT, CE
+  <br>
 ✅ Yes
 
 ACR2:
 - Core subjects for branches under same department overlap in syllabus and PYQs
-✅ Yes
+  <br>
+ ✅ Yes
 
 Examples:
 - CSE, IT, CT, CE share foundational subjects like Data Structures, OS, Networks, DBMS.
