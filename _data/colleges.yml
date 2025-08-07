@@ -14,6 +14,615 @@
     total_students: 8000
     accreditation: "NAAC A+"
   branches:
+    - name: Fresher Year
+      slug: acr
+      id: acr
+      description: Academic Common Subjects for All Branches
+      keywords: ["common", "first year", "engineering", "foundation"]
+      icon: book
+      semesters:
+        - number: 1
+          slug: sem1
+          id: sem1
+          description: Subjects for Semester 1
+          keywords: ["semester 1", "common", "foundation"]
+          subjects:
+            - name: Basic Electrical Technology
+              slug: bet
+              id: bet
+              description: Fundamentals of electrical technology
+              keywords: ["electrical", "technology", "circuits"]
+              icon: plug
+              pyqs:
+                - year: 2018
+                  file: ymca-bet-set-1-2018.pdf
+                  id: ymca-bet-set-1-2018
+                  pages: 3
+                  title: "Basic Electrical Technology Set 1 2018"
+                - year: 2018
+                  file: ymca-bet-set-2-2018.pdf
+                  id: ymca-bet-set-2-2018
+                  pages: 3
+                  title: "Basic Electrical Technology Set 2 2018"
+                - year: 2019
+                  file: ymca-bet-set-1-2019.pdf
+                  id: ymca-bet-set-1-2019
+                  pages: 3
+                  title: "Basic Electrical Technology Set 1 2019"
+                - year: 2019
+                  file: ymca-bet-set-2-2019.pdf
+                  id: ymca-bet-set-2-2019
+                  pages: 3
+                  title: "Basic Electrical Technology Set 2 2019"
+                - year: 2019
+                  file: ymca-bet-set-3-2019.pdf
+                  id: ymca-bet-set-3-2019
+                  pages: 3
+                  title: "Basic Electrical Technology Set 3 2019"
+                - year: 2019
+                  file: ymca-bet-set-4-2019.pdf
+                  id: ymca-bet-set-4-2019
+                  pages: 3
+                  title: "Basic Electrical Technology Set 4 2019"
+                - year: 2020
+                  file: ymca-bet-set-1-2020.pdf
+                  id: ymca-bet-set-1-2020
+                  pages: 3
+                  title: "Basic Electrical Technology Set 1 2020"
+                - year: 2020
+                  file: ymca-bet-set-2-2020.pdf
+                  id: ymca-bet-set-2-2020
+                  pages: 3
+                  title: "Basic Electrical Technology Set 2 2020"
+                - year: 2021
+                  file: ymca-bet-2021-sessional-1.pdf
+                  id: ymca-bet-2021-sessional-1
+                  pages: 3
+                  title: "Basic Electrical Technology Sessional 1 2021"
+                - year: 2021
+                  file: ymca-bet-2021-sessional-2.pdf
+                  id: ymca-bet-2021-sessional-2
+                  pages: 3
+                  title: "Basic Electrical Technology Sessional 2 2021"
+                - year: 2022
+                  file: ymca-bet-2022-sessional-1.pdf
+                  id: ymca-bet-2022-sessional-1
+                  pages: 3
+                  title: "Basic Electrical Technology Sessional 1 2022"
+                - year: 2022
+                  file: ymca-bet-2022-sessional-2.pdf
+                  id: ymca-bet-2022-sessional-2
+                  pages: 3
+                  title: "Basic Electrical Technology Sessional 2 2022"
+                - year: 2022
+                  file: ymca-bet-2022.pdf
+                  id: ymca-bet-2022
+                  pages: 3
+                  title: "Basic Electrical Technology 2022"
+                - year: 2023
+                  file: ymca-bet-set-1-2023.pdf
+                  id: ymca-bet-set-1-2023
+                  pages: 3
+                  title: "Basic Electrical Technology Set 1 2023"
+                - year: 2023
+                  file: ymca-bet-set-2-2023.pdf
+                  id: ymca-bet-set-2-2023
+                  pages: 3
+                  title: "Basic Electrical Technology Set 2 2023"
+                - year: 2023
+                  file: ymca-bet-2023-sessional.pdf
+                  id: ymca-bet-2023-sessional
+                  pages: 3
+                  title: "Basic Electrical Technology Sessional 2023"
+                - year: 2024
+                  file: ymca-bet-2024-sessional-1.pdf
+                  id: ymca-bet-2024-sessional-1
+                  pages: 3
+                  title: "Basic Electrical Technology Sessional 1 2024"
+                - year: 2024
+                  file: ymca-bet-2024-sessional-2.pdf
+                  id: ymca-bet-2024-sessional-2
+                  pages: 3
+                  title: "Basic Electrical Technology Sessional 2 2024"
+            - name: Chemistry
+              slug: chemistry
+              id: chemistry
+              description: Fundamentals of chemistry for engineering
+              keywords: ["chemistry", "engineering", "materials"]
+              icon: flask
+              pyqs:
+                - year: 2018
+                  file: ymca-chemistry-2018.pdf
+                  id: ymca-chemistry-2018
+                  pages: 3
+                  title: "Chemistry 2018"
+                - year: 2019
+                  file: ymca-chemistry-2019.pdf
+                  id: ymca-chemistry-2019
+                  pages: 3
+                  title: "Chemistry 2019"
+                - year: 2022
+                  file: ymca-chemistry-2022-sessional-1.pdf
+                  id: ymca-chemistry-2022-sessional-1
+                  pages: 3
+                  title: "Chemistry Sessional 1 2022"
+                - year: 2022
+                  file: ymca-chemistry-2022-sessional-2.pdf
+                  id: ymca-chemistry-2022-sessional-2
+                  pages: 3
+                  title: "Chemistry Sessional 2 2022"
+                - year: 2023
+                  file: ymca-chemistry-2023-sessional-1.pdf
+                  id: ymca-chemistry-2023-sessional-1
+                  pages: 3
+                  title: "Chemistry Sessional 1 2023"
+                - year: 2023
+                  file: ymca-chemistry-2023-sessional-2.pdf
+                  id: ymca-chemistry-2023-sessional-2
+                  pages: 3
+                  title: "Chemistry Sessional 2 2023"
+                - year: 2023
+                  file: ymca-chemistry-2023-sessional-3.pdf
+                  id: ymca-chemistry-2023-sessional-3
+                  pages: 3
+                  title: "Chemistry Sessional 3 2023"
+                - year: 2023
+                  file: ymca-chemistry-2023-sessional-4.pdf
+                  id: ymca-chemistry-2023-sessional-4
+                  pages: 3
+                  title: "Chemistry Sessional 4 2023"
+                - year: 2023
+                  file: ymca-chemistry-2023-sessional-5.pdf
+                  id: ymca-chemistry-2023-sessional-5
+                  pages: 3
+                  title: "Chemistry Sessional 5 2023"
+                - year: 2023
+                  file: ymca-chemistry-2023.pdf
+                  id: ymca-chemistry-2023
+                  pages: 3
+                  title: "Chemistry 2023"
+            - name: English
+              slug: english
+              id: english
+              description: Communication skills in English
+              keywords: ["english", "communication", "skills"]
+              icon: comment-dots
+              pyqs:
+                - year: 2021
+                  file: ymca-english-2021-sessional-1.pdf
+                  id: ymca-english-2021-sessional-1
+                  pages: 3
+                  title: "English Sessional 1 2021"
+                - year: 2021
+                  file: ymca-english-2021-sessional-2.pdf
+                  id: ymca-english-2021-sessional-2
+                  pages: 3
+                  title: "English Sessional 2 2021"
+                - year: 2022
+                  file: ymca-english-2022-sessional.pdf
+                  id: ymca-english-2022-sessional
+                  pages: 3
+                  title: "English Sessional 2022"
+                - year: 2022
+                  file: ymca-english-2022.pdf
+                  id: ymca-english-2022
+                  pages: 3
+                  title: "English 2022"
+                - year: 2023
+                  file: ymca-english-2023-sessional.pdf
+                  id: ymca-english-2023-sessional
+                  pages: 3
+                  title: "English Sessional 2023"
+                - year: 2023
+                  file: ymca-english-set-1-2023.pdf
+                  id: ymca-english-set-1-2023
+                  pages: 3
+                  title: "English Set 1 2023"
+                - year: 2023
+                  file: ymca-english-set-2-2023.pdf
+                  id: ymca-english-set-2-2023
+                  pages: 3
+                  title: "English Set 2 2023"
+                - year: 2024
+                  file: ymca-english-2024.pdf
+                  id: ymca-english-2024
+                  pages: 3
+                  title: "English 2024"
+            - name: Mathematics 101-C
+              slug: maths-101-c
+              id: maths-101-c
+              description: Fundamental mathematics for engineering
+              keywords: ["mathematics", "engineering", "calculus"]
+              icon: calculator
+              pyqs:
+                - year: 2024
+                  file: ymca-maths-101-c-2024.pdf
+                  id: ymca-maths-101-c-2024
+                  pages: 3
+                  title: "Mathematics 101-C 2024"
+            - name: Mathematics 103-A
+              slug: maths-103-a
+              id: maths-103-a
+              description: Advanced mathematics for engineering
+              keywords: ["mathematics", "engineering", "calculus"]
+              icon: calculator
+              pyqs:
+                - year: 2019
+                  file: ymca-maths-103-a-2019.pdf
+                  id: ymca-maths-103-a-2019
+                  pages: 3
+                  title: "Mathematics 103-A 2019"
+                - year: 2022
+                  file: ymca-maths-103-a-2022.pdf
+                  id: ymca-maths-103-a-2022
+                  pages: 3
+                  title: "Mathematics 103-A 2022"
+                - year: 2023
+                  file: ymca-maths-103-a-2023-sessional.pdf
+                  id: ymca-maths-103-a-2023-sessional
+                  pages: 3
+                  title: "Mathematics 103-A Sessional 2023"
+                - year: 2023
+                  file: ymca-maths-103-a-2023.pdf
+                  id: ymca-maths-103-a-2023
+                  pages: 3
+                  title: "Mathematics 103-A 2023"
+                - year: 2024
+                  file: ymca-maths-103-a-2024.pdf
+                  id: ymca-maths-103-a-2024
+                  pages: 3
+                  title: "Mathematics 103-A 2024"
+            - name: Mathematics 103-D
+              slug: maths-103-d
+              id: maths-103-d
+              description: Advanced mathematics for engineering
+              keywords: ["mathematics", "engineering", "calculus"]
+              icon: calculator
+              pyqs:
+                - year: 2019
+                  file: ymca-maths-103-d-2019.pdf
+                  id: ymca-maths-103-d-2019
+                  pages: 3
+                  title: "Mathematics 103-D 2019"
+                - year: 2022
+                  file: ymca-maths-103-d-2022-sessional.pdf
+                  id: ymca-maths-103-d-2022-sessional
+                  pages: 3
+                  title: "Mathematics 103-D Sessional 2022"
+                - year: 2022
+                  file: ymca-maths-103-d-2022.pdf
+                  id: ymca-maths-103-d-2022
+                  pages: 3
+                  title: "Mathematics 103-D 2022"
+                - year: 2023
+                  file: ymca-maths-103-d-2023-sessional.pdf
+                  id: ymca-maths-103-d-2023-sessional
+                  pages: 3
+                  title: "Mathematics 103-D Sessional 2023"
+                - year: 2023
+                  file: ymca-maths-103-d-2023.pdf
+                  id: ymca-maths-103-d-2023
+                  pages: 3
+                  title: "Mathematics 103-D 2023"
+            - name: Semiconductor Physics
+              slug: semiconductor
+              id: semiconductor
+              description: Study of semiconductor physics
+              keywords: ["semiconductor", "physics", "electronics"]
+              icon: microchip
+              pyqs:
+                - year: 2018
+                  file: ymca-semiconductor-2018.pdf
+                  id: ymca-semiconductor-2018
+                  pages: 3
+                  title: "Semiconductor Physics 2018"
+                - year: 2019
+                  file: ymca-semiconductor-set-1-2019.pdf
+                  id: ymca-semiconductor-set-1-2019
+                  pages: 3
+                  title: "Semiconductor Physics Set 1 2019"
+                - year: 2019
+                  file: ymca-semiconductor-set-2-2019.pdf
+                  id: ymca-semiconductor-set-2-2019
+                  pages: 3
+                  title: "Semiconductor Physics Set 2 2019"
+                - year: 2022
+                  file: ymca-semiconductor-set-1-2022.pdf
+                  id: ymca-semiconductor-set-1-2022
+                  pages: 3
+                  title: "Semiconductor Physics Set 1 2022"
+                - year: 2022
+                  file: ymca-semiconductor-set-2-2022.pdf
+                  id: ymca-semiconductor-set-2-2022
+                  pages: 3
+                  title: "Semiconductor Physics Set 2 2022"
+                - year: 2023
+                  file: ymca-semiconductor-2023.pdf
+                  id: ymca-semiconductor-2023
+                  pages: 3
+                  title: "Semiconductor Physics 2023"
+            - name: Waves and Optics
+              slug: waves
+              id: waves
+              description: Study of waves and optics
+              keywords: ["waves", "optics", "physics"]
+              icon: wave-square
+              pyqs:
+                - year: 2019
+                  file: ymca-waves-2019.pdf
+                  id: ymca-waves-2019
+                  pages: 3
+                  title: "Waves and Optics 2019"
+                - year: 2022
+                  file: ymca-waves-2022-sessional.pdf
+                  id: ymca-waves-2022-sessional
+                  pages: 3
+                  title: "Waves and Optics Sessional 2022"
+                - year: 2023
+                  file: ymca-waves-2023.pdf
+                  id: ymca-waves-2023
+                  pages: 3
+                  title: "Waves and Optics 2023"
+                - year: 2024
+                  file: ymca-waves-2024.pdf
+                  id: ymca-waves-2024
+                  pages: 3
+                  title: "Waves and Optics 2024"
+        - number: 2
+          slug: sem2
+          id: sem2
+          description: Subjects for Semester 2
+          keywords: ["semester 2", "common", "foundation"]
+          subjects:
+            - name: Engineering Graphics and Design
+              slug: egd
+              id: egd
+              description: Fundamentals of engineering graphics and design
+              keywords: ["engineering", "graphics", "design"]
+              icon: pencil-ruler
+              pyqs:
+                - year: 2024
+                  file: ymca-egd-2024.pdf
+                  id: ymca-egd-2024
+                  pages: 3
+                  title: "Engineering Graphics and Design 2024"
+            - name: Electromagnetic Theory
+              slug: emt
+              id: emt
+              description: Principles of electromagnetic theory
+              keywords: ["electromagnetic", "theory", "physics"]
+              icon: magnet
+              pyqs:
+                - year: 2022
+                  file: ymca-emt-2022.pdf
+                  id: ymca-emt-2022
+                  pages: 3
+                  title: "Electromagnetic Theory 2022"
+                - year: 2024
+                  file: ymca-emt-2024-sessional-1.pdf
+                  id: ymca-emt-2024-sessional-1
+                  pages: 3
+                  title: "Electromagnetic Theory Sessional 1 2024"
+                - year: 2024
+                  file: ymca-emt-2024-sessional-2.pdf
+                  id: ymca-emt-2024-sessional-2
+                  pages: 3
+                  title: "Electromagnetic Theory Sessional 2 2024"
+                - year: 2024
+                  file: ymca-emt-2024.pdf
+                  id: ymca-emt-2024
+                  pages: 3
+                  title: "Electromagnetic Theory 2024"
+            - name: Elements of Electronics Engineering
+              slug: ene
+              id: ene
+              description: Fundamentals of electronics engineering
+              keywords: ["electronics", "engineering", "circuits"]
+              icon: microchip
+              pyqs:
+                - year: 2022
+                  file: ymca-ene-set-1-2022.pdf
+                  id: ymca-ene-set-1-2022
+                  pages: 3
+                  title: "Elements of Electronics Engineering Set 1 2022"
+                - year: 2022
+                  file: ymca-ene-set-2-2022.pdf
+                  id: ymca-ene-set-2-2022
+                  pages: 3
+                  title: "Elements of Electronics Engineering Set 2 2022"
+                - year: 2022
+                  file: ymca-ene-set-3-2022.pdf
+                  id: ymca-ene-set-3-2022
+                  pages: 3
+                  title: "Elements of Electronics Engineering Set 3 2022"
+                - year: 2023
+                  file: ymca-ene-2023.pdf
+                  id: ymca-ene-2023
+                  pages: 3
+                  title: "Elements of Electronics Engineering 2023"
+                - year: 2024
+                  file: ymca-ene-2024-sessional-1.pdf
+                  id: ymca-ene-2024-sessional-1
+                  pages: 3
+                  title: "Elements of Electronics Engineering Sessional 1 2024"
+                - year: 2024
+                  file: ymca-ene-2024-sessional-2.pdf
+                  id: ymca-ene-2024-sessional-2
+                  pages: 3
+                  title: "Elements of Electronics Engineering Sessional 2 2024"
+                - year: 2024
+                  file: ymca-ene-2024.pdf
+                  id: ymca-ene-2024
+                  pages: 3
+                  title: "Elements of Electronics Engineering 2024"
+            - name: Mathematics 106-A
+              slug: maths-106-a
+              id: maths-106-a
+              description: Advanced mathematics for engineering
+              keywords: ["mathematics", "engineering", "calculus"]
+              icon: calculator
+              pyqs:
+                - year: 2022
+                  file: ymca-maths-106-a-2022.pdf
+                  id: ymca-maths-106-a-2022
+                  pages: 3
+                  title: "Mathematics 106-A 2022"
+                - year: 2023
+                  file: ymca-maths-106-a-2023.pdf
+                  id: ymca-maths-106-a-2023
+                  pages: 3
+                  title: "Mathematics 106-A 2023"
+                - year: 2024
+                  file: ymca-maths-106-a-2024-sessional.pdf
+                  id: ymca-maths-106-a-2024-sessional
+                  pages: 3
+                  title: "Mathematics 106-A Sessional 2024"
+            - name: Mathematics 106-D
+              slug: maths-106-d
+              id: maths-106-d
+              description: Advanced mathematics for engineering
+              keywords: ["mathematics", "engineering", "calculus"]
+              icon: calculator
+              pyqs:
+                - year: 2019
+                  file: ymca-maths-106-d-2019.pdf
+                  id: ymca-maths-106-d-2019
+                  pages: 3
+                  title: "Mathematics 106-D 2019"
+                - year: 2022
+                  file: ymca-maths-106-d-2022-sessional-1.pdf
+                  id: ymca-maths-106-d-2022-sessional-1
+                  pages: 3
+                  title: "Mathematics 106-D Sessional 1 2022"
+                - year: 2022
+                  file: ymca-maths-106-d-2022-sessional-2.pdf
+                  id: ymca-maths-106-d-2022-sessional-2
+                  pages: 3
+                  title: "Mathematics 106-D Sessional 2 2022"
+                - year: 2022
+                  file: ymca-maths-106-d-2022.pdf
+                  id: ymca-maths-106-d-2022
+                  pages: 3
+                  title: "Mathematics 106-D 2022"
+                - year: 2023
+                  file: ymca-maths-106-d-2023-sessional.pdf
+                  id: ymca-maths-106-d-2023-sessional
+                  pages: 3
+                  title: "Mathematics 106-D Sessional 2023"
+                - year: 2023
+                  file: ymca-maths-106-d-2023.pdf
+                  id: ymca-maths-106-d-2023
+                  pages: 3
+                  title: "Mathematics 106-D 2023"
+                - year: 2024
+                  file: ymca-maths-106-d-2024-sessional.pdf
+                  id: ymca-maths-106-d-2024-sessional
+                  pages: 3
+                  title: "Mathematics 106-D Sessional 2024"
+            - name: Mathematics 106-E
+              slug: maths-106-e
+              id: maths-106-e
+              description: Advanced mathematics for engineering
+              keywords: ["mathematics", "engineering", "calculus"]
+              icon: calculator
+              pyqs:
+                - year: 2019
+                  file: ymca-maths-106-e-2019.pdf
+                  id: ymca-maths-106-e-2019
+                  pages: 3
+                  title: "Mathematics 106-E 2019"
+                - year: 2022
+                  file: ymca-maths-106-e-2022.pdf
+                  id: ymca-maths-106-e-2022
+                  pages: 3
+                  title: "Mathematics 106-E 2022"
+                - year: 2023
+                  file: ymca-maths-106-e-2023.pdf
+                  id: ymca-maths-106-e-2023
+                  pages: 3
+                  title: "Mathematics 106-E 2023"
+                - year: 2025
+                  file: ymca-maths-106-e-pfq.pdf
+                  id: ymca-maths-106-e-pfq
+                  pages: 3
+                  title: "Mathematics 106-E PFQ"
+            - name: Programming for Problem Solving
+              slug: pps
+              id: pps
+              description: Fundamentals of programming for problem solving
+              keywords: ["programming", "problem solving", "coding"]
+              icon: code
+              pyqs:
+                - year: 2019
+                  file: ymca-pps-set-1-2019.pdf
+                  id: ymca-pps-set-1-2019
+                  pages: 3
+                  title: "Programming for Problem Solving Set 1 2019"
+                - year: 2019
+                  file: ymca-pps-set-2-2019.pdf
+                  id: ymca-pps-set-2-2019
+                  pages: 3
+                  title: "Programming for Problem Solving Set 2 2019"
+                - year: 2022
+                  file: ymca-pps-set-1-2022.pdf
+                  id: ymca-pps-set-1-2022
+                  pages: 3
+                  title: "Programming for Problem Solving Set 1 2022"
+                - year: 2022
+                  file: ymca-pps-set-2-2022.pdf
+                  id: ymca-pps-set-2-2022
+                  pages: 3
+                  title: "Programming for Problem Solving Set 2 2022"
+                - year: 2022
+                  file: ymca-pps-2022-sessional-1.pdf
+                  id: ymca-pps-2022-sessional-1
+                  pages: 3
+                  title: "Programming for Problem Solving Sessional 1 2022"
+                - year: 2022
+                  file: ymca-pps-2022-sessional-2.pdf
+                  id: ymca-pps-2022-sessional-2
+                  pages: 3
+                  title: "Programming for Problem Solving Sessional 2 2022"
+                - year: 2023
+                  file: ymca-pps-set-1-2023.pdf
+                  id: ymca-pps-set-1-2023
+                  pages: 3
+                  title: "Programming for Problem Solving Set 1 2023"
+                - year: 2023
+                  file: ymca-pps-set-2-2023.pdf
+                  id: ymca-pps-set-2-2023
+                  pages: 3
+                  title: "Programming for Problem Solving Set 2 2023"
+                - year: 2023
+                  file: ymca-pps-2023-sessional-1.pdf
+                  id: ymca-pps-2023-sessional-1
+                  pages: 3
+                  title: "Programming for Problem Solving Sessional 1 2023"
+                - year: 2023
+                  file: ymca-pps-2023-sessional-2.pdf
+                  id: ymca-pps-2023-sessional-2
+                  pages: 3
+                  title: "Programming for Problem Solving Sessional 2 2023"
+                - year: 2024
+                  file: ymca-pps-set-1-2024.pdf
+                  id: ymca-pps-set-1-2024
+                  pages: 3
+                  title: "Programming for Problem Solving Set 1 2024"
+                - year: 2024
+                  file: ymca-pps-set-2-2024.pdf
+                  id: ymca-pps-set-2-2024
+                  pages: 3
+                  title: "Programming for Problem Solving Set 2 2024"
+                - year: 2024
+                  file: ymca-pps-2024-sessional-1.pdf
+                  id: ymca-pps-2024-sessional-1
+                  pages: 3
+                  title: "Programming for Problem Solving Sessional 1 2024"
+                - year: 2024
+                  file: ymca-pps-2024-sessional-2.pdf
+                  id: ymca-pps-2024-sessional-2
+                  pages: 3
+                  title: "Programming for Problem Solving Sessional 2 2024"
     - name: Computer Engineering
       slug: computer-engineering
       id: computer-engineering
