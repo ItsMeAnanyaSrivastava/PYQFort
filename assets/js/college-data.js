@@ -20,8 +20,8 @@ window.COLLEGE_DATA = {
           name: "Fresher Year",
           slug: "acr",
           id: "acr",
-          description: "Academic Common Subjects for All Branches",
-          keywords: ["common", "first year", "engineering", "foundation"],
+          description: "Academic Common Subjects for Freshers",
+          keywords: ["common", "first year", "freshers", "foundation"],
           icon: "book",
           semesters: [
             {
@@ -579,9 +579,9 @@ window.COLLEGE_DATA = {
                   name: "Environment and Ecology",
                   slug: "ene",
                   id: "ene",
-                  description: "Fundamentals of electronics engineering",
-                  keywords: ["electronics", "engineering", "circuits"],
-                  icon: "microchip",
+                  description: "Fundamentals of environment and ecology",
+                  keywords: ["ene", "ecology", "environment"],
+                  icon: "leaf",
                   pyqs: [
                     {
                       year: 2022,
