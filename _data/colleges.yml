@@ -5449,3 +5449,494 @@
                   id: nit-kur-soft-computing-2025-mid-2
                   pages: 10
                   title: "Soft Computing 2025 Midterm 2"
+    - name: Electronics and Communication Engineering
+      slug: ece
+      id: ece
+      description: Electronics and Communication Engineering Branch
+      keywords: ["electronics", "communication", "engineering", "circuits"]
+      icon: microchip
+      semesters:
+        - number: 1
+          slug: sem1
+          id: sem1
+          description: Subjects for Semester 1
+          keywords: ["semester 1", "electronics", "communication", "subjects"]
+          subjects:
+            - name: Calculus and Differential Equations
+              slug: cde
+              id: cde
+              description: Mathematical concepts in engineering
+              keywords: ["calculus", "differential", "equations", "mathematics"]
+              icon: calculator
+              pyqs:
+                - year: 2023
+                  file: nit-kur-cde-2023-mid-1.pdf
+                  id: nit-kur-cde-2023-mid-1
+                  pages: 3
+                  title: "Calculus and Differential Equations Mid 1 2023"
+                - year: 2023
+                  file: nit-kur-cde-2023-mid-2.pdf
+                  id: nit-kur-cde-2023-mid-2
+                  pages: 3
+                  title: "Calculus and Differential Equations Mid 2 2023"
+                - year: 2023
+                  file: nit-kur-cde-2023.pdf
+                  id: nit-kur-cde-2023
+                  pages: 3
+                  title: "Calculus and Differential Equations 2023"
+            - name: Engineering Physics
+              slug: e-physics
+              id: e-physics
+              description: Fundamentals of physics for engineering
+              keywords: ["physics", "engineering", "fundamentals"]
+              icon: atom
+              pyqs:
+                - year: 2023
+                  file: nir-kur-e-physics-2023-mid-1.pdf
+                  id: nir-kur-e-physics-2023-mid-1
+                  pages: 3
+                  title: "Engineering Physics Mid 1 2023"
+                - year: 2023
+                  file: nir-kur-e-physics-2023-mid-2.pdf
+                  id: nir-kur-e-physics-2023-mid-2
+                  pages: 3
+                  title: "Engineering Physics Mid 2 2023"
+                - year: 2023
+                  file: nir-kur-e-physics-2023.pdf
+                  id: nir-kur-e-physics-2023
+                  pages: 3
+                  title: "Engineering Physics 2023"
+            - name: Engineering Practice
+              slug: e-practice
+              id: e-practice
+              description: Practical applications in engineering
+              keywords: ["engineering", "practice", "applications"]
+              icon: tools
+              pyqs:
+                - year: 2023
+                  file: nit-kur-e-practice-2023-mid.pdf
+                  id: nit-kur-e-practice-2023-mid
+                  pages: 3
+                  title: "Engineering Practice Mid 2023"
+                - year: 2023
+                  file: nit-kur-e-practice-2023.pdf
+                  id: nit-kur-e-practice-2023
+                  pages: 3
+                  title: "Engineering Practice 2023"
+            - name: Environmental Science
+              slug: env-science
+              id: env-science
+              description: Study of environmental issues and solutions
+              keywords: ["environment", "science", "issues", "solutions"]
+              icon: leaf
+              pyqs:
+                - year: 2023
+                  file: nit-kur-env-science-2023-mid-1.pdf
+                  id: nit-kur-env-science-2023-mid-1
+                  pages: 3
+                  title: "Environmental Science Mid 1 2023"
+                - year: 2023
+                  file: nit-kur-env-science-2023-mid-2.pdf
+                  id: nit-kur-env-science-2023-mid-2
+                  pages: 3
+                  title: "Environmental Science Mid 2 2023"
+                - year: 2023
+                  file: nit-kur-env-science-2023.pdf
+                  id: nit-kur-env-science-2023
+                  pages: 3
+                  title: "Environmental Science 2023"
+            - name: Programming Using C
+              slug: programming-using-c
+              id: programming-using-c
+              description: Fundamentals of programming using C
+              keywords: ["programming", "C", "coding"]
+              icon: code
+              pyqs:
+                - year: 2023
+                  file: nit-kur-programming-using-c-2023-mid-1.pdf
+                  id: nit-kur-programming-using-c-2023-mid-1
+                  pages: 3
+                  title: "Programming Using C Mid 1 2023"
+                - year: 2023
+                  file: nit-kur-programming-using-c-2023-mid-2.pdf
+                  id: nit-kur-programming-using-c-2023-mid-2
+                  pages: 3
+                  title: "Programming Using C Mid 2 2023"
+                - year: 2023
+                  file: nit-kur-programming-using-c-2023.pdf
+                  id: nit-kur-programming-using-c-2023
+                  pages: 3
+                  title: "Programming Using C 2023"
+        - number: 2
+          slug: sem2
+          id: sem2
+          description: Subjects for Semester 2
+          keywords: ["semester 2", "electronics", "communication", "subjects"]
+          subjects:
+            - name: Advanced Engineering Physics
+              slug: adv-e-physics
+              id: adv-e-physics
+              description: Advanced concepts in physics for engineering
+              keywords: ["physics", "engineering", "advanced"]
+              icon: atom
+              pyqs:
+                - year: 2024
+                  file: nit-kur-adv-e-physics-2024-mid-1.pdf
+                  id: nit-kur-adv-e-physics-2024-mid-1
+                  pages: 3
+                  title: "Advanced Engineering Physics Mid 1 2024"
+                - year: 2024
+                  file: nit-kur-adv-e-physics-2024-mid-2.pdf
+                  id: nit-kur-adv-e-physics-2024-mid-2
+                  pages: 3
+                  title: "Advanced Engineering Physics Mid 2 2024"
+                - year: 2024
+                  file: nit-kur-adv-e-physics-2024.pdf
+                  id: nit-kur-adv-e-physics-2024
+                  pages: 3
+                  title: "Advanced Engineering Physics 2024"
+            - name: Chemistry
+              slug: chemistry
+              id: chemistry
+              description: Fundamentals of chemistry for engineering
+              keywords: ["chemistry", "engineering", "materials"]
+              icon: flask
+              pyqs:
+                - year: 2024
+                  file: nit-kur-chemistry-2024-mid-1.pdf
+                  id: nit-kur-chemistry-2024-mid-1
+                  pages: 3
+                  title: "Chemistry Mid 1 2024"
+                - year: 2024
+                  file: nit-kur-chemistry-2024-mid-2.pdf
+                  id: nit-kur-chemistry-2024-mid-2
+                  pages: 3
+                  title: "Chemistry Mid 2 2024"
+                - year: 2024
+                  file: nit-kur-chemistry-2024.pdf
+                  id: nit-kur-chemistry-2024
+                  pages: 3
+                  title: "Chemistry 2024"
+            - name: Circuit Theory
+              slug: circuit-theory
+              id: circuit-theory
+              description: Fundamentals of circuit theory
+              keywords: ["circuit", "theory", "electronics"]
+              icon: circuit-board
+              pyqs:
+                - year: 2024
+                  file: nit-kur-circuit-theory-2024-mid-1.pdf
+                  id: nit-kur-circuit-theory-2024-mid-1
+                  pages: 3
+                  title: "Circuit Theory Mid 1 2024"
+                - year: 2024
+                  file: nit-kur-circuit-theory-2024-mid-2.pdf
+                  id: nit-kur-circuit-theory-2024-mid-2
+                  pages: 3
+                  title: "Circuit Theory Mid 2 2024"
+                - year: 2024
+                  file: nit-kur-circuit-theory-2024.pdf
+                  id: nit-kur-circuit-theory-2024
+                  pages: 3
+                  title: "Circuit Theory 2024"
+            - name: Financial Education
+              slug: financial-education
+              id: financial-education
+              description: Basics of financial education
+              keywords: ["financial", "education", "economics"]
+              icon: chart-line
+              pyqs:
+                - year: 2024
+                  file: nit-kur-financial-education-2024-mid-1.pdf
+                  id: nit-kur-financial-education-2024-mid-1
+                  pages: 3
+                  title: "Financial Education Mid 1 2024"
+                - year: 2024
+                  file: nit-kur-financial-education-2024-mid-2.pdf
+                  id: nit-kur-financial-education-2024-mid-2
+                  pages: 3
+                  title: "Financial Education Mid 2 2024"
+                - year: 2024
+                  file: nit-kur-financial-education-2024.pdf
+                  id: nit-kur-financial-education-2024
+                  pages: 3
+                  title: "Financial Education 2024"
+            - name: Integral Calculus
+              slug: integral-calculus
+              id: integral-calculus
+              description: Study of integral calculus
+              keywords: ["integral", "calculus", "mathematics"]
+              icon: calculator
+              pyqs:
+                - year: 2024
+                  file: nit-kur-integral-calculus-2024-mid-1.pdf
+                  id: nit-kur-integral-calculus-2024-mid-1
+                  pages: 3
+                  title: "Integral Calculus Mid 1 2024"
+                - year: 2024
+                  file: nit-kur-integral-calculus-2024-mid-2.pdf
+                  id: nit-kur-integral-calculus-2024-mid-2
+                  pages: 3
+                  title: "Integral Calculus Mid 2 2024"
+                - year: 2024
+                  file: nit-kur-integral-calculus-2024.pdf
+                  id: nit-kur-integral-calculus-2024
+                  pages: 3
+                  title: "Integral Calculus 2024"
+        - number: 3
+          slug: sem3
+          id: sem3
+          description: Subjects for Semester 3
+          keywords: ["semester 3", "electronics", "communication", "subjects"]
+          subjects:
+            - name: Communication Engineering
+              slug: comm-engineering
+              id: comm-engineering
+              description: Principles of communication engineering
+              keywords: ["communication", "engineering", "signals"]
+              icon: signal
+              pyqs:
+                - year: 2022
+                  file: nit-kur-comm-engineering-2022-mid-1.pdf
+                  id: nit-kur-comm-engineering-2022-mid-1
+                  pages: 3
+                  title: "Communication Engineering Mid 1 2022"
+                - year: 2022
+                  file: nit-kur-comm-engineering-2022-mid-2.pdf
+                  id: nit-kur-comm-engineering-2022-mid-2
+                  pages: 3
+                  title: "Communication Engineering Mid 2 2022"
+                - year: 2022
+                  file: nit-kur-comm-engineering-2022.pdf
+                  id: nit-kur-comm-engineering-2022
+                  pages: 3
+                  title: "Communication Engineering 2022"
+                - year: 2024
+                  file: nit-kur-comm-engineering-2024-mid-1.pdf
+                  id: nit-kur-comm-engineering-2024-mid-1
+                  pages: 3
+                  title: "Communication Engineering Mid 1 2024"
+                - year: 2024
+                  file: nit-kur-comm-engineering-2024-mid-2.pdf
+                  id: nit-kur-comm-engineering-2024-mid-2
+                  pages: 3
+                  title: "Communication Engineering Mid 2 2024"
+            - name: Digital Design
+              slug: digital-design
+              id: digital-design
+              description: Principles of digital system design
+              keywords: ["digital", "system", "design"]
+              icon: circuit-board
+              pyqs:
+                - year: 2020
+                  file: nit-kur-digital-design-2020-mid-1.pdf
+                  id: nit-kur-digital-design-2020-mid-1
+                  pages: 3
+                  title: "Digital Design Mid 1 2020"
+                - year: 2020
+                  file: nit-kur-digital-design-2020-mid-2.pdf
+                  id: nit-kur-digital-design-2020-mid-2
+                  pages: 3
+                  title: "Digital Design Mid 2 2020"
+                - year: 2024
+                  file: nit-kur-digital-design-2024-mid-1.pdf
+                  id: nit-kur-digital-design-2024-mid-1
+                  pages: 3
+                  title: "Digital Design Mid 1 2024"
+                - year: 2024
+                  file: nit-kur-digital-design-2024-mid-2.pdf
+                  id: nit-kur-digital-design-2024-mid-2
+                  pages: 3
+                  title: "Digital Design Mid 2 2024"
+                - year: 2024
+                  file: nit-kur-digital-design-2024.pdf
+                  id: nit-kur-digital-design-2024
+                  pages: 3
+                  title: "Digital Design 2024"
+            - name: Electronic Devices
+              slug: electronic-devices
+              id: electronic-devices
+              description: Study of electronic devices and circuits
+              keywords: ["electronic", "devices", "circuits"]
+              icon: microchip
+              pyqs:
+                - year: 2022
+                  file: nit-kur-electronic-devices-2022-mid-1.pdf
+                  id: nit-kur-electronic-devices-2022-mid-1
+                  pages: 3
+                  title: "Electronic Devices Mid 1 2022"
+                - year: 2022
+                  file: nit-kur-electronic-devices-2022-mid-2.pdf
+                  id: nit-kur-electronic-devices-2022-mid-2
+                  pages: 3
+                  title: "Electronic Devices Mid 2 2022"
+                - year: 2022
+                  file: nit-kur-electronic-devices-2022.pdf
+                  id: nit-kur-electronic-devices-2022
+                  pages: 3
+                  title: "Electronic Devices 2022"
+                - year: 2024
+                  file: nit-kur-electronic-devices-2024-mid-1.pdf
+                  id: nit-kur-electronic-devices-2024-mid-1
+                  pages: 3
+                  title: "Electronic Devices Mid 1 2024"
+                - year: 2024
+                  file: nit-kur-electronic-devices-2024-mid-2.pdf
+                  id: nit-kur-electronic-devices-2024-mid-2
+                  pages: 3
+                  title: "Electronic Devices Mid 2 2024"
+                - year: 2024
+                  file: nit-kur-electronic-devices-2024.pdf
+                  id: nit-kur-electronic-devices-2024
+                  pages: 3
+                  title: "Electronic Devices 2024"
+            - name: Field and Waves
+              slug: field-and-waves
+              id: field-and-waves
+              description: Study of electromagnetic fields and waves
+              keywords: ["electromagnetic", "fields", "waves"]
+              icon: wave-square
+              pyqs:
+                - year: 2022
+                  file: nit-kur-field-and-waves-2022-mid-1.pdf
+                  id: nit-kur-field-and-waves-2022-mid-1
+                  pages: 3
+                  title: "Field and Waves Mid 1 2022"
+                - year: 2022
+                  file: nit-kur-field-and-waves-2022-mid-2.pdf
+                  id: nit-kur-field-and-waves-2022-mid-2
+                  pages: 3
+                  title: "Field and Waves Mid 2 2022"
+                - year: 2022
+                  file: nit-kur-field-and-waves-2022.pdf
+                  id: nit-kur-field-and-waves-2022
+                  pages: 3
+                  title: "Field and Waves 2022"
+                - year: 2024
+                  file: nit-kur-field-and-waves-2024-mid-1.pdf
+                  id: nit-kur-field-and-waves-2024-mid-1
+                  pages: 3
+                  title: "Field and Waves Mid 1 2024"
+                - year: 2024
+                  file: nit-kur-field-and-waves-2024-mid-2.pdf
+                  id: nit-kur-field-and-waves-2024-mid-2
+                  pages: 3
+                  title: "Field and Waves Mid 2 2024"
+                - year: 2024
+                  file: nit-kur-field-and-waves-2024.pdf
+                  id: nit-kur-field-and-waves-2024
+                  pages: 3
+                  title: "Field and Waves 2024"
+            - name: Machine Learning
+              slug: ml
+              id: ml
+              description: Principles of machine learning
+              keywords: ["machine", "learning", "AI"]
+              icon: brain
+              pyqs:
+                - year: 2024
+                  file: nit-kur-ml-2024-mid-1.pdf
+                  id: nit-kur-ml-2024-mid-1
+                  pages: 3
+                  title: "Machine Learning Mid 1 2024"
+                - year: 2024
+                  file: nit-kur-ml-2024-mid-2.pdf
+                  id: nit-kur-ml-2024-mid-2
+                  pages: 3
+                  title: "Machine Learning Mid 2 2024"
+                - year: 2024
+                  file: nit-kur-ml-2024.pdf
+                  id: nit-kur-ml-2024
+                  pages: 3
+                  title: "Machine Learning 2024"
+        - number: 4
+          slug: sem4
+          id: sem4
+          description: Subjects for Semester 4
+          keywords: ["semester 4", "electronics", "communication", "subjects"]
+          subjects:
+            - name: Analog Electronics
+              slug: analog-electronics
+              id: analog-electronics
+              description: Study of analog electronics
+              keywords: ["analog", "electronics", "circuits"]
+              icon: microchip
+              pyqs:
+                - year: 2024
+                  file: nit-kur-analog-electronics-2024.pdf
+                  id: nit-kur-analog-electronics-2024
+                  pages: 3
+                  title: "Analog Electronics 2024"
+            - name: Computer Architecture
+              slug: computer-architecture
+              id: computer-architecture
+              description: Fundamentals of computer architecture
+              keywords: ["computer", "architecture", "fundamentals"]
+              icon: desktop
+              pyqs:
+                - year: 2024
+                  file: nit-kur-computer-architecture-2024-mid-1.pdf
+                  id: nit-kur-computer-architecture-2024-mid-1
+                  pages: 3
+                  title: "Computer Architecture Mid 1 2024"
+                - year: 2024
+                  file: nit-kur-computer-architecture-2024.pdf
+                  id: nit-kur-computer-architecture-2024
+                  pages: 3
+                  title: "Computer Architecture 2024"
+            - name: Digital Communication
+              slug: digital-communication
+              id: digital-communication
+              description: Principles of digital communication
+              keywords: ["digital", "communication", "signals"]
+              icon: signal
+              pyqs:
+                - year: 2024
+                  file: nit-kur-digital-communication-2024-mid-1.pdf
+                  id: nit-kur-digital-communication-2024-mid-1
+                  pages: 3
+                  title: "Digital Communication Mid 1 2024"
+                - year: 2024
+                  file: nit-kur-digital-communication-2024-mid-2.pdf
+                  id: nit-kur-digital-communication-2024-mid-2
+                  pages: 3
+                  title: "Digital Communication Mid 2 2024"
+                - year: 2024
+                  file: nit-kur-digital-communication-2024.pdf
+                  id: nit-kur-digital-communication-2024
+                  pages: 3
+                  title: "Digital Communication 2024"
+            - name: Information Theory
+              slug: info-theory
+              id: info-theory
+              description: Fundamentals of information theory
+              keywords: ["information", "theory", "communication"]
+              icon: info-circle
+              pyqs:
+                - year: 2024
+                  file: nit-kur-info-theory-2024-mid-1.pdf
+                  id: nit-kur-info-theory-2024-mid-1
+                  pages: 3
+                  title: "Information Theory Mid 1 2024"
+                - year: 2024
+                  file: nit-kur-info-theory-2024-mid-2.pdf
+                  id: nit-kur-info-theory-2024-mid-2
+                  pages: 3
+                  title: "Information Theory Mid 2 2024"
+                - year: 2024
+                  file: nit-kur-info-theory-2024.pdf
+                  id: nit-kur-info-theory-2024
+                  pages: 3
+                  title: "Information Theory 2024"
+            - name: Linear Algebra
+              slug: linear-algebra
+              id: linear-algebra
+              description: Study of linear algebra
+              keywords: ["linear", "algebra", "mathematics"]
+              icon: calculator
+              pyqs:
+                - year: 2024
+                  file: nit-kur-linear-algebra-2024.pdf
+                  id: nit-kur-linear-algebra-2024
+                  pages: 3
+                  title: "Linear Algebra 2024"
