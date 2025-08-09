@@ -7654,22 +7654,22 @@ window.COLLEGE_DATA = {
                   pyqs: [
                     {
                       year: 2023,
-                      file: "nir-kur-e-physics-2023-mid-1.pdf",
-                      id: "nir-kur-e-physics-2023-mid-1",
+                      file: "nit-kur-e-physics-2023-mid-1.pdf",
+                      id: "nit-kur-e-physics-2023-mid-1",
                       pages: 3,
                       title: "Engineering Physics Mid 1 2023",
                     },
                     {
                       year: 2023,
-                      file: "nir-kur-e-physics-2023-mid-2.pdf",
-                      id: "nir-kur-e-physics-2023-mid-2",
+                      file: "nit-kur-e-physics-2023-mid-2.pdf",
+                      id: "nit-kur-e-physics-2023-mid-2",
                       pages: 3,
                       title: "Engineering Physics Mid 2 2023",
                     },
                     {
                       year: 2023,
-                      file: "nir-kur-e-physics-2023.pdf",
-                      id: "nir-kur-e-physics-2023",
+                      file: "nit-kur-e-physics-2023.pdf",
+                      id: "nit-kur-e-physics-2023",
                       pages: 3,
                       title: "Engineering Physics 2023",
                     },
