@@ -2566,3 +2566,24 @@ h1, h2, h3, h4, h5, h6 {
 .btn-listen i {
   color: #fff; /* ensure visibility of icon */
 }
+
+.btn-contribute-form {
+  font-weight: 500;
+  padding: 0.75rem 1.5rem;
+  margin: 1rem 0;
+}
+
+.btn-contribute-form:hover {
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .btn-contribute-form {
+    width: 100%;
+    text-align: center;
+  }
+}
