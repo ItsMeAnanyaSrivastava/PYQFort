@@ -1,6 +1,6 @@
 # Site settings
 title: PYQFort
-description: A centralized collection of Previous Year Question Papers (PYQs) for B.Tech courses
+description: PYQFort which is a part of Praxian Projects is Democratizing Education by providing premium, engineered, educational resources for the B.Tech students of India.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pyqfort.com" # the base hostname & protocol for your site
 
