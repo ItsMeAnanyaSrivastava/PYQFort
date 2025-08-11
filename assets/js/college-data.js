@@ -6837,6 +6837,193 @@ window.COLLEGE_DATA = {
           icon: "microchip",
           semesters: [
             {
+              number: 1,
+              slug: "sem1",
+              id: "sem1",
+              description: "Subjects for Semester 1",
+              keywords: ["semester 1", "computer engineering", "subjects"],
+              subjects: [
+                {
+                  name: "Communication Skills",
+                  slug: "comm-skills",
+                  id: "comm-skills",
+                  description: "Fundamentals of communication skills",
+                  keywords: ["communication", "skills", "english"],
+                  icon: "comment-dots",
+                  pyqs: [
+                    {
+                      year: "2017_2022",
+                      file: "igdtuw-comm-skills-2017_2022.pdf",
+                      id: "igdtuw-comm-skills-2017_2022",
+                      pages: 3,
+                      title: "Communication Skills 2017-2022",
+                    },
+                  ],
+                },
+                {
+                  name: "Environmental Science",
+                  slug: "env-science",
+                  id: "env-science",
+                  description: "Study of environmental issues and solutions",
+                  keywords: ["environment", "science", "issues", "solutions"],
+                  icon: "leaf",
+                  pyqs: [
+                    {
+                      year: "2016_2022",
+                      file: "igdtuw-env-science-unified-pyqs.pdf",
+                      id: "igdtuw-env-science-unified-pyqs",
+                      pages: 3,
+                      title: "Environmental Science Unified PYQs",
+                    },
+                  ],
+                },
+                {
+                  name: "Probability",
+                  slug: "probability",
+                  id: "probability",
+                  description: "Fundamentals of probability theory",
+                  keywords: ["probability", "statistics", "mathematics"],
+                  icon: "calculator",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "igdtuw-probability-2023.pdf",
+                      id: "igdtuw-probability-2023",
+                      pages: 3,
+                      title: "Probability 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Python Programming",
+                  slug: "python",
+                  id: "python",
+                  description: "Python",
+                  keywords: ["python", "programming", "coding"],
+                  icon: "code",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "igdtuw-python-2023-set-1.pdf",
+                      id: "igdtuw-python-2023-set-1",
+                      pages: 3,
+                      title: "Python Set 1 2023",
+                    },
+                    {
+                      year: 2023,
+                      file: "igdtuw-python-2023-set-2.pdf",
+                      id: "igdtuw-python-2023-set-2",
+                      pages: 3,
+                      title: "Python Set 2 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Web Application Development",
+                  slug: "wad",
+                  id: "wad",
+                  description: "Principles of web application development",
+                  keywords: ["web", "application", "development"],
+                  icon: "globe",
+                  pyqs: [
+                    {
+                      year: 2024,
+                      file: "igdtuw-wad-2024.pdf",
+                      id: "igdtuw-wad-2024",
+                      pages: 3,
+                      title: "Web Application Development 2024",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              number: 2,
+              slug: "sem2",
+              id: "sem2",
+              description: "Subjects for Semester 2",
+              keywords: ["semester 2", "computer engineering", "subjects"],
+              subjects: [
+                {
+                  name: "Applied Mathematics",
+                  slug: "applied-mathematics",
+                  id: "applied-mathematics",
+                  description:
+                    "Mathematical foundations for computer engineering",
+                  keywords: ["mathematics", "applied", "computer engineering"],
+                  icon: "calculator",
+                  pyqs: [
+                    {
+                      year: 2019,
+                      file: "igdtuw-applied-mathematics-2019.pdf",
+                      id: "igdtuw-applied-mathematics-2019",
+                      pages: 3,
+                      title: "Applied Mathematics 2019",
+                    },
+                    {
+                      year: 2023,
+                      file: "igdtuw-applied-mathematics-2023.pdf",
+                      id: "igdtuw-applied-mathematics-2023",
+                      pages: 3,
+                      title: "Applied Mathematics 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Applied Physics",
+                  slug: "applied-physics",
+                  id: "applied-physics",
+                  description:
+                    "Fundamentals of physics for computer engineering",
+                  keywords: ["physics", "applied", "computer engineering"],
+                  icon: "atom",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "igdtuw-applied-physics-2023.pdf",
+                      id: "igdtuw-applied-physics-2023",
+                      pages: 3,
+                      title: "Applied Physics 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Data Science",
+                  slug: "data-science",
+                  id: "data-science",
+                  description: "Principles of data science",
+                  keywords: ["data", "science", "analytics"],
+                  icon: "chart-bar",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "igdtuw-data-science-2023.pdf",
+                      id: "igdtuw-data-science-2023",
+                      pages: 3,
+                      title: "Data Science 2023",
+                    },
+                  ],
+                },
+                {
+                  name: "Object-Oriented Programming",
+                  slug: "oop",
+                  id: "oop",
+                  description: "Principles of object-oriented programming",
+                  keywords: ["object-oriented", "programming", "coding"],
+                  icon: "code",
+                  pyqs: [
+                    {
+                      year: 2022,
+                      file: "igdtuw-2022-oop.pdf",
+                      id: "igdtuw-2022-oop",
+                      pages: 3,
+                      title: "Object-Oriented Programming 2022",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
               number: 3,
               slug: "sem3",
               id: "sem3",
