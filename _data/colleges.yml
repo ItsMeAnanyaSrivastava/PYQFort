@@ -124,6 +124,11 @@
                   id: ymca-bet-2024-sessional-2
                   pages: 3
                   title: "Basic Electrical Technology Sessional 2 2024"
+                - year: 2025
+                  file: ymca-bet-2025.pdf
+                  id: ymca-bet-2025
+                  pages: 3
+                  title: "Basic Electrical Technology 2025"
             - name: Chemistry
               slug: chemistry
               id: chemistry
@@ -228,6 +233,11 @@
                   id: ymca-english-2024
                   pages: 3
                   title: "English 2024"
+                - year: 2025
+                  file: ymca-english-2025.pdf
+                  id: ymca-english-2025
+                  pages: 3
+                  title: "English 2025"
             - name: Mathematics 101-C
               slug: maths-101-c
               id: maths-101-c
@@ -989,6 +999,16 @@
               icon: gavel
               slug: constitution
               pyqs:
+                - year: 2018
+                  file: ymca-constitution-2018.pdf
+                  id: ymca-constitution-2018  # Add this unique identifier
+                  pages: 3
+                  title: "Constitution 2018"
+                - year: 2024
+                  file: ymca-constitution-2024.pdf
+                  id: ymca-constitution-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Constitution 2024"
                 - year: 2023
                   file: ymca-constitution-2023-set-1.pdf
                   id: ymca-constitution-2023-set-1  # Add this unique identifier
@@ -2034,6 +2054,16 @@
               keywords: ["constitution", "indian", "study"]
               icon: gavel
               pyqs:
+                - year: 2018
+                  file: ymca-constitution-2018.pdf
+                  id: ymca-constitution-2018  # Add this unique identifier
+                  pages: 3
+                  title: "Constitution 2018"
+                - year: 2024
+                  file: ymca-constitution-2024.pdf
+                  id: ymca-constitution-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Constitution 2024"
                 - year: 2023
                   file: ymca-constitution-2023-set-1.pdf
                   id: ymca-constitution-2023-set-1
@@ -2228,10 +2258,20 @@
               icon: plug
               pyqs:
                 - year: 2023
-                  file: ymca-circuit-analysis-2023.pdf
-                  id: ymca-circuit-analysis-2023  # Add this unique identifier
+                  file: ymca-circuit-analysis-2023-set-1.pdf
+                  id: ymca-circuit-analysis-2023-set-1  # Add this unique identifier
                   pages: 3
-                  title: "Circuit Analysis 2023"
+                  title: "Circuit Analysis 2023 Set 1"
+                - year: 2023
+                  file: ymca-circuit-analysis-2023-set-2.pdf
+                  id: ymca-circuit-analysis-2023-set-2  # Add this unique identifier
+                  pages: 3
+                  title: "Circuit Analysis 2023 Set 2"
+                - year: 2024
+                  file: ymca-circuit-analysis-2024.pdf
+                  id: ymca-circuit-analysis-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Circuit Analysis 2024"
             - name: Constitution
               slug: constitution
               id: constitution
@@ -2239,6 +2279,16 @@
               keywords: ["constitution", "Indian", "study"]
               icon: gavel
               pyqs:
+                - year: 2018
+                  file: ymca-constitution-2018.pdf
+                  id: ymca-constitution-2018  # Add this unique identifier
+                  pages: 3
+                  title: "Constitution 2018"
+                - year: 2024
+                  file: ymca-constitution-2024.pdf
+                  id: ymca-constitution-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Constitution 2024"
                 - year: 2023
                   file: ymca-constitution-2023-set-1.pdf
                   id: ymca-constitution-2023-set-1  # Add this unique identifier
@@ -2268,11 +2318,31 @@
               keywords: ["maths", "advanced", "engineering"]
               icon: calculator
               pyqs:
-                - year: 2023
-                  file: ymca-maths-3-2023.pdf
-                  id: ymca-maths-3-2023  # Add this unique identifier
+                - year: 2018
+                  file: ymca-maths-3-2018.pdf
+                  id: ymca-maths-3-2018  # Add this unique identifier
                   pages: 3
-                  title: "Mathematics 3 2023"
+                  title: "Mathematics 3 2018"
+                - year: 2019
+                  file: ymca-maths-3-2019.pdf
+                  id: ymca-maths-3-2019  # Add this unique identifier
+                  pages: 3
+                  title: "Mathematics 3 2019"
+                - year: 2023
+                  file: ymca-maths-3-2023-set-1.pdf
+                  id: ymca-maths-3-2023-set-1  # Add this unique identifier
+                  pages: 3
+                  title: "Mathematics 3 2023 Set 1"
+                - year: 2023
+                  file: ymca-maths-3-2023-set-2.pdf
+                  id: ymca-maths-3-2023-set-2  # Add this unique identifier
+                  pages: 3
+                  title: "Mathematics 3 2023 Set 2"
+                - year: 2024
+                  file: ymca-maths-3-2024.pdf
+                  id: ymca-maths-3-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Mathematics 3 2024"
             - name: Semiconductor Devices
               slug: semiconductor
               id: semiconductor
@@ -2280,12 +2350,27 @@
               keywords: ["semiconductor", "devices", "applications"]
               icon: microchip
               pyqs:
-                - year: 2023
-                  file: ymca-semiconductor-2023.pdf
-                  id: ymca-semiconductor-2023  # Add this unique identifier
+                - year: 2022
+                  file: ymca-semiconductor-2022.pdf
+                  id: ymca-semiconductor-2022  # Add this unique identifier
                   pages: 3
-                  title: "Semiconductor Devices 2023"
-        - number: 4  
+                  title: "Semiconductor Devices 2022"
+                - year: 2023
+                  file: ymca-semiconductor-2023-set-1.pdf
+                  id: ymca-semiconductor-2023-set-1  # Add this unique identifier
+                  pages: 3
+                  title: "Semiconductor Devices 2023-set-1"
+                - year: 2023
+                  file: ymca-semiconductor-2023-set-2.pdf
+                  id: ymca-semiconductor-2023-set-2  # Add this unique identifier
+                  pages: 3
+                  title: "Semiconductor Devices 2023-set-2"
+                - year: 2024
+                  file: ymca-semiconductor-2024.pdf
+                  id: ymca-semiconductor-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Semiconductor Devices 2024"
+        - number: 4
           slug: sem4
           id: sem4
           description: Subjects for Semester 4
@@ -2665,6 +2750,11 @@
               keywords: ["network", "theory", "circuits"]
               icon: network-wired
               pyqs:
+                - year: 2018
+                  file: ymca-network-theory-2018.pdf
+                  id: ymca-network-theory-2018
+                  pages: 3
+                  title: "Network Theory 2018"
                 - year: 2019
                   file: ymca-network-theory-2019.pdf
                   id: ymca-network-theory-2019
@@ -2680,6 +2770,11 @@
                   id: ymca-network-theory-set-2-2023
                   pages: 3
                   title: "Network Theory Set 2 2023"
+                - year: 2024
+                  file: ymca-network-theory-2024.pdf
+                  id: ymca-network-theory-2024
+                  pages: 3
+                  title: "Network Theory 2024"
         - number: 4
           slug: sem4
           id: sem4
@@ -3189,6 +3284,16 @@
               keywords: ["constitution", "indian", "study"]
               icon: gavel
               pyqs:
+                - year: 2018
+                  file: ymca-constitution-2018.pdf
+                  id: ymca-constitution-2018  # Add this unique identifier
+                  pages: 3
+                  title: "Constitution 2018"
+                - year: 2024
+                  file: ymca-constitution-2024.pdf
+                  id: ymca-constitution-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Constitution 2024"
                 - year: 2023
                   file: ymca-constitution-2023-set-1.pdf
                   id: ymca-constitution-2023-set-1
@@ -4042,6 +4147,265 @@
                   id: ymca-software-2024
                   pages: 3
                   title: "Software Engineering 2024"
+    - name: IOT
+      slug: iot
+      id: iot
+      description: Internet of Things concepts and applications
+      keywords: ["IOT", "internet", "things"]
+      icon: network-wired
+      semesters:
+        - number: 3
+          slug: sem3
+          id: sem3
+          description: Subjects for Semester 3
+          keywords: ["semester 3", "iot", "internet of things"]
+          subjects:
+            - name: Semiconductor Devices
+              slug: semiconductor
+              id: semiconductor
+              description: Study of semiconductor devices and applications
+              keywords: ["semiconductor", "devices", "applications"]
+              icon: microchip
+              pyqs:
+                - year: 2022
+                  file: ymca-semiconductor-2022.pdf
+                  id: ymca-semiconductor-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Semiconductor Devices 2022"
+                - year: 2023
+                  file: ymca-semiconductor-2023-set-1.pdf
+                  id: ymca-semiconductor-2023-set-1  # Add this unique identifier
+                  pages: 3
+                  title: "Semiconductor Devices 2023-set-1"
+                - year: 2023
+                  file: ymca-semiconductor-2023-set-2.pdf
+                  id: ymca-semiconductor-2023-set-2  # Add this unique identifier
+                  pages: 3
+                  title: "Semiconductor Devices 2023-set-2"
+                - year: 2024
+                  file: ymca-semiconductor-2024.pdf
+                  id: ymca-semiconductor-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Semiconductor Devices 2024"
+            - name: Maths 3
+              slug: maths-3
+              id: maths-3
+              description: Advanced mathematics for engineering
+              keywords: ["maths", "advanced", "engineering"]
+              icon: calculator
+              pyqs:
+                - year: 2018
+                  file: ymca-maths-3-2018.pdf
+                  id: ymca-maths-3-2018  # Add this unique identifier
+                  pages: 3
+                  title: "Mathematics 3 2018"
+                - year: 2019
+                  file: ymca-maths-3-2019.pdf
+                  id: ymca-maths-3-2019  # Add this unique identifier
+                  pages: 3
+                  title: "Mathematics 3 2019"
+                - year: 2023
+                  file: ymca-maths-3-2023-set-1.pdf
+                  id: ymca-maths-3-2023-set-1  # Add this unique identifier
+                  pages: 3
+                  title: "Mathematics 3 2023 Set 1"
+                - year: 2023
+                  file: ymca-maths-3-2023-set-2.pdf
+                  id: ymca-maths-3-2023-set-2  # Add this unique identifier
+                  pages: 3
+                  title: "Mathematics 3 2023 Set 2"
+                - year: 2024
+                  file: ymca-maths-3-2024.pdf
+                  id: ymca-maths-3-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Mathematics 3 2024"
+            - name: Circuit Analysis
+              slug: circuit-analysis
+              id: circuit-analysis
+              description: Fundamentals of circuit analysis techniques
+              keywords: ["circuit", "analysis", "techniques"]
+              icon: plug
+              pyqs:
+                - year: 2023
+                  file: ymca-circuit-analysis-2023-set-1.pdf
+                  id: ymca-circuit-analysis-2023-set-1  # Add this unique identifier
+                  pages: 3
+                  title: "Circuit Analysis 2023 Set 1"
+                - year: 2023
+                  file: ymca-circuit-analysis-2023-set-2.pdf
+                  id: ymca-circuit-analysis-2023-set-2  # Add this unique identifier
+                  pages: 3
+                  title: "Circuit Analysis 2023 Set 2"
+                - year: 2024
+                  file: ymca-circuit-analysis-2024.pdf
+                  id: ymca-circuit-analysis-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Circuit Analysis 2024"
+            - name: Digital Electronics
+              slug: digital-electronics
+              id: digital-electronics
+              description: Introduction to Digital Electronics and its applications in modern computing.
+              keywords: ["digital", "electronics", "computing"]
+              icon: microchip
+              pyqs:
+                - year: 2022
+                  file: ymca-digital-electronics-2022.pdf
+                  id: ymca-digital-electronics-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Digital Electronics 2022"
+                - year: 2023
+                  file: ymca-digital-electronics-2023.pdf
+                  id: ymca-digital-electronics-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Digital Electronics 2023"
+                - year: 2024
+                  file: ymca-digital-electronics-2024.pdf
+                  id: ymca-digital-electronics-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Digital Electronics 2024"
+            - name: Constitution
+              slug: constitution
+              id: constitution
+              description: Study of the Indian Constitution
+              keywords: ["constitution", "Indian", "study"]
+              icon: gavel
+              pyqs:
+                - year: 2018
+                  file: ymca-constitution-2018.pdf
+                  id: ymca-constitution-2018  # Add this unique identifier
+                  pages: 3
+                  title: "Constitution 2018"
+                - year: 2024
+                  file: ymca-constitution-2024.pdf
+                  id: ymca-constitution-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Constitution 2024"
+                - year: 2023
+                  file: ymca-constitution-2023-set-1.pdf
+                  id: ymca-constitution-2023-set-1  # Add this unique identifier
+                  pages: 3
+                  title: "Constitution 2023-set-1"
+                - year: 2023
+                  file: ymca-constitution-2023-set-2.pdf
+                  id: ymca-constitution-2023-set-2 # Add this unique identifier
+                  pages: 3
+                  title: "Constitution 2023-set-2"
+            - name: Engineering Mechanics
+              slug: e-mechanics
+              id: e-mechanics
+              description: Introduction to Engineering Mechanics and its applications in modern computing.
+              keywords: ["engineering", "mechanics", "computing"]
+              icon: cog
+              pyqs:
+                - year: 2018
+                  file: ymca-e-mechanics-2018.pdf
+                  id: ymca-e-mechanics-2018  # Add this unique identifier
+                  pages: 3
+                  title: "Engineering Mechanics 2018"
+                - year: 2024
+                  file: ymca-e-mechanics-2024.pdf
+                  id: ymca-e-mechanics-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Engineering Mechanics 2024"
+            - name: Signal and Systems
+              slug: sns
+              id: sns
+              description: Study of signals and systems in engineering
+              keywords: ["signals", "systems", "engineering"]
+              icon: signal
+              pyqs:
+                - year: 2018
+                  file: ymca-sns-2018.pdf
+                  id: ymca-sns-2018  # Add this unique identifier
+                  pages: 3
+                  title: "Signal and Systems 2018"
+                - year: 2019
+                  file: ymca-sns-2019.pdf
+                  id: ymca-sns-2019  # Add this unique identifier
+                  pages: 3
+                  title: "Signal and Systems 2019"
+                - year: 2024
+                  file: ymca-sns-2024.pdf
+                  id: ymca-sns-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Signal and Systems 2024"
+        - number: 5
+          slug: sem5
+          id: sem5
+          description: Subjects for Semester 5
+          keywords: ["semester 5", "bba", "business"]
+          subjects:
+            - name: Computer Networks
+              slug: computer-networks
+              id: computer-networks
+              description: Principles of computer networking
+              keywords: ["computer", "networks", "principles"]
+              icon: network-wired
+              pyqs:
+                - year: 2017
+                  file: ymca-computer-networks-2017.pdf
+                  id: ymca-computer-networks-2017
+                  pages: 3
+                  title: "Computer Networks 2017"
+                - year: 2018
+                  file: ymca-computer-networks-2018.pdf
+                  id: ymca-computer-networks-2018
+                  pages: 3
+                  title: "Computer Networks 2018"
+                - year: 2023
+                  file: ymca-computer-networks-2023.pdf
+                  id: ymca-computer-networks-2023
+                  pages: 3
+                  title: "Computer Networks 2023"
+                - year: 2024
+                  file: ymca-computer-networks-2024.pdf
+                  id: ymca-computer-networks-2024
+                  pages: 3
+                  title: "Computer Networks 2024"
+            - name: Environmental science
+              id: environmental-science
+              description: Study of environmental issues and solutions
+              keywords: ["environment", "science", "issues", "solutions", "env"]
+              icon: leaf
+              slug: environmental-science
+              pyqs:
+                - year: 2023
+                  file: ymca-environmental-science-2023.pdf
+                  id: ymca-environmental-science-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Environmental Science 2023"
+                - year: 2024
+                  file: ymca-environmental-science-2024.pdf
+                  id: ymca-environmental-science-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Environmental Science 2024"
+                - year: 2022
+                  file: ymca-environmental-science-2022.pdf
+                  id: ymca-environmental-science-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Environmental Science 2022"
+                - year: 2025
+                  file: ymca-env-praxian-analysis-2025.pdf
+                  id: ymca-env-praxian-analysis-2025  # Add this unique identifier
+                  pages: 3
+                  title: "Environmental Science Praxian Analysis 2025"
+            - name: Microprocessor
+              slug: microprocessor
+              id: microprocessor
+              description: Fundamentals of microprocessor architecture and programming
+              keywords: ["microprocessor", "architecture", "programming"]
+              icon: microchip
+              pyqs:
+                - year: 2022
+                  file: ymca-microprocessor-2022.pdf
+                  id: ymca-microprocessor-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Microprocessor 2022"
+                - year: 2024
+                  file: ymca-microprocessor-2024.pdf
+                  id: ymca-microprocessor-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Microprocessor 2024"
     - name: BBA
       slug: bba
       id: bba
