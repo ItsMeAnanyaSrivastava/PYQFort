@@ -969,6 +969,7 @@
                   id: ymca-biology-praxian-analysis-2025  # Add this unique identifier
                   pages: 3
                   title: "Biology Praxian Analysis 2025"
+                  new: true
             - name: Compiler Design
               id: compiler-design
               description: Principles of compiler design
@@ -1959,6 +1960,12 @@
                   id: ymca-biology-2024  # Add this unique identifier
                   pages: 3
                   title: "Biology 2024"
+                - year: 2025
+                  file: ymca-biology-praxian-analysis-2025.pdf
+                  id: ymca-biology-praxian-analysis-2025  # Add this unique identifier
+                  pages: 3
+                  title: "Biology Praxian Analysis 2025"
+                  new: true
             - name: Design and Analysis of Algorithms
               slug: daa
               id: daa
@@ -2001,6 +2008,7 @@
                   id: ymca-daa-praxian-analysis-2025
                   pages: 3
                   title: "Design and Analysis of Algorithms Praxian Analysis 2025"
+                  new: true
             - name: Operating System
               slug: os
               id: os
@@ -2018,6 +2026,7 @@
                   id: ymca-os-praxian-analysis-2025
                   pages: 3
                   title: "Operating System Praxian Analysis 2025"
+                  new: true
             - name: Constitution
               slug: constitution
               id: constitution
@@ -2453,6 +2462,7 @@
                   id: ymca-env-praxian-analysis-2025  # Add this unique identifier
                   pages: 3
                   title: "Environmental Science Praxian Analysis 2025"
+                  new: true
             - name: Operating System
               id: os
               description: Principles of operating systems
@@ -2470,6 +2480,7 @@
                   id: ymca-os-praxian-analysis-2025  # Add this unique identifier
                   pages: 3
                   title: "Operating System Praxian Analysis 2025"
+                  new: true
         - number: 6
           slug: sem6
           id: sem6
@@ -3086,6 +3097,7 @@
                   id: ymca-biology-praxian-analysis-2025  # Add this unique identifier
                   pages: 3
                   title: "Biology Praxian Analysis 2025"
+                  new: true
         - number: 5
           slug: sem5
           id: sem5
@@ -3319,6 +3331,11 @@
                   id: ymca-biology-set-2-2023  # Add this unique identifier
                   pages: 3
                   title: "Biology 2023 set 2"
+                - year: 2023
+                  file: ymca-biology-set-3-2023.pdf
+                  id: ymca-biology-set-3-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Biology 2023 set 3"
                 - year: 2024
                   file: ymca-biology-2024.pdf
                   id: ymca-biology-2024  # Add this unique identifier
@@ -3329,6 +3346,7 @@
                   id: ymca-biology-praxian-analysis-2025  # Add this unique identifier
                   pages: 3
                   title: "Biology Praxian Analysis 2025"
+                  new: true
             - name: Engineering Mechanics
               slug: e-mechanics
               id: e-mechanics
