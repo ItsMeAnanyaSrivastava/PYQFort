@@ -1134,7 +1134,12 @@ function initializeAdvancedFiltering() {
   // Set up filter toggle functionality
   const filtersToggle = document.querySelector('.filters-toggle');
   if (filtersToggle) {
-    filtersToggle.addEventListener('click', toggleFilters);
+    // Remove any existing event listeners by cloning and replacing the element
+    const newFiltersToggle = filtersToggle.cloneNode(true);
+    filtersToggle.parentNode.replaceChild(newFiltersToggle, filtersToggle);
+    
+    // Add the event listener to the new element
+    newFiltersToggle.addEventListener('click', toggleFilters);
   }
   
   // Set up clear filters button
@@ -1164,7 +1169,12 @@ function debounce(func, wait) {
   };
 }
 
-function toggleFilters() {
+function toggleFilters(e) {
+  if (e) {
+    e.preventDefault();
+    e.stopPropagation();
+  }
+  
   const filtersContent = document.getElementById('filters-content');
   const toggleBtn = document.querySelector('.filters-toggle');
   const toggleText = toggleBtn?.querySelector('.toggle-text');
@@ -1183,6 +1193,11 @@ function toggleFilters() {
       if (toggleIcon) toggleIcon.textContent = '▼';
     }
   }
+  
+  // Log for debugging
+  console.log('Filters toggled, now ' + (filtersVisible ? 'visible' : 'hidden'));
+  
+  return false;
 }
 
 function clearFilters() {
