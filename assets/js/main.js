@@ -508,15 +508,34 @@ function setupPrint() {
 // ===== ENHANCED SEARCH FUNCTIONALITY =====
 
 let allPYQs = [];
+let filteredPYQs = [];  // Separate array for filtered results
 let searchResults = [];
 let currentResultsPage = 1;
-let resultsPerPage = 25;
+let resultsPerPage = 15;
 let currentView = 'list';
 let filtersVisible = false;
+let availableSubjects = {};
+let availableYears = new Set();
 
 function initializeEnhancedSearch() {
   // Load PYQ data from your existing data structure
   loadPYQData();
+  
+  // Show filters on load if we're on the search page
+  if (window.location.pathname.includes('/search')) {
+    setTimeout(() => {
+      const filtersContent = document.getElementById('filters-content');
+      if (filtersContent) filtersContent.style.display = 'block';
+      filtersVisible = true;
+      const toggleBtn = document.querySelector('.filters-toggle');
+      if (toggleBtn) {
+        const toggleText = toggleBtn.querySelector('.toggle-text');
+        const toggleIcon = toggleBtn.querySelector('.toggle-icon');
+        if (toggleText) toggleText.textContent = 'Hide Filters';
+        if (toggleIcon) toggleIcon.textContent = '▲';
+      }
+    }, 100);
+  }
   
   // Check for URL parameters
   checkURLParameters();
@@ -533,13 +552,34 @@ function initializeEnhancedSearch() {
   // Set up real-time search
   const mainSearch = document.getElementById('main-search');
   if (mainSearch) {
-    mainSearch.addEventListener('input', debounce(performAdvancedSearch, 500));
+    mainSearch.addEventListener('input', debounce(function() {
+      updateActiveFilters();
+    }, 500));
   }
+  
+  // Set up filter change events
+  setupFilterChangeEvents();
+}
+
+function setupFilterChangeEvents() {
+  const collegeFilter = document.getElementById('college-filter');
+  const branchFilter = document.getElementById('branch-filter');
+  const semesterFilter = document.getElementById('semester-filter');
+  const subjectFilter = document.getElementById('subject-filter');
+  const yearFilter = document.getElementById('year-filter');
+  
+  if (collegeFilter) collegeFilter.addEventListener('change', () => updateDependentFilters('college'));
+  if (branchFilter) branchFilter.addEventListener('change', () => updateDependentFilters('branch'));
+  if (semesterFilter) semesterFilter.addEventListener('change', () => updateDependentFilters('semester'));
+  if (subjectFilter) subjectFilter.addEventListener('change', updateActiveFilters);
+  if (yearFilter) yearFilter.addEventListener('change', updateActiveFilters);
 }
 
 // Use pre-loaded global data from college-data.js
 function loadPYQData() {
   allPYQs = [];
+  availableSubjects = {};
+  availableYears = new Set();
   
   try {
     // Use the globally available data from window.COLLEGE_DATA
@@ -565,12 +605,28 @@ function loadPYQData() {
           semester.subjects.forEach(subject => {
             if (!subject.pyqs || !Array.isArray(subject.pyqs)) return;
             
+            // Store subject for filter options
+            const subjectKey = `${college.id}-${branch.id}-${semester.id}`;
+            if (!availableSubjects[subjectKey]) {
+              availableSubjects[subjectKey] = [];
+            }
+            
+            availableSubjects[subjectKey].push({
+              id: subject.id,
+              name: subject.name
+            });
+            
             subject.pyqs.forEach(pyq => {
               // Ensure slugs are properly defined
               const collegeSlug = escapeJavaScript(college.slug || college.id || '');
               const branchSlug = escapeJavaScript(branch.slug || branch.id || '');
               const semesterSlug = escapeJavaScript(semester.slug || semester.id || '');
               const subjectSlug = escapeJavaScript(subject.slug || subject.id || '');
+              
+              // Store year for filter options
+              if (pyq.year) {
+                availableYears.add(parseInt(pyq.year));
+              }
               
               // Process each PYQ and add to searchable array
               allPYQs.push({
@@ -609,18 +665,135 @@ function loadPYQData() {
     });
     
     console.log(`✅ Loaded ${allPYQs.length} PYQs from ${collegeData.colleges.length} colleges (Global Data Store)`);
+    console.log(`🔍 Found ${availableYears.size} unique years and ${Object.keys(availableSubjects).length} subject groups`);
     
     // Log some sample data for debugging
     if (allPYQs.length > 0) {
       console.log('📄 Sample PYQ data:', allPYQs[0]);
       console.log('🌐 Generated subject URL:', allPYQs[0].url);
-      // console.log('🌐 Base URL:', baseUrl);
     }
+    
+    // Populate year filter
+    populateYearFilter();
     
   } catch (error) {
     console.error('❌ Error loading PYQ data from global store:', error);
     allPYQs = [];
   }
+}
+
+// Update dependent filters based on college, branch, semester selections
+function updateDependentFilters(changedFilter) {
+  const collegeFilter = document.getElementById('college-filter');
+  const branchFilter = document.getElementById('branch-filter');
+  const semesterFilter = document.getElementById('semester-filter');
+  const subjectFilter = document.getElementById('subject-filter');
+  
+  if (!collegeFilter || !branchFilter || !semesterFilter || !subjectFilter) return;
+  
+  const collegeValue = collegeFilter.value;
+  const branchValue = branchFilter.value;
+  const semesterValue = semesterFilter.value;
+  
+  // Clear subject filter options and add default
+  subjectFilter.innerHTML = '<option value="">All Subjects</option>';
+  
+  // If college, branch, and semester are selected, populate subjects
+  if (changedFilter === 'college' || changedFilter === 'branch' || changedFilter === 'semester') {
+    // When college changes, filter available branches
+    if (changedFilter === 'college') {
+      // Reset branch and semester filters
+      branchFilter.innerHTML = '<option value="">All Branches</option>';
+      semesterFilter.innerHTML = '<option value="">All Semesters</option>';
+      
+      if (collegeValue) {
+        // Find unique branches for this college
+        const branches = new Set();
+        allPYQs.forEach(pyq => {
+          if (pyq.collegeSlug === collegeValue || pyq.collegeId === collegeValue) {
+            branches.add(pyq.branchId);
+          }
+        });
+        
+        // Add branch options
+        branches.forEach(branchId => {
+          const branchName = allPYQs.find(pyq => pyq.branchId === branchId)?.branch || branchId;
+          const option = document.createElement('option');
+          option.value = branchId;
+          option.textContent = branchName;
+          branchFilter.appendChild(option);
+        });
+      }
+    }
+    
+    // When branch changes, filter available semesters
+    if (changedFilter === 'college' || changedFilter === 'branch') {
+      // Reset semester filter
+      semesterFilter.innerHTML = '<option value="">All Semesters</option>';
+      
+      if (branchValue) {
+        // Find unique semesters for this branch
+        const semesters = new Set();
+        allPYQs.forEach(pyq => {
+          if ((!collegeValue || pyq.collegeSlug === collegeValue || pyq.collegeId === collegeValue) && 
+              (pyq.branchSlug === branchValue || pyq.branchId === branchValue)) {
+            semesters.add(pyq.semesterId);
+          }
+        });
+        
+        // Add semester options
+        const semesterArray = Array.from(semesters);
+        semesterArray.sort((a, b) => {
+          const numA = parseInt(a.replace(/[^\d]/g, '')) || 0;
+          const numB = parseInt(b.replace(/[^\d]/g, '')) || 0;
+          return numA - numB;
+        });
+        
+        semesterArray.forEach(semesterId => {
+          const semesterPYQ = allPYQs.find(pyq => pyq.semesterId === semesterId);
+          const semesterName = semesterPYQ ? `Semester ${semesterPYQ.semester}` : semesterId;
+          const option = document.createElement('option');
+          option.value = semesterId;
+          option.textContent = semesterName;
+          semesterFilter.appendChild(option);
+        });
+      }
+    }
+    
+    // Populate subject filter based on college, branch, and semester
+    if (collegeValue && branchValue && semesterValue) {
+      const subjectKey = `${collegeValue}-${branchValue}-${semesterValue}`;
+      const subjects = availableSubjects[subjectKey] || [];
+      
+      subjects.forEach(subject => {
+        const option = document.createElement('option');
+        option.value = subject.id;
+        option.textContent = subject.name;
+        subjectFilter.appendChild(option);
+      });
+    }
+  }
+  
+  // Update active filters display
+  updateActiveFilters();
+}
+
+// Populate year filter with years from data
+function populateYearFilter() {
+  const yearFilter = document.getElementById('year-filter');
+  if (!yearFilter) return;
+  
+  // Clear and add default option
+  yearFilter.innerHTML = '<option value="">All Years</option>';
+  
+  // Add year options sorted newest first
+  const sortedYears = Array.from(availableYears).sort((a, b) => b - a);
+  sortedYears.forEach(year => {
+    const option = document.createElement('option');
+    option.value = year.toString();
+    option.textContent = year.toString();
+    yearFilter.appendChild(option);
+  });
 }
 
 // Helper function to safely escape JavaScript strings
@@ -642,6 +815,7 @@ function performAdvancedSearch() {
   const college = document.getElementById('college-filter')?.value || '';
   const branch = document.getElementById('branch-filter')?.value || '';
   const semester = document.getElementById('semester-filter')?.value || '';
+  const subject = document.getElementById('subject-filter')?.value || '';
   const year = document.getElementById('year-filter')?.value || '';
   const sortBy = document.getElementById('sort-by')?.value || 'relevance';
   
@@ -651,6 +825,9 @@ function performAdvancedSearch() {
     showSearchState('no-results');
     return;
   }
+  
+  // Reset pagination
+  currentResultsPage = 1;
   
   // Filter PYQs with comprehensive matching
   searchResults = allPYQs.filter(pyq => {
@@ -670,14 +847,18 @@ function performAdvancedSearch() {
       const matchesCollege = !college || pyq.collegeSlug === college || pyq.collegeId === college;
       const matchesBranch = !branch || pyq.branchSlug === branch || pyq.branchId === branch;
       const matchesSemester = !semester || pyq.semesterSlug === semester || pyq.semesterId === semester;
+      const matchesSubject = !subject || pyq.subjectSlug === subject || pyq.subjectId === subject;
       const matchesYear = !year || pyq.year.toString() === year;
       
-      return matchesQuery && matchesCollege && matchesBranch && matchesSemester && matchesYear;
+      return matchesQuery && matchesCollege && matchesBranch && matchesSemester && matchesSubject && matchesYear;
     } catch (error) {
       console.warn('⚠️ Error filtering PYQ:', pyq, error);
       return false;
     }
   });
+  
+  // Store filtered results
+  filteredPYQs = [...searchResults];
   
   // Sort results
   sortSearchResults(sortBy);
@@ -741,11 +922,23 @@ function displaySearchResults(searchTime) {
     return;
   }
   
+  // Pagination
+  const paginationControls = document.getElementById('pagination-controls');
+  const displayResults = searchResults.slice(0, resultsPerPage);
+  
+  if (paginationControls) {
+    if (searchResults.length > resultsPerPage) {
+      paginationControls.style.display = 'block';
+    } else {
+      paginationControls.style.display = 'none';
+    }
+  }
+  
   // Generate results HTML with error handling
   const resultsList = document.getElementById('results-list');
   if (resultsList) {
     try {
-      resultsList.innerHTML = searchResults.map(pyq => createPYQResultHTML(pyq)).join('');
+      resultsList.innerHTML = displayResults.map(pyq => createPYQResultHTML(pyq)).join('');
     } catch (error) {
       console.error('❌ Error displaying search results:', error);
       resultsList.innerHTML = '<p class="error-message">Error displaying search results. Please try again.</p>';
@@ -753,6 +946,32 @@ function displaySearchResults(searchTime) {
   }
   
   showSearchState('results');
+}
+
+function loadMoreResults() {
+  // Calculate next page of results
+  const startIndex = currentResultsPage * resultsPerPage;
+  const endIndex = startIndex + resultsPerPage;
+  const moreResults = searchResults.slice(startIndex, endIndex);
+  
+  if (moreResults.length > 0) {
+    currentResultsPage++;
+    
+    // Add new results to existing list
+    const resultsList = document.getElementById('results-list');
+    if (resultsList) {
+      const newResultsHTML = moreResults.map(pyq => createPYQResultHTML(pyq)).join('');
+      resultsList.innerHTML += newResultsHTML;
+    }
+    
+    // Hide pagination if no more results
+    if (endIndex >= searchResults.length) {
+      const paginationControls = document.getElementById('pagination-controls');
+      if (paginationControls) {
+        paginationControls.style.display = 'none';
+      }
+    }
+  }
 }
 
 function createPYQResultHTML(pyq) {
@@ -803,6 +1022,7 @@ function createPYQResultHTML(pyq) {
             </span>
             
             ${examType ? `<span class="result-exam-type" title="Exam Type"><i class="fas fa-clipboard-check"></i> ${examType}</span>` : ''}
+            ${difficulty ? `<span class="result-difficulty" title="Difficulty"><i class="fas fa-signal"></i> ${difficulty}</span>` : ''}
           </div>
           ${description ? `<div class="result-description">${description}</div>` : ''}
         </div>
@@ -864,7 +1084,7 @@ function initializeCardAnimations() {
   }, observerOptions);
   
   // Observe elements for animation
-  const animateElements = document.querySelectorAll('.college-card, .branch-card, .semester-card, .subject-card, .pdf-card, .search-result-item');
+  const animateElements = document.querySelectorAll('.college-card, .branch-card, .semester-card, .subject-card, .pdf-card');
   animateElements.forEach(el => {
     el.classList.add('animate-on-scroll');
     observer.observe(el);
@@ -878,8 +1098,12 @@ function initializeHoverEffects() {
   // Card tilt effect with performance optimization
   const cards = document.querySelectorAll('.college-card, .branch-card, .semester-card, .subject-card, .pdf-card, .search-result-item');
   cards.forEach(card => {
-    card.addEventListener('mousemove', handleCardTilt);
-    card.addEventListener('mouseleave', resetCardTilt);
+    // Only add event listeners if they don't already exist
+    if (!card.dataset.tiltInitialized) {
+      card.addEventListener('mousemove', handleCardTilt);
+      card.addEventListener('mouseleave', resetCardTilt);
+      card.dataset.tiltInitialized = 'true';
+    }
   });
 }
 
@@ -962,7 +1186,7 @@ function toggleFilters() {
 }
 
 function clearFilters() {
-  const filters = ['college-filter', 'branch-filter', 'semester-filter', 'year-filter'];
+  const filters = ['college-filter', 'branch-filter', 'semester-filter', 'subject-filter', 'year-filter'];
   filters.forEach(filterId => {
     const filter = document.getElementById(filterId);
     if (filter) filter.value = '';
@@ -971,9 +1195,14 @@ function clearFilters() {
   const sortBy = document.getElementById('sort-by');
   if (sortBy) sortBy.value = 'relevance';
   
+  // Reset dependent filters
+  updateDependentFilters('college');
+  
   const mainSearch = document.getElementById('main-search');
   if (mainSearch && mainSearch.value) {
     performAdvancedSearch();
+  } else {
+    updateActiveFilters();
   }
 }
 
@@ -985,16 +1214,23 @@ function clearAllSearchFilters() {
   updateActiveFilters();
 }
 
-function quickSearch(query = '', college = '', branch = '', year = '') {
+function quickSearch(query = '', college = '', branch = '', semester = '', subject = '', year = '') {
   const mainSearch = document.getElementById('main-search');
   const collegeFilter = document.getElementById('college-filter');
   const branchFilter = document.getElementById('branch-filter');
+  const semesterFilter = document.getElementById('semester-filter');
+  const subjectFilter = document.getElementById('subject-filter');
   const yearFilter = document.getElementById('year-filter');
   
   if (mainSearch) mainSearch.value = query;
   if (collegeFilter) collegeFilter.value = college;
   if (branchFilter) branchFilter.value = branch;
+  if (semesterFilter) semesterFilter.value = semester;
+  if (subjectFilter) subjectFilter.value = subject;
   if (yearFilter) yearFilter.value = year;
+  
+  // Update dependent dropdowns
+  updateDependentFilters('college');
   
   performAdvancedSearch();
 }
@@ -1098,34 +1334,64 @@ function checkURLParameters() {
   const mainSearch = document.getElementById('main-search');
   const collegeFilter = document.getElementById('college-filter');
   const branchFilter = document.getElementById('branch-filter');
+  const semesterFilter = document.getElementById('semester-filter');
+  const subjectFilter = document.getElementById('subject-filter');
   const yearFilter = document.getElementById('year-filter');
+  
+  let hasParams = false;
   
   if (urlParams.get('q') && mainSearch) {
     mainSearch.value = urlParams.get('q');
+    hasParams = true;
   }
   
   if (urlParams.get('query') && mainSearch) {
     mainSearch.value = urlParams.get('query');
+    hasParams = true;
   }
   
   if (urlParams.get('college') && collegeFilter) {
     collegeFilter.value = urlParams.get('college');
+    hasParams = true;
+    
+    // Update dependent filters
+    updateDependentFilters('college');
   }
   
   if (urlParams.get('branch') && branchFilter) {
     branchFilter.value = urlParams.get('branch');
+    hasParams = true;
+    
+    // Update dependent filters
+    updateDependentFilters('branch');
+  }
+  
+  if (urlParams.get('semester') && semesterFilter) {
+    semesterFilter.value = urlParams.get('semester');
+    hasParams = true;
+    
+    // Update dependent filters
+    updateDependentFilters('semester');
+  }
+  
+  if (urlParams.get('subject') && subjectFilter) {
+    setTimeout(() => {
+      subjectFilter.value = urlParams.get('subject');
+      hasParams = true;
+    }, 200);
   }
   
   if (urlParams.get('year') && yearFilter) {
     yearFilter.value = urlParams.get('year');
+    hasParams = true;
   }
   
   // Perform search if there are parameters
-  if (urlParams.toString()) {
+  if (hasParams) {
     // Small delay to ensure DOM is ready
     setTimeout(() => {
       performAdvancedSearch();
-    }, 100);
+    }, 300);
   }
 }
 
@@ -1138,6 +1404,9 @@ window.clearFilters = clearFilters;
 window.clearAllSearchFilters = clearAllSearchFilters;
 window.toggleFilters = toggleFilters;
 window.switchViewer = switchViewer;
+window.updateDependentFilters = updateDependentFilters;
+window.performAdvancedSearch = performAdvancedSearch;
+window.loadMoreResults = loadMoreResults;
 
 // Handle window resize for responsive behavior
 window.addEventListener('resize', function() {
@@ -1155,13 +1424,14 @@ window.debugPYQData = function() {
   console.log('📊 Total PYQs loaded:', allPYQs.length);
   console.log('🏫 Colleges available:', [...new Set(allPYQs.map(p => p.college))]);
   console.log('🎓 Branches available:', [...new Set(allPYQs.map(p => p.branch))]);
-  console.log('📅 Years available:', [...new Set(allPYQs.map(p => p.year))].sort());
-  console.log('📚 Sample PYQ:', allPYQs[0]);
+  console.log('� Semesters available:', [...new Set(allPYQs.map(p => p.semester))].sort());
+  console.log('📚 Subjects available:', Object.keys(availableSubjects).length);
+  console.log('📅 Years available:', [...availableYears].sort());
+  console.log('📄 Sample PYQ:', allPYQs[0]);
   console.log('🌐 Global data source:', window.COLLEGE_DATA ? 'Available' : 'Missing');
   console.log('📱 Current PDF viewer:', currentViewer);
   console.log('📄 PDF document loaded:', pdfDoc ? 'Yes' : 'No');
   console.log('🔍 Current zoom scale:', scale);
-  console.log('🌐 Sample URLs:', allPYQs.slice(0, 5).map(p => ({ subject: p.subject, url: p.url })));
 };
 
 
