@@ -759,6 +759,11 @@
               icon: desktop
               slug: coa
               pyqs:
+                - year: 2020
+                  file: ymca-coa-2020.pdf
+                  id: ymca-coa-2020  # Add this unique identifier
+                  pages: 3
+                  title: "Computer Organization and Architecture 2020"
                 - year: 2024
                   file: ymca-coa-2024.pdf
                   id: ymca-coa-2024  # Add this unique identifier
@@ -3069,6 +3074,11 @@
               keywords: ["computer", "organization", "architecture"]
               icon: desktop
               pyqs:
+                - year: 2020
+                  file: ymca-coa-2020.pdf
+                  id: ymca-coa-2020  # Add this unique identifier
+                  pages: 3
+                  title: "Computer Organization and Architecture 2020"
                 - year: 2019
                   file: ymca-coa-2019.pdf
                   id: ymca-coa-2019
