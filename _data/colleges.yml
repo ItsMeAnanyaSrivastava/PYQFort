@@ -2697,6 +2697,65 @@
           description: Subjects for Semester 3
           keywords: ["semester 3", "electronics", "communication", "subjects"]
           subjects:
+            - name: Constitution
+              slug: constitution
+              id: constitution
+              description: Study of the Indian Constitution
+              keywords: ["constitution", "Indian", "study"]
+              icon: gavel
+              pyqs:
+                - year: 2018
+                  file: ymca-constitution-2018.pdf
+                  id: ymca-constitution-2018  # Add this unique identifier
+                  pages: 3
+                  title: "Constitution 2018"
+                - year: 2024
+                  file: ymca-constitution-2024.pdf
+                  id: ymca-constitution-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Constitution 2024"
+                - year: 2023
+                  file: ymca-constitution-2023-set-1.pdf
+                  id: ymca-constitution-2023-set-1  # Add this unique identifier
+                  pages: 3
+                  title: "Constitution 2023-set-1"
+                - year: 2023
+                  file: ymca-constitution-2023-set-2.pdf
+                  id: ymca-constitution-2023-set-2 # Add this unique identifier
+                  pages: 3
+                  title: "Constitution 2023-set-2"
+            - name: Maths 3
+              slug: maths-3
+              id: maths-3
+              description: Advanced mathematics for engineering
+              keywords: ["maths", "advanced", "engineering"]
+              icon: calculator
+              pyqs:
+                - year: 2018
+                  file: ymca-maths-3-2018.pdf
+                  id: ymca-maths-3-2018  # Add this unique identifier
+                  pages: 3
+                  title: "Mathematics 3 2018"
+                - year: 2019
+                  file: ymca-maths-3-2019.pdf
+                  id: ymca-maths-3-2019  # Add this unique identifier
+                  pages: 3
+                  title: "Mathematics 3 2019"
+                - year: 2023
+                  file: ymca-maths-3-2023-set-1.pdf
+                  id: ymca-maths-3-2023-set-1  # Add this unique identifier
+                  pages: 3
+                  title: "Mathematics 3 2023 Set 1"
+                - year: 2023
+                  file: ymca-maths-3-2023-set-2.pdf
+                  id: ymca-maths-3-2023-set-2  # Add this unique identifier
+                  pages: 3
+                  title: "Mathematics 3 2023 Set 2"
+                - year: 2024
+                  file: ymca-maths-3-2024.pdf
+                  id: ymca-maths-3-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Mathematics 3 2024"
             - name: Digital System Design
               slug: dsd
               id: dsd
