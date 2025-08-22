@@ -3424,11 +3424,18 @@
                   id: ymca-bee-2019  # Add this unique identifier
                   pages: 3
                   title: "Basic Electronic Engineering 2019"
+                  new: true
                 - year: 2022
                   file: ymca-bee-2022.pdf
                   id: ymca-bee-2022  # Add this unique identifier
                   pages: 3
                   title: "Basic Electronic Engineering 2022"
+                - year: 2024
+                  file: ymca-bee-2024.pdf
+                  id: ymca-bee-2024
+                  pages: 3
+                  title: "Basic Electronic Engineering 2024"
+                  new: true
             - name: Biology
               slug: biology
               id: biology
@@ -3484,6 +3491,12 @@
                   id: ymca-e-mechanics-2023  # Add this unique identifier
                   pages: 3
                   title: "Engineering Mechanics 2023"
+                - year: 2024
+                  file: ymca-e-mechanics-2024.pdf
+                  id: ymca-e-mechanics-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Engineering Mechanics 2024"
+                  new: true
             - name: Fluid Mechanics and Machines
               slug: fmm
               id: fmm
@@ -3496,21 +3509,31 @@
                   id: ymca-fmm-2019  # Add this unique identifier
                   pages: 3
                   title: "Fluid Mechanics and Machines 2019"
+                  new: true
                 - year: 2022
                   file: ymca-fmm-2022.pdf
                   id: ymca-fmm-2022  # Add this unique identifier
                   pages: 3
                   title: "Fluid Mechanics and Machines 2022"
+                  new: true
                 - year: 2023
                   file: ymca-fmm-2023.pdf
                   id: ymca-fmm-2023  # Add this unique identifier
                   pages: 3
                   title: "Fluid Mechanics and Machines 2023"
+                  new: true
                 - year: 2018
                   file: ymca-fmm-2018.pdf
                   id: ymca-fmm-2018  # Add this unique identifier
                   pages: 3
                   title: "Fluid Mechanics and Machines 2018"
+                  new: true
+                - year: 2024
+                  file: ymca-fmm-2024.pdf
+                  id: ymca-fmm-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Fluid Mechanics and Machines 2024"
+                  new: true
             - name: Maths-3
               slug: maths-3
               id: maths-3
@@ -3528,6 +3551,12 @@
                   id: ymca-maths-3-2018  # Add this unique identifier
                   pages: 3
                   title: "Mathematics 3 2018"
+                - year: 2024
+                  file: ymca-maths-3-2024.pdf
+                  id: ymca-maths-3-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Mathematics 3 2024"
+                  new: true
             - name: Strength of Material 1
               slug: som-1
               id: som-1
@@ -3555,7 +3584,13 @@
                   id: ymca-som-1-set-2-2022  # Add this unique identifier
                   pages: 3
                   title: "Strength of Material 1 Set 2 2022"
-            - name: Thermodynamics 
+                - year: 2024
+                  file: ymca-som-1-2024.pdf
+                  id: ymca-som-1-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Strength of Material 1 2024"
+                  new: true
+            - name: Thermodynamics
               slug: thermodynamics
               id: thermodynamics
               description: Principles of thermodynamics
@@ -3572,6 +3607,97 @@
                   id: ymca-thermodynamics-2022  # Add this unique identifier
                   pages: 3
                   title: "Thermodynamics 2022"
+                  new: true
+                - year: 2024
+                  file: ymca-thermodynamics-2024.pdf
+                  id: ymca-thermodynamics-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Thermodynamics 2024"
+            - name: Sessional
+              id: sessional
+              slug: sessional
+              description: Subjects for Sessional Exams
+              keywords: ["sessional", "exams"]
+              new: true
+              pyqs:
+                - year: 2024
+                  file: ymca-bee-2024-mid-1.pdf
+                  id: ymca-bee-2024-mid-1
+                  pages: 3
+                  title: "Basic of Electronics Engineering 2024 Mid 1"
+                  new: true
+                - year: 2024
+                  file: ymca-bee-2024-mid-2.pdf
+                  id: ymca-bee-2024-mid-2
+                  pages: 3
+                  title: "Basic of Electronics Engineering 2024 Mid 2"
+                  new: true
+                - year: 2024
+                  file: ymca-biology-2024-mid-1.pdf
+                  id: ymca-biology-2024-mid-1
+                  pages: 3
+                  title: "Biology 2024 Mid 1"
+                  new: true
+                - year: 2024
+                  file: ymca-biology-2024-mid-2.pdf
+                  id: ymca-biology-2024-mid-2
+                  pages: 3
+                  title: "Biology 2024 Mid 2"
+                  new: true
+                - year: 2024
+                  file: ymca-e-mechanics-2024-mid-1.pdf
+                  id: ymca-e-mechanics-2024-mid-1
+                  pages: 3
+                  title: "Engineering Mechanics 2024 Mid 1"
+                  new: true
+                - year: 2024
+                  file: ymca-fmm-2024-mid-1.pdf
+                  id: ymca-fmm-2024-mid-1
+                  pages: 3
+                  title: "Fluid Mechanics 2024 Mid 1"
+                  new: true
+                - year: 2024
+                  file: ymca-fmm-2024-mid-2.pdf
+                  id: ymca-fmm-2024-mid-2
+                  pages: 3
+                  title: "Fluid Mechanics 2024 Mid 2"
+                  new: true
+                - year: 2024
+                  file: ymca-maths-3-2024-mid-1.pdf
+                  id: ymca-maths-3-2024-mid-1
+                  pages: 3
+                  title: "Mathematics 3 2024 Mid 1"
+                  new: true
+                - year: 2024
+                  file: ymca-maths-3-2024-mid-2.pdf
+                  id: ymca-maths-3-2024-mid-2
+                  pages: 3
+                  title: "Mathematics 3 2024 Mid 2"
+                  new: true
+                - year: 2024
+                  file: ymca-som-1-2024-mid-1.pdf
+                  id: ymca-som-1-2024-mid-1
+                  pages: 3
+                  title: "Strength of Materials 1 2024 Mid 1"
+                  new: true
+                - year: 2024
+                  file: ymca-som-1-2024-mid-2.pdf
+                  id: ymca-som-1-2024-mid-2
+                  pages: 3
+                  title: "Strength of Materials 1 2024 Mid 2"
+                  new: true
+                - year: 2024
+                  file: ymca-thermodynamics-2024-mid-1.pdf
+                  id: ymca-thermodynamics-2024-mid-1
+                  pages: 3
+                  title: "Thermodynamics 2024 Mid 1"
+                  new: true
+                - year: 2024
+                  file: ymca-thermodynamics-2024-mid-2.pdf
+                  id: ymca-thermodynamics-2024-mid-2
+                  pages: 3
+                  title: "Thermodynamics 2024 Mid 2"
+                  new: true
         - number: 4
           slug: sem4
           id: sem4
@@ -3605,6 +3731,12 @@
                   id: ymca-applied-thermo-set-2-2022  # Add
                   pages: 3
                   title: "Applied Thermodynamics Set 2 2022"
+                - year: 2025
+                  file: ymca-applied-thermo-2025.pdf
+                  id: ymca-applied-thermo-2025  # Add this unique identifier
+                  pages: 3
+                  title: "Applied Thermodynamics 2025"
+                  new: true
             - name: Kinematics of Machines
               slug: kom
               id: kom
@@ -3632,6 +3764,12 @@
                   id: ymca-kom-set-2-2019  # Add this unique identifier
                   pages: 3
                   title: "Kinematics of Machines Set 2 2019"
+                - year: 2025
+                  file: ymca-kom-2025.pdf
+                  id: ymca-kom-2025  # Add this unique identifier
+                  pages: 3
+                  title: "Kinematics of Machines 2025"
+                  new: true
             - name: Manufacturing
               slug: manufacturing
               id: manufacturing
@@ -3659,6 +3797,12 @@
                   id: ymca-manufacturing-2024  # Add this unique identifier
                   pages: 3
                   title: "Manufacturing 2024"
+                - year: 2025
+                  file: ymca-manufacturing-2025.pdf
+                  id: ymca-manufacturing-2025  # Add this unique identifier
+                  pages: 3
+                  title: "Manufacturing 2025"
+                  new: true
             - name: Material Engineering
               slug: material
               id: material
@@ -3681,6 +3825,12 @@
                   id: ymca-material-2024  # Add this unique identifier
                   pages: 3
                   title: "Material Engineering 2024"
+                - year: 2025
+                  file: ymca-material-2025.pdf
+                  id: ymca-material-2025  # Add this unique identifier
+                  pages: 3
+                  title: "Material Engineering 2025"
+                  new: true
             - name: Strength of Material 2
               slug: som-2
               id: som-2
@@ -3708,6 +3858,12 @@
                   id: ymca-som-2-2024  # Add this unique identifier
                   pages: 3
                   title: "Strength of Material 2 2024"
+                - year: 2025
+                  file: ymca-som-2-2025.pdf
+                  id: ymca-som-2-2025  # Add this unique identifier
+                  pages: 3
+                  title: "Strength of Material 2 2025"
+                  new: true
         - number: 5
           slug: sem5
           id: sem5
@@ -3748,6 +3904,7 @@
                   id: ymca-eitk-2024  # Add this unique identifier
                   pages: 3
                   title: "Essence of Indian Traditional Knowledge 2024"
+                  new: true
             - name: Refrigeration and Air Conditioning
               slug: rac
               id: rac
@@ -3760,11 +3917,13 @@
                   id: ymca-rac-2019  # Add this unique identifier
                   pages: 3
                   title: "Refrigeration and Air Conditioning 2019"
+                  new: true
                 - year: 2023
                   file: ymca-rac-2023.pdf
                   id: ymca-rac-2023  # Add this unique identifier
                   pages: 3
                   title: "Refrigeration and Air Conditioning 2023"
+                  new: true
             - name: Heat and Mass Transfer
               slug: hmt
               id: hmt
