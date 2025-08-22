@@ -741,6 +741,11 @@
                   id: ymca-etc-2023  # Add this unique identifier
                   pages: 3
                   title: "Effective Technical Communication 2023"
+                - year: 2023
+                  file: ymca-etc-set-2-2023.pdf
+                  id: ymca-etc-set-2-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Effective Technical Communication Set 2 2023"
                 - year: 2024
                   file: ymca-etc-2024.pdf
                   id: ymca-etc-2024  # Add this unique identifier
@@ -1826,6 +1831,11 @@
                   id: ymca-etc-2023
                   pages: 3
                   title: "Effective Technical Communication 2023"
+                - year: 2023
+                  file: ymca-etc-set-2-2023.pdf
+                  id: ymca-etc-set-2-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Effective Technical Communication Set 2 2023"
                 - year: 2024
                   file: ymca-etc-2024.pdf
                   id: ymca-etc-2024
@@ -2839,6 +2849,28 @@
                   id: ymca-network-theory-2024
                   pages: 3
                   title: "Network Theory 2024"
+            - name: Effective Technical Communication
+              slug: etc
+              id: etc
+              description: Skills for effective communication in technical fields
+              keywords: ["communication", "technical", "skills"]
+              icon: comment-dots
+              pyqs:
+                - year: 2023
+                  file: ymca-etc-2023.pdf
+                  id: ymca-etc-2023
+                  pages: 3
+                  title: "Effective Technical Communication 2023"
+                - year: 2023
+                  file: ymca-etc-set-2-2023.pdf
+                  id: ymca-etc-set-2-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Effective Technical Communication Set 2 2023"
+                - year: 2024
+                  file: ymca-etc-2024.pdf
+                  id: ymca-etc-2024
+                  pages: 3
+                  title: "Effective Technical Communication 2024"
         - number: 4
           slug: sem4
           id: sem4
@@ -2966,10 +2998,330 @@
                   pages: 3
                   title: "Probability Theory 2019"
                 - year: 2023
-                  file: ymca-probability-theory-2023.PDF
+                  file: ymca-probability-theory-2023.pdf
                   id: ymca-probability-theory-2023
                   pages: 3
                   title: "Probability Theory 2023"
+            - name: Environmental Science
+              slug: environmental-science
+              id: environmental-science
+              description: Study of environmental issues and solutions
+              keywords: ["environment", "science", "issues", "solutions", "env"]
+              icon: leaf
+              pyqs:
+                - year: 2022
+                  file: ymca-environmental-science-2022.pdf
+                  id: ymca-environmental-science-2022  # Add this unique identifier
+                  pages: 3
+                  title: "Environmental Science 2022"
+            - name: Miscellaneous
+              slug: miscellaneous
+              id: miscellaneous
+              description: Miscellaneous topics in electronics and communication engineering
+              keywords: ["miscellaneous", "electronics", "communication", "instrumentation"]
+              icon: cogs
+              pyqs:
+                - year: 2019
+                  file: ymca-cmos-design-2019.pdf
+                  id: ymca-cmos-design-2019
+                  pages: 3
+                  title: "CMOS Design 2019"
+                - year: 2023
+                  file: ymca-cmos-design-2023.pdf
+                  id: ymca-cmos-design-2023
+                  pages: 3
+                  title: "CMOS Design 2023"
+                - year: 2023
+                  file: ymca-dbms-2023.pdf
+                  id: ymca-dbms-2023
+                  pages: 3
+                  title: "Database Management Systems 2023"
+                - year: 2023
+                  file: ymca-electrical-measurement-instrumentation-2023.pdf
+                  id: ymca-electrical-measurement-instrumentation-2023
+                  pages: 3
+                  title: "Electrical Measurement and Instrumentation 2023"
+                - year: 2023
+                  file: ymca-embedded-systems-2023.pdf
+                  id: ymca-embedded-systems-2023
+                  pages: 3
+                  title: "Embedded Systems 2023"
+                - year: 2023
+                  file: ymca-intelligent-instrumentation-2023.pdf
+                  id: ymca-intelligent-instrumentation-2023
+                  pages: 3
+                  title: "Intelligent Instrumentation 2023"
+                - year: 2023
+                  file: ymca-magnetic-wave-2023.pdf
+                  id: ymca-magnetic-wave-2023
+                  pages: 3
+                  title: "Magnetic Wave 2023"
+                - year: 2019
+                  file: ymca-smart-material-system-2019.pdf
+                  id: ymca-smart-material-system-2019
+                  pages: 3
+                  title: "Smart Material System 2019"
+                - year: 2019
+                  file: ymca-virtual-intelligent-instrumentation-2019.pdf
+                  id: ymca-virtual-intelligent-instrumentation-2019
+                  pages: 3
+                  title: "Virtual Intelligent Instrumentation 2019"
+        - number: 6
+          slug: sem6
+          id: sem6
+          description: Subjects for Semester 6
+          keywords: ["semester 6", "electronics", "communication", "subjects"]
+          subjects:
+            - name: Computer Networks
+              slug: computer-networks
+              id: computer-networks
+              description: Principles of computer networking
+              keywords: ["computer", "networks", "principles"]
+              icon: network-wired
+              pyqs:
+                - year: 2018
+                  file: ymca-computer-networks-set-1-2018.pdf
+                  id: ymca-computer-networks-set-1-2018
+                  pages: 3
+                  title: "Computer Networks Set 1 2018"
+                - year: 2018
+                  file: ymca-computer-networks-set-2-2018.pdf
+                  id: ymca-computer-networks-set-2-2018
+                  pages: 3
+                  title: "Computer Networks Set 2 2018"
+            - name: Control System
+              slug: control-system
+              id: control-system
+              description: Fundamentals of control systems
+              keywords: ["control", "systems", "automation"]
+              icon: cogs
+              pyqs:
+                - year: 2018
+                  file: ymca-control-system-2018.pdf
+                  id: ymca-control-system-2018
+                  pages: 3
+                  title: "Control System 2018"
+                - year: 2024
+                  file: ymca-control-system-2024.pdf
+                  id: ymca-control-system-2024
+                  pages: 3
+                  title: "Control System 2024"
+            - name: Cyber Laws
+              slug: cyber-laws
+              id: cyber-laws
+              description: Legal aspects of cybersecurity
+              keywords: ["cyber", "laws", "cybersecurity"]
+              icon: gavel
+              pyqs:
+                - year: 2023
+                  file: ymca-cyber-laws-2023.pdf
+                  id: ymca-cyber-laws-2023
+                  pages: 3
+                  title: "Cyber Laws 2023"
+                - year: 2024
+                  file: ymca-cyber-laws-2024.pdf
+                  id: ymca-cyber-laws-2024
+                  pages: 3
+                  title: "Cyber Laws 2024"
+            - name: Data Structure
+              slug: data-structure
+              id: data-structure
+              description: Core concepts in data organization
+              keywords: ["data", "structures", "algorithms"]
+              icon: code
+              pyqs:
+                - year: 2019
+                  file: ymca-data-structure-2019.pdf
+                  id: ymca-data-structure-2019
+                  pages: 3
+                  title: "Data Structure 2019"
+                - year: 2023
+                  file: ymca-data-structure-2023.pdf
+                  id: ymca-data-structure-2023
+                  pages: 3
+                  title: "Data Structure 2023"
+                - year: 2024
+                  file: ymca-data-structure-2024.pdf
+                  id: ymca-data-structure-2024
+                  pages: 3
+                  title: "Data Structure 2024"
+            - name: Digital Image and Video Processing
+              slug: divp
+              id: divp
+              description: Principles of digital image and video processing
+              keywords: ["digital", "image", "video", "processing"]
+              icon: image
+              pyqs:
+                - year: 2023
+                  file: ymca-divp-2023.pdf
+                  id: ymca-divp-2023
+                  pages: 3
+                  title: "Digital Image and Video Processing 2023"
+                - year: 2024
+                  file: ymca-divp-2024.pdf
+                  id: ymca-divp-2024
+                  pages: 3
+                  title: "Digital Image and Video Processing 2024"
+            - name: Information Theory and Coding
+              slug: information-theory-coding
+              id: information-theory-coding
+              description: Fundamentals of information theory and coding
+              keywords: ["information", "theory", "coding"]
+              icon: info-circle
+              pyqs:
+                - year: 2023
+                  file: ymca-information-theory-coding-2023.pdf
+                  id: ymca-information-theory-coding-2023
+                  pages: 3
+                  title: "Information Theory and Coding 2023"
+                - year: 2024
+                  file: ymca-information-theory-coding-2024.pdf
+                  id: ymca-information-theory-coding-2024
+                  pages: 3
+                  title: "Information Theory and Coding 2024"
+            - name: Microwave and Radar
+              slug: microwave-radar
+              id: microwave-radar
+              description: Principles of microwave and radar systems
+              keywords: ["microwave", "radar", "systems"]
+              icon: satellite-dish
+              pyqs:
+                - year: 2019
+                  file: ymca-microwave-radar-2019.pdf
+                  id: ymca-microwave-radar-2019
+                  pages: 3
+                  title: "Microwave and Radar 2019"
+            - name: Mobile Communication
+              slug: mobile-communication
+              id: mobile-communication
+              description: Principles of mobile communication
+              keywords: ["mobile", "communication", "networks"]
+              icon: mobile-alt
+              pyqs:
+                - year: 2024
+                  file: ymca-mobile-communication-2024.pdf
+                  id: ymca-mobile-communication-2024
+                  pages: 3
+                  title: "Mobile Communication 2024"
+            - name: MOS ICs and Technology
+              slug: mosic
+              id: mosic
+              description: Study of MOS integrated circuits and technology
+              keywords: ["MOS", "integrated circuits", "technology"]
+              icon: microchip
+              pyqs:
+                - year: 2019
+                  file: ymca-mosic-2019.pdf
+                  id: ymca-mosic-2019
+                  pages: 3
+                  title: "MOS ICs and Technology 2019"
+            - name: Signal and Systems
+              slug: sns
+              id: sns
+              description: Fundamentals of signal and systems
+              keywords: ["signal", "systems"]
+              icon: network-wired
+              pyqs:
+                - year: 2023
+                  file: ymca-sns-2023.pdf
+                  id: ymca-sns-2023
+                  pages: 3
+                  title: "Signal and Systems 2023"
+            - name: Soft Skills
+              id: soft-skills
+              description: Development of soft skills for professionals
+              keywords: ["soft", "skills", "professional"]
+              icon: user-tie
+              slug: soft-skills
+              pyqs:
+                - year: 2024
+                  file: ymca-soft-skills-2024.pdf
+                  id: ymca-soft-skills-2024  # Add this unique identifier
+                  pages: 3
+                  title: "Soft Skills 2024"
+            - name: Wireless Sensors
+              slug: wireless-sensors
+              id: wireless-sensors
+              description: Principles of wireless sensor networks
+              keywords: ["wireless", "sensors", "networks"]
+              icon: wifi
+              pyqs:
+                - year: 2024
+                  file: ymca-wireless-sensors-2024.pdf
+                  id: ymca-wireless-sensors-2024
+                  pages: 3
+                  title: "Wireless Sensors 2024"
+        - number: 7
+          slug: sem7
+          id: sem7
+          description: Subjects for Semester 7
+          keywords: ["semester 7", "electronics", "communication", "subjects"]
+          subjects:
+            - name: Antenna and Wave Propagation
+              slug: antenna
+              id: antenna
+              description: Principles of antenna design and wave propagation
+              keywords: ["antenna", "wave propagation", "communication"]
+              icon: antenna
+              pyqs:
+                - year: 2023
+                  file: ymca-antenna-2023.pdf
+                  id: ymca-antenna-2023
+                  pages: 3
+                  title: "Antenna and Wave Propagation 2023"
+            - name: Cloud Computing
+              slug: cloud-computing
+              id: cloud-computing
+              description: Fundamentals of cloud computing
+              keywords: ["cloud", "computing", "technology"]
+              icon: cloud
+              pyqs:
+                - year: 2023
+                  file: ymca-cloud-computing-2023.pdf
+                  id: ymca-cloud-computing-2023
+                  pages: 3
+                  title: "Cloud Computing 2023"
+            - name: Error Correcting Codes
+              slug: error-correcting
+              id: error-correcting
+              description: Study of error-correcting codes in communication
+              keywords: ["error correcting", "codes", "communication"]
+              icon: code
+              pyqs:
+                - year: 2023
+                  file: ymca-error-correcting-2023.pdf
+                  id: ymca-error-correcting-2023
+                  pages: 3
+                  title: "Error Correcting Codes 2023"
+            - name: Fiber Optic Communication
+              slug: fiber-optic
+              id: fiber-optic
+              description: Principles of fiber optic communication
+              keywords: ["fiber optic", "communication", "optics"]
+              icon: fiber-optic
+              pyqs:
+                - year: 2021
+                  file: ymca-fiber-optic-2021.pdf
+                  id: ymca-fiber-optic-2021
+                  pages: 3
+                  title: "Fiber Optic Communication 2021"
+                - year: 2023
+                  file: ymca-fiber-optic-2023.pdf
+                  id: ymca-fiber-optic-2023
+                  pages: 3
+                  title: "Fiber Optic Communication 2023"
+            - name: Operations Research
+              slug: op-research
+              id: op-research
+              description: Application of operations research in engineering
+              keywords: ["operations", "research", "optimization"]
+              icon: chart-bar
+              pyqs:
+                - year: 2023
+                  file: ymca-op-research-2023.pdf
+                  id: ymca-op-research-2023
+                  pages: 3
+                  title: "Operations Research 2023"
     - name: Information Technology
       slug: it
       id: it
@@ -3341,6 +3693,11 @@
                   id: ymca-etc-2023
                   pages: 3
                   title: "Effective Technical Communication 2023"
+                - year: 2023
+                  file: ymca-etc-set-2-2023.pdf
+                  id: ymca-etc-set-2-2023  # Add this unique identifier
+                  pages: 3
+                  title: "Effective Technical Communication Set 2 2023"
                 - year: 2024
                   file: ymca-etc-2024.pdf
                   id: ymca-etc-2024
