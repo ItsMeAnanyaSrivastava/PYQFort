@@ -1415,6 +1415,13 @@ window.COLLEGE_DATA = {
                       pages: 3,
                       title: "Universal Human Values 2023",
                     },
+                    {
+                      year: 2023,
+                      file: "ymca-universal-human-values-2023-set-2.pdf",
+                      id: "ymca-universal-human-values-2023-set-2",
+                      pages: 3,
+                      title: "Universal Human Values 2023 Set 2",
+                    },
                   ],
                 },
               ],
@@ -3311,6 +3318,13 @@ window.COLLEGE_DATA = {
                       pages: 3,
                       title: "Analog Communication 2023",
                     },
+                    {
+                      year: 2023,
+                      file: "ymca-analog-communication-2023-set-2.pdf",
+                      id: "ymca-analog-communication-2023-set-2",
+                      pages: 3,
+                      title: "Analog Communication 2023 Set 2",
+                    },
                   ],
                 },
                 {
@@ -4397,6 +4411,13 @@ window.COLLEGE_DATA = {
                       pages: 3,
                       title: "Universal Human Values 2023",
                     },
+                    {
+                      year: 2023,
+                      file: "ymca-universal-human-values-2023-set-2.pdf",
+                      id: "ymca-universal-human-values-2023-set-2",
+                      pages: 3,
+                      title: "Universal Human Values 2023 Set 2",
+                    },
                   ],
                 },
               ],
@@ -4527,6 +4548,29 @@ window.COLLEGE_DATA = {
                 "subjects",
               ],
               subjects: [
+                {
+                  name: "Analog Communication",
+                  slug: "analog-communication",
+                  id: "analog-communication",
+                  description: "Fundamentals of analog communication systems",
+                  icon: "radio",
+                  pyqs: [
+                    {
+                      year: 2023,
+                      file: "ymca-analog-communication-2023.pdf",
+                      id: "ymca-analog-communication-2023",
+                      pages: 3,
+                      title: "Analog Communication 2023",
+                    },
+                    {
+                      year: 2023,
+                      file: "ymca-analog-communication-2023-set-2.pdf",
+                      id: "ymca-analog-communication-2023-set-2",
+                      pages: 3,
+                      title: "Analog Communication 2023 Set 2",
+                    },
+                  ],
+                },
                 {
                   name: "Digital System Design",
                   slug: "dsd",
