@@ -751,6 +751,37 @@
                   id: ymca-etc-2024  # Add this unique identifier
                   pages: 3
                   title: "Effective Technical Communication 2024"
+            - name: Sessional
+              slug: sessional
+              id: sessional
+              description: Sessional examinations for various topics in computer engineering
+              keywords: ["sessional", "computer engineering", "mid-term"]
+              icon: book
+              pyqs:
+                - year: 2024
+                  file: ymca-aec-mid-2024.pdf
+                  id: ymca-aec-mid-2024
+                  pages: 3
+                  title: "Analog Electronics Circuit Mid 2024"
+                  new: true
+                - year: 2024
+                  file: ymca-digital-electronics-mid-2024.pdf
+                  id: ymca-digital-electronics-mid-2024
+                  pages: 3
+                  title: "Digital Electronics Mid 2024"
+                  new: true
+                - year: 2024
+                  file: ymca-dsa-mid-2024.pdf
+                  id: ymca-dsa-mid-2024
+                  pages: 3
+                  title: "Data Structures and Algorithms Mid 2024"
+                  new: true
+                - year: 2024
+                  file: ymca-etc-mid-2024.pdf
+                  id: ymca-etc-mid-2024
+                  pages: 3
+                  title: "Emerging Technologies Mid 2024"
+                  new: true
         - number: 4
           slug: sem4
           id: sem4
@@ -4146,6 +4177,41 @@
                   pages: 3
                   title: "Thermodynamics 2024 Mid 2"
                   new: true
+                - year: 2023
+                  file: ymca-bee-mid-2023.pdf
+                  id: ymca-bee-mid-2023
+                  pages: 3
+                  title: "Basic Electrical Engineering Mid 2023"
+                - year: 2023
+                  file: ymca-biology-mid-2023.pdf
+                  id: ymca-biology-mid-2023
+                  pages: 3
+                  title: "Biology Mid 2023"
+                - year: 2023
+                  file: ymca-e-mechanics-mid-2023.pdf
+                  id: ymca-e-mechanics-mid-2023
+                  pages: 3
+                  title: "Engineering Mechanics Mid 2023"
+                - year: 2023
+                  file: ymca-fmm-mid-2023.pdf
+                  id: ymca-fmm-mid-2023
+                  pages: 3
+                  title: "Fluid Mechanics and Machinery Mid 2023"
+                - year: 2023
+                  file: ymca-maths-3-mid-2023.pdf
+                  id: ymca-maths-3-mid-2023
+                  pages: 3
+                  title: "Mathematics III Mid 2023"
+                - year: 2023
+                  file: ymca-som-1-mid-2023.pdf
+                  id: ymca-som-1-mid-2023
+                  pages: 3
+                  title: "Strength of Materials 1 Mid 2023"
+                - year: 2023
+                  file: ymca-thermodynamics-mid-2023.pdf
+                  id: ymca-thermodynamics-mid-2023
+                  pages: 3
+                  title: "Thermodynamics Mid 2023"
         - number: 4
           slug: sem4
           id: sem4
