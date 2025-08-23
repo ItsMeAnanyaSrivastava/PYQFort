@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
   
-  // Subject filtering (existing)
+  // Subject filtering
   const filterButtons = document.querySelectorAll('.filter-btn');
   const subjectCards = document.querySelectorAll('.subject-card');
   
@@ -81,9 +81,9 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // ===== [Search] [Animation] [PDF Viewer] =====
+  // ============================================== [Search] [Animation] [PDF Viewer] =======================
   
-  // Initialize enhanced search functionality
+  // Initialize search functionality
   initializeEnhancedSearch();
   
   // Initialize card animations
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 
-// ===== PDF VIEWER FUNCTIONALITY =====
+// ============================================== [PDF VIEWER FUNCTIONALITY] =======================
 
 let currentViewer = 'iframe';
 let pdfDoc = null;
@@ -505,7 +505,7 @@ function setupPrint() {
   }
 }
 
-// ===== ENHANCED SEARCH FUNCTIONALITY =====
+// ==============================================  [SEARCH FUNCTIONALITY] =======================
 
 let allPYQs = [];
 let filteredPYQs = [];  // Separate array for filtered results
@@ -1060,7 +1060,7 @@ function showSearchState(state) {
   });
 }
 
-// ===== CARD ANIMATIONS =====
+// ============================================== [CARD ANIMATIONS] ==============================================
 
 function initializeCardAnimations() {
   // Check for IntersectionObserver support
@@ -1128,7 +1128,7 @@ function resetCardTilt(e) {
   card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)';
 }
 
-// ===== ADVANCED FILTERING =====
+// ============================================== [ADVANCED FILTERING] ==============================================
 
 function initializeAdvancedFiltering() {
   // Set up filter toggle functionality
@@ -1155,7 +1155,7 @@ function initializeAdvancedFiltering() {
   }
 }
 
-// ===== UTILITY FUNCTIONS =====
+// ============================================== [UTILITY FUNCTIONS] ==============================================
 
 function debounce(func, wait) {
   let timeout;
@@ -1410,7 +1410,7 @@ function checkURLParameters() {
   }
 }
 
-// ===== GLOBAL HELPER FUNCTIONS =====
+// ============================================== [GLOBAL HELPER FUNCTIONS] ==============================================
 
 // Make functions globally available for onclick handlers
 window.quickSearch = quickSearch;
