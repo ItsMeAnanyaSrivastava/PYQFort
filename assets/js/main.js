@@ -120,8 +120,6 @@ function initializePDFViewer() {
     // Check if iframe loaded successfully
     iframe.addEventListener('load', function() {
       hideLoading();
-      // Apply download protection to iframe once loaded
-      applyIframeProtection(iframe);
     });
   }
   
@@ -136,9 +134,6 @@ function initializePDFViewer() {
   
   // Set up print functionality
   setupPrint();
-  
-  // Apply additional protection against right-click and keyboard shortcuts
-  applyGeneralProtection();
   
   // Hide loading after a delay
   setTimeout(hideLoading, 2000);
@@ -167,8 +162,8 @@ function switchViewer(viewerType) {
   
   // Update description
   const descriptions = {
-    iframe: 'Default browser PDF viewer',
-    pdfjs: 'Advanced PDF.js viewer with enhanced features'
+    iframe: 'Default browser PDF viewer with standard controls',
+    pdfjs: 'Advanced PDF.js viewer with enhanced features and better mobile support'
   };
   
   const descElement = document.getElementById('viewer-description');
@@ -186,39 +181,12 @@ function switchViewer(viewerType) {
     scale = 5.0;
     updateZoomSelect();
     queueRenderPage(pageNum);
-  } else if (viewerType === 'iframe') {
-    // Reapply protection to iframe viewer when switching back
-    const iframe = document.getElementById('pdf-iframe');
-    if (iframe) {
-      applyIframeProtection(iframe);
-    }
   }
 }
 
 function setupViewerSwitching() {
-  // For mobile devices, automatically use PDF.js viewer
-  if (isMobileDevice()) {
-    switchViewer('pdfjs');
-    
-    // Hide the iframe viewer tab completely for mobile
-    const iframeTab = document.querySelector('[data-viewer="iframe"]');
-    if (iframeTab) {
-      iframeTab.style.display = 'none';
-    }
-    
-    console.log('📱 Mobile device detected - Using PDF.js viewer only');
-  } else {
-    // For desktop, still default to iframe but apply download protection
-    applyDownloadProtection();
-  }
-}
-
-// Function to detect mobile devices
-function isMobileDevice() {
-  return (
-    /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || 
-    (navigator.maxTouchPoints && navigator.maxTouchPoints > 2 && /Mobi/i.test(navigator.userAgent))
-  );
+  // Keep iframe as default for all devices
+  // No auto-switching behavior
 }
 
 function showIframeFallback() {
@@ -302,25 +270,7 @@ function loadPDFJS() {
   // Set default zoom to 500%
   scale = 5.0;
   
-  // Set worker source
-  if (pdfjsLib.GlobalWorkerOptions) {
-    // Make sure worker is set properly
-    if (!pdfjsLib.GlobalWorkerOptions.workerSrc) {
-      const workerSrcDefault = '/assets/js/pdf.worker.min.js';
-      pdfjsLib.GlobalWorkerOptions.workerSrc = workerSrcDefault;
-    }
-  }
-  
-  // Use getDocument with additional security options
-  const loadingTask = pdfjsLib.getDocument({
-    url: pdfUrl,
-    cMapUrl: '/assets/js/cmaps/',
-    cMapPacked: true,
-    disableAutoFetch: true,
-    disableStream: true
-  });
-  
-  loadingTask.promise.then(pdfDoc_ => {
+  pdfjsLib.getDocument(pdfUrl).promise.then(pdfDoc_ => {
     pdfDoc = pdfDoc_;
     const pageCount = document.getElementById('page-count');
     if (pageCount) {
@@ -340,43 +290,10 @@ function loadPDFJS() {
     renderPage(pageNum);
     
     if (loading) loading.style.display = 'none';
-    
-    // Apply PDF.js specific protections
-    applyPDFJSProtection();
-    
   }).catch(err => {
     console.error('Error loading PDF:', err);
     showError('Failed to load PDF with PDF.js viewer');
     if (loading) loading.style.display = 'none';
-  });
-}
-
-// Apply protection specifically for PDF.js viewer
-function applyPDFJSProtection() {
-  const canvas = document.getElementById('pdf-canvas');
-  if (canvas) {
-    // Prevent right-click on canvas
-    canvas.addEventListener('contextmenu', e => {
-      e.preventDefault();
-      return false;
-    });
-    
-    // Add watermark to canvas (optional)
-    /* Uncomment to add watermark
-    const ctx = canvas.getContext('2d');
-    ctx.font = '20px Arial';
-    ctx.fillStyle = 'rgba(200, 200, 200, 0.5)';
-    ctx.fillText('Protected Document - No Download', 50, 50);
-    */
-  }
-  
-  // Disable download button in PDF.js UI if present
-  const downloadButtons = document.querySelectorAll('.pdfjs-controls .download, #download-button');
-  downloadButtons.forEach(btn => {
-    if (btn) {
-      btn.style.display = 'none';
-      btn.disabled = true;
-    }
   });
 }
 
@@ -438,9 +355,6 @@ function renderPage(num) {
     page.render(renderContext).promise.then(() => {
       pageIsRendering = false;
       
-      // Apply anti-theft measures to the rendered page
-      applyCanvasProtection(canvas, ctx);
-      
       if (pageNumIsPending !== null) {
         renderPage(pageNumIsPending);
         pageNumIsPending = null;
@@ -456,56 +370,6 @@ function renderPage(num) {
       updateNavigationButtons();
     });
   });
-}
-
-// Protect canvas content from easy copying
-function applyCanvasProtection(canvas, ctx) {
-  if (!canvas || !ctx) return;
-  
-  // Apply CSS to prevent easy screenshot
-  canvas.style.userSelect = 'none';
-  canvas.style.webkitUserSelect = 'none';
-  
-  // Prevent dragging the image
-  canvas.setAttribute('draggable', 'false');
-  
-  // Add contextmenu event to prevent right-click
-  canvas.addEventListener('contextmenu', e => {
-    e.preventDefault();
-    return false;
-  });
-  
-  // Optional: Add a subtle watermark to deter screenshots
-  // This can be toggled on/off as needed
-  const addWatermark = false;  // Set to true to enable watermarks
-  
-  if (addWatermark) {
-    // Save context state
-    ctx.save();
-    
-    // Configure watermark
-    ctx.globalAlpha = 0.08;  // Very light watermark
-    ctx.font = '16px Arial';
-    ctx.fillStyle = '#888888';
-    
-    // Calculate positions for diagonal watermarks
-    const text = 'PYQFort - Protected Document';
-    const angle = -Math.PI / 4; // 45 degrees diagonal
-    
-    // Rotate canvas for diagonal text
-    ctx.translate(canvas.width/2, canvas.height/2);
-    ctx.rotate(angle);
-    
-    // Draw multiple watermarks across the page
-    for (let i = -canvas.height; i < canvas.height; i += 120) {
-      for (let j = -canvas.width; j < canvas.width; j += 400) {
-        ctx.fillText(text, j, i);
-      }
-    }
-    
-    // Restore context state
-    ctx.restore();
-  }
 }
 
 function queueRenderPage(num) {
@@ -617,114 +481,26 @@ function setupPrint() {
   const printBtn = document.getElementById('print-btn');
   
   if (printBtn) {
-    // Hide print button to prevent printing (which can be used to save PDF)
-    printBtn.style.display = 'none';
-    
-    // Keep the event listener but prevent default functionality
-    printBtn.addEventListener('click', function(e) {
-      e.preventDefault();
-      e.stopPropagation();
-      console.log('Print functionality disabled for content protection');
-      return false;
-    });
-  }
-}
-
-// Apply download protection to the iframe viewer
-function applyIframeProtection(iframe) {
-  if (!iframe) return;
-  
-  try {
-    // Try to access iframe content (may fail due to same-origin policy)
-    const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
-    
-    // Apply CSS to hide download button in default viewer
-    const style = iframeDoc.createElement('style');
-    style.textContent = `
-      /* Hide download button in PDF viewers */
-      #download, .download, button[download], a[download], 
-      [data-l10n-id="download_button"],
-      #secondaryDownload,
-      #secondaryToolbarButtonDownload,
-      #download-button,
-      .downloadButton,
-      .toolbarButton.download,
-      .toolbarButton[data-l10n-id="download_button"],
-      #openFile, #print, #secondaryPrint, #secondaryToolbarButtonPrint,
-      .print, .download {
-        display: none !important;
-        visibility: hidden !important;
-        opacity: 0 !important;
-        pointer-events: none !important;
+    printBtn.addEventListener('click', function() {
+      if (currentViewer === 'iframe') {
+        const iframe = document.getElementById('pdf-iframe');
+        if (iframe) {
+          try {
+            iframe.contentWindow.focus();
+            iframe.contentWindow.print();
+          } catch (e) {
+            // Fallback: open PDF in new window for printing
+            window.open(iframe.src, '_blank');
+          }
+        }
+      } else {
+        // For PDF.js viewer, open PDF in new window for printing
+        const iframe = document.getElementById('pdf-iframe');
+        if (iframe) {
+          const pdfUrl = iframe.src.split('#')[0];
+          window.open(pdfUrl, '_blank');
+        }
       }
-    `;
-    iframeDoc.head.appendChild(style);
-  } catch (e) {
-    console.log('Could not directly modify iframe content due to security restrictions');
-    
-    // If direct modification fails, try sandboxing the iframe
-    iframe.sandbox = "allow-same-origin allow-scripts allow-forms allow-modals allow-popups";
-    iframe.setAttribute('oncontextmenu', 'return false;');
-  }
-}
-
-// Apply general protection against right-click saving and keyboard shortcuts
-function applyGeneralProtection() {
-  const pdfContainer = document.querySelector('.pdf-viewer-container');
-  if (!pdfContainer) return;
-  
-  // Prevent right-click contextmenu
-  pdfContainer.addEventListener('contextmenu', function(e) {
-    e.preventDefault();
-    return false;
-  });
-  
-  // Prevent keyboard shortcuts for saving (Ctrl+S)
-  document.addEventListener('keydown', function(e) {
-    if ((e.ctrlKey || e.metaKey) && (e.key === 's' || e.keyCode === 83)) {
-      e.preventDefault();
-      return false;
-    }
-  });
-  
-  // Add CSS to the page to hide default viewer download buttons
-  const style = document.createElement('style');
-  style.textContent = `
-    /* Hide download-related buttons */
-    .toolbarButton.download, 
-    .secondaryToolbarButton.download,
-    #download,
-    [data-l10n-id="download_button"],
-    #print, 
-    #secondaryPrint {
-      display: none !important;
-    }
-    
-    /* Prevent text selection in PDF viewer */
-    .pdf-viewer-container {
-      user-select: none;
-      -webkit-user-select: none;
-    }
-  `;
-  document.head.appendChild(style);
-}
-
-// Comprehensive download protection for desktop viewers
-function applyDownloadProtection() {
-  const iframe = document.getElementById('pdf-iframe');
-  if (iframe) {
-    // Remove download attribute if present
-    iframe.removeAttribute('download');
-    
-    // Add sandbox attribute to restrict functionality
-    iframe.sandbox = "allow-same-origin allow-scripts allow-forms allow-modals allow-popups";
-    
-    // Disable right-click on iframe
-    iframe.setAttribute('oncontextmenu', 'return false;');
-    
-    // Add CSS to hide the right-click menu option in the viewer
-    iframe.addEventListener('load', function() {
-      applyIframeProtection(iframe);
     });
   }
 }
@@ -1646,7 +1422,6 @@ window.switchViewer = switchViewer;
 window.updateDependentFilters = updateDependentFilters;
 window.performAdvancedSearch = performAdvancedSearch;
 window.loadMoreResults = loadMoreResults;
-window.isMobileDevice = isMobileDevice;
 
 // Handle window resize for responsive behavior
 window.addEventListener('resize', function() {
@@ -1658,28 +1433,13 @@ window.addEventListener('resize', function() {
   }
 });
 
-// Apply protections when the page loads
-window.addEventListener('DOMContentLoaded', function() {
-  // Apply general protections
-  if (document.querySelector('.pdf-viewer-container')) {
-    applyGeneralProtection();
-    
-    // For mobile, force PDF.js viewer
-    if (isMobileDevice()) {
-      setTimeout(() => {
-        switchViewer('pdfjs');
-      }, 500);
-    }
-  }
-});
-
 // Debug function to check if data is loaded correctly
 window.debugPYQData = function() {
   console.log('🔍 PYQ Data Debug Info:');
   console.log('📊 Total PYQs loaded:', allPYQs.length);
   console.log('🏫 Colleges available:', [...new Set(allPYQs.map(p => p.college))]);
   console.log('🎓 Branches available:', [...new Set(allPYQs.map(p => p.branch))]);
-  console.log('📅 Semesters available:', [...new Set(allPYQs.map(p => p.semester))].sort());
+  console.log('� Semesters available:', [...new Set(allPYQs.map(p => p.semester))].sort());
   console.log('📚 Subjects available:', Object.keys(availableSubjects).length);
   console.log('📅 Years available:', [...availableYears].sort());
   console.log('📄 Sample PYQ:', allPYQs[0]);
@@ -1687,7 +1447,6 @@ window.debugPYQData = function() {
   console.log('📱 Current PDF viewer:', currentViewer);
   console.log('📄 PDF document loaded:', pdfDoc ? 'Yes' : 'No');
   console.log('🔍 Current zoom scale:', scale);
-  console.log('📱 Is mobile device:', isMobileDevice() ? 'Yes' : 'No');
 };
 
 
