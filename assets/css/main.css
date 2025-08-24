@@ -97,7 +97,17 @@ h1, h2, h3, h4, h5, h6 {
   position: sticky;
   top: 0;
   z-index: 100;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, transform 0.3s ease-in-out, box-shadow 0.3s;
+}
+
+.site-header.scrolled {
+  background-color: var(--background-color);
+  backdrop-filter: blur(10px);
+}
+
+.dark-theme .site-header.scrolled {
+  background-color: rgba(18, 18, 18, 0.95);
+  backdrop-filter: blur(10px);
 }
 
 .site-header .container {

@@ -23,6 +23,9 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
   
+  // Setup scroll-based navigation hiding/showing
+  setupScrollNavigation();
+  
   // Toggle dark mode
   const themeToggle = document.querySelector('.theme-toggle');
   const html = document.documentElement; // Use <html> for dark-theme class
@@ -91,6 +94,9 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Initialize advanced filtering
   initializeAdvancedFiltering();
+  
+  // Initialize scroll-based navigation
+  setupScrollNavigation();
   
   // Initialize PDF viewer if on a PDF viewer page
   if (document.querySelector('.pdf-viewer-container')) {
@@ -1408,6 +1414,105 @@ function checkURLParameters() {
       performAdvancedSearch();
     }, 300);
   }
+}
+
+// ============================================== [SCROLL-BASED NAVIGATION] ==============================================
+
+function setupScrollNavigation() {
+  // Get the header element
+  const header = document.querySelector('.site-header');
+  if (!header) return;
+
+  // Add a new class to the header for styling purposes
+  header.classList.add('scroll-nav');
+
+  // Variables to track scroll state
+  let lastScrollTop = 0;
+  let scrollThreshold = 100; // Minimum scroll amount before showing/hiding
+  let scrollDelayTimer;
+  let isHeaderVisible = true;
+
+  // Add CSS styles for the slide-up and slide-down animations
+  const style = document.createElement('style');
+  style.textContent = `
+    .site-header.scroll-nav {
+      transition: transform 0.3s ease, background-color 0.3s;
+    }
+    .site-header.scroll-nav.slide-up {
+      transform: translateY(-100%);
+    }
+    .site-header.scroll-nav.slide-down {
+      transform: translateY(0);
+    }
+    .site-header.scroll-nav.scrolled {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    .dark-theme .site-header.scroll-nav.scrolled {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+    .search-container.active {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 200;
+    }
+  `;
+  document.head.appendChild(style);
+
+  // Handle scroll events with throttling for better performance
+  window.addEventListener('scroll', function() {
+    clearTimeout(scrollDelayTimer);
+    
+    scrollDelayTimer = setTimeout(function() {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      
+      // Add scrolled class when not at the top
+      if (scrollTop > 20) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+      
+      // Only hide header when scrolling down and past the threshold
+      if (scrollTop > lastScrollTop && scrollTop > scrollThreshold) {
+        // Scrolling down
+        if (isHeaderVisible) {
+          header.classList.add('slide-up');
+          header.classList.remove('slide-down');
+          isHeaderVisible = false;
+        }
+      } else if (scrollTop < lastScrollTop) {
+        // Scrolling up - show the header
+        if (!isHeaderVisible) {
+          header.classList.add('slide-down');
+          header.classList.remove('slide-up');
+          isHeaderVisible = true;
+        }
+      }
+      
+      lastScrollTop = scrollTop;
+    }, 10); // Small delay for performance
+  });
+
+  // Show header when hovering near the top of the page
+  document.addEventListener('mousemove', function(e) {
+    if (e.clientY < 20 && !isHeaderVisible) {
+      header.classList.add('slide-down');
+      header.classList.remove('slide-up');
+      isHeaderVisible = true;
+    }
+  });
+  
+  // Handle mobile touches at the top to reveal the header
+  document.addEventListener('touchstart', function(e) {
+    const touch = e.touches[0];
+    if (touch && touch.clientY < 20 && !isHeaderVisible) {
+      header.classList.add('slide-down');
+      header.classList.remove('slide-up');
+      isHeaderVisible = true;
+    }
+  });
 }
 
 // ============================================== [GLOBAL HELPER FUNCTIONS] ==============================================
